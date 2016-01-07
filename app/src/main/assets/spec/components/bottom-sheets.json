@@ -1,0 +1,574 @@
+{
+  "title": "Bottom sheets",
+  "href": "http://www.google.com/design/spec/components/bottom-sheets.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>A bottom sheet is a sheet of material that slides up from the bottom edge of the screen. Bottom sheets are displayed only as a result of a user-initiated action, and can be swiped up to reveal additional content. A bottom sheet can be a temporary modal surface or a persistent structural element of an app.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>There are two major types of bottom sheets:</p><ul><li><strong>Modal bottom sheets</strong>&#xA0;are alternatives to menus or simple dialogs. They can also present deep-linked content from other apps. They are primarily for mobile.</li><li><strong>Persistent bottom sheets</strong>&#xA0;present in-app content.</li></ul><p>Elevation distinguishes modal from persistent bottom sheets. Modal bottom sheets rest at a higher elevation than the app&#x2019;s content; whereas persistent bottom sheets rest at the same elevation as the app and integrate with its content.</p><p>On larger screens, where space is less constrained, using alternative surfaces and components such as <a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-simple-dialogs\">simple dialogs</a> and <a href=\"http://www.google.com/design/spec/components/menus.html\">menus</a> may be more appropriate than bottom sheets.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VW9HUDhtTE5XZVk/components_bottomsheets_usage2.png",
+                      "caption": "<p>Modal bottom sheets slide in over an app&#x2019;s content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dDZKN1lHNG1TekU/components_bottomsheets_usage1.png",
+                      "caption": "<p>Persistent bottom sheets are an integral part of an app&#x2019;s layout.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Persistent Bottom Sheets",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Persistent bottom sheets display in-app content that supplements the main view. It remains visible even when not actively in use, resting at the same elevation as an app and integrating with its content.</p><h4>Usage</h4><ol start=\"1\"><li>To introduce new content on a unique surface </li><li>To display content equal in value to the primary content</li></ol>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SWdXb1NwN0ZYNm8/components_bottomsheets_persistent2.png",
+                      "caption": "<p>Introducing a persistent bottom sheet into a layout with a FAB may cause the FAB to move vertically.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ejJ0TERfdGgyNVk/components_bottomsheets_persistent5.png",
+                      "caption": "<p>A persistent bottom sheet enables place details to remain on-screen while a map is panned around.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NmZkN1NVRGgzM28/components_bottomsheets_persistent6.png",
+                      "caption": "<p>Playback controls remain visible on a persistent bottom sheet regardless of user navigation in the main view.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Mobile</strong></p><p>Mobile persistent bottom sheets are full width in both portrait and landscape view.</p><p><strong>Tablet/Desktop</strong></p><p>Persistent bottom sheets are either full width or inset, as determined by the width of the content they contain, overall UI, underlying content, and stylistic choices.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NzdlengzeE5KbEU/components_bottomsheets_persistent7.png",
+                      "caption": "<p>A full-width persistent bottom sheet on tablet</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WUdMcUgtQmoxaTA/components_bottomsheets_persistent8.png",
+                      "caption": "<p>An inset persistent bottom sheet on tablet</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On desktop, a persistent bottom sheet may transform into another surface or sheet of material. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V3lHdWU3cTdKRzQ/components_bottomsheets_persistent9.png",
+                      "caption": "<p>On desktop, content ordinarily presented in a persistent bottom sheet might move onto a new sheet of material. On larger screens it may be more appropriate to display bottom sheet content on a sheet of material positioned on the left side of the interface.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Modal bottom sheets",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Modal bottom sheets are alternatives to menus, or simple dialogs, and can display deep-linked content from another app. They appear above other UI elements and must be dismissed in order to interact with the underlying content. When a modal bottom sheet slides into the screen, the rest of the screen dims, giving focus to the bottom sheet.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NWNQcUo1TnhhaWs/components_bottomsheets_modal1.png",
+                      "caption": "<p>A modal bottom sheet with a set of actions in a list</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UzA3RDctV2k0YUk/components_bottomsheets_modal2.png",
+                      "caption": "<p>A modal bottom sheet with a set of actions in a grid</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Usage</h4><p>Modal bottom sheets may:</p><ol start=\"1\"><li>Present actions in a list or grid as an alternative to menus or simple dialogs.</li><li>Display a contextual menu, when there is no obvious entry point for a menu.</li><li>Prioritize the visibility of the elements they contain.</li></ol><p>Modal bottom sheets can display long menu item names, menu items with subtext, and icons associated with menu items.</p><p>When displaying menu items, fully-expanded modal bottom sheets maintain a minimum 8dp distance from the bottom of the app bar.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OWxLQ182ZTNxZGM/components_bottomsheets_modal3.png",
+                      "caption": "<p>Bottom sheet may associate icons with menu items.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VS0RlMEx5Qk9PQjQ/components_bottomsheets_modal4.png",
+                      "caption": "<p>Menu items with subtext</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Deep linking</h4><p>Modal bottom sheets may be used to provide deep links to content or controls from another app. These span the full screen width.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bmFYUkhqVXJpY3c/components_bottomsheets_modal7.png",
+                      "caption": "<p>A deep-linked modal bottom sheet displays a definition of a term without the user having to open the dictionary app.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YXA2Y3RoSnhPM2c/components_bottomsheets_modal6.png",
+                      "caption": "<p>The app on the right displays a bottom sheet containing content from the app on the left. This allows the user to view content from another app without leaving their current app.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Bottom sheets may contain links that perform deep navigation within another app. These links may:</p><ul><li>Allow the user to travel multiple levels deep within another app</li><li>Return to the level on which they started</li></ul><p>However, these deep links may not allow the user to navigate upward in the hierarchy: they may only stay at the initial level, go deeper, or travel back to the initial level.</p><p>Alternatively, deep links may navigate the user away from the bottom sheet entirely, into another view.</p><p>To enable upward navigation from the bottom sheet&#x2019;s deep links, offer an explicit link to open the application via an overflow menu. Actions within the deep-linked bottom sheet may result in opening the parent application, such as with an &#x201C;add contact&#x201D; action.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3b1BpT0dRd0tFaUE/components_bottomsheets_modal_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Fully-expanded modal bottom sheets provide an X in the app bar.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UTB0bG8tYWxVRG8/components_bottomsheets_modal_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>When navigating downwards into the content hierarchy, it would be appropriate to show an Up arrow.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Mobile</h4><p>Modal bottom sheets are primarily a mobile component, where they span full screen width in both portrait and landscape views.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MC0zbFNZaU1lUkk/components_bottomsheets_modal9.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>For modal bottom sheets, don&#x2019;t initially overlap the app bar. Allow the user to tap/swipe to dismiss.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TnJEQUF3Y0JVb2c/components_bottomsheets_modal10.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The height of the bottom sheet should be dictated by the amount of content it contains.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Ym9QLTlfbUR4ekk/components_bottomsheets_modal11.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>When displaying a long list, modal bottom sheets can scroll internally and expand past the 16:9 keyline. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YmVmTWVhMWtZbFk/components_bottomsheets_modal12.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>For modal bottom sheets, don&#x2019;t initially overlap the app bar. Retain an area for the user to tap outside the bottom sheet to dismiss it. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Tablet/Desktop</h4><p>Consider alternatives to modal bottom sheets on larger screens. Because bottom sheets may appear far from the place where the user clicked or touched to summon them, it splits the user&#x2019;s attention across two different parts of the screen.</p><p>Because desktop space is less constrained, it can support several alternatives to modal bottom sheets.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Zm9IR1dxb0E5Ync/components_bottomsheets_modal15.png",
+                      "caption": "<p>Menus keep the choice of actions close to the point of interaction. Placing these menu options into a bottom sheet would not be recommended.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Make modal bottom sheets on large screens use appropriate layouts for the amount of extra space.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QTBOb0p2WTh4NFE/components_bottomsheets_modal13.png",
+                      "caption": "<p>A grid list bottom sheet on tablet</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VE1WN0h5Ql9ZR2M/components_bottomsheets_modal14.png",
+                      "caption": "<p>A long list bottom sheet on tablet</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Bottom sheets can be dismissed by swiping the bottom sheet down, by touching an explicit control such as an X in the app bar, or by touching the system back button (Android). </p><p>Modal bottom sheets can also be dismissed by touching outside of the bottom sheet.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3a3Z2UGZJMkRWamM/components_bottomsheets_behavior1.png",
+                      "caption": "<p>Dismiss by swiping the bottom sheet down</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cGt6TlA0ZzNLdDg/components_bottomsheets_behavior2.png",
+                      "caption": "<p>Dismiss by touching outside of the bottom sheet surface </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cTdiQWp2TkI0NEE/components_bottomsheets_behavior3.png",
+                      "caption": "<p>Dismiss by touching the &#x201C;X&#x201D; dismiss action (if there is an app bar)</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The following specs are provided for mobile apps.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Text: Roboto Regular 16sp, &#xA0;#000 87% </li><li>Title (optional): Roboto Regular 16sp, #000 54%</li><li>Default bottom sheet background fill: #FFF</li><li>Transparent overlay fill: #000 20%</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Font and color"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>List-style bottom sheet </h4><p>Screen edge left &amp; right margins: 16dp<br>Top and bottom margins: 8dp<br>List-item height: 48dp<br>List icons: 24x24dp, middle vertical alignment<br>Text associated with icon: 32dp horizontal padding</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dXNVNEpIZzZQdUU/components_bottomsheets_specs1.png",
+                      "caption": "<p>Redline for list-style bottom sheet in a mobile app. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VM2FXZ281WF80RFU/components_bottomsheets_specs2.png",
+                      "caption": "<p>List-style bottom sheet in a mobile app</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>List-style sheet with header</h4><p>Screen edge left &amp; right margins: 16dp<br>Space below the top list: 7dp<br>Divider line: 1dp<br>Space above second bottom sheet: 8dp<br>List-item height: 48dp<br>List icons: 24x24dp, middle vertical alignment<br>Text associated with icon: 32dp horizontal padding<br>List title height: 56dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q3NrbGhWQXJxSGs/components_bottomsheets_specs3.png",
+                      "caption": "<p>Redline for list-style sheet with header</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTGwzWTdzNGdyZXM/components_bottomsheets_specs4.png",
+                      "caption": "<p>List-style sheet with header</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Grid-style bottom sheet with icons</h4><p>Screen edge left &amp; right margins: 24dp<br>Vertical space between grid lists: 16dp<br>Grids list icons: 48x48dp, middle vertical alignment, equally distributed across the grid<br>Grid list text area: 16dp tall, center-aligned below each icon<br>Padding below grid: 24dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3a2JBazEtX3R2Ulk/components_bottomsheets_specs7.png",
+                      "caption": "<p>Redline for grid-style bottom sheet that contains a standard set of actions for other apps</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTDNtb2dnZTZCXzQ/components_bottomsheets_specs8.png",
+                      "caption": "<p>Grid-style bottom sheet that contains a standard set of actions for other apps</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Bottom sheets slide up from the bottom of the screen and initially cover a portion of the screen.</p><p>The initial height of a bottom sheet is relative to the height of the list items (or grid rows) it contains. A bottom sheet should not initially have a height beyond its 16:9 ratio keyline, depending on how much content it contains. Bottom sheets may be swiped up to fill the height of the screen, with content that then scrolls internally.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VVJVdF9wRG5Iem8/components_bottomsheets_specs9.png",
+                      "caption": "<p>The initial height of a bottom sheet should not extend beyond the 16:9 ratio keyline.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bVRGSXhsdUFVMkk/components_bottomsheets_specs10.png",
+                      "caption": "<p>The minimum height of a bottom sheet is relative to the height of the list items it contains.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Specs for desktop and tablet apps</h4><p>Modal and Inset persistent bottom sheets on desktop and tablet use these minimum and maximum widths.</p><p>The width of a bottom sheet is determined by the structure of the overall interface, which is typically based on increments. On a page grid, the maximum width of the bottom sheet is relative to the page grid and content it rests on. </p><p>For example, on a 960dp wide screen, if you use the height of the app bar (64dp) as your increment, it would result in fifteen total increments wide. A minimum of one increment should separate your bottom sheet from the screen edge, and the bottom sheet itself should be at least six increments wide.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OHY3aFZadG9XajQ/components_bottomsheets_specs11.png",
+                      "caption": "<p>Breakpoints for various desktop screen sizes</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

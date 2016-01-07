@@ -1,0 +1,432 @@
+{
+  "title": "Navigation drawer",
+  "href": "http://www.google.com/design/spec/patterns/navigation-drawer.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>The navigation drawer slides in from the left. It is a common pattern found in Google apps and follows the keylines and metrics for lists. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RkZGRGhaM3c5ZDg/patterns_navdrawer_metrics1.png",
+                      "caption": "<div class=\"caption-title\">Typography</div><ol start=\"1\"><li>Name: Roboto Medium, 14sp, #FFFFFF</li><li>Email address: Roboto Regular, 14sp, #FFFFFF</li><li>List item: Roboto Medium, 14sp, 87% #000000</li><li>Subheader: Roboto Medium, 14sp, 54% #000000. Aligns to the 16dp keyline.</li></ol><div class=\"caption-title\">&#xA0;</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RFk3c3BjS1c1akE/patterns_navdrawer_metrics2.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Icons align at screen left and right margins: 16dp</p><p>Icon values: 54% #000000</p><p>Content associated with an icon or avatar left margin: 72dp</p><p>Side nav width: Equal to the screen width minus the height of the action bar. In the example shown this is 56dp from the right edge of the screen. The maximum width of the nav drawer is five times the standard increment (56dp on mobile and 64dp on tablet).</p><p>Use 16dp horizontal margins on mobile and 24dp on tablet</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eXV2RE1fQ0QtQzQ/patterns_navdrawer_metrics3.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar: 24dp</li><li>Subtitle: 56dp</li><li>Space between content areas: 8dp</li><li>Subtitles and list items: 48dp</li></ol><p>Add 8dp padding at the top and bottom of every list grouping. One exception is at the top of a list with a subheader, because subheaders contain their own padding. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The nav drawer spans the full height of the screen, including behind the status bar, at a resting elevation of 16dp. Everything behind the drawer is still visible but darkened by a scrim. </p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q0tDQ3Z1OHg5VHc/patterns_navdrawer_elevation1.png",
+                      "caption": "<p>Nav drawer on Android</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Elevation"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>After a list item is selected, that item changes color to match the app&#x2019;s primary color (or #000000 100%) to indicate selection. Additionally, the touch ripple highlights the row of that list item. </p><p>If the color of the touch ripple/highlight doesn&#x2019;t contrast enough with your primary color, use a darker tint of the primary color.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ekxzSGtsWVRIU2M/patterns_navdrawer_selection1.png",
+                      "caption": "<p>List item selected</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3amRQNnY0VkIwbkk/patterns_navdrawer_selection2.png",
+                      "caption": "<p>Touch ripple/highlight</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3R0xDUzFuZ010Q2c/patterns_navdrawer_selection3.png",
+                      "caption": "<p>Touch ripple/highlight</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3azBIYUJtZWtzSXc/patterns_navdrawer_selection4.png",
+                      "caption": "<p>Touch ripple/highlight</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RllNZl8tSVBteUE/patterns_navdrawer_selection5.png",
+                      "caption": "<p>Touch ripple/highlight</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZjZRVUg0a2lfUmM/patterns_navdrawer_selection6.png",
+                      "caption": "<p>Touch ripple/highlight</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Selection state"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>All dividers in the nav drawer are full-bleed within the drawer, 8dp padding above and below each divider.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VHBRVFpTc2t1bXM/patterns_navdrawer_dividers1.png",
+                      "caption": "<p>Example of a divider</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Szc3Mi1zV08xQ0E/patterns_navdrawer_dividers2.png",
+                      "caption": "<p>8dp vertical spacing</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dividers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The navigation drawer scrolls in the same way a view scrolls.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N2xRY056Y3V6N1E/patterns_navdrawer_scrolling1.png",
+                      "caption": "<p>Navigation drawer before scrolling</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RGQxU0o4QlFqZ00/patterns_navdrawer_scrolling2.png",
+                      "caption": "<p>Navigation drawer during scrolling</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrolling"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Settings and support are located at the bottom of the scrolling list, inline with the rest of the list content. They refer to Help, Feedback, or Help &amp; feedback, depending on what your product offers.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cUg5ak9acFFjUFU/patterns_navdrawer_settings1.png",
+                      "caption": "<p>Settings and support are located at the bottom of the scrolling list.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Settings and support"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Recommended default for desktop</strong></p><p><br>Permanent navigation drawers are always visible and pinned to the left edge, at the same elevation as the content or background. They cannot be closed.</p><p>The threshold for pinning is calculated using these minimum values:</p><p>1. Side nav width<br>2. Content width<br>3. Content padding</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TEpSaGhDNktvd3M/patterns_navdrawer_behavior_permanent1.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Permanent"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Types of permanent navigation drawers</h4><p>The structure and behavior of the overall interface determines which type of permanent navigation drawer to use:</p><ul><li><strong>Full-height navigation drawer: </strong>Apps focused on information consumption that use a left-to-right hierarchy</li><li><strong>Navigation drawer clipped under the app bar: </strong>Apps focused on productivity that require balance across the screen</li><li><strong>Floating navigation drawer</strong>: Apps that require less hierarchy</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bmlZbE9Gc3M2OE0/patterns_navdrawer_behavior_permanent2.png",
+                      "caption": "<p>Example of a permanent, full-height drawer </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Um9FdklJeGtQVWc/patterns_navdrawer_behavior_permanent3.png",
+                      "caption": "<p>Example of a permanent, clipped drawer</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TnNDMTZzOEROYkE/patterns_navdrawer_behavior_permanent4.png",
+                      "caption": "<p>Example of a permanent, floating drawer </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ME1wX3RpSkNmSUU/patterns_navdrawer_behavior_permanent5.png",
+                      "caption": "<p>Example of a permanent, floating drawer in card</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Persistent navigation drawers can toggle open or closed. The drawer sits on the same surface elevation as the content. It is closed by default and opens by selecting the menu icon, and stays open until closed by the user. The state of the drawer is remembered from action to action and session to session. </p><p>Sitting outside of the page grid, when opened the drawer forces other content to change size and adapt to the smaller viewport.</p><p>Persistent navigation drawers are acceptable for all sizes larger than mobile.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NzRVc2pDbXRuVzg/patterns_navdrawer_behavior_persistent1.png",
+                      "caption": "<p>Example of a closed persistent drawer </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YVdKQlF3TEo2S3M/patterns_navdrawer_behavior_persistent2.png",
+                      "caption": "<p>Example of an open persistent drawer </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Persistent"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Persistent navigation drawers are not recommended for apps with multiple levels of hierarchy that require using an up arrow for navigation.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aTM1NXR5SmJRSTQ/patterns_navdrawer_behavior_persistent3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Mini variant</h4><p>In this variation, the persistent navigation drawer changes its width. Its resting state is as a mini-drawer at the same elevation as the content, clipped by the app bar. When expanded, it appears as the standard persistent navigation drawer.</p><p><strong>Recommended for: </strong><br>Apps sections that need quick selection access alongside content</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZVZzVEhrbF9YWk0/patterns_navdrawer_behavior_persistent4.png",
+                      "caption": "<p>Example of a mini drawer </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TEVnWVlVS3RXMzQ/patterns_navdrawer_behavior_persistent5.png",
+                      "caption": "<p>Example of open persistent drawer </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Temporary navigation drawers can toggle open or closed. Closed by default, the drawer opens temporarily above all other content until a section is selected.</p><p><strong>Recommended for</strong><strong>:</strong><br>Tablet </p><p><strong>Required for:</strong><br>Mobile</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T193R2ZoY3BibkU/patterns_navdrawer_behavior_temporary1.png",
+                      "caption": "<p>Example of a closed temporary drawer on mobile </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WUpVTktSZWk1YjQ/patterns_navdrawer_behavior_temporary2.png",
+                      "caption": "<p>Example of an open temporary drawer on mobile &#xA0;</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Temporary"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The mini variant is also an acceptable closed state for a temporary navigation drawer.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7N19Kem9BUU9sc2c/patterns_navdrawer_behavior_temporary3.png",
+                      "caption": "<p>Example of a closed temporary drawer on tablet</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3M2xGT3JZWm01TGs/patterns_navdrawer_behavior_temporary4.png",
+                      "caption": "<p>Example of an open temporary drawer on tablet &#xA0;</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MTBONHlNbHFQZ0k/patterns_navdrawer_behavior_temporary5.png",
+                      "caption": "<p>Example of a closed temporary drawer on desktop</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3amNLVjh0UUFXSkU/patterns_navdrawer_behavior_temporary6.png",
+                      "caption": "<p>Example of an open temporary drawer on desktop</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

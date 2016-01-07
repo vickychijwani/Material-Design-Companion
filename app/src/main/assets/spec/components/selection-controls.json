@@ -1,0 +1,263 @@
+{
+  "title": "Selection controls",
+  "href": "http://www.google.com/design/spec/components/selection-controls.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Selection controls allow the user to select options. There are three kinds: checkboxes, radio buttons, and on/off switches. Selection controls use the theme&#x2019;s accent color.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Checkbox",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Checkboxes allow the user to select multiple options from a set. </p><p>If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of on/off switches. </p><p>If you have a single option, avoid using a checkbox and use an on/off switch instead.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T2xGbGo0cUlPVG8/components_switches_check1.png",
+                      "caption": "<p>Light theme</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZnE0N1dvZHlxMGc/components_switches_check2.png",
+                      "caption": "<p>Dark theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On: Swatch 500, Opacity &#xA0;100%<br>Off: #000000, Opacity &#xA0;54%<br>Disabled: #000000, Opacity &#xA0;26%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cFp4WHdDaWZESmM/components_switches_check3.png",
+                      "caption": "<p>Light theme for checkboxes in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On: Swatch 500, Opacity &#xA0;100%<br>Off: #FFFFFF, Opacity &#xA0;70%<br>Disabled: #FFFFFF, Opacity &#xA0;30%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cy1pRXJxY2dnN28/components_switches_check4.png",
+                      "caption": "<p>Dark theme for checkboxes in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Radio button",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Radio buttons allow the user to select one option from a set. Use radio buttons for exclusive selection if you think that the user needs to see all available options side-by-side. </p><p>Otherwise, consider a dropdown, which uses less space than displaying all options. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Z1NaaXh2ZkpDRkE/components_switches_radio1.png",
+                      "caption": "<p>Light theme for radio buttons</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c0tab1dSa3R4emM/components_switches_radio2.png",
+                      "caption": "<p>Dark theme for radio buttons</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On: Swatch 500, Opacity 100%<br>Off: #000000, Opacity &#xA0;54%<br>Disabled: #000000, Opacity &#xA0;26%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cEVOUmMwZ05tU00/components_switches_radio3.png",
+                      "caption": "<p>Light theme for radio buttons in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On: Swatch 500, Opacity &#xA0;100%<br>Off: #FFFFFF, Opacity &#xA0;70%<br>Disabled: #FFFFFF, Opacity &#xA0;30%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aWtqNWY3NmxJeHc/components_switches_radio4.png",
+                      "caption": "<p>Dark theme for radio buttons in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Switch",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On/off switches toggle the state of a single settings option. The option that the switch controls, as well as the state it&#x2019;s in, should be made clear from the corresponding inline label. Switches take on the same visual properties of the radio button. </p><p>The on/off slide toggle with the text &#x201C;on&#x201D; and &#x201C;off&#x201D; included within the asset is deprecated. Use the switch shown here instead. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NDg4aGIzVXYxVEE/components_switches_switch1.png",
+                      "caption": "<p>Light theme</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V0R4UVJ3Y21obkU/components_switches_switch2.png",
+                      "caption": "<p>Dark theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Thumb On: Swatch 500, Opacity &#xA0;100%<br>Track On: Swatch 500, Opacity &#xA0;50%</p><p>Thumb Off: Grey 50, #FAFAFA, Opacity &#xA0;100%<br>Track Off: #000000, Opacity &#xA0;26%</p><p>Thumb Disabled: Grey 400, #BDBDBD, Opacity &#xA0;100%<br>Track Disabled: #000000, Opacity &#xA0;12%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Mk55RHlTUi1YaVE/components_switches_switch3.png",
+                      "caption": "<p>Light theme for switches in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Thumb On: Swatch 200, Opacity &#xA0;100%<br>Track On: Swatch 200, Opacity &#xA0;50%</p><p>Thumb Off: Grey 400, #BDBDBD, Opacity &#xA0;100%<br>Track Off: #FFFFFF, Opacity &#xA0;30%</p><p>Thumb Disabled: Grey 800, #424242, Opacity  100%</p><p>Track Disabled: #FFFFFF, Opacity &#xA0;10%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTDJPbG5DUjJOYkk/components_switches_switch4.png",
+                      "caption": "<p>Dark theme for switches in hover, focused, pressed, disabled, and disabled focused states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use the outer radial reaction only on form factors that favor finger touch, where interaction may obstruct the element completely. For desktop usage with a mouse, you do not need this extra indication.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ajdnOGFPY21xRHM/components_switches_switch5.png",
+                      "caption": "<p>Radial reaction on mobile</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aU9raG5tSDl5b2c/components_switches_switch6.png",
+                      "caption": "<p>No radial reaction on desktop</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

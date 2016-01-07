@@ -1,0 +1,741 @@
+{
+  "title": "Buttons",
+  "href": "http://www.google.com/design/spec/components/buttons.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>A button clearly communicates what action will occur when the user touches it. It consists of text, an image, or both, designed in accordance with your app&#x2019;s color theme.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Button types",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>There are three standard types of buttons: </p><ul><li> <a href=\"http://www.google.com/design/spec/components/buttons-floating-action-button.html\">Floating action button</a>: A circular material button that lifts and displays an ink reaction on press.</li><li>Raised button: A typically rectangular material button that lifts and displays ink reactions on press.</li><li>Flat button: A button made of ink that displays ink reactions on press but does not lift.</li></ul>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VUl95QlVMNXJLU3c/components_buttons_usage1.png",
+                      "caption": "<p>Floating action button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VbDh6YmNiYVc3SHM/components_buttons_usage2.png",
+                      "caption": "<p>Raised button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VNDg3V3ZjU2hsNGc/components_buttons_usage3.png",
+                      "caption": "<p>Flat button</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0Vb0pRdVVtOElwTHM/components_buttons_usage4.png",
+                      "caption": "<p>Example of a floating action button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTEp2XzZSTzVBMUU/components_buttons_usage5.png",
+                      "caption": "<p>Example of a raised button </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VaDdZWXpLXzNicjg/components_buttons_usage6.png",
+                      "caption": "<p>Example of a flat button</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Choosing a button style depends on the primacy of the button, the number of containers on screen, and the screen layout. </p><p><strong>Function:</strong>&#xA0;Is it important and ubiquitous enough to be a floating action button? </p><p><strong>Dimension:</strong>&#xA0;Choose raised or flat depending on the container it will be in and how many z-space layers you have on screen. There should not be many layers of objects on the screen.</p><p><strong>Layout:</strong>&#xA0;Use primarily one type of button per container. Only mix button types when you have a good reason to, such as emphasizing an important function.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RHFUU2dFdmMtcm8/components_buttons_usage_main.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Choosing button style"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use flat buttons on dialogs to unify the button action with the dialog content.</p><ul><li>Dialog text padding: 24dp </li><li>Dialog button container height: 52dp</li><li>Dialog buttons: 8dp padding from container edges, aligned to the right of container (for LTR scripts)</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSXNCRmd0aE5WWWs/components_buttons_usage_dialogs1.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Buttons in dialogs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUUY1MHRaUDdDTGs/components_buttons_usage_dialogs2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Flat buttons in dialogs </p><p><strong>Dialog buttons</strong><br>Button height: 36dp<br>Button top margin: 24dp<br>Button padding: 8dp<br>Button alignment: Right edge for LTR scripts<br>Button width: Varies based on button text length</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsU1A0aDJMMGhQRjQ/components_buttons_keyline1.png",
+                      "caption": "<p>Examples of flat buttons in dialogs </p><p><strong>Button</strong><br>Height: 36dp<br>Minimum width: 64dp<br>Touch target height: 48dp<br>Horizontal margin: 8dp<br>Horizontal padding: 8dp </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Choose raised or flat buttons depending on your layout. Add padding around flat buttons so the user can easily find them.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdU42S2h4QnJMZVE/components_buttons_usage_buttons1.png",
+                      "caption": "<p>Example of flat button </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscGRSZUU4a0lxc0U/components_buttons_usage_buttons2.png",
+                      "caption": "<p>Example of raised button </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Buttons inline"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If your app requires actions to be persistent and readily available to the user, consider using the floating action button. </p><p>Alternatively, consider persistent footer buttons, which are also easily accessible.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Ukt1TFRVUlgxY1k/components_buttons_keyline2.png",
+                      "caption": "<p>Persistent footer buttons are 48dp tall. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseU1yM2R4VmhFamc/components_buttons_usage_buttons4.png",
+                      "caption": "<p>Example of persistent footer buttons</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Persistent footer buttons"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Never use raised buttons within persistent button areas.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SDNoT21jRWJkZG8/components_buttons_keyline3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>With the addition of a divider, a persistent footer button can also be used for scrollable dialogs.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscWJWbkVHaDcyNEE/components_buttons_usage_buttons5.png",
+                      "caption": "<p>Persistent footer button in dialog</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUnd1MlhhVUw1Z28/components_buttons_usage_buttons6.png",
+                      "caption": "<p>Persistent footer button in scrollable dialog</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Flat & raised buttons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Raised buttons add dimension to mostly flat layouts. They emphasize functions on busy or wide spaces.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsR0hib1ExN21wWjA/components_buttons_main5.png",
+                      "caption": "<p>Use raised buttons to give more prominence to actions in layouts with a lot of varying content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsX0xZMnFkR1ZOVmc/components_buttons_main6.png",
+                      "caption": "<p>Raised buttons can even help delineate sections of content on a page.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Raised buttons"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMF8xdDNDNUc0Zk0/components_buttons_main7.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Raised buttons stand out more than flat buttons.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZk0xMExROVpzLWs/components_buttons_main8.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use flat buttons in UIs where they would be difficult to see.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use flat buttons for toolbars and dialogs to avoid excessive layering.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWVJfOVpiVHYtZ00/components_buttons_main9.png",
+                      "caption": "<p>Flat buttons are appropriate in dialogs.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsckpmZTBwSmh1VzQ/components_buttons_main10.png",
+                      "caption": "<p>Flat buttons minimize distraction from content.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Flat buttons"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTDEwRlFpUmZtVm8/components_buttons_main11.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Correct use of flat buttons.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS2U2VUVCOVFaRlU/components_buttons_main12.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The raised buttons here are too heavy.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Flat buttons are printed on material. They do not lift, but fill with color on press.</p><p>Raised buttons behave like a piece of material resting on another sheet &#x2013; they lift and fill with color on press. </p><p>Button text should be capitalized in languages that have capitalization. For other languages, colored text on flat buttons distinguishes them from normal text. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SnA4Umw3S0pfNWs/components_buttons_main13.png",
+                      "caption": "<div class=\"caption-title\">Flat Light/Light theme</div><p>Minimum width: 88dp<br>Height: 36dp<br>Pressed: 40% #999999<br>Disabled text: 26% #000000</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bEFqalRSeUJkbEU/components_buttons_main14.png",
+                      "caption": "<div class=\"caption-title\">Flat Dark/Dark theme</div><p>Minimum width: 88dp<br>Height: 36dp<br>Pressed: 25% #CCCCCC<br>Disabled text: 30% #FFFFFF</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Flat and raised button states"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VDJmNWRVMFhyQUE/components_buttons_focus_flat.png",
+                      "caption": "<p>Flat buttons with 12% opacity on focus </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WlduMk1kbTRzQWc/components_buttons_main15.png",
+                      "caption": "<div class=\"caption-title\">Raised Light/Light theme</div><p>Minimum width: 88dp <br>Height: 36dp <br>Disabled text: 26% #000000<br>Disabled button: 12% #000000</p><p>Focused:12% #000000 shade over the color</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UTh2dExpSlRVWVU/components_buttons_main16.png",
+                      "caption": "<div class=\"caption-title\">Raised Dark/Dark theme</div><p>Minimum width: 88dp <br>Height: 36dp <br>Normal color: 500 <br>Pressed color: 700 <br>Disabled text: 30% #FFFFFF <br>Disabled button: 12% #FFFFFF</p><p>Focused:12% #000000 shade over the color</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Accessibility</h4><p>To ensure usability for people with disabilities, give buttons a height of 36dp and give touchable targets a minimum height of 48dp.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3LTRtTEtDdVpzYWM/components_buttons_keyline4.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Button height: 36dp<br>Touchable target height: 48dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Button Elevation</h4><p>Raised buttons have a default elevation of 2dp.</p><p>On desktop, raised buttons can gain this elevation on hover.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPZm1EakJMZWxSdXc/components_buttons_main17.png",
+                      "caption": "<p><strong>Dark/Light</strong>&#xA0;<strong>theme</strong></p><p>Minimum width: 64dp <br>Height: 36dp <br>Z-depth: 0dp<br>Disabled text: 30% #FFFFFF<br>Disabled button: 12% #FFFFFF</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Density</h4><p>When mouse and keyboard are the primary input methods, button measurements can be slightly reduced to accommodate dense UIs. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPM3QyLXVkSnpJOEE/components_buttons_main18.png",
+                      "caption": "<div class=\"caption-title\">Default Button</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPdHFuQ2VaejdBQ3c/components_buttons_main19.png",
+                      "caption": "<div class=\"caption-title\">Dense Button</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPeUpjMndNN29HMTQ/components_buttons_main20.png",
+                      "caption": "<p>Button text: 14pt Roboto medium<br>Button height: 36dp<br>Button text left and right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPZ1hOcnRjRFhvZ2s/components_buttons_main21.png",
+                      "caption": "<p>Button text: 13pt Roboto medium<br>Button height: 32dp<br>Button text left and right padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFSTNhRndpWXBwRDA/components-buttons-flatbuttons.webm",
+                      "caption": "<p>Flat buttons</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFRmZDbzdkSEp0ZEk/components-buttons-raisedbuttons.webm",
+                      "caption": "<p>Raised buttons</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Buttons in motion"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Toggle buttons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Toggle buttons may be used to group related options. Arrange layout and spacing to convey that certain toggle buttons are part of a group.</p><p>Focus and pressed states may reinforce that toggles are part of a group.  For example, when one button segment is focused, focus may be displayed simultaneously on the rest of the segment.</p><p>Toggle button requirements:</p><ul><li>Have at least three toggle buttons in a group</li><li>Label buttons with text, an icon, or both</li></ul><p>The following combinations are recommended:</p><ul><li>Multiple and unselected</li><li>Exclusive and unselected</li><li>Exclusive only   </li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V2JKWk9EbzFaMjg/components_buttons_togglebuttons1.png",
+                      "caption": "<div class=\"caption-title\">Exclusive selection</div><p>Text justification toggle buttons present options for left, right, center, full, and justified text &#xA0;with only one item available for selection at a time. Selecting one option deselects any other.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NzNSMUpjSkhtdXM/components_buttons_togglebuttons2.png",
+                      "caption": "<div class=\"caption-title\">Multiple selection</div><p>Logically-grouped options, like Bold, Italic, and Underline, allow multiple options to be selected.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ckVldVFCWE1INnc/components_buttons_togglebuttons3.png",
+                      "caption": "<p>No options are selected</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3am5aV3VnUHFhQW8/components_buttons_togglebuttons4.png",
+                      "caption": "<p>One option is selected</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Icons are appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.</p><p>They are best located in app bars, toolbars, action buttons or toggles.</p><p>Icon toggles may display bounded or unbounded ink <a href=\"http://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-surface-reaction\">surface reaction</a> ripples beyond their touch-target bounds.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzdXVuTlBoOTBjcU0/components_buttons_other1.png",
+                      "caption": "<p>Icon toggles in normal, hover, focused, pressed, and inactive states  </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SVpCSlV4MmRERGM/inline-components_buttons_toggleicons.png",
+                      "caption": "<p>The icon toggle focus indicator color and opacity is related to the color of the icon. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Icon toggles "
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Dropdown buttons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Dropdown button</h4><p>A dropdown button selects between multiple selections. The button displays the current state and a down arrow. Available states may be shown as a list of strings, a palette, or icons, for example.</p><p>When a user interacts with the button, a menu covers the button and displays the possible states. Pressing a state dismisses the menu and updates the button to display this new state. </p><p>Scrolling within the dropdown behaves the same way a menu scrolls.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SUZmdHBlLWk1d3M/components_buttons_dropdown1.png",
+                      "caption": "<p>Closed dropdown button, open dropdown menu, and selected dropdown menu</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Mobile dropdown buttons"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVkg5V3htMWk0OVk/components_buttons_mobile2.png",
+                      "caption": "<p>Generic dropdown button with a list menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Generic overflow dropdown button</h4><p>The generic overflow dropdown button displays an arrow or menu button by default. When the button is pressed, the menu appears. Pressing an option on the menu navigates to further settings for that option. </p><h4>Segmented dropdown button</h4><p>A segmented dropdown has two sections: the current state and the dropdown arrow icon. Pressing the current state will cause that state&#x2019;s action to fire within the screen. Pressing the dropdown arrow will display all the state options. Selecting one will change the displayed state. </p><h4>Editable segmented dropdown button</h4><p>This button has a segmented dropdown, where the displayed state is text editable, such as a font size picker. Pressing the current state causes both that state&#x2019;s action to fire and makes the displayed state editable. Pressing the arrow displays all the state options. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RklUaGVRbl9tMDg/components_buttons_dropdown2.png",
+                      "caption": "<p>Generic, segmented, and editable overflow dropdown buttons in normal, hover, focus, pressed, and selecting states </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HTS1LdnhrTl9TRzg/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm",
+                      "caption": "<p>Animation of dropdown button</p><p><a href=\"https://www.google.com/url?q=https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp%3Dsharing&amp;sa=D&amp;usg=AFQjCNHs3rPdOZqU1mKrnQWIaiTsyElfmg\">&#xA0;</a>&#xA0;</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Desktop app bar specs<br> </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3U2VCaGE1YmFtQ1k/components_buttons_dropdown3.png",
+                      "caption": "<div class=\"caption-title\">Desktop dropdown</div><p>Top and bottom padding: 16dp<br>Left padding: 24dp<br>Right margin: 16dp<br>Horizontal space between font styles: 24dp</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Desktop dropdowns"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

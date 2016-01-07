@@ -1,0 +1,16 @@
+{
+  "title": "Devices",
+  "href": "http://www.google.com/design/spec/resources/devices.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Device metrics",
+          "modules": []
+        }
+      ]
+    }
+  ]
+}

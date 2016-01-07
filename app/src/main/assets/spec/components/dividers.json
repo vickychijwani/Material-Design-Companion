@@ -1,0 +1,235 @@
+{
+  "title": "Dividers",
+  "href": "http://www.google.com/design/spec/components/dividers.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Dividers group and separate content within lists and page layouts. The divider is a thin rule, lightweight yet sufficient to distinguish content visually and spatially. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Dividers help users understand how content is organized by establishing a rhythm and hierarchy on a page. But a heavy use of dividers can lead to visual noise and dilute their impact. </p><p>Full-bleed dividers emphasize separate content areas and sections, but if such strong divisions are not required, consider using white space, subheaders, or inset dividers.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Items without anchors</h4><p>When lists don&#x2019;t have an anchoring element such as an avatar or icon, spacing alone isn&#x2019;t always enough to separate tiles. In this case, full-bleed dividers can help create rhythm and separate individual tiles.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSlpfZG9Vby10MXM/components_dividers_usage1.png",
+                      "caption": "<p>Full-bleed dividers separate email summaries. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZTFoSVB1TmR1NTA/components_dividers_usage2.png",
+                      "caption": "<p>Full-bleed dividers separate the From, To, Subject, and Message sections of the email screen. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Image-based content</h4><p>Because the grid itself creates visual distinction, grid lists do not need dividers to separate subheaders from content. In this case, the white space and the subheaders separate the sections adequately.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsT3R0Y1ZiTFBERXc/components_dividers_usage3.png",
+                      "caption": "<p>The white space and the subheaders separate the photos and albums.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdDU1aHY1VmJKaE0/components_dividers_usage6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Judicious use of inset dividers demarcates major sections of content.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYjRXUjlENGt4bFE/components_dividers_usage4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Overuse of full-bleed dividers creates visual noise and ultimately diminishes the meaning of the dividers.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscGwyQTRpVVFpQVU/components_dividers_usage5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Inset dividers help cut down on visual noise and should be used with anchor elements, but overuse reduces their meaning.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of dividers",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Full-bleed dividers separate distinct content sections (e.g., biographic details from contact information) or distinct content elements (e.g., list items) in both lists and page layouts.</p><p>Full-bleed dividers can also indicate seams in material where the material will expand when content is expanded.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYTZHYUQ2Tno2QVU/components_dividers_type1.png",
+                      "caption": "<p>Example of full-bleed divider</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ2pLMVFacGNPME0/components_dividers_type2.png",
+                      "caption": "<p>Example of full-bleed divider</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Full-bleed dividers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Inset dividers separate related content, such as sections in a list of contacts or emails in a conversation. </p><p>Inset dividers should be used in conjunction with anchoring elements such as icons or avatars aligned with the Title Key Line.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUldHMF9jcXlQNjQ/components_dividers_type3.png",
+                      "caption": "<p>Example of inset divider</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSVBkQmNrYWlpbEU/components_dividers_type4.png",
+                      "caption": "<p>Example of inset divider</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Inset dividers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When using a divider with a subheader, place the divider above the subheader to reinforce the relationship between the subheader and the content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYmtwUlhGTlVOSDg/components_dividers_type5.png",
+                      "caption": "<p>Example of divider above subheader</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVlJfa2txeUtLTFE/components_dividers_type6.png",
+                      "caption": "<p>Example of divider above subheader</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Subheaders and dividers"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Dividers are 1dp thick, with an opacity of either 12% black in light themes or 12% white in dark themes.</p><p>Dividers are placed along the bottom edge of the content tiles, independent of the grid.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzYi1pc290WFRMc1U/components_dividers_specs.png",
+                      "caption": "<p>The divider sits within the baseline of the tile. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

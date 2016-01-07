@@ -1,0 +1,809 @@
+{
+  "title": "Buttons: Floating Action Button",
+  "href": "http://www.google.com/design/spec/components/buttons-floating-action-button.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Floating action button",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Floating action buttons are used for a promoted action. They are distinguished by a circled icon floating above the UI and have motion behaviors that include morphing, launching, and a transferring anchor point.</p><p>Floating action buttons come in two sizes: </p><ul><li>Default size: For most use cases</li><li>Mini size: Only used to create visual continuity with other screen elements</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQUxBamxwdy15Vlk/patterns_actions_fab1.png",
+                      "caption": "<p>Floating action button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS2J0RmRySnJfZTg/patterns_actions_fab2.png",
+                      "caption": "<p>Mini floating action button</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Floating action button"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating action button should be placed 16dp minimum from the edge on mobile and 24dp minimum on tablet/desktop. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dkNVa080Ykd0ejg/patterns_actions_fab3.png",
+                      "caption": "<div class=\"caption-title\">Floating action button </div><p>Interior icon: 24 x 24dp<br>Floating action button circle: 56 x 56dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VW9vQ3o4V2hrYkE/patterns_actions_fab4.png",
+                      "caption": "<div class=\"caption-title\">Mini floating action button</div><p>Interior icon: 24 x 24dp<br>Floating action button circle: 40 x 40dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating action button has an ink wash upon focus and lifts upon being selected. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsalp0a21uSHFVYjA/components-buttons-fab_01_xhdpi_002.webm",
+                      "caption": "<p>Floating action button gaining focus </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWDNDYXc2NXJUNDQ/components-buttons-fab_02_xhdpi_002.webm",
+                      "caption": "<p>Floating action button being selected</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Not every screen needs a floating action button. A floating action button represents the primary action in an application. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WHhJcEFEVDdjM0k/patterns_actions_fab_content1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The primary action is to touch images in a gallery, so no button is needed.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7S2NiZlNhcDUxSTA/patterns_actions_fab_content2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The primary action is to add files.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Only one floating action button is recommended per screen to increase its prominence. It should represent only the most common action. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRXJZU1FpSm00WHc/patterns_actions_fab_content3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQks0QkhieUtMX00/patterns_actions_fab_content4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Make floating action buttons positive actions like Create, Favorite, Share, Navigate, and Explore.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrWktOTnVaYk1TaU0/patterns_actions_fab_qualities1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Qualities "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avoid using floating action buttons for minor and destructive actions, including the following:</p><ul><li>Archive or Trash</li><li>Nonspecific actions</li><li>Alerts or errors</li><li>Limited tasks like cutting text</li><li>Controls that should be in a toolbar, like volume control or changing a font color</li></ul><p>Floating action buttons don&#x2019;t contain app bar icons or status bar notifications. Don&#x2019;t layer badges or other elements over a floating action button.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q1N3MVZFU1M5dVE/patterns_actions_fab_qualities2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use the circle-shaped icon consistently to enforce the primary action pattern across apps.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrOHBsN0xtTFJ5aEE/patterns_actions_fab_qualities5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrekhFaTJmbDhSM0U/patterns_actions_fab_qualities6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t give the floating action button extra dimension. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrV2hRR2lPZ3kyZFE/patterns_actions_fab_qualities7.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrVTdJdFNQZFc5VmM/patterns_actions_fab_qualities8.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating action button animates onto the screen as an expanding piece of material, by default. The icon within it may be animated. </p><p>Floating action buttons may move differently than other UI elements because of their relative importance. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWVlROHRlam9FMUU/components-buttons-fab-behavior_01_xhdpi_012.webm"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUTF4ZkdXSmp6b0E/components-buttons-fab-behavior_02_xhdpi_012.webm"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Lateral screens</h4><p>A floating action button that spans multiple lateral screens (such as tabbed screens) should briefly disappear, then reappear if its action changes. </p><p>The button should stay on screen if its action remains the same across screens (and translate to a new position, if necessary.)</p><h4>Lists</h4><p>Lists underneath floating action buttons should have enough padding beneath them so their content isn&#x2019;t blocked by the button.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWm9PdVplYzZvNTg/components-buttons-fab-behavior_03_xhdpi_001.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVlhxNGJCNTEzNFU/components-buttons-fab-behavior_04_xhdpi_009.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Tabbed screens</h4><p>On tabbed screens, the floating action button should not exit the screen in the same direction as the content. This prevents: </p><ul><li>Floating action buttons from appearing functional when they aren&#x2019;t</li><li>The perception that the floating action button is at the same the elevation as the content</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMGF1M0lwX2NEOHc/components-buttons-fab-behavior_05_xhdpi_009.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNVRkV3FZMktvMWc/components-buttons-fab-behavior_06_xhdpi_009.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Transitions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating action button is a unique example of a primary use case in an app. Take advantage of its visibility to create delightful transitions for a primary UI element. </p><p>Common transitions include Trigger, Toolbar, Speed dial, and Morphing. This is not an exhaustive list. Floating action buttons are designed to be flexible. Experiment with transitions that best suit your app and the screens on which the button sits. </p>"
+                }
+              ],
+              "title": "Transitions "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Trigger </h4><p>The floating action button can simply trigger an action or navigate somewhere. The animation of the touch ripple expands outwards as the force that causes changes to the UI. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-dWREN3hZR1dmZWs/components-buttons-fab-transition_trigger_01.webm",
+                      "caption": "<p>A floating action button can simply trigger an action.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-S01HZEpTMEdaUkk/components-buttons-fab-transition_trigger_02.webm",
+                      "caption": "<p>A floating action button recentering a map view</p><p>Apps typically use a single floating action button. However, this example uses two floating action buttons because they perform equally important yet distinct actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Toolbar </h4><p>The floating action button can transform into a toolbar upon press or from a toolbar upon scroll. The toolbar can contain related actions, text and search fields, or any other items that would be useful at hand. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-NXNEaXZ0Um1yc0k/components-buttons-fab-transition_toolbar_01.webm",
+                      "caption": "<p>A floating action button transforming into a toolbar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-ajMzVHp3VzJ4UkU/components-buttons-fab-transition_toolbar_02.webm",
+                      "caption": "<p>A floating action button transforming into a toolbar.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A toolbar that disappears on scroll is particularly useful for screens where the full toolbar is needed upon initial entry or while at the top or bottom of a long list. This saves screen real estate when the user has signaled through scrolling that they&#x2019;re interested in looking at the main content. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-TTlIcU5hTjFXNEk/components-buttons-fab-transition_scrolltoolbar_01.webm",
+                      "caption": "<p>A toolbar transforming into a floating action button upon scroll</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-MnVVYmJTcTBoSGs/components-buttons-fab-transition_scrolltoolbar_02.webm",
+                      "caption": "<p>A toolbar transforming into a floating action button upon scroll</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If a floating action button morphs into a toolbar, that toolbar should contain related actions. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZHRMSzRFTXhoMnM/patterns_actions_fab_actions10.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>In this example, the button lets the user select the media type to add.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbjUzX1ZOei1uazA/patterns_actions_fab_actions12.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t include unrelated or confusing actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Speed dial </h4><p>The floating action button can fling out related actions upon press. The button should remain on screen after the menu is invoked. Tapping in the same spot should either activate the most commonly used action or close the open menu. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-ZFR3dGtLUjZad1U/components-buttons-fab-transition_speeddial_01.webm",
+                      "caption": "<p>A floating action button flinging out related actions</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TmpnUHVKRV9DU0E/components-buttons-fab-transition_speeddial_02.webm",
+                      "caption": "<p>A floating action button flinging out related actions</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating action button can transform into a single sheet of material which contains all the actions. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-d09QRUZzVUdMSFk/components-buttons-fab-transition_card_01.webm",
+                      "caption": "<p>A floating action button transforming into a single sheet of material</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-TjBicTdvQjg4M1E/components-buttons-fab-transition_card_02.webm",
+                      "caption": "<p>A floating action button transforming into a single sheet of material</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>As a general rule, have at least three options upon press but not more than six, including the original floating action button target. If you have two options &#x2013; i.e. your floating action button only flings out one other choice &#x2013; choose which action is most important. If you have more than six, users may have trouble reaching the furthest option. </p><p>Reduce decision fatigue by giving users the best, most distinct, and fewest options. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQko4VFRuUG95Wm8/components_fab_flyouts_dont1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A floating action button should fling out at least three options.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQTJOcDQ0eVNHSnc/components_fab_flyouts_dont2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A floating action button should fling out no more than six options.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t put overflow menus in the floating action button actions. There should be at most two taps from the initial screen to get to the intended destination. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6GnvA6rl3tYWEZGZFBuc1RxMEk/components_fab_flyouts_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Options should be specific destinations.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6GnvA6rl3tYVFJuZXhVU3lMRnM/components_fab_flyouts_dont4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Options should not include an overflow menu.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Put overflow actions in the overflow menu in toolbars, not in floating action buttons.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrMkh1RkMwVDRaUjg/patterns_actions_fab_actions1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Overflow menus belong in toolbars.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrQWdBMWF1aXpJb1U/patterns_actions_fab_actions2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Overflow menus belong in toolbars.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrcy05VFdmSkFuaU0/patterns_actions_fab_actions3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Floating action button are not overflow menus.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrdDlnRmJuUXRkZWM/patterns_actions_fab_actions4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Floating action buttons are not overflow menus.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If the hallmark of the app is adding file types, a floating action button can transform into related actions after it is first touched. However, if the actions that appear are unrelated to the button, place the actions into an overflow menu.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrUy1EQlFoWmJZSE0/patterns_actions_fab_actions6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>A floating action button can transform into related actions.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrWjNnTWpjNmRxdzQ/patterns_actions_fab_actions8.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A floating action button should not transform into unrelated actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A floating action button can contain a list of contacts. The list shouldn&#x2019;t contain unrelated actions. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrenZ5RnRTMmEtcU0/patterns_actions_fab_actions14.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>A floating action button can transform into a list of contacts.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrVDMyV2UyWjZFUEk/patterns_actions_fab_actions16.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A floating action button should not transform into unrelated actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Morph </h4><p>The floating action button can transform into sheets of material that are part of the app structure. This dramatic transformation accentuates the action the button enables. </p><p>When morphing the floating action button, transition between starting and ending positions in a logical way. For example, do not pass through other sheets of material.</p><p>The morph animation should be reversible and transform the new sheet of material back into the floating action button. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-NF9TWTN0Q3lMZWc/components-buttons-fab-transition_morph_01.webm",
+                      "caption": "<p>A floating action button can morph into a sheet of material that is part of the app structure.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-c0UwMFAyQU5Jb1U/components-buttons-fab-transition_morph_02.webm",
+                      "caption": "<p>A floating action button can morph into a sheet of material that is part of the app structure.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Full screen</h4><p>The floating action button can transform into a new sheet of material that spans the entire screen.</p><p>This type of dramatic transformation is typically associated with creating new content. As a result, it does not tend to have an method of undoing the transformation or a reversible animation.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-R2E3UGZZaHpORWc/components-buttons-fab-transition_fullscreen_01.webm",
+                      "caption": "<p>The floating action button can transform into a new sheet of material that spans the entire screen.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-RWVHZjYybnlDeUE/components-buttons-fab-transition_fullscreen_02.webm",
+                      "caption": "<p>The floating action button can transform into a new sheet of material that spans the entire screen.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Large Screens",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Large screens</h4><p>A floating action button can attach to an extended app bar.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVmVlRklHQ3RoS00/patterns_actions_fab_placement7.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A floating action button can be attached to a toolbar or structural element within a sheet (as long as it&#x2019;s not blocking other elements).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZTRtWlE3eHIzaFE/patterns_actions_fab_placement8.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A floating action button can be attached to the edge of a sheet.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNzVKY0Y4NWYzNUE/patterns_actions_fab_placement9.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t have more than one floating action button per screen.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseVdNVnYtc0loblk/patterns_actions_fab_placement10.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t associate floating action buttons with every element on a screen.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZ2pRNmpvY0NNLW8/patterns_actions_fab_placement12.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Navigational transitions",
+  "href": "http://www.google.com/design/spec/patterns/navigational-transitions.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Navigational transitions are movements between states in an app, such as from a high-level view to a detailed view. Most, but not all, transitions are hierarchical in nature. </p><p>These moments should reflect the user&#x2019;s journey through each state of an app appropriately.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Parent to child",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Exploring deeper levels, or screens, of an app is a hierarchical journey that starts at a parent screen. From there, a user can explore multiple possible sub-screens, which are children to the parent screen.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In material design, elevation changes indicate changes in focus from parent to child elements. </p><p><strong>Elevation and expansion</strong></p><p>The surface that the user touches should lift up and expand into place from its origin. This expansion and motion highlights movement away from the parent towards a destination (a child element) in a natural movement using the material motion curve.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWjgyVU9kMWN0V2s/patterns_navigational-transitions_parent-to-child_list-02_xhdpi_019.webm",
+                      "caption": "<p>Parent-to-child transition animation</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMUd1ZVRWX3p1Y3c/patterns_navigational-transitions_parent-to-child_calendar_tablet_xhdpi_004.webm",
+                      "caption": "<p>Animation of parent-to-child transition </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Sibling to sibling",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Sibling transitions</strong>&#xA0;are transitions that occur between elements at the same level of hierarchy. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Static elevation</strong></p><p>When a user navigates through tabs, for example, no elevation changes occur. The content and surface of each tab stays at the same elevation level. New content slides in from the right while sibling content moves off-screen to the left.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRWUyLVJ6b2ZHSFk/patterns_navigational-transitions_sibling-to-sibling_tabs-01_xhdpi_013.webm",
+                      "caption": "<p>Sibling transition</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa1RlU3Y2SDJWREE/patterns_navigational-transitions_sibling-to-sibling_tabs-02_xhdpi_003.webm",
+                      "caption": "<p>Animation of sibling-to-sibling transition</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

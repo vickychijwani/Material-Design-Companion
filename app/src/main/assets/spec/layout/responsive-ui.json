@@ -1,0 +1,601 @@
+{
+  "title": "Responsive UI",
+  "href": "http://www.google.com/design/spec/layout/responsive-ui.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Responsive layouts in material design adapt to any possible screen size. This UI guidance includes a flexible grid that ensures consistency across layouts, breakpoint details about how content reflows on different screens, and a description of how an app can scale from small to extra-large screens.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Breakpoints",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For optimal user experience, material design user interfaces should adapt layouts for the following breakpoint widths: 480, 600, 840, 960, 1280, 1440, and 1600dp.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>1.</strong><strong>&#xA0;Summary and detail view content in layouts</strong></p><ul><li>Layouts under 600dp wide may fill the screen with a single level of content hierarchy (either summary or detail content, but not both). </li><li>Layouts over 600dp wide may place two levels of content hierarchy on the screen (both summary and detail content).</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Breakpoint system</strong></p><p>These breakpoints describe column and width specifications for different screens, devices, and orientations.</p><p>For some measurements, the values remain the same even if a device is rotated. For that reason the smallest width in either orientation is the defining value. </p><p>* 16dp when the smallest width of the device is &lt;600</p><p>** Desktop breakpoints are 16dp below the listed values to accommodate variations in browser chrome.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Grid",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Material design&#x2019;s responsive UI is based on a 12-column grid layout. This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs. The number of grid columns varies based on the breakpoint system.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAZ3hsemplb3k0S00/layout_adaptiveUI_grid_01_hero.webm",
+                      "caption": "<p>This animation shows how surfaces and panels can align to influence the 12-column grid. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Margins and Gutters</h4><p>The responsive grid focuses on consistent margin and gutter widths, rather than column width. Material design margins and columns follow an 8dp square baseline grid. Margins and gutters can be 8, 16, 24, or 40dp wide. </p><p>Margins and gutters don&#x2019;t need to be equal. For example, it&#x2019;s acceptable to use 40dp margins and 24dp gutters in the same layout.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmATEhhSmstQnNLek0/layout_adaptiveUI_grid_02_margins.webm",
+                      "caption": "<div class=\"caption-title\">This animation shows interactions of the following margin and gutter width variations:</div><ol start=\"1\"><li>8dp margins and gutters</li><li>16dp margins and gutters</li><li>24dp margins and gutters</li><li>40dp margins and gutters</li><li>40dp margins and 24dp gutters</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Full-width vs Centered</h4><p><strong>Full-width grids</strong>&#xA0;use fluid columns and breakpoints to determine when a layout needs to change. </p><p><strong>Centered grids</strong>&#xA0;use fixed columns and reflow the layout when all columns (plus a defined margin) no longer fit on screen. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAZ1ptYWI2ZEc4czQ/layout_adaptiveUI_grid_03_width.webm",
+                      "caption": "<ol start=\"1\"><li>Full-width grids</li><li>Centered grids</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Panel Influence on the Grid</h4><p>As defined in <a href=\"http://www.google.com/design/spec/patterns/navigation-drawer.html#navigation-drawer-behavior\">Navigation patterns</a>, the side nav may be permanent, persistent, or temporary. These behaviors apply to any panel, not just a side nav. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Permanent </strong></p><p>A permanent panel exists outside of the responsive grid. The panel appears at a defined breakpoint (when the screen can accommodate the panel) and squeezes content. There are no controls to show/hide the panel.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAUGNyT2dNT1AwV2M/layout_adaptiveUI_grid_04_behaviorPermanent.webm",
+                      "caption": "<p>The effects of a permanent panel on the responsive grid.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Side panel effects on the grid</strong></p><p>This animation happens in two phases: </p><ol start=\"1\"><li>A persistent side panel appears, squeezing both content and the grid. Content is accessible while the panel remains visible. The panel hides upon toggling.</li><li>A temporary side panel appears, pushing grid content off-screen. Touching either outside the panel, or an item inside the panel, hides the panel.</li></ol>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAV0RFaV9jWEd4c1k/layout_adaptiveUI_grid_05_behaviorSqueezePush.webm",
+                      "caption": "<p>The effects of a persistent panel on the responsive grid.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Temporary overlay</strong></p><p>A temporary panel does not affect the grid or content when off-screen. When toggled to be visible, it can be hidden again by touching anywhere outside the panel or an item inside the panel.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAY2dNZUVlZnJmT28/layout_adaptiveUI_grid_06_behaviorOverlay.webm",
+                      "caption": "<p>The effects of a temporary panel on the responsive grid.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Surface behaviors",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When a screen size changes, the UI adapts using the following surface-specific behaviors. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Visibility</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Width</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Descriptors</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Patterns",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>As screen space increases, the following responsive patterns may be applied:</p><ul><li>Reveal</li><li>Transform</li><li>Divide</li><li>Reflow</li><li>Expand</li><li>Position</li></ul><h4>Reveal</h4><p>UI hidden by smaller screens may be revealed with increased available space.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPcUUwX1I3bU0zdms/layout_adaptiveUI_patterns_01_reveal.png",
+                      "caption": "<p>Elements, such as a side nav, may become visible.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPZ2VYZjhWaF9hZVE/layout_adaptiveUI_patterns_02_reveal.png",
+                      "caption": "<p>A simple UI may reveal more powerful or complex options. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPS0FXa0ZEZy1TNUU/layout_adaptiveUI_patterns_03_reveal.png",
+                      "caption": "<p>Content on a small screen that only appears after tapping an element may be revealed by default when more space is available.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Transform</h4><p>A UI element may transform from one format to another.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPQ3JwNlkwUkgwVlU/layout_adaptiveUI_patterns_04_transform.png",
+                      "caption": "<p>Side navigation may transform into tabs.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPeUFEVUUwNVpFWjQ/layout_adaptiveUI_patterns_05_transform.png",
+                      "caption": "<p>A list may transform into a grid list.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPdkFVaHh1elZzUlk/layout_adaptiveUI_patterns_06_transform.png",
+                      "caption": "<p>Menu items may transform into icons in a toolbar.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Divide</h4><p>A layered UI may be divided into newly available space.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPdzR4OGMtZWJtalE/layout_adaptiveUI_patterns_07_divide.png",
+                      "caption": "<p>Side navigation, list content, and detailed content divide to fill a single view.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPTTA4bmtTRlZUZ2M/layout_adaptiveUI_patterns_08_divide.png",
+                      "caption": "<p>A left panel, list content, and a right panel divide within a single view as space increases. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPenZ3SDczaFI1eGc/layout_adaptiveUI_patterns_09_divide.png",
+                      "caption": "<p>Tabbed sibling content is divided within the same view.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Reflow</h4><p>A UI may reflow into available space.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPeExEOG1QZzZpcEE/layout_adaptiveUI_patterns_10_reflow.png",
+                      "caption": "<p>Elements from a single-column format may reflow to fill the content area in various combinations.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPSHZzMXFUejQ0UzQ/layout_adaptiveUI_patterns_11_reflow.png",
+                      "caption": "<p>Horizontal tabs may reflow into a vertical list.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPMU43UGlBaWJZYW8/layout_adaptiveUI_patterns_12_reflow.png",
+                      "caption": "<p>Elements may reflow within a component based on a new screen ratio or device orientation.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Expand</h4><p>The UI may expand across more space.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPQ2wwdE1FQnhQdmM/layout_adaptiveUI_patterns_13_expand.png",
+                      "caption": "<p>Content cards may expand to fill the new space.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPQXlRX0xFV1ZxOW8/layout_adaptiveUI_patterns_14_expand.png",
+                      "caption": "<p>Dialogs may expand proportionally with content or in specific increments. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Position</h4><p>The position of UI components may change to more appropriate locations.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPQzZOeW1RVmoteDg/layout_adaptiveUI_patterns_15_position.png",
+                      "caption": "<p>A bottom sheet on a small screen may reposition itself as a menu.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8olV15J7abPOEhNdE5iRnZicXc/layout_adaptiveUI_patterns_16_position.png",
+                      "caption": "<p>A floating action button (FAB) may move to a more visible location relative to other UI elements.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

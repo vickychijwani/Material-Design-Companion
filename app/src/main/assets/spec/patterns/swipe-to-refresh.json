@@ -1,0 +1,252 @@
+{
+  "title": "Swipe to refresh",
+  "href": "http://www.google.com/design/spec/patterns/swipe-to-refresh.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Swipe to refresh",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>There are two methods for updating content in an app. The preferred method is to automatically update content using <a href=\"https://www.google.com/url?q=http://developer.android.com/training/sync-adapters/index.html&amp;sa=D&amp;usg=AFQjCNGesYxnBJjKevQNYjDvDCyrJrraJw\">sync</a>. Syncing keeps app content automatically updated because it doesn&#x2019;t require user action.</p><p>Alternatively, the manual refresh method requires users to initiate content updates via an action or gesture. Manual refreshing can supplement syncing while maintaining a current scroll position, as when checking for new mail in a Gmail account.</p>"
+                }
+              ],
+              "title": "Updating content"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Swipe to refresh is a <a href=\"http://www.google.com/design/spec/patterns/gestures.html#gestures-gestures\">swipe gesture</a> available at the beginning of lists, grid lists, and card collections where the most recent content appears (Index 0). </p><p>Location:</p><p>Typically, this gesture is available at the top of content collections, but it can also be at the bottom (for example, in chat applications). </p><p>Usage:</p><p>The refresh indicator appears only in conjunction with a refresh gesture or action. Syncing does not display a refresh indicator. It&#x2019;s best to use this gesture with dynamic content that has frequent updates surfacing from a consistent location, where users have a high probability of seeing new content after initiating the gesture. </p><p>Changes may not be immediately obvious to users when this gesture is used in views that can change significantly upon refresh. For example, the refresh may non-sequentially delete, reorder, modify, and insert items or change only off-screen items.</p><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html\" title=\"Swipe to refresh layout\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Swipe to refresh layout</div>\n        <span class=\"subtitle\">Refresh the contents of a view via a vertical swipe gesture</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRWlsOUFOeG96RnM/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm",
+                      "caption": "<p>Animation showing swipe to refresh</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Swipe to refresh"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Swipe to refresh should not be used in the following situations:</p><ul><li>Navigation drawers</li><li>Home screen widgets</li><li>Pannable content</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdFdYQUZ2MXVUVFk/patterns_swipetorefresh_dont1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Navigation drawers (if present in an app) contain navigation destinations, not dynamic content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3c3JOSHh4T3VCVG8/patterns_swipetorefresh_dont2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Home screen widgets should update content automatically.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Ym1jbnBHMVJWdDg/patterns_swipetorefresh_dont3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Pannable content, like in maps, have no primary direction or content origin from which users can presume the swipe to refresh gesture will originate.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Position:</p><p>The refresh indicator, when resting, is centered horizontally relative to refreshing content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RGJuZzdKLTUyNkU/patterns_swipetorefresh_position1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V1VfczNqbS03XzQ/patterns_swipetorefresh_position2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Refresh indicator positioning and behavior"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dTdGMERYZk0yVDQ/patterns_swipetorefresh_position3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The refresh indicator is located near the top of refreshing content.</p><p>Its exact vertical resting position can be adjusted to promote visual harmony with the underlying layout. For example, the indicator may fall on a material edge or grid line, as long as it&#x2019;s located near the top of the refreshing content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOXZCd0M3bEFuMEU/patterns_swipetorefresh_position4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOUVhV1pkS1VuZnc/patterns_swipetorefresh_position5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Behavior:</p><p>As the refresh indicator translates and/or scales into view, the circular spinner fades in while rotating.</p><p>The refresh indicator remains visible until the refresh activity completes and any new content is visible, or the user navigates away from the refreshing content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUkpNWUx6NFI4clE/patterns-swipetorefresh-behavior_do_xhdpi_009.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Keeping the refresh indicator in view until the activity is completed provides feedback on the status of the refresh activity.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ295RkQ0ZWFzMms/patterns-swipetorefresh-behavior_dont_xhdpi_009.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Scrolling the refresh indicator off-screen hides the status of the refresh activity and may imply that the refresh activity is associated with a specific component within the view, such as a card, instead of the entire view.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When another surface is positioned in front (in z-space) of the material with refreshing content, the refresh indicator translates from underneath that surface and is clipped until it is fully visible.</p><p>The refresh indicator scales up in size as it translates when: </p><ul><li>The refreshing material is in front of every other surface (in z-space)</li><li>A content refresh is initiated via an app bar or overflow menu action</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTXlhUU5FT2JzX0U/patterns-swipetorefresh-zspace_refresh_xhdpi_007.webm",
+                      "caption": "<p>Refreshing content that is above every other surface in z-space.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Refresh indicator transitions"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZHZ1OUJOUFR1ZmM/patterns-swipetorefresh-coplanar_refresh_xhdpi_008.webm",
+                      "caption": "<div class=\"caption-title\"></div><p>Refreshing content that is coplanar with another surface.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVU56bGR1cjZMU1k/patterns-swipetorefresh-zspace_refresh_mobile_xhdpi_002.webm",
+                      "caption": "<p>Refreshing content that is below another surface in z-space.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaDZOV1NmRlBVZjQ/patterns_swipetorefresh-appbar_refresh_xhdpi_007.webm",
+                      "caption": "<p>Refreshing content via app bar action.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To ensure intentional usage of the swipe to refresh gesture, the refresh indicator must pass a threshold before the app will begin to refresh. This threshold is indicated through a number of cues: </p><ul><li>The circular spinner reaches 100% opacity.</li><li>The rotation of the circular spinner slows down.</li><li>The rate of translation of the refresh indicator slows down.</li></ul><p>Completing the gesture at any point after passing the threshold will initiate the refresh action.</p><p>Reversing the gesture past the threshold will cancel the initiation of the refresh action.</p>"
+                }
+              ],
+              "title": "Implementation details"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

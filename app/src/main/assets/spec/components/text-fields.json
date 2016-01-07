@@ -1,0 +1,775 @@
+{
+  "title": "Text fields",
+  "href": "http://www.google.com/design/spec/components/text-fields.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Text fields allow the user to input text, <a href=\"http://www.google.com/design/spec/patterns/selection.html\">select text</a>, and lookup data via auto-completion.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Input",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Touching a text field places the cursor and displays the keyboard. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The type of text field determines what kind of characters are allowed inside the field. The virtual keyboard layout may be optimized for frequently used characters. </p><p>Common input types for which you should optimize include:</p><ul><li>Number: Phone number, credit card number, PIN </li><li>Text: Proper name, username, URL</li><li>Mixed format: Email address, street address, search query</li></ul>"
+                }
+              ],
+              "title": "Input types"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The first letter in each text field should be capitalized where appropriate and if required by the locale, as well as the first letter of each sentence. For example, this is especially relevant for input fields that: &#xA0;</p><ul><li>Ask to name something, such as a Bluetooth device, user, fingerprint, or alarm</li><li>Contain sentence-like messages, such as text messages</li></ul>"
+                }
+              ],
+              "title": "Auto-capitalization"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>"
+                }
+              ],
+              "title": "Density "
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Labels",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When the user engages with the text input field, the floating inline labels move to float above the field. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UHZpZjVsYjRHcXc/components_textfields_labels1.png",
+                      "caption": "<p>Floating inline labels</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NmN6eUJTamFweGc/components_textfields_labels2.png",
+                      "caption": "<p>Floating inline labels</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Hint and input font: Roboto Regular 16sp</li><li>Label font: Roboto Regular 12sp</li><li>Tile height: 72dp</li><li>Text top and bottom padding: 16dp</li><li>Text field divider padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dWFoM3V0NldkWFU/components_textfields_labels3.png",
+                      "caption": "<p>Floating inline labels light theme for: normal with hint text/label, focus, normal with input text, and label and disabled states </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MWVUQ1VIUUEwa2M/components_textfields_labels4.png",
+                      "caption": "<p>Floating inline labels dark theme for for: normal with hint text/label, focus, normal with input text, and label and disabled states</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V1hoemJNQk5UQlU/components_textfields_labels5.png",
+                      "caption": "<div class=\"caption-title\">Floating labels</div><p>Label height: 72dp<br>Padding above label text: 16dp<br>Padding between label and input text: 8dp<br>Padding below input text (including divider): 16dp<br>Padding below text divider: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RExER2RZOUJyZFE/components_textfields_labels5_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense floating labels</div><p>Label and input text: 13sp<br>Label height: 60dp<br>Label text top padding: 12dp<br>Padding between label and input text: 4dp<br>Input text bottom padding (including divider): 12dp<br>Text divider bottom padding: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Single-line text field",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Single-line fields automatically scroll their content to the left as the text input cursor reaches the right edge of the input field. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dUVPRTdfUXlZWnM/components_textfields_single1.png",
+                      "caption": "<p>Single-line text field</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TVJMNzF0Z3BhZjQ/components_textfields_single2.png",
+                      "caption": "<p>Single-line text field</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single-line fields "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Hint and input font: Roboto Regular 16sp</li><li>Tile height: 48dp</li><li>Text top and bottom padding: 16dp</li><li>Text field divider padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z2tnU1NHUkg1NWc/components_textfields_single4.png",
+                      "caption": "<p>Single-line text field light theme</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7R0NLRHd5NWJVUFE/components_textfields_single5.png",
+                      "caption": "<p>Single-line text field dark theme</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LYmhoNU5sWXp0LUE/components_textfields_single6.png",
+                      "caption": "<div class=\"caption-title\">Single-line text field</div><p>Height: 48dp<br>Padding above and below text: 16dp<br>Padding below divider: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VV9xVzNMUEhUM0E/components_textfields_single6_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line text field</div><p>Hint and input text: 13sp<br>Height: 40dp<br>Padding above and below text: 12dp<br>Padding below divider: 4dp<br></p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Hint and input font: Roboto Regular 16sp</li><li>Tile height: 48dp</li><li>Text top and bottom padding: 16dp</li><li>Text field divider padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZVF0blRsVWlralU/components_textfields_single7.png",
+                      "caption": "<p>Light theme with: normal with hint text, focus, and normal with input text </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light theme with icon"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3azNDVzdUZ01EcE0/components_textfields_single8.png",
+                      "caption": "<p>Dark theme with: normal with hint text, focus, and normal with input text </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark theme with icon"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cnUtbXZsRnNOWHM/components_textfields_single9.png",
+                      "caption": "<div class=\"caption-title\">Single-line text field with icon</div><p>Height: 48dp<br>Padding above and below text: 16dp<br>Padding below divider: 8dp<br>Icon: 24dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YThfMkdKWlRrUU0/components_textfields_single9_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line text field with icon</div><p>Hint and input text: 13sp<br>Height: 40dp<br>Padding above and below text: 12dp<br>Padding below divider: 4dp<br>Icon: 20dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Multi-line text field",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Multi-line text fields automatically break to a new line for overflow text and scroll vertically when the cursor reaches the lower edge.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VktWaDEtaTZ5ZzQ/components_textfields_multiline2.png",
+                      "caption": "<p>Multi-line text field</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Hint and input font: Roboto Regular 16sp</li><li>Label font: Roboto Regular 12sp</li><li>Text top and bottom padding: 16dp</li><li>Text field divider padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3by0wMFNhNzV2UE0/components_textfields_multiline3.png",
+                      "caption": "<p>Multi-line text field light theme for: normal with hint text, focused, and normal with multi-line input text</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WVZSVXJIdjJxQms/components_textfields_multiline4.png",
+                      "caption": "<p>Dark theme for multi-line text field for these states: normal with hint text, focus, and normal with multi-line input text</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UjRjWGE1SFpIaEk/components_textfields_multiline5.png",
+                      "caption": "<div class=\"caption-title\">Dark theme specs:</div><p>Padding above and below label: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QWhwSzE3WUk5U00/components_textfields_multiline5_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense dark theme specs:</div><p>Label and input text: 13sp<br>Label text top and bottom padding: 12dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Full-width text field",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Full-width text fields are useful for more in-depth tasks.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Um41b01ET1ZnODA/components_textfields_full1.png",
+                      "caption": "<p>Full-width text field</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NkFTN1VIYnR3QVU/components_textfields_full2.png",
+                      "caption": "<p>Full-width text field</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Hint and input font: Roboto Regular 16sp </li><li>Top and bottom padding for text: 20dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MkhlOU14bUdUYXc/components_textfields_full3.png",
+                      "caption": "<p>Single and multi-line fields for these states: normal, focused, and normal with multi-line input text</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single and multi-line fields"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Q1FhU3h5OVY5VlU/components_textfields_full4.png",
+                      "caption": "<div class=\"caption-title\">Specs for full-width single line text field:</div><p>Height: 56dp<br>Text top and bottom padding: 20dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZkZlWTBNOUEwZDA/components_textfields_full4_dense.png",
+                      "caption": "<div class=\"caption-title\">Specs for dense full-width single line text field:</div><p>Hint and input text: 13sp<br>Height: 48dp<br>Text top and bottom padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Character counter",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use a character counter in fields where a character restriction is in place. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Counter text: Roboto Regular 12sp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WUlMaC1qemQ4WDA/components_textfields_counter1.png",
+                      "caption": "<p>Single line with character counter with a green line showing the user has not exceeded the character restriction </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZmMtNHBGZUZMNEU/components_textfields_counter2.png",
+                      "caption": "<p>Single line with character counter with a red line showing that the character restriction has been exceeded</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single line with character counter"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Counter text: Roboto Regular 12sp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eC03VnhOekZxWW8/components_textfields_counter3.png",
+                      "caption": "<p>Multi-line with character counter with a green line showing the user has not exceeded the character restriction</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZWV5dU5jUm9wQXc/components_textfields_counter4.png",
+                      "caption": "<p>Multi-line with character counter with a red line showing that the character restriction has been exceeded</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Multi-line with character counter"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aWNnWjBzUGR3M00/components_textfields_counter7.png",
+                      "caption": "<p>Full-width text field with character counter</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Full-width text field with character counter"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SWlyMEVnWmo2amM/components_textfields_counter8.png",
+                      "caption": "<p>Single-line focus and multi-line focus text fields</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Auto-complete text field",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use auto-complete text fields to present real-time suggestions or completions in dropdowns, so users can enter information more accurately and efficiently.</p><p>Autocomplete is especially valuable for users with limited text literacy or who have difficulty with spelling, especially if they are using a non-native language. (Some users have to navigate the Internet in English because there are no localized pages for their native languages.)</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aUhWVUw3TFhUN1U/components_textfields_auto1.png",
+                      "caption": "<p>Auto-complete text field</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMl9RcXdaU0ZLNUk/components_textfields_auto2.png",
+                      "caption": "<p>Auto-complete text field in dropdown</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3M1RJdzAwWE05cmc/components_textfields_auto4.png",
+                      "caption": "<p>Inset auto-complete</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ejJUYjhOdjItQjg/components_textfields_auto5.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Inset auto-complete"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VjZjV0M5TktqcTQ/components_textfields_auto7.png",
+                      "caption": "<p>Normal with hint text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3T2ZhT0NDOGlNcms/components_textfields_auto8.png",
+                      "caption": "<p>Focus with suggestions</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Full-width inline auto-complete"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X1E0THo4MDFCUzQ/components_textfields_auto10.png",
+                      "caption": "<p>In-line auto-complete</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "In-line auto-complete"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Search filter",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The app bar can act as a text input field. As the user types, the content underneath is filtered and sorted. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMnhTVmVUNHUtM3c/components_textfields_search1.png",
+                      "caption": "<p>The app bar acts as a text input field..  </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOEdQX292cEQ5Skk/components_textfields_search2.png",
+                      "caption": "<p>The app bar acts as a text input field and the content underneath is filtered and sorted. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Required fields",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To indicate that a field is required, display an asterisk (*) next to the field. At the bottom of the form, include a note explaining that an asterisk indicates a required field. </p><p>Helper text, or hint text, should appear below the text field and either be persistently visible, or only visible on focus.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VcHFla0dwOE5pVVE/forms-supportive-content-v3_xhdpi.webm"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

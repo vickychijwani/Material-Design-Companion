@@ -1,0 +1,585 @@
+{
+  "title": "Imagery",
+  "href": "http://www.google.com/design/spec/style/imagery.html",
+  "content": [
+    {
+      "type": "figure",
+      "mediaType": "image",
+      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RmdHSUxhbEFTR2s/style_imagery_introduction.png"
+    },
+    {
+      "type": "intro",
+      "html": "<p>Imagery is more than decoration. It&#x2019;s a powerful tool to help you communicate and differentiate your product. Bold, graphic, and intentional imagery helps to engage the user. </p><p>Whether the mood is subdued and muted or bright and colorful, the following principles and best practices can help you successfully incorporate imagery and bring your apps to life, no matter what the visual brand.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Principles",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When using illustration and photography to enhance the user experience, choose images that express personal relevance, information, and delight. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS0FEQzA5eWxoT0U/style_imagery_principles1.png",
+                      "caption": "<div class=\"caption-title\">Personal relevance</div><p>Imagery can reflect the context and the world the user inhabits.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsalhlcnl1X3Z6UW8/style_imagery_principles2.png",
+                      "caption": "<div class=\"caption-title\">Information </div><p>Images can convey specific information that makes comprehension easy and immediate.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa2ZxRE53dUlvcWM/style_imagery_principles3.png",
+                      "caption": "<div class=\"caption-title\">Delight</div><p>Portraying context with aesthetic beauty will make your product unique and add to user delight. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Appreciate context</h4><p>Ensure images are dynamic and context-relevant. Use predictive visuals to substantially improve the user experience.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SVd2Zkp0SXdjaFk/style_imagery_principles4.png",
+                      "caption": "<p>Use imagery that is context-relevant.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Be immersive</h4><p>When necessary, it&#x2019;s acceptable to obscure or allude to integrated heros and thumbnails through color and content overlays.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOE5zakpUNEtkWVU/style_imagery_principles5.png",
+                      "caption": "<p>Background imagery can be obscured when engaging with foreground content.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Best practices",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Both illustration and photography can live within the same product. Photography automatically implies a degree of specificity and should be used to showcase specific entities and stories. Illustration is effective for representing concepts and metaphors where specific photography might be alienating.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUG1UMWdxUUlhWmc/style_imagery_bestpractices_mediums1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>For specific entities, look first to photographic representation. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTGhNQ01BZzlpUGc/style_imagery_bestpractices_mediums2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>When total specificity is not available or applicable, illustration conveys approximation of content to aid comprehension.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use multiple mediums"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use imagery to express a distinctive voice and exemplify creative excellence. &#xA0;</p><p>For specific entities or branded content, use specific imagery. For more abstract content, be interpretive. Photographic stock and clipart is neither specific nor interpretive.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aWtfVWRUUnh6aVE/style_imagery_bestpractices_stock1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Strive for images that represent genuine stories.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cWZWQkNTYWFTd1E/style_imagery_bestpractices_stock2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Stock images can feel inauthentic.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Stay away from stock"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dlVjc3I4VjdTOGc/style_imagery_bestpractices_stock3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>For specific representations, use specific imagery. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dzNrOW1aNnB1SXc/style_imagery_bestpractices_stock4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&apos;t default to literal stock photography. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Have an iconic point of focus in your imagery. Focus ranges from a single entity to an overarching composition. Ensure that a clear concept is conveyed to the user in a memorable way.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bng4eEdEaXBiMXc/style_imagery_bestpractices_focus1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use color and composition to give images a clear focus.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Q3doenpJWDhEWFU/style_imagery_bestpractices_focus2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid making the user hunt for the meaning in the image. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Have a point of focus"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OVJnOXR3Nlh1YzA/style_imagery_bestpractices_focus3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The most powerful iconic images consist of a few meaningful elements, with minimal distractions.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cVZUNDljZWU2QTg/style_imagery_bestpractices_focus4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>When the point of focus is obscured, the iconic quality of the image is lost.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Sy1kVWlTS1NnNGM/style_imagery_bestpractices_focus5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>A clear focus communicates the concept at a glance. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MEdKMDM2Ykcwejg/style_imagery_bestpractices_focus6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A lack of focus makes the image meaningless.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Create an immersive story and a sense of context to humanize your app. Define the mood through visual storytelling. Is the mood aspirational? Somber? Celebratory?</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Wm9Tcmx5d2tueUE/style_imagery_bestpractices_narrative1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>An image that tells a story is infinitely more interesting and informative.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7N1JfZ0F1cDE2Rk0/style_imagery_bestpractices_narrative2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>An image that lacks a story loses an opportunity to convey mood, brand, and context.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Build narratives"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dEQ3NXRnUVpGdjQ/style_imagery_bestpractices_narrative3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Properly contextualized concepts convey your message and brand more effectively.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7STUtemw0cGZfSEU/style_imagery_bestpractices_narrative4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A representation of an entity that is dissociated from context is uninteresting.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "UI integration",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Make sure your images are appropriately sized for displays and across platforms. Material design emphasizes large images. Ideally, the assets should not appear pixelated. Test appropriate resolution sizes for specific ratios and devices.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsajI5VnNXeVhTc3c/style_imagery_integration_resolution1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Appropriately sized imagery</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbmpDTlBWNGw3aGc/style_imagery_integration_resolution2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Degraded imagery</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Resolution"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Introduce alternative scales to create levels of visual importance. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsck9lUkgxNVZza1U/style_imagery_integration_scale1.png",
+                      "caption": "<p>Within a gallery context, introduce thumbnails of various sizes to convey content hierarchy. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsam1RaTNtSFZ1NXM/style_imagery_integration_scale2.png",
+                      "caption": "<p>Encourage multiple containers living in the same ecosystem. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Introduce scale"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To make typography legible on top of imagery, apply text protection in the form of <strong>scrims</strong>. Scrims are lightweight, translucent material layers.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHSzM4ZmFaekhuOUE/style_imagery_integration_text7.png",
+                      "caption": "<p>1. Dark end of gradient: Opacity values depend on context<br>2. Center point of gradient: 3/10ths closer the the darker end<br>3. End point of gradient: Opacity of 0</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Text protection"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To avoid banding (the formation of distinct stripe shapes), the gradient should be long, 3x standard app bar height, with the centerpoint about 3/10 towards the darker side of the gradient. This gives the gradient a natural falloff and avoids a sharp edge.</p><p>The gradient&#x2019;s opacity should be chosen based on environment. In this image the dark end is 60% black, but could be as low as 10-20% in some contexts.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHajlJaUhnaGo5Uk0/style_imagery_integration_text8.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHVFBuaHNXT0haMEk/style_imagery_integration_text9.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsd3g4Nk9ZTjBMZ00/style_imagery_integration_text1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Dark scrims should ideally be between 20%-40% opacity depending on the content. Light scrims should ideally range from 40%-60% opacity depending on the content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzUER0YVhyVHRhQjA/style_imagery_integration_text2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&apos;t obscure imagery when you use a scrim. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YjJGcHFEMEdGdnM/style_imagery_integration_text3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>For larger real estate, target specific areas for text protection instead of blanketing the entire image. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS3JnZkZGdUhKaWM/style_imagery_integration_text4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t &#x2018;over-scrim&#x2019; large images.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQjV4OFI1cGRsUTQ/style_imagery_integration_text5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Color overlays are different than text-protection scrims and can be used as a design element. When creating complementary color overlays, use the Palette API to define your color scheme based on content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXZTZkpkZXZLQnc/style_imagery_integration_text6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>You can use your brand&#x2019;s color palette decoratively to enhance imagery.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avatars and thumbnails represent entities or content, either literally through photography or conceptually through illustration. Generally, they are tap targets that lead to a primary view of the entity or content.</p><p>Avatars can be used to represent people. For personal avatars, offer personalization options. As users may choose not to personalize an avatar, provide delightful defaults. When used with a specific logo, avatars can also be used to represent brand.</p><p>Thumbnails allude to more information &#x2013; </p><p>letting the user peek into content &#x2013; and assist navigation. Thumbnails let you include imagery in tight spaces.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscm9WTC1VWjRDX1U/style_imagery_integration_thumbs1.png",
+                      "caption": "<p>Avatars make an app feel more personal &#x2013; and occupy minimal space.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQjNLTVhMRlVTUkE/style_imagery_integration_thumbs2.png",
+                      "caption": "<p>A brand avatar communicates information at a glance. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Avatars and thumbnails "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Hero images are images that are usually anchored in a prominent position, above the fold, such as a banner at the top of the screen. They serve to draw in a user, provide context about the content, or reinforce the brand.</p><h4 class=\"related\">\nRelated\n</h4><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"https://developer.android.com/training/material/drawables.html#ColorExtract\" title=\"Extract prominent colors from an image\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Extract prominent colors from an image</div>\n        <span class=\"subtitle\"></span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ0l4MWpTMmJCTm8/style_imagery_integration_hero1.png",
+                      "caption": "<div class=\"caption-title\">Feature</div><p>A feature image is a bold, primary point of focus within a heterogeneous layout.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbUk0Z0FvdWxYYnM/style_imagery_integration_hero2.png",
+                      "caption": "<div class=\"caption-title\">Integrated hero image</div><p>Integrated hero images create a setting for heterogeneous pieces of content within a layout. They are not the primary points of focus.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Hero images"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Gallery images are bold visual hero images within homogenous layouts in either a grid or as a single image.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWnBJajhIMDlwckE/style_imagery_integration_gallery1.png",
+                      "caption": "<p>Photo Grid</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUFpsUGFFaGxDa1E/style_imagery_integration_gallery2.png",
+                      "caption": "<p>Gallery image</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Gallery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

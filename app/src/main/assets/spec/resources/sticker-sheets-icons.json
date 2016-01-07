@@ -1,0 +1,61 @@
+{
+  "title": "Sticker sheets & icons",
+  "href": "http://www.google.com/design/spec/resources/sticker-sheets-icons.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Components",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The sticker sheets contain the latest refinements to the components, integrated into a comprehensive sticker sheet that is easier to use. </p><p>The sticker sheet includes the elements that make up layouts, including light and dark symbols for status bars, app bars, bottom toolbars, cards, dropdown menus, search field, dividers, side navs, dialogs, floating action buttons, and other components. </p><p>The sticker sheet elements align to an 8dp grid. Type baselines fall on a 4dp grid. </p><p>The text box offset is set to Leading (Type &gt; Area Type Options). The sticker sheet also contains character styles that you can use for any text box. </p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "System icons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Material design system icons are used across different apps, such as icons used for media playback, communication, content editing, and connectivity.</p><p>The download is a sticker sheet with the system icon grid.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Product icons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The download includes 4 sticker sheets for Product Icons. The sticker sheets provide guidance on applying layers and shapes within the Product Icon grid.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Icon library",
+          "modules": []
+        }
+      ]
+    }
+  ]
+}

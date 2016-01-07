@@ -1,0 +1,288 @@
+{
+  "title": "Lists: Controls",
+  "href": "http://www.google.com/design/spec/components/lists-controls.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>List controls are icons that appear to the left or right of the list text. They indicate the state of a list item, information about a list item, or serve as an action related to the list item. Leave-behinds are list controls, which are revealed only upon swipe.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>List controls fall under four categories:</p><ul><li>State</li><li>Primary action (including text strings)</li><li>Secondary action</li><li>Secondary info</li></ul><p>Distinguishing elements of list tiles need to be on the left for Left-to-Right interfaces, and vice versa. States and primary actions are placed on the left side of a list tile. Text within a list item should be considered part of the primary action target.</p><p>Don&#x2019;t place two icons or actions next to one another, such as a checkbox next to an avatar. </p><p>If the primary action of the list item is navigational, don&#x2019;t use an icon. The list item itself and its context should be sufficient to communicate the destination. </p><p>Secondary actions and info should be placed on the right side of the title. Secondary actions are always a separate target from the primary action, as users increasingly expect every icon to trigger an action. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TWlQcWJZRE1NQ1U/components_listcontrols_usage.png",
+                      "caption": "<p>States and primary actions are placed on the left side of a list tile. Secondary action and info should be placed on the right side of the title. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of list controls",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A checkbox can either be a primary action or a secondary action.</p><p>Type: primary action/state</p><p>Desktop checkboxes should appear only on hover and focus. &#xA0;</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Vnh0b0VhSlE5ajg/components_listcontrols_checkbox1.png",
+                      "caption": "<p>The checkbox is the primary action and the state indicator for the list item.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Checkbox"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: secondary action</p><p>Separate target</p><p>When controlling a family of variables, consider using switches instead. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YUQ5TEFVT3ZJQjg/components_listcontrols_checkbox2.png",
+                      "caption": "<p>The checkbox is the secondary action for the list item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: secondary action</p><p>Separate target</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZDhGVEFDTFQya2s/components_listcontrols_switch.png",
+                      "caption": "<p>The switch is the secondary action and separate target. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Switch"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: secondary action</p><p>Usually a separate target, depending on which mode list it is in. </p><p>Allows dragging of the list item to other locations within the list. It usually appears in list editing mode.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7X0pmWjRNZ21UUFE/components_listcontrols_reorder.png",
+                      "caption": "<p>The reorder icon is the secondary action for the list item. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Reorder"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: secondary action</p><p>Separate target</p><p>Expands and collapses a list view vertically to show and hide details of existing list items.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aVBZWEJHNlpuUzg/components_listcontrols_expand1.png",
+                      "caption": "<p>By touching the list control, the user expands the list. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bl8zNGVqM19TNWM/components_listcontrols_expand2.png",
+                      "caption": "<p>The list is expanded. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Expand/collapse"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UXlJcFpsdmJOaDA/components_listcontrols_expand3.png",
+                      "caption": "<p>Collapsed single-line item.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z25LR0RKcGE4enM/components_listcontrols_expand4.png",
+                      "caption": "<p>Expanded single-line item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: Other</p><p>A leave-behind is an informative hint as to what swiping a list item away will do to that item. The leave-behind can transform into an action.</p><p>Swiping on a list item from either direction will reveal an icon indicating the action. After swiping, a follow-up action can appear as a text button within the space of the list item.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsV3M4dTRjb2lZN0E/components_listcontrols_leave1.png",
+                      "caption": "<p>Swiping on a list item from right to left will reveal an icon indicating the action.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVHpIeFlLM1JEXzg/components_listcontrols_leave2.png",
+                      "caption": "<p>Swiping on a list item from left to right will reveal an icon indicating the action.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Leave-behinds"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of menu controls",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A menu is a special type of list. In menus, use controls that are appropriate for dropdown menus, overflow menus, and so on. Don&#x2019;t use these controls in regular lists. Use the regular list controls instead.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: state</p><p>Not a separate target. </p><p>Menus only. Indicates that the list item has been selected. The selection is done through a different control.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MEdoQjlzVjZZOVk/components_listcontrols_menu1.png",
+                      "caption": "<p>The check indicates that the list item has been selected.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Check"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: secondary info</p><p>Not a separate target. </p><p>Menus only. Inline information is a small snippet of text related to the line title that can provide information or a tip, like a keyboard shortcut. It cannot be truncated.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MTlwWk9tajlPeFE/components_listcontrols_menu2.png",
+                      "caption": "<p>The inline information for Bold, Italic and Underline provide keyboard shortcuts. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Inline information"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type: primary action</p><p>Not a separate target. </p><p>Menus only. The glyph indicates that a secondary menu will fly out upon hover, focus, and/or selection. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MTZ3SU1HZ1V3dVE/components_listcontrols_menu3.png",
+                      "caption": "<p>The glyphs for the menu items indicate that a secondary menu will fly out upon hover, focus, and/or selection.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Nested menu indicator"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

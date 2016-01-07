@@ -1,0 +1,185 @@
+{
+  "title": "Scrolling techniques",
+  "href": "http://www.google.com/design/spec/patterns/scrolling-techniques.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Scrolling",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When designing scrolling behavior, app bars contain four main regions (referred to as <strong>blocks</strong>) that comprise the scrolling structure:</p><ul><li>Status bar</li><li>Tool bar </li><li>Tab bar/search bar</li><li>Flexible space: space to accommodate a desired aspect ratio for images or extended app bars</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsejJDTlljT21nTzA/patterns_scrolling_scroll1.png",
+                      "caption": "<p>App bar components can include: status bar, navigation bar, tab/search bar, and flexible space</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTjVFelJ1MmlJWWs/patterns_scrolling_video1.png",
+                      "caption": "<p>Example of a status bar, navigation bar, tab/search bar, and flexible space</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrollable regions"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The standard app bar height is 56dp on mobile and 64dp on larger screen sizes.</p><p>There are two options for scrolling:</p><ol start=\"1\"><li>The app bar can scroll off-screen with the content and return when the user reverse scrolls. </li><li>The app bar can stay fixed at the top with content scrolling under it.</li></ol>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLWpBcnBMU2txdnM/patterns_scrolling_scroll2.png",
+                      "caption": "<div class=\"caption-title\">The standard app bar</div><p>Status bar height: 24dp<br>Toolbar height: 56dp / 64dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsR1lZQUxtWFRFMEU/patterns-scrolling-techniques_standard_appbar_xhdpi_004.webm",
+                      "caption": "<p>Animation of toolbar off-screen during scrolling</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Standard app bar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The <a href=\"https://www.google.com/url?q=http://www.google.com/design/spec/layout/structure.html%23structure-app-bar&amp;sa=D&amp;usg=AFQjCNGblmtpYs22m8JBSdmHYmeiqIx0Lg\">standard app bar</a>&#xA0;is the overarching component that can include the following blocks: a toolbar, tab bar, or flexible space. </p><p>It can have one of the following behaviors:</p><ol start=\"1\"><li>The tab bar stays anchored at the top, while the toolbar scrolls off.</li><li>The app bar stays anchored at the top, with the content scrolling underneath.</li><li>Both the toolbar and tab bar scroll off with content. The tab bar returns on reverse-scroll, and the toolbar returns on complete reverse scroll.</li></ol>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLVFsY0xTOTFLXzA/patterns_scrolling_scroll3.png",
+                      "caption": "<div class=\"caption-title\">Status bar, toolbar, and tab bar</div><p>Status bar height: 24dp<br>Toolbar height: 56dp / 64dp<br>Tab bar height: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ0ZQalNKOGxTNjA/patterns-scrolling-techniques_tabs_xhdpi_004.webm",
+                      "caption": "<p>Animation showing the toolbar scrolling off and the tab and app bars stay in place.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Because the app bar is flexible, it can be extended to accommodate larger typography or images. To extend the app bar, add a flexible space block. </p><p>There are two display options:</p><ol start=\"1\"><li>The flexible space shrinks until only the toolbar remains. The title shrinks to 20sp in the navigation bar. When scrolling to the top of the page, the flexible space and the title grow into place again.</li><li>The whole app bar scrolls off. When the user reverse scrolls, the toolbar returns anchored to the top. When scrolling all the way back, the flexible space and the title grow into place again.</li></ol>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseVRMX0VFUnFva0U/patterns_scrolling_scroll4.png",
+                      "caption": "<div class=\"caption-title\">Status bar, toolbar, and flexible space</div><p>Status bar height: 24dp<br>Toolbar height: 56dp / 64dp<br></p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRTM1M1lCWWZiN2c/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm",
+                      "caption": "<p>Animation showing flexible space during scrolling</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Flexible space"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use flexible space to accommodate images in the app bar with the desired aspect ratio. </p><p>In this example, the aspect ratio is 4:3. When scrolling, the content pushes up the image, which shrinks the flexible space. At the end of the transformation, the image gets tinted with the primary color, independent of scrolling.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa3pFOVUya2tJX2c/patterns_scrolling_scroll5.png",
+                      "caption": "<div class=\"caption-title\">Status bar, toolbar, and flexible space</div><p>Status bar height: 24dp<br>Toolbar height: 56dp / 64dp<br></p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXNQY3dNdVlYeTQ/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm",
+                      "caption": "<p>Animation showing flexible space and image during scrolling</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Flexible space with image"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Content can overlap the app bar. </p><p>Behavior:</p><p>The app bar&#x2019;s starting position should be located behind the content. Upon upward scroll, the app bar should scroll faster than the content, until the content no longer overlaps it. Once anchored in place, the app bar lifts up to allow content to scroll underneath. </p><p>In this interaction, the app bar cannot include tabs.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ2tyc3RQbUdna1E/patterns_scrolling_scroll6.png",
+                      "caption": "<div class=\"caption-title\">Flexible space</div><p>Status bar: 24dp<br>Toolbar: 56dp/64dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRVpzZG0zZGVNSXM/patterns-scrolling-techniques_flex_space_overlap_xhdpi_003.webm",
+                      "caption": "<p>Animation showing flexible space and overlapping content during scrolling</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFa3gtd2EzR2dsSDA/patterns_scrollingtechnique_flexibleoverlap.webm",
+                      "caption": "<p>Z-space diagram, side view</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Flexible space with overlapping content"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

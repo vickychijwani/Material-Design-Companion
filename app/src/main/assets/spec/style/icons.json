@@ -1,0 +1,1941 @@
+{
+  "title": "Icons",
+  "href": "http://www.google.com/design/spec/style/icons.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Product icons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Product icons are the visual expression of a brand&#x2019;s products, services, and tools. Simple, bold, and friendly, they communicate the core idea and intent of a product. While each product icon is visually distinct, all product icons for a given brand should be unified through concept and execution.</p><p>Product icons are an essential vehicle for communicating your brand. Using these guidelines as a starting point, make sure your product icon colors and other key elements reflect your brand identity.<br><br></p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dFBUNHdrY05jQ3c/style_logos_product_intro_definition.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Product icon design is inspired by the tactile and physical quality of material. Each icon is cut, folded, and lit as paper would be, but represented by simple graphic elements. The quality of the material is sturdy, with clean folds and crisp edges. The matte-like finish interacts with light through subtle highlights and consistent shadows.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bHMzZkNZekcxRVE/style_logos_product_intro_material_physical.png",
+                      "caption": "<p>Physical prototype</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YXp3Q1RIZ1BfNEk/style_logos_product_intro_material_lighting.png",
+                      "caption": "<p>Lighting study</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Design approach"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dzR3OXp5U1UtOEE/style_logos_product_intro_material_material.png",
+                      "caption": "<p>Material prototype</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YTRHMzFLb3FFOEk/style_logos_product_intro_material_color.png",
+                      "caption": "<p>Color study</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The product icon grid has been developed to facilitate consistency and establish a clear set of rules for the positioning of graphic elements. This standardization results in a flexible but coherent system.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RGQxNmZlUWdBTWc/style_logos_product_grid_logo_grid.png",
+                      "caption": "<p>Grid </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UGVGS0Q1OC02WUk/style_logos_product_grid_logo_keylines.png",
+                      "caption": "<p>Keylines </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Product icon grid"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Keyline shapes</h4><p>Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across related product icons.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ckxmSW90dlY4NGM/style_logos_product_grid_shapes_square.png",
+                      "caption": "<div class=\"caption-title\">Square</div><p>Height: 152dp<br>Width: 152dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QklSbXpmcjRSTlU/style_logos_product_grid_shapes_circle.png",
+                      "caption": "<div class=\"caption-title\">Circle </div><p>Diameter: 176dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c1YteERsbFAtd2c/style_logos_product_grid_shapes_vert_rectangle.png",
+                      "caption": "<div class=\"caption-title\">Vertical rectangle</div><p>Height: 176dp<br>Width: 128dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZDVOaW9oaEpXSHM/style_logos_product_grid_shapes_hori_rectangle.png",
+                      "caption": "<div class=\"caption-title\">Horizontal rectangle</div><p>Height:128dp<br>Width:176dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>DP unit grid</h4><p>Android expects product icons to be provided at 48dp, with edges at 1dp. When you create the icon, maintain the 48-unit measure, but scale it to 400% at 192 x 192 dp (the edge becomes 4dp). </p><p>Any scaling done to the original will scale the image up or down proportionally. By maintaining the unit ratio, you preserve sharp edges and correct alignment when the scale is reduced.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Q1FTY1pIY3FoS3M/style_logos_product_grid_unit_1to1.png",
+                      "caption": "<p>1:1 Unit grid </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TmtSeDQ3RnJPYkU/style_logos_product_grid_unit_4to1.png",
+                      "caption": "<p>4:1 Unit grid </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Geometry</h4><p>Preset standards have been determined for specific keylines: circle, square, rectangle, orthogonals, and diagonals. This small palette of universal and simple elements has been developed to unify product icons and systemize their placement on the grid.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TENSWHlTV2hRNlk/style_logos_product_grid_geometry1.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QkU2bEVFYk9odGs/style_logos_product_grid_geometry2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TVU3V0xTNm44X0E/style_logos_product_grid_geometry3.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7czBRWVhQUGRUZFk/style_logos_product_grid_geometry4.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Product icon anatomy describes the graphic elements that make up a product icon. The consistency of these elements across icons for a given brand is critical in maintaining a shared visual language. Familiarity with these elements makes it easier to understand characteristics of each logo and subtle differences between them. It will also help educate your eye to recognize the underlying structure of logo designs.<br></p><p>1. Finish<br>2. Material background<br>3. Material foreground<br>4. Color<br>5. Shadow</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eDY4dkFETnIwTHM/style_logos_product_anatomy_components.png",
+                      "caption": "<div class=\"caption-title\">Components</div><p>Each component is positioned on top of the previous one, always viewed from straight above.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7S3h0VFVRVFZwRnM/style_logos_product_anatomy_components_perspective.png",
+                      "caption": "<div class=\"caption-title\">Construction perspective</div><p>An exploded perspective example illustrating the context of each component of the logo construction.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Product icon anatomy"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YkhGUlV5U1pUbFk/style_logos_product_anatomy_material_background.png",
+                      "caption": "<div class=\"caption-title\">Material background</div><p>The back-most material element.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TEg1WjhLa0VDRFE/style_logos_product_anatomy_material_foreground.png",
+                      "caption": "<div class=\"caption-title\">Material foreground</div><p>A material element raised above, and casting a shadow upon, the material background.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Uy1Vc2c5TGEtOGs/style_logos_product_anatomy_color_spot.png",
+                      "caption": "<div class=\"caption-title\">Spot color</div><p>Color applied to a small portion of an element.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7d00tRHpROG9vcHc/style_logos_product_anatomy_color_flooding.png",
+                      "caption": "<div class=\"caption-title\">Flooding</div><p>Color applied to an entire element, edge-to-edge. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UzdCZ0MtOEpybGM/style_logos_product_anatomy_edges_tinted.png",
+                      "caption": "<div class=\"caption-title\">Tinted edge</div><p>The top edge of a material element. A tint is the mixture of a color with white, which lightens the original color.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RW5GbWN2Z2pNcGc/style_logos_product_anatomy_edges_shaded.png",
+                      "caption": "<div class=\"caption-title\">Shaded edge</div><p>The bottom edge of a material element. Shade is the mixture of a color with a darker hue, which darkens the original color.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NFpXM3dhRGNtd28/style_logos_product_anatomy_shadow.png",
+                      "caption": "<div class=\"caption-title\">Contact shadow</div><p>A soft shadow around all edges of a raised material element.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RVNWUUVZQmpwQVE/style_logos_product_anatomy_finish.png",
+                      "caption": "<div class=\"caption-title\">Finish</div><p>A soft tint above all elements to provide surface lighting, fading from upper-left to lower-right.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Lighting</h4><p>Within the material environment, virtual lights illuminate the scene and allow objects to cast shadows. A top light cast on material elements creates a contact shadow while highlighting the top and bottom edges. An angled light reinforces the sense of surface across the elements.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZlJqRXpSeEJoSjQ/style_logos_product_lighting_lighting_top.png",
+                      "caption": "<p>Top</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eWI1WGdhcE9xTEU/style_logos_product_lighting_lighting_45.png",
+                      "caption": "<p>45&#xBA; angle</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Product icon metrics"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Shadows</h4><p>For a product icon, the top light from above casts a soft shadow surrounding an element lightly on the top and left. The shadow is slightly heavier below and to the right. This shadow is always contained within the icon&#x2019;s silhouette.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MEtzZUxkM0tzeGs/style_logos_product_lighting_shadow.png",
+                      "caption": "<div class=\"caption-title\">Drop shadow metrics</div><p>Mode: Normal<br>Opacity: 20%<br>X Offset: 0dp<br>Y Offset: 4dp<br>Blur: 4dp<br>Color: Refer to Tint, shade and shadow values</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Edge tint and shade</h4><p>The top and bottom edges of material elements provide a sense of depth and surface. Material elements have a standard 1dp thickness. All edge distances are measured from an element&apos;s interior edge. <br><br>Tint highlights the top edge of all elements. The left, right, and bottom edges do not have a tint applied. <br><br>Shade darkens the bottom edge of all elements. The left, right, and top edges do not have a shade applied.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T21HZ3M4N3IwTDg/style_logos_product_lighting_edge_tinted.png",
+                      "caption": "<div class=\"caption-title\">Tinted edge</div><p>Height: 1dp<br>Opacity: 20%<br>Color: White (#FFFFFF)</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7d0JqZl9BOUVYcHc/style_logos_product_lighting_edge_shaded.png",
+                      "caption": "<div class=\"caption-title\">Shaded edge</div><p>Height: 1dp<br>Opacity: 20%<br>Color: Refer to Tint, shade and shadow values</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Finish</h4><p>The finish layer is a result of the virtual 45&#xBA; light source. It extends from the top-left corner to the exterior edge of the icon&#x2019;s silhouette. The finish is always contained within these boundaries.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ejNBS3NuRklaNHc/style_logos_product_lighting_finish.png",
+                      "caption": "<div class=\"caption-title\">Gradient metrics</div><p>Type: Radial<br>Angle: 45&#xBA;<br>Color: White (#FFFFFF)<br>Midpoint Location: 33%<br><br>Slider 1<br>Opacity: 10%<br>Location: 0%<br><br>Slider 2<br>Opacity: 0%<br>Location: 100%</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Tint, shade, and shadow values</h4><p>Each color reacts differently when tints and shades are added. The color of every edge tint, edge shade, and shadow needs to be adjusted for each color that lies behind it. To ensure color harmony, follow the appropriate value for each.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c2QtTjZJcEhQNWc/style_logos_product_lighting_values_cool.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VnJwcWFWNy1Ed0E/style_logos_product_lighting_values_fresh.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V0s3TGdGRVlXM0k/style_logos_product_lighting_values_warm.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZVVyVnhNcG9pVkk/style_logos_product_lighting_values_hot.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZGVnX1FaLTlYWVk/style_logos_product_lighting_values_neutral.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Influenced by the behavior of physical material, simple conventions provide a sense of surface and tactility. The interactions of material and color allow for numerous unique compositions.</p>"
+                }
+              ],
+              "title": "Product icon patterns"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Color</h4><p>Color elements are flush to the paper&#x2019;s surface.</p><p>Don&#x2019;t embellish color elements with any edges or shadows.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aTFQSWlWdGQ4M0E/style_logos_product_patterns_color_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZE5PWEtObkRaTU0/style_logos_product_patterns_color_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Layer</h4><p>Layered paper elements create depth, having edges and shadows. </p><p>Be cautious with the quantity of overlapping surfaces. Having too many complicates the icon and lacks focus.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7THNBbDd1MUFobHM/style_logos_product_patterns_layer_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UDhwbVphM01JcTg/style_logos_product_patterns_layer_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Elevate</h4><p>Elevating a key material element atop a simple background silhouette focuses attention to the center.</p><p>Don&#x2019;t crop elevated material elements within another shape.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QU54RENNaGdOR0E/style_logos_product_patterns_elevate_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TFlxRkZkdWd4bEk/style_logos_product_patterns_elevate_dont.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Score</h4><p>Scored material elements have the illusion of depth without losing their geometric form. Scores should be centered on symmetrical shapes.</p><p>Don&#x2019;t use multiple scores, or position a score off-center.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7REh5NnRCWUFkYVU/style_logos_product_patterns_score_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eDRXRkxQV1I4bWM/style_logos_product_patterns_score_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Fold</h4><p>Folded material elements are skewed, having greater dimension. Spot colors should be avoided, so as to avoid altering or misrepresenting key elements.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NUdvcXNfcW85QnM/style_logos_product_patterns_fold_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7THM3eXZHa19wSFk/style_logos_product_patterns_fold_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Overlap</h4><p>Overlapped material elements create unique silhouettes. All elements, edges, and shadows are confined to the interior of the silhouette.</p><p>Don&#x2019;t exceed more than two overlaps. Having too many complicates the icon and lacks focus.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZGdQTk9uMlRIRnM/style_logos_product_patterns_overlap_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QWFrNllZRXVuU3c/style_logos_product_patterns_overlap_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Accordion</h4><p>Accordion folded material elements are adjoined by a connecting fold, used to add dimension to a single material element.</p><p>Don&#x2019;t exceed more than two accordion folds. Having too many complicates the icon and lacks focus.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7S2FaUk9sSjVGMWs/style_logos_product_patterns_accordian_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7S1ZDOGRwQTlmdXc/style_logos_product_patterns_accordian_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Distort</h4><p>Product icons should never be distorted or transformed. Elements should remain in their geometric form, and not be skewed, rotated, bowed, warped, or bent. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SEFpbXNJYlYwTTA/style_logos_product_patterns_distort_do.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7U3loLXhUajB3TEE/style_logos_product_patterns_distort_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The below guidelines and examples illustrate best practices for incorporating human iconography into your UI. </p>"
+                }
+              ],
+              "title": "Human iconography"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Form</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEVHdmbzdTLTQ1UE0/style_icons_product_human_form1.png",
+                      "caption": "<p>Construction</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxESHA5VHBNYXlhTVU/style_icons_product_human_form2.png",
+                      "caption": "<p>Keyline alignment</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Keyline shapes</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEaFJwdzYzV19NODg/style_icons_product_human_keyline1.png",
+                      "caption": "<p>Square</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxENDhMRno5UmNmODg/style_icons_product_human_keyline2.png",
+                      "caption": "<p>Circle</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEWThOVnJiVGdtY28/style_icons_product_human_keyline3.png",
+                      "caption": "<p>Vertical rectangle</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEV3Z4UDloZEppc3M/style_icons_product_human_keyline4.png",
+                      "caption": "<p>Horizontal rectangle</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Paper vs color</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEakZDejI4a1VUVlE/style_icons_product_human_dimension1.png",
+                      "caption": "<p>Paper</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEZ0xYdG1UeTBpM0k/style_icons_product_human_dimension2.png",
+                      "caption": "<p>Color</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Gestures</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEZ0tER2N6WkJySFU/style_icons_product_human_gestures1.png",
+                      "caption": "<p>Construction</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEa3pyb0lZN2h6TlE/style_icons_product_human_gestures2.png",
+                      "caption": "<p>Composition</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Human icon rules</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEV2R6bkNDOUxFZ00/style_icons_product_human_best_do1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use simple shapes for background silhouettes.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEUW1KdllqUzVQaHc/style_icons_product_human_best_dont1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use complicated shapes for background silhouettes.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxETmVISVUtWmJ5d28/style_icons_product_human_best_do2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use the correct and consistent human form at all times.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEdlRnZWJ1cGRfM2s/style_icons_product_human_best_dont2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use an incorrect human form or add complex details.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEeWh0LVdobC1wS1E/style_icons_product_human_best_do3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use curved and straight edges for visual balance.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEYzkzaGc1MmVxd1E/style_icons_product_human_best_dont3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use circular arm terminals nor cropped arms.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "System icons",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A system icon, or UI icon, symbolizes a command, file, device, or directory. System icons are also used to represent common actions like trash, print, and save.</p><p>The design of system icons is simple, modern, friendly, and sometimes quirky. Each icon is reduced to its minimal form, with every idea edited to its essence. The designs ensure readability and clarity even at small sizes.</p><div class=\"modulettes\">\n          <a class=\"modulette default\" href=\"https://www.google.com/design/icons/\" title=\"Material design icons\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_default.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Material design icons</div>\n        <span class=\"subtitle\">Download our system icons</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OFZFR1ZOUmFWTEE/style_icons_system_intro.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Shapes are bold and geometric. </p><p>Symmetry and consistency of shapes give the icons a unique quality, while keeping them simple and bold. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7emgtQk5rdEE3bW8/style_icons_system_intro_principles_simple.png",
+                      "caption": "<p>Simple</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MGhHV055eGk0R2M/style_icons_system_intro_principles_intuitive.png",
+                      "caption": "<p>Intuitive</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Design principles"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MG80dmpHT0RidGs/style_icons_system_intro_principles_actionable.png",
+                      "caption": "<p>Actionable</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7blViQzF0azNqZU0/style_icons_system_intro_principles_consistent.png",
+                      "caption": "<p>Consistent</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>DP unit grid</h4><p>System icons are displayed at 24dp. When creating icons, it&#x2019;s important to design at 100% scale for pixel-accuracy.</p><p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts. For dense layouts on desktop, icons can be scaled down to 20dp. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cEVfc2JKc1FQMWs/style_icons_system_grid_unitgrid_100.png",
+                      "caption": "<p>100% scale</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OFVpQ2dwdHJPcEk/style_icons_system_grid_icongrid_800.png",
+                      "caption": "<p>800% scale</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cUJrVjVYdExuMVE/style_icons_system_grid_unitgrid_100_dense.png",
+                      "caption": "<p>Dense grid at 20dp, 100% scale</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TVQ1TEJoZ2d3bUE/style_icons_system_grid_icongrid_800_dense.png",
+                      "caption": "<p>Dense grid at 20dp, 800% scale</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Grid, proportion, and size"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Icon grid</h4><p>The icon grid has been developed to facilitate consistency and establish a clear set of rules for the positioning of graphic elements. This standardization results in a flexible but coherent system.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V1BlX2wxZ3UxRjA/style_icons_system_grid_icongrid_grid.png",
+                      "caption": "<p>Grid</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ci1INUExYVRTMk0/style_icons_system_grid_icongrid_keylines.png",
+                      "caption": "<p>Keylines</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Content area</h4><p>The content of an icon should remain inside of the live area. Content should only extend into the trim area if additional visual weight is needed. Do not place any part of the icon outside of the trim area.</p><p><strong>Dense layouts</strong></p><p>For dense layouts on desktop, icons may be scaled down to 20dp with a trim area of 2dp surrounding the icon.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7X2dma3g0Z3lZRG8/style_icons_system_grid_area_live.png",
+                      "caption": "<div class=\"caption-title\">Live area</div><p>Icon content is limited to the 20dp x 20dp live area, with 4dp of trim around the perimeter.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ODloaXNHZnhOU0E/style_icons_system_grid_area_trim.png",
+                      "caption": "<div class=\"caption-title\">Trim area</div><p>4px of empty space makes up the trim area surrounding the 20dp x 20dp live area.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S1Vibk5ESTE4MnM/style_icons_system_grid_area_live_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense live area</div><p>Icon content is limited to the 16dp x 16dp live area, with 2dp of trim around the perimeter.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QXJtWXd5eENwUHc/style_icons_system_grid_area_trim_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense trim area</div><p>The 2dp of empty space makes up the trim area surrounding the live area.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Keyline shapes</h4><p>Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion throughout the system icons.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SV9JODh5azZzR3c/style_icons_system_grid_shapes_square.png",
+                      "caption": "<p>Square</p><p>Height: 18dp<br>Width: 18dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bUlaTVBxVkVkYk0/style_icons_system_grid_shapes_circle.png",
+                      "caption": "<p>Circle</p><p>Diameter: 20dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7REk3c0tnQm5QV2M/style_icons_system_grid_shapes_vert_rectangle.png",
+                      "caption": "<div class=\"caption-title\">Vertical rectangle</div><p>Height: 20dp<br>Width: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cWxzWnotamNZamM/style_icons_system_grid_shapes_hori_rectangle.png",
+                      "caption": "<div class=\"caption-title\">Horizontal rectangle</div><p>Height: 16dp<br>Width: 20dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Geometry</h4><p>Preset standards have been determined for specific keylines: circle, square, rectangle, orthogonals, and diagonals. This small palette of universal and simple elements has been developed to unify Google system icons and systemize their placement on the icon grid.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7em9MVTRJRlQ2Yjg/style_icons_system_grid_geometry1.png",
+                      "caption": "<p>Construction</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VXlvR05VSWhPZTg/style_icons_system_grid_geometry2.png",
+                      "caption": "<p>Composition</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>System icon anatomy</h4><p>1. Stroke terminal<br>2. Corner<br>3. Counter area<br>4. Stroke<br>5. Counter stroke<br>6. Bounding area</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eHZJS0tIbGRPYVk/style_icons_system_anatomy.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Corners</h4><p>Consistent corner radiuses are key to unifying the overall system icon family. A 2dp corner radius is used on the silhouette form of the icon. Do not round the corners of strokes (shapes 2dp wide or less). </p><p>Interior corners should be square. Do not round the corners of interior shapes. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7alFGeDJYR1RlRDQ/style_icons_system_anatomy_corner_exterior.png",
+                      "caption": "<p>Exterior corners</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Z0JuRk9LaVhjazA/style_icons_system_anatomy_corner_interior.png",
+                      "caption": "<p>Interior corners</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Strokes</h4><p>Consistent stroke weights are key to unifying the overall system icon family. Maintain a 2dp width for all stroke instances, including curves, angles, and both interior and exterior strokes. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TkF3OXNxNGczcGc/style_icons_system_anatomy_strokes_consistency.png",
+                      "caption": "<p>Consistency</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MFU1VmI2WjNMcEE/style_icons_system_anatomy_strokes_curves.png",
+                      "caption": "<p>Curves and angles</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aDZaOWJhTlhrMm8/style_icons_system_anatomy_strokes_terminal.png",
+                      "caption": "<p>Stroke terminal</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZXhnWGo5YUVGcEE/style_icons_system_anatomy_strokes_counter.png",
+                      "caption": "<p>Counter stroke</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Optical corrections</h4><p>Extreme scenarios that call for subtle tweaks add to the legibility of an icon. Instances where complex details are unavoidable require adjusting metrics.</p><p>If optical corrections are necessary, only use the consistent geometric forms on which all other icons are based. Don&#x2019;t skew or distort the forms.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7d2dfbW56UkJYRms/style_icons_system_anatomy_optical_complex.png",
+                      "caption": "<div class=\"caption-title\">Complex</div><p>The paperclip icon in this example is only using 1.5dp of the possible 2dp stroke area to fit multiple curves within the 24 x 24dp icon space.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VkNYYzJBZjMtY3M/style_icons_system_anatomy_optical_small.png",
+                      "caption": "<div class=\"caption-title\">Small scale</div><p>The microphone icon in this example is using a 1.5dp stroke to indicate microphone sound waves within the 24 x 24dp icon space.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Clearance</h4><p>Adequate space around the icon is needed to allow for legibility and touch.</p><p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UmxkMWNSY2lqcFE/style_icons_system_anatomy_clearance_area.png",
+                      "caption": "<p>Clearance area</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZXZkZUFxRUIzcTg/style_icons_system_anatomy_clearance_placement.png",
+                      "caption": "<p>Placement</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RFF2eUdJbU1UeG8/style_icons_system_anatomy_clearance__area_dense.png",
+                      "caption": "<p>Clearance area for dense icons</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Consistency aids user comprehension of icons. Use the existing system icons whenever possible and across different applications.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SUV1b2Z3b3NBazA/style_icons_system_best_do1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use consistent stroke weights and squared stroke terminals.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QnJyTEJBT3JlMGM/style_icons_system_best_dont1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use inconsistent stroke weights or rounded stroke terminals.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Best practices"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TXFpZDRtNkU1cVk/style_icons_system_best_do2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do make icons appear front-facing and sturdy.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WTdHcDBQUnZTcEk/style_icons_system_best_dont2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t tilt, rotate, or make icons appear dimensional.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7azQ4WThPb25NOGc/style_icons_system_best_do3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do simplify icons for greater clarity and legibility.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7X0lpa1pSa1JvRzQ/style_icons_system_best_dont3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t be overly literal. Avoid complex icons.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dFpyaENONWJpcDQ/style_icons_system_best_do4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do make icons graphic and bold.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7R0dxcjUwdnQ1S00/style_icons_system_best_dont4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use delicate, thin stroke weights.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NWJNczRWeENwNlE/style_icons_system_best_do5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use geometric, consistent shapes.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MzljUUs3aUtmdGM/style_icons_system_best_dont5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use gestural or loose organic shapes.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TlMzRTJkZTVsQTg/style_icons_system_best_do6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do position icons &#x201C;on pixel&#x201D; &#x2013; meaning the X and Y coordinates are integers and do not contain decimals. </p><p>Icons should have equal width and height (e.g. 24x24) to avoid distorting the icon.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c2ZJUFZsUVBrRUk/style_icons_system_best_dont6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t place the icon on coordinate that is not &#x201C;on pixel&#x201D;.</p><p>Don&#x2019;t distort the icon by having unequal width and height values. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Human icon anatomy</h4><p>1. Head<br>2. Neck<br>3. Upper body<br>4. Arm<br>5. Leg</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEQThQWmsydktfVDg/style_icons_system_human_anatomy1.png",
+                      "caption": "<div class=\"caption-title\">Full body</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEZGxXR2h0NV8tTU0/style_icons_system_human_anatomy2.png",
+                      "caption": "<div class=\"caption-title\">Upper body</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Human iconography"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Form</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxETGRvNGwzQW1zX3c/style_icons_system_human_form1.png",
+                      "caption": "<div class=\"caption-title\">Full body example</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEYV9lUXhac0c1TFk/style_icons_system_human_form2.png",
+                      "caption": "<div class=\"caption-title\">Upper body example</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxENllmcVJvSlh5MG8/style_icons_system_human_form3.png",
+                      "caption": "<div class=\"caption-title\">Cropped example</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEejEydFdqaWdaN0U/style_icons_system_human_form4.png",
+                      "caption": "<div class=\"caption-title\">Detailed parts example</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Full body</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEWHJRUWVvMU9Kenc/style_icons_system_human_fullbody1.png",
+                      "caption": "<div class=\"caption-title\">Full body examples</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEeDctSmNna2lIQUE/style_icons_system_human_fullbody2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEY01hajAtWkVVcmc/style_icons_system_human_fullbody3.png",
+                      "caption": "<div class=\"caption-title\">Visual Alignment</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Upper body</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEM3oxZGpvQUVabDQ/style_icons_system_human_upperbody1.png",
+                      "caption": "<div class=\"caption-title\">Upper body examples</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEUGFteENzbjVRdkE/style_icons_system_human_upperbody2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEcGY1Y2FXOVlNU2M/style_icons_system_human_upperbody3.png",
+                      "caption": "<div class=\"caption-title\">Visual Alignment</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Contained</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEYThUX0JrQWtPQTg/style_icons_system_human_contained1.png",
+                      "caption": "<div class=\"caption-title\">Cropped examples</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEMWJXbVRlU3ZZanM/style_icons_system_human_contained2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Detailed parts</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEYWJpRldIMTNVa2s/style_icons_system_human_detailedparts1.png",
+                      "caption": "<div class=\"caption-title\">Detailed part examples</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEWGVpRjVwZWoxMnc/style_icons_system_human_detailedparts2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Human icon rules</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxERm1LYnQwUDdnU0k/style_icons_system_human_best_do1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use consistent stroke weights and squared arm/leg terminals.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEdWpfWFYwdmpueEk/style_icons_system_human_best_dont1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use inconsistent stroke weights nor rounded arms/legs.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxETDlCVVdfbnhKMmc/style_icons_system_human_best_do2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do align elements to simplify silhouette for clarity.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEbmRDSG4zd3BDQk0/style_icons_system_human_best_dont2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t crop portions of arms/legs.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEUkpyclJHYWxCYUk/style_icons_system_human_best_do3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do fully embed elements within a shape when contained.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEUnV2SHhNQnNEdnM/style_icons_system_human_best_dont3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t break the container&#x2019;s boundary with elements.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxERkdFQ2NraDNnbW8/style_icons_system_human_best_do4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do add human elements when they help amplify the meaning of an icon.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEQ25sSkVWZ095U0k/style_icons_system_human_best_dont4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t add human elements when they increase the complexity of an icon.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxEZDlBQS1LTVZlSUk/style_icons_system_human_best_do5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Do use the most simple shapes to represent human characteristics.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B5-3BCtasWxERHU0N0o4VmRYd1E/style_icons_system_human_best_dont5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t apply human characteristics to inanimate objects.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The standard opacity for an active icon on a light background is 54% (#000000). An inactive icon, which is lower in the visual hierarchy, should have an opacity of 26% (#000000).</p><p>The standard opacity for an active icon on a dark background is 100% (#FFFFFF). An inactive icon, which is lower in the visual hierarchy, should have an opacity of 30% (#FFFFFF).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7STNoWnkzTjZuMGc/style_icons_system_color1.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SWpvOVRKOWdHYTQ/style_icons_system_color2.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Color"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

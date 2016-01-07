@@ -1,0 +1,428 @@
+{
+  "title": "Bidirectionality",
+  "href": "http://www.google.com/design/spec/usability/bidirectionality.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>A well-designed app can be easily localized for language scripts that are written and read from left-to-right (LTR), such as English, and for <em>bidirectional</em>&#xA0;language scripts. </p><p>In bidirectional scripts, text is written and read from right-to-left, but numbers and embedded words from LTR languages, such as non-localized names, are written left-to-right (LTR). Bidirectional scripts include Arabic, Hebrew, and Persian.</p><p>Bidirectionality affects not only the layout of text and UI elements but also iconography. This section provides basic, high-level information about how to consider bidirectionality in design.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "UI mirroring overview",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The main difference between left-to-right (LTR) and right-to-left (RTL) interfaces is how the passage of time is articulated. Languages that use LTR scripts depict time as passing from left to right, and languages that use RTL scripts depict time as passing from right to left.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Mirroring refers to changing the UI from LTR to RTL or vice-versa, affecting both app layout and graphical elements. Note that the content of text strings, numbers, and embedded words from LTR scripts are not mirrored; they are presented LTR. (The content of text strings are never mirrored; it is always in the correct direction for the language.)</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The RTL layout is the mirror image of the LTR layout. </p><p>Key layout changes:</p><ul><li>Icons are to the right of text fields. </li><li>The navigation buttons are in reverse order. </li><li>Icons that communicate direction, like the speaker icon, are mirrored. </li><li>Icons that do not communicate direction, such as a camera and a check mark, remain unmirrored.</li><li>Text is mirrored, but the clock and phone number are not. Numbers in RTL scripts are displayed LTR.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbW1zYjVWTk03TzA/usability_bidirectionality_mirror1.png",
+                      "caption": "<p>Example using LTR UI</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsb3NQTFZZVUI4WHM/usability_bidirectionality_mirror2.png",
+                      "caption": "<p>Example using RTL UI in Hebrew. Numbers are presented LTR.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "RTL mirroring guidelines",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Follow these guidelines for mirroring text, layout, and iconography to support right-to-left UIs.</p><p>The guiding principle for RTL interfaces is that time moves from right to left. Forward points to the left, backwards points to the right. </p><p>The most important icons for mirroring are back and forward buttons.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Back and forward navigational buttons are reversed.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dDRHMVd5SDVRR2c/usability_bidirectionality_guidelines_when1.png",
+                      "caption": "<p>LTR back button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7blFsaE1ObGlsR00/usability_bidirectionality_guidelines_when2.png",
+                      "caption": "<p>RTL back button</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "When to mirror"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NUFOeEo0NXJyNTQ/usability_bidirectionality_guidelines_when3.png",
+                      "caption": "<p>LTR forward button</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VUR5d3I5MmVGVVU/usability_bidirectionality_guidelines_when4.png",
+                      "caption": "<p>RTL forward button</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>An icon that shows forward movement should be mirrored.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Mlczb3FqRk5UbjQ/usability_bidirectionality_guidelines_when5.png",
+                      "caption": "<p>An LTR bicycle moving forward points to the right.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UnhDWDVVaE5xYUk/usability_bidirectionality_guidelines_when6.png",
+                      "caption": "<p>An RTL bicycle moving forward points to the left.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Other things are more subtle. For example, an icon that represents a setting uses a slash through the icon to indicate the off state. In an LTR interface, the slash goes from top left to bottom right. In an RTL interface, the slash goes from top right to bottom left.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QlJCaTctQzVGM2s/usability_bidirectionality_guidelines_when7.png",
+                      "caption": "<p>An LTR off state of airplane mode.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UTJqbFEtY1J2S3c/usability_bidirectionality_guidelines_when8.png",
+                      "caption": "<div class=\"caption-title\">An RTL off state of airplane mode.</div><p>Within the image, the slash is mirrored. The airplane itself points straight up. No special treatment is needed. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A volume icon with a slider at its right side should be mirrored. The slider should progress RTL, and the sound waves should emerge from the right.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dWhJYlZqaDZUTWs/usability_bidirectionality_guidelines_when9.png",
+                      "caption": "<p>LTR volume with slider</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bGVzcFkweHE3SDA/usability_bidirectionality_guidelines_when10.png",
+                      "caption": "<p>RTL volume with speaker icon and slider mirrored</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Icons of people, heads, or faces should typically mirror, especially if they appear close to text. This is so the people face forward, towards the text, instead of backward, shying away from the text.</p><p>This can sometimes be very subtle, as with an angled or slightly turned face, or a grouping of faces. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cTZsM0MzTnhZelU/usability_bidirectionality_guidelines_when11.png",
+                      "caption": "<p>LTR group icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7V2xkNFZKTzhKV3c/usability_bidirectionality_guidelines_when12.png",
+                      "caption": "<p>RTL group icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Sometimes, both the horizontal and circular direction of time are implied in an icon. For example, the redo and undo buttons in Google Docs have both a horizontal direction and a circular direction. </p><p>In LTR, these point to the same direction in both circular and horizontal representations of time. In RTL, choose whether to show circular or horizontal direction.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VGc3VGlSREh4QjA/usability_bidirectionality_guidelines_when13.png",
+                      "caption": "<p>LTR redo and undo button from the toolbar in Google Docs</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Icons that contain representations of text need careful mirroring. </p><p>Text is right-aligned in RTL. If there is a paragraph indent at the beginning of a paragraph, an unfinished line at the end of the paragraph, or a ragged right side, the icons need to be mirrored. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7d0ptRHkxZTNKTEU/usability_bidirectionality_guidelines_when14.png",
+                      "caption": "<p>LTR chat icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VmNfazQ1VlRULTQ/usability_bidirectionality_guidelines_when15.png",
+                      "caption": "<p>RTL chat icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>While the linear representation of time is mirrored in RTL, the <strong>circular</strong>&#xA0;direction of time is not. Clocks still turn clockwise for RTL languages. A clock icon or a circular refresh or progress indicator with an arrow pointing clockwise should not be mirrored.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aVNuMkh2NExFejQ/usability_bidirectionality_guidelines_whennot1.png",
+                      "caption": "<p>The refresh icon shows time moving forward; the direction is clockwise. The icon is not mirrored.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YmhueHpTY1ZyN3c/usability_bidirectionality_guidelines_whennot2.png",
+                      "caption": "<p>The history icon points backwards in time; the direction is counter-clockwise. The icon is not mirrored.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "When not to mirror"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Some icons refer to physical objects that are not mirrored in the right-to-left world. </p><p>For example, physical keyboards look the same everywhere in the world, so they should not be mirrored.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c2M0WDlSakI4akE/usability_bidirectionality_guidelines_whennot3.png",
+                      "caption": "<p>Keyboard icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RF9wQmxRbEM3dmM/usability_bidirectionality_guidelines_whennot4.png",
+                      "caption": "<p>Headset icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Certain icons might seem directional but they actually represent holding an object with one&#x2019;s right hand. </p><p>For example, the search icon typically has its handle at the bottom right side, because the majority of users are right-handed. </p><p>The majority of users in RTL-writing countries are also right-handed, so such icons should not be mirrored.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dmd3YXBWVmx1VG8/usability_bidirectionality_guidelines_whennot5.png",
+                      "caption": "<p>Search icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T1VfckZScnkxbVE/usability_bidirectionality_guidelines_whennot6.png",
+                      "caption": "<p>Local cafe icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Media playback buttons and the progress indicator are not mirrored. The LTR direction of these elements represents the direction of the tape, not the direction of time. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TGMxd3hNaUlhUjQ/usability_bidirectionality_guidelines_whennot7.png",
+                      "caption": "<p>Since media playback buttons and the progress indicator reflect the direction of the tape, they are not mirrored. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Sl9mNVJhVTJmWTA/usability_bidirectionality_guidelines_whennot_do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Media controls for playback are always LTR. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YVNKNFZPbDdOZkE/usability_bidirectionality_guidelines_whennot_dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Do not mirror media playback or progress bars. The direction of these elements represents the direction of the tape, not the direction of time. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Other localization considerations",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Because text in graphical elements will always require localization, try to convey concepts in ways that don&#x2019;t use text.</p>"
+                }
+              ],
+              "title": "Text in graphics"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Numbers are also text. Icons containing numbers must be localized for languages that use different numerals. For example, Bengali, Marathi, Nepali, and most Arabic locales use different forms of numbers. An icon containing these numerals would have to be redrawn to accommodate their shape.</p><p>Mirroring may be needed even for LTR locales. For example, if one is editing an RTL paragraph inside an English document in Google Docs, the buttons for indenting and lists should be RTL even though the primary UI direction is LTR.</p>"
+                }
+              ],
+              "title": "Numbers"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

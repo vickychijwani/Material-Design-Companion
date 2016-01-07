@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- widget styles -->
+    <style name="MaterialCardView">
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:layout_marginTop">@dimen/margin_large</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">@anim/lift_on_touch</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/margin_large</item>
+        <item name="android:layout_marginLeft">@dimen/margin_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_large</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">@dimen/margin_large</item>
+    </style>
+
+    <style name="MaterialScrollView">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+</resources>

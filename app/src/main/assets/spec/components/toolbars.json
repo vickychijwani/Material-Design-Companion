@@ -1,0 +1,132 @@
+{
+  "title": "Toolbars",
+  "href": "http://www.google.com/design/spec/components/toolbars.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Toolbars appear a step above the sheet of paper affected by their actions. When sheets scroll underneath toolbars, they are clipped and cannot pass through to the opposite side.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6NVBZNXNqTi1EekU/layout_principles_papercraft_toolbars4.png",
+                      "caption": "<p>Toolbars are located a step above another sheet.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Sheets can also cover the toolbar as they move offscreen.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6UGdNUDhaS2Q1NTQ/layout_principles_papercraft_toolbars6.png",
+                      "caption": "<p>The toolbar maintains its seam until it moves off of the screen.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Finally, the second sheet can cover the toolbar as it moves.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6em1UN3N0OHAwNVE/layout_principles_papercraft_toolbars7.png",
+                      "caption": "<p>The second sheet covers the toolbar as it moves.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A toolbar&#x2019;s left and right actions are never split by another sheet of material, with the exception of temporary materials such as menus or dialogs.</p><p>Instead, toolbars can constrain their width to make space for sheets of paper passing over them. The actions on the left and right cluster to stay on the same side of a toolbar.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6elVJaFhzQ3lKems/layout_principles_papercraft_toolbars2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Constrain width to less than the full length of its material.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6WG9DcWl0T2FxcFk/layout_principles_papercraft_toolbars3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Never allow a sheet of material to be split by another persistent sheet of material.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Toolbars can share a seam with another sheet.</p><p>In cases where they share a seam that transforms into a step, it is called a <strong>waterfall</strong>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B9PCOJnbdRP6MW9GYVd3T3VtWms/layout_principles_papercraft_toolbars5.png",
+                      "caption": "<p>In the waterfall variant of clipping, the toolbar starts out as seamed and then lifts to form a step.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

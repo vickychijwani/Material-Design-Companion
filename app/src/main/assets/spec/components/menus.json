@@ -1,0 +1,737 @@
+{
+  "title": "Menus",
+  "href": "http://www.google.com/design/spec/components/menus.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Menus allow users to take an action by selecting from a list of choices revealed upon opening a temporary, new sheet of material.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A menu is a temporary piece of material emitted from a button, an action, a pointer, or another control that contains at least two menu items.</p><p>Each menu item is a discrete option or action that can affect the app, the view, or selected elements within a view.</p><p>Menus should not be used as a primary method for navigation within an app.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzN2RZYTY5dnE0RG8/components_menus_usage1.png",
+                      "caption": "<p>The action overflow in the app bar will emit a menu.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzdmJrQUk3aXd0RTg/components_menus_usage2.png",
+                      "caption": "<p>This particular action overflow menu contains four menu items: Refresh, Help &amp; feedback, Settings, and Sign out. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The label of an emitting button or control concisely and accurately reflects the menu items contained within the menu. Menu bars typically use single words as labels, like &#x201C;file,&#x201D; &#x201C;format,&#x201D; &#x201C;edit,&#x201D; and &#x201C;view,&#x201D; while other contexts may have more verbose labels.</p><p>Menus display a consistent set of menu items, each of which may be enabled or disabled based on the current state of the application.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Nk96b1dDMTVXUVU/components_menus_usage3do.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The title &#x201C;View&#x201D; accurately describes the unifying characteristic of the menu items it contains.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UXdRTnVZOE5OaTg/components_menus_usage3dont.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The title &#x201C;Stuff&#x201D; is not descriptive and does not help users predict what menu items they will find in the Stuff menu.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Contextual menus dynamically change their available and enabled menu items based on the current state of the application. </p><p>Generally, remove menu items that are irrelevant to the current context, and disable menu items which are relevant but need certain conditions to be met (for example, Copy becomes enabled when text is selected). </p><p>Certain application states may result in a contextual menu containing only a single menu item. For example,  when highlighting text on a web page, Android reveals only Copy,  since users cannot cut or paste text.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c0ZsY292S1ZxZGs/components_menus_usage4a.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eTlxdXpxd2Y3M00/components_menus_usage4b.png",
+                      "caption": "<p>Contextual menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If the height of a menu prevents all menu items from being displayed, the menu can scroll internally. One example is when viewing a menu on a phone in landscape orientation.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q05OWk5YLUh0NGc/components_menus_usage6.png",
+                      "caption": "<p>Internally scrolling menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Desktop: a menu can also cascade. Reposition menus vertically and horizontally based on their proximity to screen edges.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dlkwTUdncmtTTXM/components_menus_usage7.png",
+                      "caption": "<p>Cascading menu on desktop</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Desktop: These animations show scrolling and cascading menus in action.</p><p>Note: Implementations of this component may vary by platform. By using standard platform implementations, you will receive any related future improvements.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNaDNNa01QX2x4UkU/components-menus-menus-cascading_dropdown_spec_large_xhdpi.webm",
+                      "caption": "<p>Cascading drop down on desktop</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUWtQaDc0MnJOUmc/Components-Menus-Usage-Textfield_Dropdown_xhdpi_006.webm",
+                      "caption": "<p>Textfield dropdown</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNmZiTzlockdCT2c/Component-Menus-Usage_Appbar_Dropdown_xhdpi_004.webm",
+                      "caption": "<p>App bar dropdown</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Menu items",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Each menu item is limited to a single line of text that describes the action it will perform when selected.</p><p>The text is generally a single word or short phrase, but it can include icons and helper text, like keyboard shortcuts, as well as controls like checkmarks to indicate multiple selected items or states. See also <a href=\"http://www.google.com/design/spec/components/lists-controls.html\">List controls</a>.</p><p>Menus with static content should have the most frequently used menu items placed at the top of the menu.</p><p>Menus with dynamic content may have other behavior, such as placing previously used fonts at the top of the menu. The order can change based on user actions.</p><p>Menu items can reveal nested submenus. Try to limit nesting to one level deep, as it can be difficult to navigate multiple nested submenus.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VkEwT09kS3lOdFE/components_menus_items1.png",
+                      "caption": "<p>Examples of menu items</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Displaying actions as disabled, rather than removing them, lets the user know they exist under the right conditions.</p><p>For example, Redo is disabled when there is nothing to redo. Cut and Copy are disabled until content is selected. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bmZ1ajBVaXhsNTQ/components_menus_items2.png",
+                      "caption": "<p>Examples of disabled actions</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Menus appear above all other in-app UI elements.</p><p>Dismiss a menu by tapping outside of the menu, or by tapping the emitting button (if visible).</p><p>Generally, selecting a menu item will also dismiss the menu. An exception is when a menu allows for multiple items to be chosen, for example, by using checkmarks.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Q1pnd2dGclRhRTQ/components_menus_behavior1.png",
+                      "caption": "<p>Example of menu appearing over all other in-app UI elements.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Menus are positioned over their emitting elements such that the currently selected menu item appears on top of the emitting element.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VGxlSGNVWmNJX3c/components_menus_behavior2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The currently selected menu item appears over the emitting element.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Do not display a duplicate of the selected menu item.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VFdzUDJWQTE3N1U/components_menus_behavior3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Do not display a duplicate of the selected menu item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Positioning the menu below the emitting element separates it from its context.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3U2kzRmFoR2Q3OVU/components_menus_behavior4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Menus are positioned over their emitting element.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Simple Menus",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When close to a screen edge, simple menus reposition their vertical alignment so that all menu items are completely visible.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Simple menus are used in list views on tablet and mobile devices to display the options for a specific list item.</p><p><strong>Disambiguation:</strong> In contrast to simple menus, <a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-simple-dialogs\">simple dialogs</a> can present additional detail related to the options available for a list item or provide navigational or orthogonal actions related to the primary task. Although they can display the same content, simple menus are preferred over simple dialogs because simple menus are less disruptive to the user&#x2019;s current context.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use simple menus in lists to display the options for a specific list item.</p><p>Choosing an option immediately commits the option and closes the menu.</p><p>Touching outside of the menu, or pressing the system Back button, cancels the action and closes the menu.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRDRDOXdsR1plOUU/components_dialogs_simplemenus1.png",
+                      "caption": "<p>Example of simple menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When opened, simple menus attempt to vertically align the currently selected menu item with the list item. The currently selected menu item is highlighted.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscEN4TlItQ1R4d3c/components_dialogs_simplemenus2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The currently selected menu item aligns vertically over the list item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbXpoZkNIcXgxc3M/components_dialogs_simplemenus3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The currently selected menu item aligns vertically over the list item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Do not arbitrarily position the first menu item over the list item.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWVNNYWoxV3hYT28/components_dialogs_simplemenus5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The first menu item is arbitrarily positioned over the list item, regardless of the currently selected menu item.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When close to a screen edge, simple menus reposition their vertical alignment so that all menu items are completely visible.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRmtOT0hySXRMYjg/components_dialogs_simplemenus4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The currently selected menu item normally would be positioned over the list item, but because doing so in this case would cause part of the menu to appear off-screen, the entire menu is repositioned vertically.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Simple menus appear over their emitting element, not below.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NzVwUlN5aDlPVU0/components_dialogs_simplemenus6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Simple menus appear over their emitting element.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WEFUUlg1WjR1eHM/components_dialogs_simplemenus7.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Simple menus do not appear below their emitting element.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Menu width varies depending on string length, and on mobile is defined as a multiple of a 56dp unit.</p><p>Simple menus always maintain a 16dp margin (phone) or 24dp margin (tablet) to the left and right edges of the screen.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPWE9mQmpvem1WVWs/components_dialogs_simplemenus8.png",
+                      "caption": "<p>Simple menu with a 16dp margin.</p><p>Each unit is 56dp wide.</p><p>Minimum width on mobile = 2 * 56dp = 112dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPSmluWU5MSExRWms/components_dialogs_simplemenus9.png",
+                      "caption": "<p>Simple menu with 16dp margins on the left and right.</p><p>Each unit is 56dp wide.</p><p>Maximum width on mobile (in both portrait and landscape) = 5 * 56dp = 280dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If text in a simple menu wraps to a second line, use a <a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-simple-dialogs\">simple dialog</a> instead. Simple dialogs can have rows with varying heights.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsM1JlMU1GQlVCajg/components_dialogs_simplemenus10.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use a simple dialog if any text in a simple menu wraps to a second line.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdzQ5ekJONHpJaU0/components_dialogs_simplemenus11.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t truncate text in a simple menu. Use a simple dialog instead.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Menus show a persistent scroll bar when content is scrollable.</p><p>The maximum height of a simple menu should be one or more rows less than the view height. This ensures a tappable area outside of the simple menu with which to dismiss the menu.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsM3lfVmVsWk9KRUE/components_dialogs_simplemenus12.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Display a scroll bar by default for scrollable content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsX1p4YVVlWjk4MTA/components_dialogs_simplemenus13.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Without a scroll bar, it&#x2019;s unclear if there are additional menu items available.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t duplicate the selected menu item.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdF8wbDhKSUpVM2s/components_dialogs_simplemenus14.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Each menu item appears only once.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdTVtZzBDcVVQSE0/components_dialogs_simplemenus15.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t display a duplicate of the selected element.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Simple menus are always left-aligned with the start of the list item text and do not reposition horizontally based on touch location.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzV05ZRkdMOFRidkU/components_dialogs_simplemenus16.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Simple menus are left-aligned regardless of touch location.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzYnRPT2RCdkh6R28/components_dialogs_simplemenus17.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Simple menus do not reposition based on touch location.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Specs are provided for various sizes and types of menus and for different platforms. Add 8dp padding at the top and bottom of a menu.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bEZ2SjJVb195VmM/components_menus_specs1.png",
+                      "caption": "<p>Menu item height: 48dp<br>Menu item text left padding: 16dp<br>Menu item text bottom padding: 20dp</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Mobile"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Y0EtMTR1YXN5dTg/components_menus_specs2.png",
+                      "caption": "<p>Menus of various widths: min width 1.5 x, 3x, 6x and 7x</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Various widths"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TWEzWUtlNW9GeEE/components_menus_specs3.png",
+                      "caption": "<p>Cascading menu on desktop</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Cascading menu"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WjFra1IxUXp5NGM/components_menus_specs4.png",
+                      "caption": "<p>Cascading menu top padding: 16dp<br>Cascading menu left padding: 24dp<br>Cascading menu item height: 32dp<br>Menu item icon right padding: 32dp<br>Menu sub-item left padding: 64dp</p><p>15pt Roboto font</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Cascading redlines"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

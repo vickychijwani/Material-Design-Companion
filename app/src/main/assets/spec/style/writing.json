@@ -1,0 +1,987 @@
+{
+  "title": "Writing",
+  "href": "http://www.google.com/design/spec/style/writing.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Clear, accurate, and concise text makes interfaces more usable and builds trust. Strive to write text that is understandable by anyone, anywhere, regardless of their culture or language.</p><p>In addition to these guidelines, be sure to consult guidelines for specific UI elements, such as <a href=\"http://www.google.com/design/spec/patterns/errors.html\">Errors</a>, <a href=\"http://www.google.com/design/spec/components/dialogs.html\">Dialogs</a>, <a href=\"http://www.google.com/design/spec/patterns/settings.html\">Settings</a>, and  <a href=\"http://www.google.com/design/spec/patterns/data-formats.html\">Data formats</a></p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Language",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Speak directly to users as &#x201C;you,&#x201D; not &#x201C;me.&#x201D; Don&#x2019;t put words in the users&#x2019; mouths, with phrases that use &#x201C;I&#x201D; or &#x201C;my.&#x201D;</p><p>Exceptions include:</p><ul><li>Some legal opt-ins: &#x201C;I agree to follow the UX Writing Guidelines.&#x201D;</li><li>Some Google Play categories, such as &quot;My music&quot; or &quot;My books&quot;</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Speak to the user as “you”"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Rewrite to focus on the user and what they can do with your app, rather than what you or your app is doing for the user.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Don’t refer to “we”"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>One exception is when a human (not software) actually does take action for a user, such as reviewing an appeal or responding to a suggestion. Here, the use of &#x201C;we&#x201D; is appropriate and much more personable than the forced passive alternative.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>UI text assists navigation and discovery. The best UI text is in small chunks that are not as much read as scanned. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be concise"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Keep your sentences and phrases short, with as few concepts as possible.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use active verbs (&#x201C;the dog bit the tree&#x201D;) not passive verbs (&#x201C;the tree was bitten&#x201D;), except when the passive is shorter and simpler (&#x201C;tree bitten&#x201D;) or when there is no clear subject.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Use simple word forms"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Most UI happens now, so you can write in the present. </p><p>When you need to write in the past or future, use simple verb forms.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Try to write in the present"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Uset&#x2019;s easier for users to scan and understand simple, direct language as they skim through an interface. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Write simply and directly"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When choosing among synonyms, pick the simplest word.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use simple words that everyone knows"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avoid terms that only industry insiders know, and don&apos;t rely on the names invented for UI features.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Generic terms like &quot;slider&quot; and &quot;menu&quot; are fine, but direct users to the labels on UI elements, not the kind of element (such as menu or button).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>You can skip many common introductory phrases and get right to the point.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Omit unnecessary phrases"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The framing concept of an action is typically a verb. Pick one and use it consistently across the micro-narrative of an action.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Menu item</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Menu item</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use consistent verbs across the arc of an action"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Dialog title</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Dialog title</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Dialog text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Dialog buttons</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Dialog buttons</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If a sentence includes an action for the user to take and instructions for achieving it, start the sentence with that action.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Lead with the goal, not the method"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t burden the user with every detail and caution up front. Reveal increasing detail about features as the user explores them and needs the information. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Reveal detail only as needed"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avoid &#x201C;never&#x201D; and other absolutes.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Never say “never” "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Text for buttons and related elements"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Buttons appear in <a href=\"http://www.google.com/design/spec/components/buttons.html#buttons-flat-raised-buttons\">dialogs</a> and as blue or underlined text. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Tone",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Text in your UI should complement your visual UI:  intuitive, efficient, casual, and trustworthy. Charm peeks through, but never upstages the user. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be friendly, respectful, and focus on the user"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t brag or over-promise. Reveal what a feature does, don&#x2019;t say how great it is.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be humble"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Focus on the benefits of each feature. Omit implementation details, caveats, and restrictions at the entry points to features (buttons, menu items, links, and promotions).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be inviting"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Present information in a positive light: it&#x2019;s reassuring. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be positive"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For every message, ask yourself: does the user really need to know this? Err on the side of letting users stay focused on their own tasks. Sometimes the most effective UI is no text at all.</p><p>Avoid messages that suggest that it&#x2019;s surprising or unusual that a user&#x2019;s simple action was successful.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Be essential"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Capitalization & punctuation",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use sentence-style caps for all titles, headings, labels, menu items &#x2013; any place where you might be tempted to use &#x201C;Title-Style Caps.&#x201D; </p><p>Avoid ALL-CAPS except where the material spec requires them, for example, the Button style.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use sentence-style caps "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&#x2019;t capitalize the things you create or work with when using that product.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Capitalize product names only when referring to a product as a product  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For labels, hover text, setting labels, stacks of links, promos, and so on, avoid periods. This gives you the flexibility to mix sentences and sentence fragments, for example, in lists. It also reduces visual clutter and helps readers parse your text at a glance. Skip the colon after UI labels (&#x201C;Share with&#x201D; not &#x201C;Share with:&#x201D;).</p><p>Use a period or force fragments into full sentences where: &#xA0;</p><ul><li>You need to use more than one sentence &#x2013; even if they&#x2019;re short sentences.</li><li>You have a set of parallel labels where one of the set must be a sentence. Make them all full sentences and use periods (or question marks, etc.).</li><li>The sentence is part of a larger, more formal UI element, such as body text in a dialog.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Skip periods and other unnecessary punctuation  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Don&apos;t make a sentence harder to understand just to follow this rule. For example, &quot;do not&quot; can give more emphasis than &quot;don&apos;t&quot; when you really mean it.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use contractions  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Ask yourself, would someone shout (exclaim) that?</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Avoid exclamation points  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use numerals in place of words for numbers. </p><p>One exception is when mixing uses of numbers: &quot;Enter two 3s.&quot;</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "“1, 2, 3” not “one, two, three”  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Omit punctuation after phrases and labels to create a cleaner and more readable interface.</p><p>Use punctuation to add clarity or be grammatically correct.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Punctuation"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Global writing",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>People of all ages, cultures, backgrounds, and education levels rely on the English versions of products. Many of the writing guidelines support writing for non-native English speakers and for localization (the translation and adaptation of content for international use). Simple, clear English makes it easy for anyone to understand your product.</p><p>This section focuses on how to write English in a way that makes products more useful in English and other languages around the world.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Culturally specific language can be difficult to translate and may be inappropriate in some locales.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Don’t use culturally specific idioms, metaphors, or examples"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Interfaces for languages with right-to-left scripts may be mirrored when a product is localized. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Be careful with “left” and “right”"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>English is one of the few languages that allows gender ambiguity (for example, &#x201C;you can see their picture&#x201D;). Most other languages must be more specific (&#x201C;you can see his or her picture,&#x201D; for example). </p><p>Be specific about gender whenever possible (his, her, and so on).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Avoid gender ambiguity"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide clear descriptions of your strings as comments in the code. Linguists rely on context from descriptions to translate strings in a meaningful way to other cultures, beyond literal translations of English text. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Write clear string descriptions"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

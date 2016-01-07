@@ -1,0 +1,14 @@
+{
+  "title": "Roboto & Noto fonts",
+  "href": "http://www.google.com/design/spec/resources/roboto-noto-fonts.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>The latest version of Roboto is designed for both mobile and web usage.</p>\n<div class=\"modulettes\">\n    <a download=\"\" class=\"modulette download trackdl\" href=\"http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LRjU4U1NSeXdjd1U/RobotoTTF.zip\" title=\"Roboto Font\">\n    <img class=\"icon download-icon\" src=\"http://www.google.com/design/spec/static/images/download_black.svg\" alt=\"\">\n    <div class=\"info\">\n      <div class=\"title\">Roboto Font</div>\n      <span class=\"subtitle\">1.21 MB (.zip)</span>\n    </div>\n  </a>\n    <a download=\"\" class=\"modulette download trackdl\" href=\"http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LNGdYTEF0VnVPT0k/RobotoSpecimenBooklet.pdf\" title=\"Roboto specimen booklet\">\n    <img class=\"icon download-icon\" src=\"http://www.google.com/design/spec/static/images/download_black.svg\" alt=\"\">\n    <div class=\"info\">\n      <div class=\"title\">Roboto specimen booklet</div>\n      <span class=\"subtitle\">1.67 MB (.pdf)</span>\n    </div>\n  </a>\n  </div>      <p>Noto is the standard typeface on Android for all languages not covered by Roboto. </p>\n<div class=\"modulettes\">\n          <a class=\"modulette download\" href=\"http://www.google.com/get/noto\" title=\"Get Noto\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_download.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Get Noto</div>\n        <span class=\"subtitle\">Downloads are available for all languages in the Noto font family.</span>\n      </div>\n    </a>\n      </div>"
+    },
+    {
+      "type": "article-list",
+      "articles": []
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "title": "Selection",
+  "href": "http://www.google.com/design/spec/patterns/selection.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Selection includes the gestures and visual cues that enable user choices.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The global gesture to select data is a long-press, touch, or mousedown that&#x2019;s held in the same position for a moment. A two-finger touch may also trigger selection on touch devices.</p>"
+                }
+              ],
+              "title": "The selection gesture"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>On mobile</strong></p><p>Checkboxes, or custom analogs, should only be used to indicate completion, such as checking items off task lists or checklists.</p><p>They should not be used for selection on mobile.</p><p><strong>On desktop</strong></p><p>Checkboxes may have the following behaviors on desktop:</p><ul><li>When hovering on an item, display a single checkbox for that item.</li><li>After an item is selected, display checkboxes for all remaining items in that set.</li></ul><p>Avoid persistently displaying checkboxes as part of each item.</p>"
+                }
+              ],
+              "title": "Checkboxes"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Item selection",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Support for multi-selection is strongly recommended for list and grid containers. This does not apply to actions available for a single selection (like a list of phone numbers, where calling is the only action), or if the context requires single-item manipulation (like moving icons on Android&#x2019;s home screen).</p><p>Gestures:</p><ul><li>When initiating selection, both long-press and two-finger touch may be extended using a drag gesture to select multiple items. Items between the beginning and end points of the drag will be included in the selection. </li><li>On desktop, a drag originating outside the bounds of all items may initiate multi-selection (for example, beginning a drag in the left margin of a list, and extending down and to the right to select list items).</li></ul><p>Once an initial selection is made, it can be altered through user actions:</p><ul><li>Touch a selected item to deselect it. Touch an unselected item to select it.</li><li>Shift+touch/click on an item to select all items between two selected points.</li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Text selection",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Text selection is indicated by highlighting the bounds of the selected text. </p><p>On mobile, a selection handle is added to both the beginning and end of the selection. Actions related to the text appear in a dropdown menu positioned immediately above, but not overlapping, the selection.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Text selection must occur in one contiguous block. However, the bounds of the selection may be altered through user action:</p><ul><li>Dragging the initial selection to expand the selection</li><li>Dragging either of the selection handles to expand or reduce the selection</li><li>Touching (or clicking) repeatedly within the selection to expand it (single word &gt; paragraph &gt; all)</li><li>Keyboard shortcuts (see table)</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text selection handles</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMVJxYmgwT1VRbnM/patterns_selection_text01.png",
+                      "caption": "<p>Example of text selection handles</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRG9FSUNuMDlmOTg/patterns_selection_text02.png",
+                      "caption": "<p>Example of text selection handles</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text selection - light theme</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscGx0c3BfYktVeWs/patterns_selection_text03.png",
+                      "caption": "<p>Text selection - light theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text selection - dark theme</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMXcwTVc0YzI0ZTg/patterns_selection_text04.png",
+                      "caption": "<p>Text selection - dark theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The floating toolbar appears above the selection area with primary actions of Cut, Copy, Paste, and More. When the user selects the More icon, the toolbar collapses and transforms into a secondary menu to reveal additional actions. </p><p>The font for the floating toolbar text is Roboto Medium 14sp, all caps.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscno0MmlCVDFyR2s/patterns_selection_text05.png",
+                      "caption": "<p>Dropdown menus for Cut, Copy, Paste, and More appear above the selection area.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYWltR25aTzE1M00/patterns_selection_text06.png",
+                      "caption": "<p>When the user selects More, the menu begins transitioning to show the overflow items. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWGJoQnVxTXZTRWs/patterns_selection_text07.png",
+                      "caption": "<p>More</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNll1eVFlNVpQZWc/patterns_selection_text08.png",
+                      "caption": "<p>Overflow menu items: Share, Search, and Translate </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Text selection toolbar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0BwJzNNZmsTcKX1B1bzkwMzN6SG8/patterns_selection_text09.png",
+                      "caption": "<div class=\"caption-title\">Text selection</div><p>Dropdown menu height: 44dp<br>Dropdown menu text top padding: 12dp<br>Dropdown menu text top padding: 14dp<br>Dropdown menu text left padding: 24dp<br>Dropdown menu text right padding: 16dp<br>Dropdown menu space between menu text items: 32dp<br>Selected text top padding: 8dp<br>Expansion icon top and bottom padding: 10dp<br>Text selection handles: 22 x 22 dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

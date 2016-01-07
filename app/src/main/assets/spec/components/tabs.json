@@ -1,0 +1,670 @@
+{
+  "title": "Tabs",
+  "href": "http://www.google.com/design/spec/components/tabs.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Tabs make it easy to explore and switch between different views or functional aspects of an app or to browse categorized data sets.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A tab provides the affordance for displaying grouped content. A tab label succinctly describes the tab&#x2019;s associated grouping of content.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Mobile tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOUdyb0FjQTJTdlk/components_tabs_usage_mobile3.png",
+                      "caption": "<p>Default app bar and fixed tab bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsc0lzb2VoMkFBNUE/components_tabs_usage_mobile1.png",
+                      "caption": "<p>Extended app bar and fixed tab bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbmZJbkdjeHE0RW8/components_tabs_usage_mobile6.png",
+                      "caption": "<p>Fixed tab bar pinned to top with scrolled content</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQS1FRUVwMkVvQ2c/components_tabs_usage_mobile2.png",
+                      "caption": "<p>Inset search, app bar, and fixed tab bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZ0RaTDMwMnRmTDg/components_tabs_usage_mobile5.png",
+                      "caption": "<p>Default app bar and scrollable tab bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVDk4V2Nnc2U3LTQ/components_tabs_usage_mobile4.png",
+                      "caption": "<p>Text color is the same as the tab indicator</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbHJuWi04N0ZIc0E/components_tabs_usage_mobile7.png",
+                      "caption": "<p>Default app bar and fixed tab bar with icons</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ1Y4YXpwTkZ2MFU/components_tabs_usage_mobile8.png",
+                      "caption": "<p>Icon color is the same as the tab indicator</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSE9HZXVfTFl6dFk/components_tabs_usage_desktop1.png",
+                      "caption": "<p>Default app and tab bars</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Desktop tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdk9hdG45a1FjQlk/components_tabs_usage_desktop2.png",
+                      "caption": "<p>Tabs with a More dropdown menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZmJtMG9pNzlpTXc/components_tabs_usage_desktop3.png",
+                      "caption": "<p>Tabs with an expanded More dropdown menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbjcyR1hSd2lHQzQ/components_tabs_usage_desktop4.png",
+                      "caption": "<p>Tabs with Books selected from a More dropdown menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRUM1elg3VDRxdTg/components_tabs_usage_desktop5.png",
+                      "caption": "<p>Tabs with overflow pagination</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsb0JxN3haY0JLZHc/components_tabs_usage_desktop6.png",
+                      "caption": "<p>Tabs with overflow pagination scrolled</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOGUyd0ZGSWhwdkE/components_tabs_usage_desktop7.png",
+                      "caption": "<p>Tab bar centered </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use tabs to organize content at a high level, for example, to present different sections of a newspaper. Don&#x2019;t use tabs for carousels or pagination of content. Those use cases involve viewing content, not navigating between groups of content.</p><p>For more detail about using tabs for navigating top-level views, see &#x201C;Tabs&#x201D; in <a href=\"http://www.google.com/design/spec/patterns/navigation.html#patterns\">Components &gt; Navigation</a>.</p><p>Don&apos;t use tabs with content that supports the swipe gesture, because swipe gestures are used for navigating between tabs. For example, avoid using tabs in a map where content is pannable, or a list where items can be dismissed with a swipe.</p><p>Fixed tabs should be used with a limited number of tabs and when consistent placement will aid muscle memory. Scrollable tabs should be used when there are many or a variable number of tabs.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscExOcHhfYUdNZlE/components_tabs_usage_example1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The tabs switch between equally important facets of store content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLXRnbUdwOW9XYXM/components_tabs_usage_example2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The tabs switch between destinations of varied importance within the store.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "When to use"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tabs control the display of content in a consistent location. </p><p>Formatting specifications:</p><ul><li>Present tabs as a single row. Wrap tab labels to a second line if needed, and then truncate.</li><li>Do not include a set of tabbed content within a tab.</li><li>Highlight the tab corresponding to the visible content.</li><li>Group tabs together hierarchically. Connect a group of tabs with its content. </li><li>Keep tabs adjacent to their content to maintain the relationship between the two.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTTdvazhjTHlsWjg/components_tabs_usage_example5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Tabs are presented as a single row.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVlczRTlQek9ObW8/components_tabs_usage_example6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Tabs are not presented as a single column.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tab characteristics"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVmowR3NUVWoxVWs/components_tabs_usage_example3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use a content hierarchy such that tabs relate to the currently displayed content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSDROTXNUNUdxMVE/components_tabs_usage_example4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Tabs should not be nested.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Content presented in tabs can vary widely, even between tabs. For example, tabs showing different years of an artist&#x2019;s portfolio or tabs containing different types of settings.</p><p>All content within a set of tabs should be related under a larger organizing principle (for example, Settings or Directions), with each tab&#x2019;s content mutually exclusive of the others&apos;.</p><p>Tab labels should provide meaningful distinctions that logically organize associated content.</p><p>Tab labels may be either all icons or all text. When choosing a text label, use short titles. </p><p>Avoid the need for cross-tab comparison of content. Significant cross-tab comparison may indicate the content would benefit from a different organization or presentation that places the content closer together.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WFR6bnJvaG9wclk/components_tabs_usage_content1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>A long label exceeding the maximum width of a tab may wrap to a second line before being truncated.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWll4Mk43cTVldlU/components_tabs_usage_content2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Wrap labels before truncating them. Truncating labels too early can impede comprehension.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbllqdHVoMHRZTlk/components_tabs_usage_content3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&apos;t resize single-line labels. If labels are too long, wrap text across two lines or use scrollable tabs</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa2g3QkZxOE5FdGs/components_tabs_usage_content4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Do not combine text labels with icons. Use either all text labels or all icon labels.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of tabs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Depending on the platform and the context of use, tabbed content can be presented as either fixed tabs or scrollable tabs.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Fixed tabs display all tabs concurrently and are best used with content that benefits from quick pivots between tabs in fixed positions, such as switching transportation methods for directions in Google Maps.</p><p>Fixed tabs have equal width, calculated either as the view width divided by the number of tabs, or based on the widest tab label. To navigate between fixed tabs, touch the tab or swipe the content area left or right.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNHMyNDg1YWtVcHM/components_tabs_typesoftabs_mobile1.png",
+                      "caption": "<p>Fixed tabs on mobile</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsc0kwSkE2ei1rMkE/components_tabs_typesoftabs_mobile2.png",
+                      "caption": "<p>Fixed tabs on mobile</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Fixed tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Scrollable tabs display a subset of tabs at any given moment. They can contain longer tab labels and a larger number of tabs than fixed tabs. Scrollable tabs are best used for browsing contexts in touch interfaces when users don&#x2019;t need to directly compare the tab labels.</p><p>To navigate between scrollable tabs, touch the tab or swipe the content area left or right. To scroll the tabs without navigating, swipe the tabs left or right.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsY1JuWnJGSHpiQkE/components-tabs-typesoftabs_scrollable_tabs_01_xhdpi_003.webm",
+                      "caption": "<p>Scrollable tabs on mobile</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrollable tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbjcyR1hSd2lHQzQ/components_tabs_usage_desktop4.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRUM1elg3VDRxdTg/components_tabs_usage_desktop5.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The width of each tab can be calculated by taking the width of the view and dividing it by the number of tabs. Alternatively, make all tabs the width of the largest tab.</p><p>If the margin between the tab edge and view edge is 16dp or less, use full-width tabs instead of centered tabs.</p><p>Width minimum and maximum (inclusive of padding)</p><ul><li>Maximum: 264dp</li><li>Minimum: 160dp for larger views, 72 dp for smaller views</li></ul><p>Height</p><ul><li>48dp</li></ul><p>Padding</p><ul><li>12dp left and right of text</li><li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li></ul><p>Alignment</p><ul><li>Full-width for smaller views</li><li>Centered for larger views</li></ul><p>Indicator</p><ul><li>Height: 2dp</li><li>Color: #fff or accent color</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsR0pYZkJlYUUzZ3c/components_tabs_usage_specs1.png",
+                      "caption": "<p>Fixed tabs on mobile, text only, portrait orientation</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYUQ4cmNMOGVZVEU/components_tabs_usage_specs3.png",
+                      "caption": "<p>Mobile portrait example of fixed tabs, text only</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Fixed tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Tabs with text only</strong></p><p>Text</p><ul><li>14sp Roboto Medium</li><li>12sp when wrapped across a maximum of two lines</li><li>All caps</li><li>Horizontally and vertically centered </li><li>Active color: #fff or accent color</li><li>Unfocused tab color: #fff 70%</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMFdsRFhCam4zaVk/components_tabs_usage_specs5.png",
+                      "caption": "<p>Mobile landscape example of same tabs aligned with left keyline</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTWtHNEdHQjEyVzg/components_tabs_usage_specs4.png",
+                      "caption": "<p>Mobile landscape example of same tabs centered</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Tabs with icons and text</strong></p><p>Height</p><ul><li>72dp</li></ul><p>Icon</p><ul><li>24 x 24dp</li></ul><p>Content alignment</p><ul><li>Text and icon are centered horizontally in the tab</li></ul><p>Padding</p><ul><li>10dp between icon and text</li><li>16dp under text</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscktCWWFUUld2U1E/components_tabs_usage_specs7.png",
+                      "caption": "<p>Fixed tabs on mobile, icons and text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS2pLN2MwWmUyRW8/components_tabs_usage_specs8.png",
+                      "caption": "<p>Fixed tabs on mobile, icons and text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Tabs with icons only</strong></p><p>Height</p><ul><li>48dp</li></ul><p>Icon</p><ul><li>24 x 24dp</li></ul><p>Content alignment</p><ul><li>Icon is centered horizontally and vertically in the tab</li></ul><p>Padding</p><ul><li>12dp under icon</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS1lGVXlPdXVzRFk/components_tabs_usage_specs9.png",
+                      "caption": "<p>Fixed tabs on mobile, icons only</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ2lEdU9QOUVIX0E/components_tabs_usage_specs10.png",
+                      "caption": "<p>Fixed tabs on mobile, icons only</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The left-most tab content aligns with the keyline. Alignment varies between landscape and portrait to match the different keylines.</p><p>The width of each tab is independently calculated.</p><p> Width minimum and maximum (inclusive of padding)</p><ul><li>Maximum (whichever fits and is smaller): 264dp or (the value of view size minus 56dp)</li><li>Minimum: 160dp for larger views, 72 dp for smaller views</li></ul><p>Height</p><ul><li>48dp</li></ul><p>Padding</p><ul><li>12dp left and right of text</li><li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li></ul><p>Indicator</p><ul><li>Height: 2dp</li><li>Color: #fff or accent color</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ2l2R1lSU0hzZkE/components_tabs_usage_specs11.png",
+                      "caption": "<p>Scrollable tab</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aE9zdFhLUWNaSWc/components_tabs_usage_specs12.png",
+                      "caption": "<p>Extremely long tab labels, as shown here, should be avoided. This max-width scrollable tab contains wrapped text. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrollable tabs"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Text</p><ul><li>14sp Roboto Medium</li><li>12sp when wrapped across a maximum of two lines </li><li>All caps</li><li>Vertically and horizontally centered</li><li>Active color: &#xA0;#fff or accent color</li><li>Unfocused tab color: #fff 70%</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3akMxVFJpNGFnWlE/components_tabs_usage_specs6.png",
+                      "caption": "<p>Extremely long tab labels, as shown here, should be avoided. These max-width tabs, depicted in landscape mode on mobile, are aligned with the left keyline.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Width minimum and maximum (inclusive of padding)</p><ul><li>Maximum (whichever fits and is smaller): 264dp or (the value of view size minus 56dp)</li><li>Minimum: 160dp for larger views, 72 dp for smaller views</li></ul><p>Height</p><ul><li>48dp</li></ul><p>Alignment</p><ul><li>Centered or aligned with left keyline</li></ul><p>Text</p><ul><li>13sp Roboto Medium</li><li>All caps</li><li>Horizontally and vertically centered</li><li>Wraps across a maximum of two lines</li><li>Active color: #fff or accent color</li><li>Unfocused tab color: #fff 70%</li></ul><p>Padding</p><ul><li>24dp left and right of text</li><li>20dp from bottom for a single line of text, 12dp from bottom for two lines of text</li><li>First tab text left padding: 80dp</li></ul><p>Indicator</p><ul><li>Height: 2dp</li><li>Color: #fff or accent color</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzUHBDNXBhbkNtRTQ/components_tabs_usage_specs13.png",
+                      "caption": "<p>Desktop tabs</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Desktop"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Note: Implementations of this component may vary by platform. By using standard platform implementations, you will receive related future improvements.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFZWZ6dndJX09Zak0/components_tabs_tabtouchtarget.webm",
+                      "caption": "<p>Animation of tab touch target.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tab touch target animation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

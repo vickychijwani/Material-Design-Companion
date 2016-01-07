@@ -1,0 +1,1060 @@
+{
+  "title": "Structure",
+  "href": "http://www.google.com/design/spec/layout/structure.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "UI regions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For guidance on arranging elements in z-space to achieve the correct behavior and shadows, see the <a href=\"http://www.google.com/design/spec/what-is-material/environment.html\">Environment</a> and <a href=\"http://www.google.com/design/spec/what-is-material/elevation-shadows.html\">Elevations and shadows</a> sections.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>This structure includes a permanent app bar and floating action button. An optional bottom bar can be added for additional functionality or action overflow. Side nav menus overlay all other structural elements.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T0hfM01sSmRyTG8/layout_structure_regions_mobile.png",
+                      "caption": "<div class=\"caption-title\">Mobile structure</div><p>Top left to right: Side nav, app bar/primary toolbar, content area (below the app bar/primary toolbar), &#xA0;and right nav<br>On the bottom: bottom bar</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Mobile structure"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>This structure shows a permanent app bar with a floating action button. The app bar absorbs elements from the tablet and mobile bottom bars. An optional bottom bar can be added for additional functionality or action overflow. A side nav overlays all other structural elements. A right nav menu can be accessed temporarily or pinned for permanent display.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VmpjWnp5UDZEWEU/layout_structure_regions_tablet.png",
+                      "caption": "<div class=\"caption-title\">Tablet structure</div><p>Top left to right: Side nav, app bar/primary toolbar, content canvas (below the app bar/primary toolbar), &#xA0;and right nav<br>On the bottom: bottom bar</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tablet structure"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The desktop structure contains a permanent app bar with a floating action button. The app bar absorbs elements from the tablet and mobile bottom bars. Where possible, the window controls are absorbed into the app bar. </p><p>Side navigation menus can take up the full height of the screen size (including under the app bar) and be accessed temporarily or pinned for permanent display. Side nav menus, as well as the content canvas, can have their own secondary toolbars for tabs, palettes, or secondary actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SnotM2RNN2FFMzQ/layout_structure_regions_desktop.png",
+                      "caption": "<div class=\"caption-title\">Desktop structure</div><p>Top left to right: App bar/primary toolbar</p><p>Second row from left to right: Toolbar, secondary toolbar, and toolbar</p><p>Third row from left to right: side nav, content canvas, and right nav<br>On the bottom: floating action button</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Desktop structure"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Define a primary horizontal or vertical divider.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cGZWZmxBV1d1M2s/layout_structure_regions_guidance1.png",
+                      "caption": "<p>Vertical divider</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dnhDVHg4WTBrbnc/layout_structure_regions_guidance2.png",
+                      "caption": "<p>Horizontal divider</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "UI regions"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avoid slicing up the interface into too many regions which can cause L shapes. Instead, use whitespace to delineate secondary areas.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RVg5NlRYc29XRTQ/layout_structure_regions_guidance3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NHNfYW03U28wYnM/layout_structure_regions_guidance4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Break edges with cards and floating action buttons.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RHJsbFhpanhPQXc/layout_structure_regions_guidance5.png",
+                      "caption": "<p>Card breaking an edge</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aTFlbjdxV2dwZVE/layout_structure_regions_guidance6.png",
+                      "caption": "<p>Floating action button breaking an edge</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use cards to organize content when specific behaviors are needed or if groupings of information need more separation than what whitespace or dividers can provide.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QzR3ZFdSS1VhSkk/layout_structure_regions_guidance7.png",
+                      "caption": "<p>Cards</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZXRFRzA3eGpQSG8/layout_structure_regions_guidance8.png",
+                      "caption": "<p>Cards</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Toolbars",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Toolbars are versatile and can be used in many different ways. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eW41S2JtRm9CSmc/layout_structure_toolbars1.png",
+                      "caption": "<p>Full-width, default height app bar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UnNtdkNxY05oelk/layout_structure_toolbars2.png",
+                      "caption": "<p>Full-width, extended height app bar </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eTQ0WmN0cUlHWGs/layout_structure_toolbars3.png",
+                      "caption": "<p>Column-width toolbars at multiple levels of hierarchy</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bW1TYXlMT0JxUWM/layout_structure_toolbars4.png",
+                      "caption": "<p>Flexible toolbar and card toolbar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7M1VKVkhLLUxuTGs/layout_structure_toolbars5.png",
+                      "caption": "<p>Floating toolbar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aEJPTW1iV0EwQ0E/layout_structure_toolbars6.png",
+                      "caption": "<p>Detached toolbar palette</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7M2djcm1TSG1ZQVU/layout_structure_toolbars7.png",
+                      "caption": "<p>Bottom toolbar that launches to a shelf and clings to the top of the keyboard or other bottom component</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7R21ES09zcURiR0k/layout_structure_toolbars8.png",
+                      "caption": "<p>Bottom toolbar shelf</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "App bar",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The app bar, formerly known as the action bar in Android, is a special kind of toolbar that&#x2019;s used for branding, navigation, search, and actions.</p><p>The nav icon at the left side of the app bar can be:</p><ul><li>A control to open a navigation drawer.</li><li>An up arrow for navigating upward through your app&#x2019;s hierarchy.</li><li>Omitted entirely if no navigation is required from this screen.</li></ul><p>The title in the app bar reflects the current page. It can be an app title, page title, or a page filter.</p><p>Icons on the right side of the app bar are app-related actions. The menu icon opens the overflow menu, which contains secondary actions and menu items like help, settings, and feedback.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RTFrbmpoWjRrY00/layout_structure_appbar_structure1.png",
+                      "caption": "<div class=\"caption-title\">App bar structure</div><p>On the left: Nav icon, title, and filter icon<br>On the right: Action and menu icons </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsU1FwTUx3cmRUNG8/layout_structure_appbar_structure2.png",
+                      "caption": "<p>Light</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbGREMW9BdDdnSUk/layout_structure_appbar_structure3.png",
+                      "caption": "<p>Dark</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZF9VZDhtQlF5RGM/layout_structure_appbar_structure4.png",
+                      "caption": "<p>Colored</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQnFjd0tiMmtsMU0/layout_structure_appbar_structure5.png",
+                      "caption": "<p>Transparent</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In an app bar, all icons should be the same color. </p><p>The title can have a distinct color from the icons if increased visual hierarchy is needed. Distinct title colors work best on backgrounds with enough contrast for both white and black glyphs.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbkxqbW9kQWgxZkk/layout_structure_appbar_structure6.png",
+                      "caption": "<p>Single color (default)</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQselRDRFlzNkI0SFE/layout_structure_appbar_structure7.png",
+                      "caption": "<p>Distinct title color</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Title color"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Default heights:</strong></p><p>Mobile Landscape: 48dp<br>Mobile Portrait: 56dp<br>Tablet/Desktop: 64dp</p><p>For extended app bars, the height is equal to the default height plus content increment(s).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLUFJUnFlRHVhUVU/layout_structure_appbar_metrics1.png",
+                      "caption": "<p>App bar height: 56dp<br>App bar left and right padding: 16dp<br>App bar icon top, bottom, left padding: 16dp<br>App bar title left padding: 72dp<br>App bar title bottom padding: 20dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSDBhX3BwSURRc1U/layout_structure_appbar_metrics3.png",
+                      "caption": "<p>The app bar with significantly increased height for prominence</p><p>App bar height = 128dp</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Metrics"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTW1zb2x5WWg5cDA/layout_structure_appbar_metrics5.png",
+                      "caption": "<p>Action area height: 56dp<br>Title area height: 80dp<br>Title area bottom padding: 8dp<br>Description area height: 72dp<br>Description area bottom padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOFVmeDlPTU5LZ1E/layout_structure_appbar_metrics7.png",
+                      "caption": "<p>Incremental keyline is set by the app bar height, with a height of 64dp, which determines the keyline increment.</p><p>App bar height: 64dp<br>App bar left and right content padding: 24dp<br>App bar icon top and bottom padding: 20dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVm5pN2ZRWFZQV3c/layout_structure_appbar_metrics8.png",
+                      "caption": "<p>Prominent app bar height: 128dp<br>App bar left and right icon padding: 24dp<br>App bar left content padding: 80dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Density</strong></p><p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eUxkRzhYdE5CWlk/layout_structure_appbar_metrics7_dense.png",
+                      "caption": "<p><strong>Dense app bar on desktop</strong></p><p>App bar height: 48dp<br>App bar left and right content padding: 24<br>App bar left content padding: 80dp<br>Icon height with touch target: 40dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dlM1Y0hCLThaYmc/layout_structure_appbar_metrics8_dense.png",
+                      "caption": "<p><strong>Dense prominent app bar </strong></p><p>Dense prominent app bar height: 96dp<br>App bar left and right content padding: 24dp<br>App bar left content padding: 80dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A menu is a temporary sheet of paper that always overlaps the app bar, rather than behaving as an extension of the app bar.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsU094a25SRS1LXzQ/layout_structure_appbar_menu1.png",
+                      "caption": "<p>Example of an app bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLUtFU1dySnRkbFE/layout_structure_appbar_menu2.png",
+                      "caption": "<p>Example of menu in an app nar</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Menus"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "System bars",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On Android, the status bar contains notification icons and system icons. On Chrome, the top bar contains the window controls: minimize, full screen, and close. In a Chrome app, the top bar can disappear, and the window controls are then brought into the app bar. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLUFLM2xkRElVM2s/layout_structure_system_status1.png",
+                      "caption": "<p>Android status bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Tkh3MGZVVktoOTQ/layout_structure_system_status2.png",
+                      "caption": "<p>Chrome window bar</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Status bar/window bar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Metrics:<br>Android status bar height: 24dp<br>Chrome window height: 32dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUkFVNERQODRoakk/layout_structure_system_status3.png",
+                      "caption": "<p>Android status bar on top of the app bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OFZxQTM5SmxHQjA/layout_structure_system_status4.png",
+                      "caption": "<p>Chrome window bar on top of the app bar </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cHV2LWpmTnRUbm8/layout_structure_system_status5.png",
+                      "caption": "<p>Chrome window controls inside app bar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>By default, the color of the status or window bar is a darker shade of the app bar color. It can also use color from another element in the layout or be translucent.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdkwzWUZZNEdaUzg/layout_structure_system_color1.png",
+                      "caption": "<p>Color is based on a sample taken from the content</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLWE2REc4RnVuTWc/layout_structure_system_color2.png",
+                      "caption": "<p>Translucent status bar, 20% Black #000000</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark status bar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsN3pJUmlJeDJ5NHc/layout_structure_system_color3.png",
+                      "caption": "<p>Dark status bar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdHAwWDlJWm1Sdnc/layout_structure_system_color4.png",
+                      "caption": "<p>Status bar color in a darker tone of the app bar color</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The light status bar, with dark icons, better harmonizes with light content and can be used an alternative to the dark status bar. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-X0Z6NHdnSjdUYTA/layout_structure_system_color5.png",
+                      "caption": "<p>Light status bar color is based on sample taken from content</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-RmR0RU9hc1MzWGc/layout_structure_system_color6.png",
+                      "caption": "<p>Translucent light status bar, 70% White #FFFFFF</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light status bar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-VlV3YjN5bk0xUGc/layout_structure_system_color7.png",
+                      "caption": "<p>Light status bar, default background fill is #E0E0E0</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-eUoyd3JIWHc2MEU/layout_structure_system_color8.png",
+                      "caption": "<p>Light status bar in darker tone of a light app bar color</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The navigation bar in Android houses the device navigation controls: Back, Home, and Overview. It also displays a menu for apps written for Android 2.3 or earlier.</p><p>Height: 48dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RWpaeTZqTmlYOHc/layout_structure_system_android1.png",
+                      "caption": "<p>Dark</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QkxkZjVDYmtSYXc/layout_structure_system_android2.png",
+                      "caption": "<p>Light</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Android navigation bar"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The navigation bar can be opaque, translucent, or transparent.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RzhjWURpTWVsRTA/layout_structure_system_android3.png",
+                      "caption": "<p>Translucent</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bl93YnVqdWE3NGM/layout_structure_system_android4.png",
+                      "caption": "<p>Translucent over complex image</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Color variants"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MzdRU2EtbHlaRlk/layout_structure_system_android5.png",
+                      "caption": "<p>Transparent</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7S2tTVjBjcUNEM00/layout_structure_system_android6.png",
+                      "caption": "<p>Transparent over even-toned image</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The shelf houses the app launcher, application icons, and system settings on Chrome OS.</p><p>Height: 56dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UUc1Z3dvZDdYV0E/layout_structure_system_chrome.png",
+                      "caption": "<p>Example of Chrome OS shelf</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Chrome OS shelf"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Side nav",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If present, side nav bars can be pinned for permanent display or float temporarily as overlays. Side navs can be positioned on the left or right side of the screen.</p><p>The content appearing in the left nav is ideally navigation- or identity-based. Right nav content should be secondary to the main content on a page.</p><p>See also <a href=\"http://www.google.com/design/spec/patterns/navigation-drawer.html\">Navigation drawer</a>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbU5RX3BYcTJiOFk/layout_structure_sidenav1.png",
+                      "caption": "<p>Mobile screen</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSnJFcnlLNUJXb2s/layout_structure_sidenav2.png",
+                      "caption": "<p>Side nav menu</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Side nav bars may be pinned for permanent display, or they can float temporarily as overlays. Temporary nav drawers overlay the content canvas; whereas pinned nav panels are situated alongside or below the content canvas.</p><p>Screen size can determine whether a panel is pinned or an overlay. With sufficient space, a panel can be pinned and content adjusted responsively. With insufficient space, a panel has to be an overlay.</p><h4>Metrics</h4><p><strong>Mobile</strong>:</p><p>Width = Screen width &#x2212; 56 dp</p><p>Maximum width: 320dp</p><p>Maximum width applies only when using a left nav. When using a right nav, the panel can cover the full width of the screen.</p><p><strong>Desktop</strong>: Maximum width for a left nav is 400dp. The right nav can vary depending on content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsanRZMG5CaFRDWlE/layout_structure_sidenav_structure1.png",
+                      "caption": "<p>Left nav on mobile</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsampfdXlmTFA2NFE/050407_Sidenav_02_xhdpi_002.webm",
+                      "caption": "<p>Right nav on mobile</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Structure"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WEdram5wd1ZMRHM/layout_structure_sidenav_structure3.png",
+                      "caption": "<p>Left nav on desktop </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NERlZTZ0MFRJekE/layout_structure_sidenav_structure4.png",
+                      "caption": "<p>Right nav on desktop</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Whiteframes",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Whiteframes provide a variety of layout structures using a consistent approach to surfaces, layering, and shadows.</p><p>For download and other information about whiteframes, see <a href=\"http://www.google.com/design/spec/resources/layout-templates.html#layout-templates-whiteframes\">Resources</a>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNVGJCUHZUcUtBSVE/layout-structure-whiteframe_bigtop_large_xhdpi.png",
+                      "caption": "<p>Carded content that expands and collapses</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNZ3ZWYkxacmJBZ1E/layout-structure-whiteframe_calendar_large_xhdpi.png",
+                      "caption": "<p>Overlayed content details with focused app bar on mobile</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNWFBhWmo1d1gyMlU/layout-structure-whiteframe_gallery_large_xhdpi.png",
+                      "caption": "<p>Left side nav and one-up stream on mobile</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNMU12c2xDS1QtZFk/layout-structure-whiteframe_mail_large_xhdpi.png",
+                      "caption": "<p>Source list</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNM2k4eGVaYjg0LVk/layout-structure-whiteframe_maps_large_xhdpi.png",
+                      "caption": "<p>Full-screen background image with inset search field and carded search results</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNT29PaWxfZ21iOW8/layout-structure-whiteframe_music_large_xhdpi.png",
+                      "caption": "<p>Expandable footer drawer</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

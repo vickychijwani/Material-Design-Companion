@@ -1,0 +1,772 @@
+{
+  "title": "Cards",
+  "href": "http://www.google.com/design/spec/components/cards.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>A card is a sheet of material that serves as an entry point to more detailed information. A card could contain a photo, text, and a link about a single subject.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Cards are a convenient means of displaying content composed of different elements. They&#x2019;re also well-suited for showcasing elements whose size or supported actions vary, like photos with captions of variable length.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WFBLZjBNNGpnQzg/components_cards1.png",
+                      "caption": "<p>Example of a card</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A card collection is coplanar, or a layout of cards on the same plane.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Y1lRbzJERTJIa28/components_cards2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Example of a card collection</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3am9VWWFlbHVJNDg/components_cards3.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Example of a card collection</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>When to use</strong></p><p>Use a card layout when displaying content that:</p><ul><li>As a collection, comprises multiple data types, such as images, movies, and text</li><li>Does not require direct comparison (a user is not directly comparing images or text)</li><li>Supports content of highly variable length, such as comments</li><li>Contains interactive content, such as +1 buttons or comments</li><li>Would otherwise be in a grid list but needs to display more content to supplement the image</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzSG9CdkJzMEJCODQ/components_cards6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>1. Cards have rounded corners.<br>2. Cards can have multiple actions.<br>3. Cards can be dismissible and rearranged.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzSk92SnhSbTQwRlk/components_cards7.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>This is a tile, not a card.<br>1. Tiles have square corners.<br>2. Tiles have no more than two actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZGZTVVJIWW4zZWs/components_cards8.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>A quickly scannable list, instead of cards, is an appropriate way to represent homogeneous content that doesn&apos;t have many actions.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsM3ZqMmJXdjRyZk0/components_cards9.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The use of cards here distracts the user from being able to quickly scan. These list items are also not dismissable, so having them on separate cards is confusing. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsN2F1Y2RWNzQ0R1U/components_cards10.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Grid tiles are a clean and lightweight way to present a gallery of images.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscVl0VzR1SlZkMWM/components_cards11.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Cards are unnecessary in a gallery of images (homogeneous content). </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Cards provide context and an entry point to more robust information and views, and their content and quantity can vary greatly. Cards within a card collection can each contain a unique data set, such as a checklist with an action, a note with an action, and a note with a photo.</p><p>Don&apos;t overload cards with extraneous information or actions.</p><h4>Content hierarchy</h4><p>Use hierarchy within the card to direct users&#x2019; attention to the most important information. For example, place primary content at the top of the card, or use typography to emphasize primary content.</p><p>Images can reinforce other content in a card. However, their size and placement within the card depends on whether images are the primary content or are being used to supplement other content on the card.</p><p><strong>Background images</strong></p><p>Text is most legible when placed on a solid color background with a sufficient contrast ratio to the text. Text placed on image backgrounds should preserve text legibility.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cXVadmtJa19wT3M/components_cards_content1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>This card collection contains cards with varied layouts.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NGo3QkpVWTNBZzA/components_cards_content3.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Typography can emphasize primary content.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZWNWWDZVek41S1U/components_cards_content2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>This card collection contains cards with varied content types and layouts.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3b1N2Q2swOFNuX28/components_cards_content4.png",
+                      "caption": "<div class=\"caption-title\"></div><p>This card collection contains cards with varied layouts and content hierarchy. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Cards have a constant width and variable height. The maximum height is limited to the height of the available space on a platform, but it can temporarily expand (for example, to display a comment field). </p><p>Cards do not flip over to reveal information on the back.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Card gestures should be consistently implemented within a card collection.</p><p>Supported gestures include:</p><ul><li>The <strong>swipe gesture</strong> may be used on a per-card basis. Limit swipe gestures within a view so that they don&#x2019;t overlap with one another. For example, a swipeable card should not contain a swipeable image carousel, so that only a single action occurs when the card is swiped.</li><li>The <strong>pick-up-and-move gesture</strong> may be used if it is important for the user to be able to sort cards within a collection. But consider if filtering or sorting would better organize the content.</li></ul>"
+                }
+              ],
+              "title": "Supported gestures"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Card collections can be programmatically sorted or filtered by date, file size, alphabetical order, or other parameters. </p><ul><li>The first item in the collection is positioned at the top left.</li><li>The order proceeds left to right and top to bottom.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dU9ETE9PUDExMUU/components_cards_behavior1.png",
+                      "caption": "<p>Card sorting from left to right, top to bottom. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Card collection filtering and sorting"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Card collections only scroll vertically. </p><p>Card content that exceeds the maximum card height is truncated and does not scroll, but the card can be expanded.  Once expanded, the card may exceed the maximum height of the view. In this case, the card will scroll with the card collection.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dnROYlN6b1hsTmM/components_cards_behavior2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Card content that exceeds the maximum card height is truncated and does not scroll</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrolling"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eEdpVE9jVm54OG8/components_cards_behavior4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>On mobile, avoid double scroll bars and scrollable space within a card</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X3FmbXU5WXF0VlU/components_cards_behavior5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Cards can grow downwards to reveal more content, without creating a scrollable area</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RWFNdDhxOEtKc1E/components_cards_behavior3.png",
+                      "caption": "<div class=\"caption-title\"></div><p>On desktop, card content can expand and scroll internally </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When traversing through focus points on a card, all focusable elements are visited before moving to the next card.</p><p>For interfaces that depend on focus traversal for navigation (D-pad and keyboard), cards should have either a primary action or open a new view containing primary and supplemental actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NW5oUGduR2VscXM/components_cards_behavior6.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Action selected during focus traversal </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q3BSMEZNOVNOWU0/components_cards_behavior7.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Expanded supporting text made visible, with the focus then placed on a supplemental action</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Card focus"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Actions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The primary action in a card is typically the card itself.</p><p>Supplemental actions can vary from card to card in a collection, depending on the content type and expected outcome; for example, playing a movie versus opening a book. Within cards in a collection, position actions consistently. </p><h4>Supplemental actions </h4><p>Supplemental actions within the card are explicitly called out using icons, text, and UI controls, typically placed at the bottom of the card.</p><p>Limit supplemental actions to two actions, in addition to an overflow menu.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3U1JrMFJ2UnEyZjg/components_cards16.png",
+                      "caption": "<p>Card with action area, rich media and supporting text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MHh2ZlhHVUMyQlk/components_cards17.png",
+                      "caption": "<p>Card with action areas 1 and 2, optional header, rich media, supporting text, and supplemental actions</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S0UxeHU4T3B0Wjg/components_cards18.png",
+                      "caption": "<p>Card with action areas 1, 2, 3 and 4, optional header, rich media, and supplemental actions</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aHp5aGtIT0dwQ28/components_cards19.png",
+                      "caption": "<p>Card with action areas 1 and 2, optional header, supporting text and supplemental actions</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>UI controls</h4><p>UI controls, like a slider, placed inline with primary content can modify the view of the primary content. For example, a slider to choose a day, stars to rate content, or a segmented button to select a date range.</p><h4>Overflow menu</h4><p>An overflow menu (optional) is typically placed in the upper-right corner of cards, but can be in the lower right if the placement improves content layout and legibility.</p><p>Take care not to overload an overflow menu with too many actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OXdMTGNiaG9MVXc/components_cards_action1.png",
+                      "caption": "<p>This card contains UI controls within the action area block</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UWdmRm15cGR2TGM/components_cards_action4.png",
+                      "caption": "<p>This card contains segmented buttons within the action area block. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TVlLZ3RQUDBSX3c/components_cards_action6.png",
+                      "caption": "<p>This card contains a slider control within the action area block.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cXJ0OTI1MXJUV0U/components_cards_action5.png",
+                      "caption": "<p>This card contains tabs within the action area block. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Additional actions</h4><p>Inline links within text content are strongly discouraged.</p><p>Although cards can support multiple actions, UI controls, and an overflow menu, use restraint and remember that cards are entry points to more complex and detailed information.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3b3BtZFhRRXRPd2c/components_cards_action2.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use cards as an entry point to more detailed information. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X1h3R2hSdFM5am8/components_cards_action3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Cards provide context and an entry point to more robust information and views. Don&apos;t overload cards with extraneous information or actions. Inline links within text content are strongly discouraged.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content blocks",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Cards can be constructed using blocks of content which include:</p><ul><li>An optional header</li><li>A primary title</li><li>Rich media</li><li>Supporting text</li><li>Actions</li></ul><p>These blocks can be organized to promote different types of content. For example, numbers may be emphasized by increasing their typographic scale.</p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href=\"http://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-keylines-spacing\">Metrics &amp; Keylines</a> for more information.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bElRc0xaZGR4S0E/components_cards20.png",
+                      "caption": "<p>Primary title top padding: 24dp<br>Primary title bottom padding: 16dp<br>Action button row padding: 8dp<br>Supporting text top padding: 16dp<br>Supporting text bottom padding: 24dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Rich media</strong></p><p>16:9 or 1:1 aspect ratio (recommended)</p><p><strong>Actions</strong></p><p>Padding: 8dp</p><p><strong>Primary title/text</strong></p><p>Title: 24sp or 14sp<br>Subtitle: 14sp<br>Left and right padding: 16dp on mobile </p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href=\"http://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-keylines-spacing\">Metrics &amp; Keylines</a> for more information.</p><p>Top padding: 16dp or 24dp (when a large primary title is present)<br>Bottom padding: 16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text) </p><p><strong>Supporting text</strong></p><p>Supporting text: 14sp<br>Left and right padding: 16dp on mobile </p><p>On tablet/desktop<strong>, </strong>cards should follow the 24dp keyline. See <a href=\"http://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-keylines-spacing\">Metrics &amp; Keylines</a> for more information.<br>Top padding: 16dp<br>Bottom padding: 24dp (16dp if there are additional actions or text below)</p><p>Bullet points (but not their text), images, and buttons may extend outside of the 16dp padding.</p><p><strong>Card margins on mobile</strong></p><p>Padding from edge of screen to card: 8dp<br>Space between cards: 8dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bG0tNkIyNDhJZEU/components_cards28.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Content block types"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Elevation</strong></p><p>Card resting elevation: 2dp<br>Card raised elevation: 8dp</p><p>Cards have a default elevation of 2dp.</p><p>On desktop, cards can have a resting elevation of 0dp and gain an elevation of 8dp on hover.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VmtUaXV5NmdSc3M/components_cards_elevation.png",
+                      "caption": "<p>Card resting elevation of 2dp, and raised elevation of 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UlE0NklYTW95eUk/components_cards_elevation_desktop.png",
+                      "caption": "<p>A card resting elevation of 0dp, and raised elevation of 8dp (desktop only)</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VDN2WHdQeTRHSVE/components_cards_elevation_desktop1.png",
+                      "caption": "<p>A card on desktop with a 0dp resting elevation (left), and an 8dp elevation on hover (right)</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The following examples illustrate some possible combinations of content blocks.</p>"
+                }
+              ],
+              "title": "Content block combinations"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area</strong></p><ul><li>16:9 ratio </li></ul><p><strong>Supporting text</strong></p><ul><li>Text: 14sp</li><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MzBrRFVWeUEtSWM/components_cards29.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Avatar, Title, and Subtitle area</strong></p><ul><li>Height: 72dp</li><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Media area</strong></p><ul><li>16:9 ratio<br></li></ul><p><strong>Supporting text</strong></p><ul><li>Text: 14sp</li></ul><ul><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dmZtRndUeWtpMUk/components_cards30.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Avatar, Title, and Subtitle area</strong></p><ul><li>Height: 72dp</li><li>Left and right padding: 16dp</li><li>Top and bottom padding: 16dp</li></ul><p><strong>Media area </strong></p><ul><li>16:9 ratio </li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li><li>Padding between actions: 4dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZFBhbVg4UGdlc3c/components_cards31.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area</strong></p><ul><li>16:9 ratio </li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MWV3emd4WEY4aG8/components_cards32.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area</strong></p><ul><li>16:9 ratio </li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul><p><strong>Expanded supporting text</strong></p><ul><li>Text: 14sp</li><li>Top padding: 16dp</li><li>Bottom padding: 24dp</li><li>Right and left padding: 16dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RXpZUWE2bV9PdDQ/components_cards33.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Subtitle</strong></p><ul><li>Top padding: 12dp</li><li>Right and left padding: 16dp</li></ul><p><br><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Supporting text</strong></p><ul><li>Text: 14sp</li><li>Top padding: 16dp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MXJBM2FCcDVscjg/components_cards34.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>16:9 ratio </li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S05CcXZFOEh5RUU/components_cards35.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>1:1 ratio</li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp</li></ul><p><br><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Bottom padding: 16dp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ajNVOVJyV2VmcXM/components_cards36.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>1:1 ratio</li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3US1pR2N0OTNIaFE/components_cards37.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>1x</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br></li></ul><p><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3c29HUjIwc19JQlU/components_cards24.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>3/8x</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br></li></ul><p><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eXpkdFhrZk9oM1k/components_cards25.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>2x</li><li>Top padding: 16dp</li></ul><p><strong>Primary text</strong></p><ul><li>Text: 24sp</li><li>Top padding: 24dp</li><li>Right and left padding: 16dp<br></li></ul><p><strong>Subtext</strong></p><ul><li>Text: 14sp</li><li>Right and left padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>Padding: 8dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3czJqUXhkbER4VlU/components_cards26.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Media area </strong></p><ul><li>3x</li><li>Padding: 16dp</li></ul><p><strong>Actions</strong></p><ul><li>All around padding: 8dp + 16dp</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OTNwYzRRZ0o2dGM/components_cards41.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "title": "Gestures",
+  "href": "http://www.google.com/design/spec/patterns/gestures.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p><strong>Mobile only</strong></p><p>Gestures are divided into <strong>Touch Mechanics</strong>&#xA0;(what your fingers do on the screen) and <strong>Touch Activities</strong>&#xA0;(results of specific gestures). &#xA0;</p><p>A touch mechanic (such as swipe) may have multiple results (such as enable/disable), depending on the context. A touch activity (zoom in) may be achieved through multiple touch mechanics (pinch open, double touch, etc.). </p><p>The <a href=\"http://www.google.com/design/spec/patterns/gestures.html#gestures-drag-swipe-or-fling-details\">Drag, Swipe, and Fling</a> touch activities are covered in more detail due to their highly contextual results.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Touch mechanics",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Touch mechanics refer to what the user&apos;s fingers do on the screen.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNQWJmd05meTMwVmM/patterns-gestures-gestures-touch_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Touch</div><p>One-finger press, lift</p><p>Example: Select</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNcm9nRFMzY2NGSW8/patterns-gestures-gestures-double-touch_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Double touch</div><p>One-finger press, lift, one-finger press, lift</p><p>Example: Zoom in</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrYmJycXVBTXlNOUk/patterns-gestures-gestures-swipe_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Drag, Swipe, or Fling</div><p>One-finger press, move, lift</p><p>Example: Dismiss, scroll, tilt, etc.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrNURicDZTZ09rb1k/patterns-gestures-gestures-long-press_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Long press</div><p>One-finger press, wait, lift</p><p>Example: Select an element, such as a list item</p><p>Long press is not used to display a contextual menu.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrSVpJWmo2UUFIX2M/patterns-gestures-gestures-long-press-drag_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Long-press drag</div><p>One-finger press, wait, move, lift</p><p>Example: Pick up and move, select multiple items</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNVmFwVnNZR0ltV0E/Patterns-Gestures-TouchMechanics-6-Long-press-drag_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Double-touch drag</div><p>One-finger press, lift, one-finger press, move, lift</p><p>Example: Zoom in, zoom out</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrUFlTVWEweUhUWW8/patterns-gestures-gestures-pinch-open_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Pinch open</div><p>Two-finger press, move outwards, lift</p><p>Example: Zoom in</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrTFBEMzM2dlVsaUU/patterns-gestures-gestures-pinch-closed_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Pinch closed</div><p>Two-finger press, move inwards, lift</p><p>Example: Zoom out</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrMkF2bzdocGZUa1U/patterns-gestures-gestures-two-finger-touch_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Two-finger touch</div><p>Two-finger press, lift</p><p>Example: Zoom out</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrdU45b3F2OUcwSFk/patterns-gestures-gestures-two-finger-swipe_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Two-finger swipe, drag, fling</div><p>Two-finger press, move, lift</p><p>Example: Select multiple items, pan, tilt</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrOVNwMW9YQ0U5UnM/patterns-gestures-gestures-two-finger-long-press_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Two-finger long-press</div><p>Two-finger press, wait, lift</p><p>Example: None; this gesture is uncommon.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrNG81c3F0eUZCVWc/patterns-gestures-gestures-two-finger-long-press-drag_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Two-finger long-press drag</div><p>Two-finger press, wait, move, lift</p><p>Example: Pick up and move</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrSEoxbVJuVUpRalE/patterns-gestures-gestures-two-finger-double-touch_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Two-finger double touch</div><p>Two-finger press, lift, two-finger press, lift</p><p>Example: Zoom out</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrV2hkbmYzUHlqS3c/patterns-gestures-gestures-rotate_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Rotate</div><p>Two-finger press, simultaneously orbit both fingers around the center point, lift</p><p>Example: Rotate content, such as a map</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Touch activities",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Specific gestures and their results, in context.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Drag, swipe, or fling details",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Swipe gesture activities vary based on context. The speed at which a gesture is performed is the primary distinction between Drag, Swipe, and Fling. </p><ul><li><strong>Drag: </strong>Fine gesture, slower, more controlled, typically has an on-screen target</li><li><strong>Swipe:</strong>&#xA0;Gross gesture, faster, typically has no on-screen target</li><li><strong>Fling:</strong>&#xA0;Gross gesture, with no on-screen target</li></ul><p>Gesture velocity impacts whether the action is immediately reversible. </p><ul><li>A swipe becomes a fling based on ending velocity and whether the affected element has crossed a threshold (or point past which an action can be undone).</li><li>A drag maintains contact with an element, so reversing the direction of the gesture will drag the element back across the threshold. </li><li>A fling moves at a faster speed and removes contact with the element while it crosses the threshold, preventing the action from being undone.</li></ul>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c19\"><strong>Scroll</strong></h3><p>A <strong>scroll</strong>&#xA0;is a vertical or horizontal swipe in a single direction within the content body. </p><p>Usage</p><ul><li>Scroll amount varies based on velocity of gesture: drag (slow) vs. swipe vs. fling (fast).</li><li>Scrolled content should move at the same rate as the gesture being performed. The content should feel &quot;anchored&quot; to the finger or touch device.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrSWhBc0Ffa3E0Rlk/Patterns-Gestures-TouchActivities-02_large_xhdpi.png",
+                      "caption": "<p>Example of scroll directions</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Reveal upon scroll</strong></h3><p><strong>Reveal upon scroll</strong> means that reversing the scroll direction in a content area reveals hidden in-app elements. E.g., scrolling up in Chrome shows the Omnibox. To dismiss these in-app elements, resume the original scroll direction.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrSWhBc0Ffa3E0Rlk/Patterns-Gestures-TouchActivities-02_large_xhdpi.png",
+                      "caption": "<p>Example of scroll directions</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Pan</strong></h3><p>A <strong>p</strong><strong>an</strong> is an omnidirectional one- or two-finger gesture that expands the field of view. Drag is typically used with pan. Fling will maintain gesture velocity, resulting in a significant pan of the content along the direction of the fling gesture.</p><p>Pan is applied to:</p><ul><li>Unbounded content (maps)</li><li>Content that is larger than the screen height or width (zoomed in web page or photo)</li></ul><p>A <strong>two-finger pan</strong> occurs when transitioning from another two-finger gesture (e.g., pinch zoom or rotate) such as in Maps. When a gesture begins with a two-finger pan it results in <strong>tilt</strong>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrQnota1Q0eHpWbmM/Patterns-Gestures-TouchActivities-03_large_xhdpi.png",
+                      "caption": "<p>Example of pan</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Dismiss</strong></h3><p>A <strong>dismiss</strong>&#xA0;gesture originates on a swipeable element, such as a list item or card, orthogonal to the direction of scrolling.</p><p>The gesture is typically horizontal.</p><p>The dismiss gesture is committed based on crossing a threshold.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrUjhEaHo1d2otSDQ/Patterns-Gestures-TouchActivities-04_large_xhdpi.png",
+                      "caption": "<p>Example of dismiss gesture</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Swipe to refresh</strong></h3><p><strong>Swipe to refresh </strong>usually occurs in a vertical and downward movement. It is available at the top of a list, or at the edge of any card or container where new content surfaces.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrV0hPR2ZwMjFtN28/Patterns-Gestures-TouchActivities-05_large_xhdpi.png",
+                      "caption": "<p>Example of swipe to refresh</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\">Edge swipe</h3><p>An <strong>edge swipe</strong>&#xA0;gesture originates outside of the screen to reveal off-screen content. It invokes content separate from the current view.</p><p>If no edge swipe action is defined, an edge swipe can default to a <strong>paging swipe</strong>.</p><p>The edge swipe gesture is committed based on crossing a threshold.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTra2d2Ylp5ZXRaUGM/Patterns-Gestures-TouchActivities-06_large_xhdpi.png",
+                      "caption": "<p>Example of edge swipe</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Paging swipe</strong></h3><p>A <strong>paging swipe</strong>&#xA0;is an on-screen, in-content swipe that reveals related off-screen content. It reveals one page/tab per paging swipe.</p><p>If paged content is at &gt;100% zoom, an in-content swipe will <strong>Pan</strong>&#xA0;to an edge of the content, and an additional in-content swipe will <strong>Page</strong>.</p><p>The Paging swipe gesture is committed based on crossing a threshold.</p><p>Don&#x2019;t use paging swipes when individual elements are swipeable. </p><p>See below: Overscroll collapse</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrQlZ5dVNhVVJ1UU0/Patterns-Gestures-TouchActivities-07_large_xhdpi.png",
+                      "caption": "<p>Example of paging swipe</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Overscroll collapse</strong></h3><p><strong>Overscroll collapse </strong>navigates up in the content hierarchy via a paging swipe at the top or bottom of scrolling content.</p><p>The Overscroll collapse gesture is committed based on crossing a threshold.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrZzBwQk9FRS1OV1k/Patterns-Gestures-TouchActivities-08_large_xhdpi.png",
+                      "caption": "<p>Example of overscroll collapse</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Menu open</strong></h3><p>A drag originating from a menu or picker reveals a menu. Upon lift, the highlighted menu option is selected.</p><p>The menu then appears upon touch. </p><p>Drag is used with <strong>Menu open</strong>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrYUZzdHNNTWEwYTA/Patterns-Gestures-TouchActivities-09_large_xhdpi.png",
+                      "caption": "<p>Example of menu open drag</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h3 class=\"c5\"><strong>Tilt</strong></h3><p><strong>Tilt</strong> moves 3D content forward or backward.</p><p>The transition from another two-finger gesture (e.g., pinch zoom or rotate) such as in Maps, will result in a <strong>two-finger pan</strong>.</p><p>Drag is used with <strong>Tilt</strong>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNenotUjEzT29NWEU/Patterns-Gestures-TouchActivities-10_large_xhdpi.png",
+                      "caption": "<p>Example of tilt</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

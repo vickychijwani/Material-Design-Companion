@@ -1,0 +1,161 @@
+{
+  "title": "Data formats",
+  "href": "http://www.google.com/design/spec/patterns/data-formats.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Date & time",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>How you format the date and time depends on a few factors:</p><ul><li>If the time or date is the current one</li><li>Whether you are using the 12-hour or 24-hour clock</li><li>How specific you need to be</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Date and time"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Date and time ranges are formatted based on the following: </p><ul><li>The year is the same on both sides of the range</li><li>It&#x2019;s the current year on both sides of the range</li><li>Whether both times have the same AM or PM</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Time and date ranges"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>As time zones vary across regions, time zone usage should be both clear and relevant.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Time zones"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Display date and time information as people normally speak to each other, when space permits.</p><ul><li>Refer to yesterday or tomorrow in those terms. </li><li>If the day is in the future and within a week, display the day of the week (such as Tuesday). </li><li>Display word alternatives that help understanding or describe a time-of-day. Such as, &#x201C;Store open 9:00 AM&#x2013;Midnight&#x201D; or &#x201C;Reminder for tomorrow afternoon&#x201D;</li></ul>"
+                }
+              ],
+              "title": "Human and relative language "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Depending on the context, show either date or time, or both date and time.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Date and time modifications by context "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Where space is limited, use abbreviations for months and days.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Abbreviations"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Data redaction and truncation",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Midline ellipses [&#x2022; &#x2022; &#x2022;] are three-bullet glyphs used to represent numeric truncation and the redaction of sensitive data, such as credit card, debit card, and Social Security numbers.</p><p>Midline ellipses preserve user security by mimicking masking, effectively punctuate numerals not shown, and reflect the vertical midline symmetry of material design.</p><p><strong>Usage</strong></p><p>Before the first midline ellipse, place two regular spaces, then add a thin space between each midline ellipse and after the final midline ellipse. Or, use the unicode string: U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006</p><p>This spacing maintains the glyph&#x2019;s true form across typefaces and platforms.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\"></div><p>Written in unicode: &quot;Visa&quot;,U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006, &quot;1234&quot; </p><p>Unicode interpreted as: <br>&quot;Visa&quot;, space, space, bullet, thin space, bullet, thin space, bullet, thin space, &quot;1234&quot;</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Data redaction with midline ellipses"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Baseline ellipses [...] represent letters, words or phrases that aren&#x2019;t shown. They also represent text truncation of a name or email address. </p><p><strong>Usage</strong></p><p>Type the ellipses as three periods in a row (or unicode character U2026) directly following the last letter shown.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\"></div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Data truncation with baseline ellipses"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

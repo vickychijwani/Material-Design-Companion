@@ -1,0 +1,251 @@
+{
+  "title": "Pickers",
+  "href": "http://www.google.com/design/spec/components/pickers.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Pickers provide a simple way to select a single value from a pre-determined set.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>On mobile, pickers are best suited for display in a <a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-confirmation-dialogs\">confirmation dialog</a>. </p><p>For inline display, such as on a form, consider using compact controls such as <a href=\"http://www.google.com/design/spec/components/buttons.html#buttons-other-buttons\">segmented dropdown buttons</a>. </p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Date pickers",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A dialog picker is used to select a single date on mobile. </p><p>The selected day is indicated by a filled circle. The current day is indicated by a different color and type weight. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HVWZOVkdRQlJEdDg/components_pickers_date1.png",
+                      "caption": "<p>Date and year picker: Light theme, portrait</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Swipe left to right to navigate through the months. Touch the year in the title bar to transition to the year view.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSm5KN1FNQXRFRDA/components_pickers_date_navigation_xhdpi_004.webm",
+                      "caption": "<p>Date picker navigation</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The picker view adapts to the device&#x2019;s orientation. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_Hamc5d1k2SmhlV2c/components_pickers_date3.png",
+                      "caption": "<p>Date picker: Light theme, landscape</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A dark theme picker can complement apps that have a dark theme.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HOTZoUE1VSGxvRFE/components_pickers_date4.png",
+                      "caption": "<p>Date picker: Dark theme, portrait</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Landscape view of the dark theme picker.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsT213YlhEcGNTdDA/components_pickers_date5.png",
+                      "caption": "<p>Date picker: Dark theme, landscape</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Time pickers",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A time picker adjusts to a user&#x2019;s preferred time setting, i.e. the 12-hour or 24-hour format. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A dialog picker is used to select a single time (hours:minutes) on mobile. </p><p>The selected time is indicated by the filled circle at the end of the clock hand. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HcVRNejI4UTh6aHM/components_pickers_time1.png",
+                      "caption": "<p>Time picker: Light theme, portrait</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tap between the hour and minute label in the title bar to switch between the hour or minute view. Additionally, tap on the AM/PM label in the title bar to switch between AM or PM (in 12-hour clock mode).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HWk1jVmpGN0ZIaDg/components_pickers_time_transition.webm",
+                      "caption": "<p>Time picker navigation</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The picker view adapts to the device&#x2019;s orientation. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3321sZLoP_HREpvc2hIX210OVE/components_pickers_time2.png",
+                      "caption": "<p>Time picker: Light theme, landscape</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A dark theme picker can complement apps that have a dark theme.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LVnJ5QWZmSTRUdVE/components_pickers_time3.png",
+                      "caption": "<p>Time picker: Dark theme, portrait</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Landscape view of the dark theme picker </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0J8hsRkk91LcUNieWxKNXVobTQ/components_pickers_time4.png",
+                      "caption": "<p>Time picker: Dark theme, landscape</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

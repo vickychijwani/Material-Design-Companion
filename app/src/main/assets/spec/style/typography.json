@@ -1,0 +1,993 @@
+{
+  "title": "Typography",
+  "href": "http://www.google.com/design/spec/style/typography.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Since the Ice Cream Sandwich release, Roboto has been the standard typeface on Android. Since Froyo, Noto has been the standard typeface on Android for all languages not covered by Roboto. Noto is also the standard typeface for all languages on Chrome OS.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Language categorization",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Language scripts can be divided into three categories:</p><p><strong>English and English-like</strong>: Latin (except Vietnamese), Greek, and Cyrillic scripts, supported by both Roboto and Noto. Roboto has been extended to completely cover all Latin, Greek, and Cyrillic characters as defined in Unicode 7.0. The number of supported characters has doubled from previous releases, from about 2000 to about 4000 characters.</p><p><strong>Tall</strong>: Language scripts that require extra line height to accommodate larger glyphs, including South and Southeast Asian and Middle-Eastern languages, like Arabic, Hindi, Telugu, Thai, Vietnamese. Noto supports these languages with two weights.</p><p><strong>Dense</strong>: Language scripts that require extra line height to accommodate larger glyphs, including Chinese, Japanese, and Korean. Noto supports these languages with seven weights.</p><p>See the full list in the <a href=\"http://www.google.com/design/spec/style/typography.html#typography-language-categories-reference\">language categories table</a>.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Typeface",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Roboto has been refined extensively to work across the wider set of supported platforms. It is slightly wider and rounder, giving it greater clarity and making it more optimistic. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SW9CUzR4MnRpOTg/style_typography_roboto1.png",
+                      "caption": "<p>Examples of Roboto</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Roboto"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Y3JIMkV5ZmVaM2c/style_typography_roboto2.png",
+                      "caption": "<p>Roboto A-Z and numerals</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Roboto font weights</h4><p>Roboto has six weights: Thin, Light, Regular, Medium, Bold, and Black. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZHlGSHpsMjU5YmM/style_typography_weights1.png",
+                      "caption": "<p>Roboto font weights</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Noto&#x2019;s vertical metrics are compatible with Roboto.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzcWkwSW11bkstZEU/style_typography_noto1.png",
+                      "caption": "<p>Noto Sans examples for English and CJK (Chinese, Japanese, and Korean)</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Noto"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzOEh3Z1BUNFdsVGc/style_typography_noto2.png",
+                      "caption": "<p>Noto Sans examples for Thai and Hindi (Devanagari)</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Noto font weights</h4><p>Noto Sans CJK (Chinese, Japanese, and Korean) has seven weights: Thin, Light, DemiLight, Regular, Medium, Bold, and Black. The weight of Noto Sans CJK Regular is the same as Roboto Regular. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzdFA4NUh2TG1rT1E/style_typography_weight1.png",
+                      "caption": "<p>Noto Sans CJK font weights</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Noto fonts for Thai, Devanagari, and all other major living languages have Regular and Bold weights.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzdTRNVG0yX3JkUEE/style_typography_weight2.png",
+                      "caption": "<p>Noto Sans Thai and Hindi (Devanagari) font weights</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Hints are the instructions embedded in a font on how to modify (distort) a glyph to look better on low-resolution displays. As a tradeoff, a hinted font consumes more space than the unhinted version.</p><p>Both Roboto and Noto have hinted and unhinted versions. Google recommends: </p><ul><li>Use the unhinted versions on Android and on Mac OS X, which doesn&#x2019;t implement hints. </li><li>Use hinted fonts on Chrome OS, Windows, and Linux.</li></ul>"
+                }
+              ],
+              "title": "Hinted fonts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For both Android and web properties, the font stack should specify Roboto, Noto, and then sans-serif.</p>"
+                }
+              ],
+              "title": "Font stack"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Styles",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Too many type sizes and styles at once can wreck any layout. A typographic scale has a limited set of type sizes that work well together along with the layout grid.</p><p>These sizes and styles were developed to balance content density and reading comfort under typical usage conditions. Type sizes are specified with sp (scaleable pixels) to enable large type modes for <a href=\"http://www.google.com/design/spec/usability/accessibility.html\">accessibility</a>. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Latin, Greek, and Cyrillic.</p><p>The basic set of styles are based on a typographic scale of 12, 14, 16, 20, and 34. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3alhXZ2pPWGk3Zjg/style_typography_styles_scale.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "English and English-like scripts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3clphLWM0RkVvZFE/style_typography_styles_01_display1.png",
+                      "caption": "<p>Examples using Display style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUmdEV0VrSWJpU1k/style_typography_styles_02_display2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVGttdHdRVExFVjA/style_typography_styles_03_headline1.png",
+                      "caption": "<p>Examples using Headline style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsV3BnOGFxOWkzSHc/style_typography_styles_04_headline2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Across form factors, text that appears in the app bar should use the Title style, Medium 20sp. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsT3hTdEZ3c2JxaUk/style_typography_styles_05_title1.png",
+                      "caption": "<p>Examples using Title style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsekd0Y29DcXpuMTg/style_typography_styles_06_title2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In certain scenarios, use the larger subheading style instead of the smaller Body style. Some of those scenarios include when information is presented as small snippets or when titles are paired with lines of Body-styled text.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNVRVTk02WlFCZTg/style_typography_styles_07_subhead1.png",
+                      "caption": "<p>Examples using subheading style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X2N0WF9qUlV6emM/style_typography_styles_08_subhead2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdzdiVzQ4aXh6ek0/style_typography_styles_09_body1.png",
+                      "caption": "<p>Examples using Body style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYS1YNy1lSVhIWFk/style_typography_styles_10_body2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOGVpRWdiN1VVXzA/style_typography_styles_11_body3.png",
+                      "caption": "<p>Examples using Body style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUE9PUkJKUHZlM1U/style_typography_styles_12_body4.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Button style (Medium 14sp, all caps) is used for all buttons. Button text should be all caps in languages that have capitalization. For languages that don&#x2019;t have capitals, consider using color text for flat buttons to make them stand out from normal text.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsT3h3cUk3VEp6czQ/style_typography_styles_13_button1.png",
+                      "caption": "<p>Examples using Button style, English</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsakpNYVp4YnV6b1U/style_typography_styles_14_button2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Chinese, Japanese, and Korean.</p><p><strong>Weight</strong>: Since Noto CJK has seven weights that match Roboto, use the same weight settings as English.</p><p><strong>Font size</strong>: For Title through Caption styles, the font size is 1px larger than that specified for English. For styles larger than Title, the English type size is suitable.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N3d4REJ0enZqd2M/style_typography_style1.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dense scripts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RFF5V0FmdVBPMkU/style_typography_style2.png",
+                      "caption": "<p>Example, dense language script</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRnRRYjBDaEo0enM/style_typography_example_japanese1.png",
+                      "caption": "<p>Example of a subheading, Japanese</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSlBlSVdGTUgtYlU/style_typography_example_japanese2.png",
+                      "caption": "<p>Example of Body, Japanese</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SWlKUGlXdjZyOUU/style_typography_example_japanese3.png",
+                      "caption": "<p>Example of Body 1, Japanese</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSUtQdXZBZEhBTms/style_typography_example_chinese1.png",
+                      "caption": "<p>Example of a subheading, Traditional Chinese</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdDdudFYxcnlsWXc/style_typography_example_chinese2.png",
+                      "caption": "<p>Example of Body, Traditional Chinese</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Y1hCY2JHaDRHa0E/style_typography_example_chinese3.png",
+                      "caption": "<p>Example of Body 1, Traditional Chinese</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>South and Southeast Asian and Middle Eastern languages, including Arabic, Hindi, and Thai.</p><p><strong>Weight</strong>: Use Regular weight, as Medium weight is unavailable in Noto. Google recommends avoiding Bold weight, based on feedback from native speakers that Bold is too heavy.</p><p><strong>Font size</strong>: For Title through Caption styles, font size is 1px larger than that specified for English. For styles larger than Title, the English type size is suitable.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ek5vUE41WjNOSmM/style_typography_style3.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tall scripts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OW8zRU5URzFWc2s/style_typography_style4.png",
+                      "caption": "<p>Example, tall language scripts</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsd0N6WHk5d0xHcEU/style_typography_example_hindi1.png",
+                      "caption": "<p>Example of a subheading, Hindi</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscnNFaDkzazVjU3M/style_typography_example_hindi2.png",
+                      "caption": "<p>Example of Body, Hindi</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WXRfcDBvQTJFVkE/style_typography_example_hindi3.png",
+                      "caption": "<p>Example of Body1, Hindi</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQlN0eDFPSjZ2Y0E/style_typography_example_thai1.png",
+                      "caption": "<p>Example of a subheading, Thai</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZ3ktUkF0MTBzTm8/style_typography_example_thai2.png",
+                      "caption": "<p>Example of Body, Thai</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SmdCMW5rV3hPcUE/style_typography_example_thai3.png",
+                      "caption": "<p>Example of Body1, Thai</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Line height",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To achieve proper readability and appropriate pacing, line heights have been determined based on each style&#x2019;s individual size and weight. Line wrapping only applies to Body, Subhead, Headline, and the smaller Display styles. All other styles should exist as single lines.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q1VaNVBsdFozUTg/style_typography_styles_lineheight1.png",
+                      "caption": "<p>English and English-like type and leading</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "English and English-like scripts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S0hlSFBQRVE0QlU/style_typography_styles_lineheight2.png",
+                      "caption": "<p>Pairing examples</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSDJtU2ZnVDZhTGM/style_typography_styles_lineheight3.png",
+                      "caption": "<p>Isolated examples &#x2013; Increased line height</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For all styles, line height is 0.1em larger than the English-like languages. English and English-like languages mostly use a portion of the em box, often the lower portion below the x-height. Chinese, Japanese, and Korean (CJK) ideographic characters use the entire em box. Characters in tall languages often have long descenders and/or ascenders. To achieve the same design intention as English for CJK and to avoid potential text clipping between two lines next to each other for tall languages, the line height needs to be larger than in English for tall and dense languages.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bW9GQUFPTXlTbWc/style_typography_lineheight_tall1.png",
+                      "caption": "<p>Line height for tall and dense languages</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzX05ldDZtZ3VXRGs/style_typography_lineheight_tall2.png",
+                      "caption": "<p>Line height pairing example, Thai and Hindi</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dense and tall scripts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzUXJONTc0Y0ZWZ2s/style_typography_lineheight_dense2.png",
+                      "caption": "<p>Line height pairing example, Chinese and Japanese</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Other typographic guidelines",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A text color that is too similar to the background color is hard to read. Text with too much contrast can also be hard to read. This is especially true of light-colored text against dark backgrounds.</p><p>Text should maintain a minimum contrast ratio of at least 4.5:1 (calculated based on luminance values) for legibility. A ratio of 7:1 is preferred.</p><p>These color combinations also consider contrast ratios for users who perceive color differently.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dGx2T1FqM0xXbTA/style_typography_styles_contrast.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Colors & contrast"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OUFUOUl4MUtTaE0/style_typography_styles_15_contrast1.png",
+                      "caption": "<p>Contrast over light background</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S250RlVKaXAwZTA/style_typography_styles_16_contrast2.png",
+                      "caption": "<p>Contrast over dark background</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cS1XWnFVUGNZMnM/style_typography_styles_17_contrast3.png",
+                      "caption": "<p>Contrast over image</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3clVzR3g1SWkzaGc/style_typography_styles_18_contrast4.png",
+                      "caption": "<p>Contrast over illustration</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For the best user experience, use dynamic type instead of relying only on smaller type sizes or allowing truncation of larger-size text.</p><p>Large type applied correctly can make apps more interesting, differentiate layouts, and help users to decode content quickly.</p><p>Dynamic type enables large type when the length of the text in a layout is unknown. Dynamic sizes are selected from a typographic scale based on available space and letter size estimates.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OERKNk91VEZMakE/style_typography_styles_19_dynamic1.png",
+                      "caption": "<p>Dynamic type</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NFJ1UjFwVnNtY3M/style_typography_styles_20_dynamic2.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Large and dynamic type "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsd05WTG5aTjRFdDQ/style_typography_styles_21_dynamic3.png",
+                      "caption": "<p>UI application</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbEZ2ekhfTVYwRms/style_typography_styles_22_dynamic4.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The images show best practices for line breaks.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMTd0MVdkZWwyUDg/style_typography_styles_linebreaks1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZXhBR3RaME9xLVU/style_typography_styles_linebreaks2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid leaving large gaps and orphans on a line. Try not to leave very short words such as prepositions at the end of a line. Well-considered line breaks can avoid hyphenation of words altogether.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Line breaking"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3LUZGWGdtZmFfUU0/style_typography_styles_tracking.png"
+                    }
+                  ]
+                }
+              ],
+              "title": "Tracking and kerning"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Consider this advice on readability and line length from the Baymard Institute:</p><p>&#x201C;You should have around 60 characters per line if you want a good reading experience. Having the right amount of characters on each line is key to the readability of your text.&#x201D;</p><p>&quot;Too wide &#x2013; if a line of text is too long, the user&#x2019;s eye will have a hard time focusing on the text. This is because the length makes it difficult to get an idea of where the line starts and ends. Furthermore it can be difficult to continue from the correct line in large blocks of text.&#x201D;</p><p>&quot;Too narrow &#x2013; if a line is too short, the eye will have to travel back too often, breaking the reader&#x2019;s rhythm. Too short lines also tend to stress people, making them begin on the next line before finishing the current one (hence skipping potentially important words).&#x201D;</p><p>Source: &#x201C;Readability: the Optimal Line Length,&#x201D;</p><p><a href=\"https://www.google.com/url?q=http://baymard.com/blog/line-length-readability&amp;sa=D&amp;usg=AFQjCNGohHau8WeaWtT6fFEE5-qptOydPw\">http://baymard.com/blog/line-length-readability</a></p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVDdtU1NfU3Jtdlk/style_typography_styles_linelengths1.png",
+                      "caption": "<p>Ideal line lengths for English body text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMzYxcGowWTE5NW8/style_typography_styles_linelengths2.png",
+                      "caption": "<p>Ideal line lengths for short lines of text in English</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Line length"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Language categories reference",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For ease of internationalization, Google has categorized languages into three categories: English and English-like; tall; and dense.</p><p><strong>English and English-like</strong>: Latin (except Vietnamese), Greek, Cyrillic, Hebrew, Armenian and Georgian.</p><p><strong>Tall</strong>: Language scripts that require extra line height to accommodate larger glyphs, including South and Southeast Asian and Middle Eastern languages, like Arabic, Hindi, Telugu, Thai, Vietnamese.</p><p><strong>Dense</strong>: Language scripts that require extra line height to accommodate larger glyphs but have different metrics from tall scripts. Includes Chinese, Japanese, and Korean. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "title": "Settings",
+  "href": "http://www.google.com/design/spec/patterns/settings.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Application settings let users indicate their preferences for how an app or service should behave.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Placement",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>All of an app&#x2019;s settings should be reached via the &#x201C;Settings&#x201D; label. Do not use synonyms such as &#x201C;Options&#x201D; or &#x201C;Preferences.&#x201D;</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Side navigation</strong></p><p>If side navigation such as a navigation drawer exists, include &#x201C;Settings&#x201D; below all other items (except Help &amp; Feedback).</p><p><strong>Apps without navigation</strong></p><p>Place Settings in the toolbar menu below all other items (except Help &amp; Feedback).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsX0Z3Q2hWSUljd00/patterns_settings_sidenav.png",
+                      "caption": "<p>Settings in the navigation drawer </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNzVuX3hCZ3pxVmc/patterns_settings_menu.png",
+                      "caption": "<p>Settings in the toolbar menu</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Settings should be well-organized, predictable, and contain a manageable number of options. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Provide an overview</strong></p><p>A user should be able to quickly understand all available settings and their current values.</p><p>If there are many settings, prioritize the ones most likely to interest users. Less important settings can be grouped and moved to their own screen. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7clprVXFrZGZ6QWM/patterns_settings_sliders.png",
+                      "caption": "<p>Important settings appear at the top of the list</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Select appropriate settings        "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Controls that belong in settings:</strong></p><ul><li>Capture a user preference</li><li>Get accessed infrequently </li><li>Are used by the majority of users</li><li>Are used by a minority of users, but are essential to supporting their needs</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The initial value for each setting should:</p><ul><li>Represent the default most users would choose</li><li>Be neutral and pose little risk</li><li>Use less battery or mobile data</li><li>Only interrupt when important</li></ul>"
+                }
+              ],
+              "title": "Choose polite defaults"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Grouping settings",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For large lists of settings, cluster settings into multiple shorter lists. Arrange them according to the total number of settings in the Settings panel in your app.</p><p><strong>7 or fewer</strong><br>Don&#x2019;t group at all.</p><p><strong>9 to 10</strong><br>Group related settings under one or two section dividers. For settings that can&apos;t be grouped:</p><ul><li>If important, list them at the top without a section divider.</li><li>Otherwise, list them at the bottom with a section divider called &quot;Other,&quot; in order of importance.</li></ul><p><strong>11 to 15</strong><br>Group related settings under two to four section dividers. Combine sets of two related settings into a single setting.</p><p>For example, two related settings with checkboxes could combine into a single multiple-choice setting.</p><p><strong>16 or more</strong><br>Group four or more related settings under a subscreen. Use consistent terminology, making sure that the subscreen&#x2019;s title matches the label of the setting which opens it. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscmdrc2xWTjNnOE0/patterns_settings_subscreen2.png",
+                      "caption": "<p>Grouped settings for interruptions</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOEdqZHpWZHNKaXM/patterns_settings_subscreen3.png",
+                      "caption": "<p>Related settings grouped under a subscreen</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Labels and secondary text",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Make your labels brief and meaningful.</p><p>Labels should:</p><ul><li>Capitalize only the first word of each label, and proper nouns.</li><li>Put the most important text of your label first. </li><li>Rephrase negative words like &quot;Don&apos;t&quot; or &quot;Never&quot; into neutral terms such as &quot;Block.&quot;</li><li>Use impersonal labels like &quot;Notifications&quot; instead of &quot;Notify me.&quot; Exception: If referring to the user is necessary for understanding the setting, use the second person (&quot;you&quot;) rather than the first person (&quot;I&quot;). </li></ul><p>Labels should avoid:</p><ul><li>Generic terms, such as: Set, Change, Edit, Modify, Manage, Use, Select, or Choose</li><li>Repeating words from the section divider or subscreen title</li><li>Technical jargon, unless it&apos;s widely understood by your target audience</li></ul>"
+                }
+              ],
+              "title": "Labels"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Secondary text is optional. If the label is sufficient on its own, don&apos;t add a secondary text description.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid repeating words from the label in secondary text.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Secondary text"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Switch or checkbox settings</strong></p><p>Settings that require precise descriptions may add a single-line description underneath the settings label. Descriptions should:</p><ul><li>Convey what happens when a setting is enabled</li><li>Use words that don&apos;t already appear in the label</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Start the description with a verb.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Settings that require longer explanations may add a description on a second screen. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eWRXVkNtT05wNDg/settings_switch1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Underneath the label, show status text of the switch as &quot;On&quot; or &quot;Off.&#x201D; </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3blBlR3RGYUtjbjA/settings_switch2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Add the switch itself and a longer description to a second screen.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>All other settings</strong></p><p>For non-switch settings, secondary text should show the current status of a setting only. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Writing guidelines",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Be direct and understandable.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Indicate status with specific details placed within the appropriate context.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use keywords that describe settings accurately. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>If the user hasn&#x2019;t set up a screen lock, the secondary text should say &#x201C;None.&#x201D;</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use familiar acronyms when there aren&#x2019;t better alternatives. Convey how and why an unfamiliar setting exists.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

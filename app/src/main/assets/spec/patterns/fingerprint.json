@@ -1,0 +1,513 @@
+{
+  "title": "Fingerprint",
+  "href": "http://www.google.com/design/spec/patterns/fingerprint.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p><strong>Android only</strong></p><p>Fingerprint detection can be used to unlock a device, sign in to apps, and authenticate purchases with Google Play and some third-party apps.</p><p>Fingerprint is not as secure as a strong PIN or password. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Enrollment",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Before invoking Fingerprint in your app, you must get consent from the user that they want to use Fingerprint as an alternate way of authenticating themselves. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Possible times to invite users to try Fingerprint include:</p><ul><li>Upon opening the app</li><li>During your app&#x2019;s purchase flow</li><li>In your app settings</li><li>After enrollment</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Upon opening the app</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3DnSAB-NSN5U2F0X01BRHdWSXc/v_01_fp_enrollment_login_alt_xhdpi.webm",
+                      "caption": "<p>The user is offered the option to enroll their fingerprint right after logging in.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3DnSAB-NSN5THlrOXZQbW1zbEU/v_02_fp_enrollment_create_acct_after_xhdpi.webm",
+                      "caption": "<p>The user is offered the option to enroll their fingerprint right after creating their account.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>During your app&#x2019;s purchase flow</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMSlkyY2hlR0dMb2M/components_fp_03_state1.png",
+                      "caption": "<p>The user is offered the option to enroll their fingerprint right after making a purchase with an existing account.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>In your app settings</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3DnSAB-NSN5R2h5V3hZX3NaTmc/v_04_fp_enrollment_app_settings_xhdpi.webm",
+                      "caption": "<p>The user is offered the option to enable Fingerprint as their lock within an app&#x2019;s settings.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>After enrollment</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3DnSAB-NSN5UUJzMVZqNzR2NFk/v_05_fp_auth_purchase_xhdpi.webm",
+                      "caption": "<p>After enrollment, present the Fingerprint dialog whenever you need authentication from the user.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Authentication",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Your app&#x2019;s users can set up the option to log in or authenticate purchases using Fingerprint.</p><p>When a user action needs to be authenticated, display the Fingerprint authentication dialog in place of your login screen.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Title</strong></p><p>Use the title to describe the action being performed, such as &#x201C;Sign in.&#x201D; The title should not be used to introduce Fingerprint.</p><p><strong>Secondary text</strong></p><p>Use the phase &#x201C;Confirm fingerprint.&#x201D; This wording maintains consistency with Android Settings.</p><p>You may combine the above text with the associated user action, such as &#x201C;Confirm fingerprint to complete purchase.&#x201D;</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMZ2RIS0tpZjZnS00/components_fp_06.png",
+                      "caption": "<p>Confirm fingerprint dialog </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMa0toQzB0cUV2Rkk/components_fp_07.png",
+                      "caption": "<p>Specifications for confirm fingerprint dialog:</p><p>Dialog left and right padding: 24dp<br>Dialog top padding: 24dp<br>Title bottom margin: 20dp<br>Subtitle bottom margin: 28dp<br>Fingerprint icon right margin: 16dp<br>Touch sensor height: 40dp<br>Touch sensor call to action top and bottom padding: 12dp<br>Button container height: 52dp<br>Button container bottom padding: 8dp<br>Button height: 36p<br>Button right padding: 8dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Default state</h4><p>Ask the user to put their finger on the sensor.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMOGM5X0MzTDIzV1k/components_fp_08.png",
+                      "caption": "<p>Default state asking the user to put their finger on the sensor.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Success state</h4><p>Once the fingerprint is recognized, change the dialog to a success message and the image to the fingerprint icon with the check mark.</p><p>Specification:</p><ul><li>Use your app&#x2019;s primary color for the success text and icon, or Teal 500 (#009688)</li></ul><p>Success states should avoid:</p><ul><li>Displaying two success states simultaneously</li><li>Extensive transitions between default and success states</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMdG9rdmZ1aDBuVG8/components_fp_09.png",
+                      "caption": "<p>Success message that the fingerprint has been recognized. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Failure state</h4><p>Upon failure, provide a clear indication that the user&#x2019;s fingerprint was not recognized and that they should try again, using the error icon either with or without a status message.</p><p>Specification:</p><ul><li>Use your app&#x2019;s color assigned to failure states, or Deep Orange 600 (#F4511E)</li></ul><p>Failure states should avoid:</p><ul><li>Extensive transitions between default and failure states</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMbzEzSWVqc2RJY2c/components_fp_10.png",
+                      "caption": "<p>Error message stating the fingerprint was not recognized. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Exiting</h4><p>Provide alternative ways to exit the dialog. At minimum, provide an affordance to close the Fingerprint dialog, such as a &#x201C;Cancel&#x201D; button.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Authentication alternatives</h4><p>Fingerprint should not be the only way to authenticate. Provide alternative authentication methods, such as:</p><ul><li>User&#x2019;s account password</li><li>App PIN</li><li><a href=\"https://www.google.com/url?q=https://developer.android.com/preview/api-overview.html%23confirm-credential&amp;sa=D&amp;usg=AFQjCNHXxRJSXZz0MdFiM4iCWcEO5qDX_g\">Device credentials</a></li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Fingerprint icon",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Usage and size</h4><p>The Fingerprint icon should be displayed at the standard system icon size, 24dp, within a 40dp circle.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMQ3dGVGpqZ28yVDA/components_fp_11_state1.png",
+                      "caption": "<p>40dp circle</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMWEF1RlBXZnZKbWc/components_fp_11_state2.png",
+                      "caption": "<p>24dp system icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Default icon</h4><p>Users will be asked to look for this icon for places where they can use Fingerprint. </p><p>Specifications: </p><ul><li>Circular background color: #607D8B </li><li>Works on white backgrounds</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMQ1pjX2NabjFUQTA/components_fp_12_state1.png",
+                      "caption": "<p>Default icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMZElCTUpXNmdJdG8/components_fp_12_state2.png",
+                      "caption": "<p>Dialog box and default icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Tinted icon</h4><p>The circle surrounding the icon can be customized with a color that provides appropriate contrast against the lines of the Fingerprint icon.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMYmtob3JkYTFrYVk/components_fp_13_state1.png",
+                      "caption": "<p>Contrast and tinted icons</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>UIs with light backgrounds</strong></p><p>Use the Fingerprint icon with a dark circle background. </p><p>Specifications:</p><ul><li>Color: #FFFFFF</li><li>Opacity: 100%</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMVXE4aldleDJsVkE/components_fp_13_state2.png",
+                      "caption": "<p>Dark circle background with the Fingerprint icon for a light background.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>UIs with dark backgrounds</strong></p><p>Use the Fingerprint icon with a light circle background.</p><p>Specifications:</p><ul><li>Color: #000000</li><li>Opacity: 54%</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMX25sN2pRbGs1WHc/components_fp_15_state1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMM0lfMFotOUZySUE/components_fp_15_state2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Icon with no circular background</h4><p>Apps requiring a more versatile Fingerprint icon may eliminate the circular background.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMclptUnowM2t3a3c/components_fp_14_state1.png",
+                      "caption": "<p>Icon with no circular background</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMczVieXJ3YzFNYWc/components_fp_14_state2.png",
+                      "caption": "<p>Dialog box with icon with no circular background.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Reauthentication",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Reauthentication applies when users need to confirm their identity before continuing. </p><p>Reauthentication uses:         </p><ul><li>To prevent unauthorized viewing of sensitive information </li><li>To guard against unauthorized purchases</li><li>When cryptographic keys expire and users are asked to reconfirm their identity&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMbkxzQU8wVGVpX0U/components_fp_16.png",
+                      "caption": "<p>Reauthentication dialog</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Alternatively, if a user forgets about Fingerprint authentication, you can ask users to use their backup password and remind them of the Fingerprint option next time.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0iWdZjcphyMQ1ctVF92SlM2d1E/components_fp_17.png",
+                      "caption": "<p>Dialog asking user for their backup password</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

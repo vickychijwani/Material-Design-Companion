@@ -1,0 +1,128 @@
+{
+  "title": "Principles",
+  "href": "http://www.google.com/design/spec/layout/principles.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Material design is guided by print-based design elements &#x2013; such as typography, grids, space, scale, color, and imagery &#x2013; to create hierarchy, meaning, and focus that immerse the user in the experience. Material design adopts tools from the field of print design, like baseline grids and structural templates, encouraging consistency across environments by repeating visual elements, structural grids, and spacing across platforms and screen sizes. These layouts scale to fit any screen size, which simplifies the process of creating scalable apps. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "How paper works",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In material design, the physical properties of paper are translated to the screen. The background of an application resembles the flat, opaque texture of a sheet of paper, and an application&#x2019;s behavior mimics paper&#x2019;s ability to be re-sized, shuffled, and bound together in multiple sheets. </p><p>The surfaces that comprise applications are referred to in this spec as material, or sheets of material.</p><p>Elements outside of applications, such as system bars, are separate from the app content beneath them, and are not treated as material.</p><p>For detailed information about material, see <a href=\"http://www.google.com/design/spec/what-is-material/material-properties.html\">Material Properties</a>.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Two sheets of material that share an entire common edge are called <strong>seams</strong>. While joined by a seam, they move together.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RVhqalJxN01Fb0U/layout_principles_papercraft_paper1.png",
+                      "caption": "<p>Seams in two sheets of material</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Seams"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Two overlapping sheets of material, with different z-positions (or depths), form a <strong>step</strong>. They move independently of each other. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ck5NWGtlRHBCWVE/layout_principles_papercraft_paper2.png",
+                      "caption": "<p>Steps in two sheets of overlapping material</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Steps"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Floating action button",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A <strong>floating action</strong><strong>&#xA0;button</strong>&#xA0;is a circular sheet separate from a toolbar. It represents a single promoted action. </p><p>It can straddle a step if it relates to the content creating that step.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aGcyakNwSW1iR1U/layout_principles_papercraft_actions1.png",
+                      "caption": "<p>Floating action buttons straddling steps</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Floating action button"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A floating action button can straddle a seam if it relates to the content of both sheets. </p><p>Do not introduce a decorative seam to provide an anchoring point for an action.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eVA3azhXVEFabUE/layout_principles_papercraft_actions2.png",
+                      "caption": "<p>Floating action buttons straddling seams</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For detailed information about floating action buttons, see <a href=\"http://www.google.com/design/spec/components/buttons.html#buttons-floating-action-button\">Floating Action Buttons</a>.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

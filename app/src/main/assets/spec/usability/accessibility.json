@@ -1,0 +1,187 @@
+{
+  "title": "Accessibility",
+  "href": "http://www.google.com/design/spec/usability/accessibility.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>A product is accessible when all people &#x2013; regardless of ability &#x2013; can navigate it, understand it, and use it successfully. Products should aim to be accessible to the widest possible audience.</p><p>For more information on designing fully accessible products, visit the <a href=\"https://www.google.com/url?q=https://www.google.com/accessibility/&amp;sa=D&amp;usg=AFQjCNFKJszKnuunEy1nIr8nWFLbJxFgTw\">Google accessibility site</a>. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Types",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To ensure that your product is usable for those with disabilities, consider what kind of experience users will have by using your product with assistive technologies. Imagine using your product in the following ways:</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Without sound</li><li>Without color</li><li>With high-contrast mode enabled</li><li>With the screen magnified</li><li>With a screen reader (no visible screen)</li><li>With voice control only</li><li>With a combination of the above</li></ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Navigation",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>It should be easy to jump to key sections and return to primary navigation. </p><ul><li>Present the most important information first. </li><li>Make changes that speed up navigation, like bringing a &#x201C;create&#x201D; button to the top.</li></ul>"
+                }
+              ],
+              "title": "Ensure pages can be navigated quickly and efficiently"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The recommended minimum touch target size for any element is 48 x 48 dp. Space between elements on mobile should be at least 8dp. </p>"
+                }
+              ],
+              "title": "Make touch targets at least 48 x 48 pixels"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Make all parts of the design keyboard-accessible on web interfaces and accessible with the basic interaction gestures on mobile devices.</p><ul><li>Every user task and all mouseover information should be keyboard-accessible</li><li>Keyboard shortcuts should be consistent with platform standards. Blind users can&#x2019;t use a mouse to explore your interface, instead they will use keyboards to navigate or swipe through elements on mobile devices. </li></ul>"
+                }
+              ],
+              "title": "Support mouse-free and gesture navigation"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Guide user navigation between dropdowns, alerts, and screens.</p><ul><li>Build ways for users to return to a screen after closing a dropdown window without using touch or mouse input methods.</li><li>Return their focus to where it was before the dropdown opened.</li></ul>"
+                }
+              ],
+              "title": "Manage navigation between screens"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Guidance and feedback",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Give all interactive controls text labels, tooltips, or placeholder text to indicate their purposes. </p><ul><li>Provide the most relevant information first.</li><li>When naming elements, be consistent in your terminology throughout your app. </li></ul>"
+                }
+              ],
+              "title": "Make interactive controls clear and discoverable"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide alternative text for all images and icons, and avoid using text in images in cases where a standard widget would work. </p><ul><li>Make sure labels provide sufficient semantic context for the task (e.g., not just &quot;download&quot; but &quot;download dinner menu&quot;).</li></ul>"
+                }
+              ],
+              "title": "Provide alternative text for images and video"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide clear and easy-to-find contextual help so that the user can look up keyboard shortcuts, gestures, and how to access and use features. If a critical element times out, provide a way for the user to reactivate it.</p>"
+                }
+              ],
+              "title": "Offer guidance and help"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Clearly state the purpose of each link in the link text, avoiding generic anchor text like &#x201C;click here&#x201D; in favor of more specific text, such as &#x201C;Device settings.&quot; Some assistive technology modes efficiently let users scan links only, ignoring other content. </p>"
+                }
+              ],
+              "title": "Give meaning to links"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Readability",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Ensure text remains legible when a user magnifies the screen or enlarges the font, with essential elements still visible, usable, and not overlapping. Test font adjustments on your app using any of the built-in OS/Browser/App accessibility tools for zooming and viewing large fonts.</p>"
+                }
+              ],
+              "title": "Ensure your app is usable with larger font sizes"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use a contrast ratio of 4.5:1 between the background and text or critical elements to allow users to read text more easily. Smaller text needs lots of contrast, while big headings can tolerate a wider range of colors and backgrounds.</p>"
+                }
+              ],
+              "title": "Ensure critical text has enough contrast"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Offer alternate ways for colorblind users to get information communicated by color in designs. For instance, if the color red represents &#x201C;high traffic&#x201D; and the color green represents &#x201C;no traffic&#x201D;, combine color with other elements (such as shapes, patterns, texture, or text) to articulate the information in multiple ways.</p>"
+                }
+              ],
+              "title": "Use more than just color to convey information"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide additional clues about how elements are related, such as sharing a common heading, as assistive technologies don&apos;t indicate the distance between elements. Information that is conveyed spatially (using layout) should be discernable in other ways to blind users who navigate one element at a time.</p>"
+                }
+              ],
+              "title": "Represent spatial relationships"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide closed captions, a transcript, or another visual alternative to audio elements or system sound alerts. Translate any flashing or blinking elements into sound, and vice versa. &#xA0;</p>"
+                }
+              ],
+              "title": "Give visual alternatives to sound"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

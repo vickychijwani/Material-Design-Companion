@@ -1,0 +1,519 @@
+{
+  "title": "Color",
+  "href": "http://www.google.com/design/spec/style/color.html",
+  "content": [
+    {
+      "type": "figure",
+      "mediaType": "image",
+      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SjE5bTNHN3JpQXc/style_color_introduction.png"
+    },
+    {
+      "type": "intro",
+      "html": "<p>Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. Material takes cues from contemporary architecture, road signs, pavement marking tape, and athletic courts. Color should be unexpected and vibrant.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Color palette",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>This color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. They&#x2019;ve been designed to work harmoniously with each other.</p><p>The color palette starts with primary colors and fills in the spectrum to create a complete and usable palette for Android, Web, and iOS. Google suggests using the 500 colors as the primary colors in your app and the other colors as accents colors. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <link class=\"undefined\">",
+                "[ignored] <div class=\"color-palette\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            },
+            {
+              "type": "module",
+              "content": [],
+              "errors": [
+                "[ignored] <ul class=\"undefined\">"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "UI color application",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Limit your selection of colors by choosing three hues from the primary palette and one accent color from the secondary palette. </p><h4 class=\"related\">\nRelated\n</h4><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/training/material/theme.html#ColorPalette\" title=\"Customize the color palette\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Customize the color palette</div>\n        <span class=\"subtitle\">Define your app&#x2019;s color palette.</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eDg3bGdRcy12Mm8/style_color_uiapplication_palette1.png",
+                      "caption": "<div class=\"caption-title\">Example of a primary color palette</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NUJzYWNoVGp2SGc/style_color_uiapplication_palette2.png",
+                      "caption": "<div class=\"caption-title\">Example of a secondary palette</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Choose your palette"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Material should avoid transparency and translucency, except when using <a href=\"http://www.google.com/design/spec/style/imagery.html#imagery-ui-integration\">scrims</a>. Opaque material promotes content, whereas translucent material confuses focus and content&#x2019;s ability to be manipulated. </p><p>Translucency may be used as a temporary effect in these situations: &#xA0;</p><ul><li><strong>During transitions:</strong>&#xA0;Elements may be temporarily translucent as they appear on screen. This type of translucency should be controlled by a timer (not a scroll position).</li><li><strong>Indicating thresholds:</strong>&#xA0;Elements may become translucent when completing interactions. For example, a card may become translucent when dismissed once it passes the threshold for completing the action.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ],
+              "title": "Material opacity"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>You can change the opacity of text to convey how important certain information is relative to other text. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z21kckdVNjFiN2c/style_color_uiapplication_alpha1.png",
+                      "caption": "<p>Dark text on light backgrounds</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dnF5cTktSjdTajA/style_color_uiapplication_alpha2.png",
+                      "caption": "<p>White text on dark backgrounds</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Use opacity for text, icons, and dividers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Transparent black or white text behaves more flexibly than grey text because it remains legible and vibrant against background color changes.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YmxiWl9DYVhiMHM/style_color_uiapplication_alpha3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Grey text (hex value of #727272) on a white background becomes hard to read if the background color changes to magenta.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ejdxcnFGOGJOMXc/style_color_uiapplication_alpha4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Black text, set to a 0.54 opacity, ensures a minimum degree of legibility and color harmony with new background colors.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Dark text on light backgrounds</strong></p><p>For dark text on light backgrounds, the most important text has an opacity of 87%. Secondary text, which is lower in the visual hierarchy, has an opacity of 54%. Text hints, like those in text fields and labels, and disabled text have even lower visual prominence with an opacity of 38%.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>White text on dark backgrounds</strong></p><p>The table values relay relative levels of importance for white text on dark backgrounds.</p><p><strong>Hint and disabled content</strong></p><p>Hint and disabled text and icons have an opacity of 38% for dark content on light backgrounds, and an opacity of 30% for white content on dark backgrounds.</p><p><strong>Other elements</strong></p><p>Elements like icons and dividers benefit from having a hex value of black or white so that they work on backgrounds of any color.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Toolbars and larger color blocks should use the 500 color of the primary color of your app. The status bar should be the darker 700 tint of your primary color.</p><p>Bold use of color in large fields is encouraged. Different elements in the UI can take on different parts of your color theme. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMkFyRTBqX0RfMVU/style_color_uiapplication_primary1.png",
+                      "caption": "<p>The toolbar uses the 500 version of indigo, while the status bar uses the 700 version.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaDVBMnllT1hCaGs/style_color_uiapplication_primary2.png",
+                      "caption": "<p>When editing a folder name, the entire title and description area uses indigo as the background color.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Toolbars and status bars"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use the accent color for your primary action button and components like switches or sliders. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNVB5WmpuQXJhSlE/style_color_uiapplication_accent1.png",
+                      "caption": "<p>Floating action button using the accent color</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaHBPczZlV0R2Ykk/style_color_uiapplication_accent2.png",
+                      "caption": "<p>Switch using the accent color</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Accent color"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUklUeG9sRTdTOEk/style_color_uiapplication_accent3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Only use the accent color for body text to accent a web link.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYzZoSHA5cWg0MDQ/style_color_uiapplication_accent4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use the accent color for body text color.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaEE0OG9ONlFPNDA/style_color_uiapplication_accent5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use the accent color for your primary action button and components like switches or sliders. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMnI0UTMxLS1yLWs/style_color_uiapplication_accent6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use the accent color for app bars or larger areas of color. Avoid using the same color for the floating action button and the background.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If your accent color is too light or dark to sufficiently contrast with the background color, use a darker or lighter tint of the accent color instead. If your accent color doesn&#x2019;t work at all, use the 500 version of your primary color on white backgrounds. If your background color is the 500 version of your primary color, make your accent color either white 100% or black 54%.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsOUd4YzdBTW9wbU0/style_color_uiapplication_fallback1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use a fallback accent color over background colors that are too light or too dark.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSUVRb2hmSkExMzQ/style_color_uiapplication_fallback2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use the accent color over a background color if there isn&#x2019;t enough contrast.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Fallback accent colors"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Themes",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Themes let you apply a consistent tone to an app. The theme specifies the darkness of the surfaces, level of shadow, and appropriate opacity of ink elements. To promote greater consistency between apps, light and dark themes are available to choose from.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>1. Status bar<br>2. App bar<br>3. Background<br>4. Cards/Dialogs</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bmd5SG5WU0tzRHc/style_color_themes_light1.png",
+                      "caption": "<p>Light theme palette</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WVQ2WXFLeUtxSlE/style_color_themes_light2.png",
+                      "caption": "<p>UI application</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Light theme"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>1. Status bar<br>2. App bar<br>3. Background<br>4. Cards/Dialogs</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VHFTNDBGODlvakk/style_color_themes_dark1.png",
+                      "caption": "<p>Dark theme palette</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T2gwQkR2dWZWdFk/style_color_themes_dark2.png",
+                      "caption": "<p>UI application</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Dark theme"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

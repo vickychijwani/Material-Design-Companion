@@ -1,0 +1,423 @@
+{
+  "title": "Grid lists",
+  "href": "http://www.google.com/design/spec/components/grid-lists.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Grid lists are an alternative to standard list views. Grid lists are distinct from grids used for layouts and other visual presentations.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A grid list is best suited to presenting <strong>homogenous data,</strong>&#xA0;typically images, and is optimized for <strong>visual comprehension</strong>&#xA0;and differentiating between similar data types.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YTU2ekJPMU80MVU/components_grids_usage1.png",
+                      "caption": "<p>Example of grid list </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A <strong>grid list</strong>&#xA0;consists of a repeated pattern of <strong>cells</strong>&#xA0;arrayed vertically and horizontally within the grid list.</p><p><strong>Tiles</strong>&#xA0;hold content and can span one or more cells vertically or horizontally.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OVlEaXZ5YmU1Xzg/components_grids_usage2.png",
+                      "caption": "<p>Example of grid list</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VGhsOE5idWlJWXM/components_grids_usage3.png",
+                      "caption": "<p>Example of a cell and tile </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If the text in tiles needs to be prominent enough to distinguish between primary content pieces, consider using a different container, like a list or cards, optimized for displaying text and facilitating reading comprehension.</p><p><strong>Lists: </strong>Optimized for reading comprehension, particularly when comparing a set of data containing multiple data types.</p><p><strong>Cards:</strong>&#xA0;Used for content with inconsistent formatting, such as photos with captions of variable length, or data sets with heterogeneous content, such as a mixed collection of photos and videos and books.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tile content consists of primary content and secondary content. Primary content is the main differentiating element, typically an image. Secondary content can be an action or text.</p><p>Provide a default image for tiles that lack an image for primary content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7YzdVdmpZT3FRX1E/components_grids_content1.png",
+                      "caption": "<p>Example of tile content with primary and secondary action</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Content in tiles"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Actions on both primary and secondary content &#x2013; such as play, zoom in, delete, or select &#x2013; are immediate and typically do not result in a submenu of options (action overflow) within the grid list.</p><p>Actions can open a subsequent view, such as a card.</p><h4>Primary actions</h4><ul><li>Fill the entire tile and therefore are not represented via icons or text.</li><li>Are consistent throughout tiles in a specific grid list. For example, the primary action for all tiles in a single grid list could be to view details for an image.</li></ul><h4>Secondary actions or content</h4><ul><li>Are represented in tiles with icons or text.</li><li>Are consistent throughout tiles in a specific grid list.</li><li>Are placed in a consistent location within the tiles of a specific grid list, but that consistent location may vary between grid lists (at corners or edges). For example, all titles in one grid list could be located at the bottom left corner, while all tiles in another grid list might place titles in the top left corner.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MHktdTZCcWZQcjA/components_grids_content2.png",
+                      "caption": "<p>Example of secondary action with action and text positions</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Actions in tiles"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Grid lists typically scroll only vertically.</p><p>Horizontally scrolling grid lists are discouraged because the scrolling interferes with typical reading patterns, affecting comprehension. One notable exception is a horizontally-scrolling, single-line grid list of images, such as a gallery, which is compatible with typical reading patterns.</p><p>Cut off grid tiles in the view&#x2019;s initial scroll position to communicate the scroll direction for content overflow.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZVpFMDhCbXlXaEk/components_grids_behavior1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Indicate content overflow by cutting off grid tiles.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dFdYTzkxLTI0X1E/components_grids_behavior2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid aligning grid tiles along a view edge in the view&#x2019;s initial scroll position. This positioning doesn&#x2019;t effectively communicate that there is more content available.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Scrolling"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Per-tile swipe actions are not permitted. Pick-up-and-move actions are discouraged.</p>"
+                }
+              ],
+              "title": "Gestures"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Content in a grid list can be programmatically filtered or sorted by date, file size, alphabetical order, or other parameters.</p><p>The first item in the grid list is positioned at the top left of the grid list, and the order proceeds left to right and top to bottom.</p>"
+                }
+              ],
+              "title": "Tile filtering and sorting"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Resizing a grid list causes the tiles to re-sort as horizontal space becomes available. Full-bleed grid list tiles resize to fit the screen width.</p><p>A grid list does not transform into a list when horizontal space contracts. Grid lists and lists are separate structures for emphasizing different data types. Grid lists prioritize images over text and lists prioritize text over images.</p><p>To maintain a consistent rhythm throughout the grid list, truncate text content that is too long for the tile&#x2019;s width. Alternatively, increase the grid size so that the tiles can accommodate the longer titles.</p>"
+                }
+              ],
+              "title": "Dimensions and resizing"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Full-screen grid lists should use fluid image ratios with minimum and maximum widths, derived using the <a href=\"https://www.google.com/url?q=http://www.google.com/design/spec/layout/metrics-keylines.html%23metrics-keylines-ratio-keylines&amp;sa=D&amp;usg=AFQjCNGlAnG3DjtsYqAZEirqO5B2K7oPtg\">Ratio keylines</a>. They should retain fixed heights, margins, and padding.</p><p>Centered grid lists have fluid margins with a minimum width. They maintain fixed image widths, heights, and padding. </p>"
+                }
+              ],
+              "title": "Responsive design"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Single-line header/footer </h4><p>Height: 48dp<br>Text padding: 16dp<br>Default font size: 16sp<br>Secondary action is flush right to the footer.</p><h4>Two-line header/footer</h4><p>Height: 68dp<br>Text padding: 16dp<br>Default font size for each line: 16sp/12sp or 14sp/14sp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzM3JBazdXUTg2Nmc/components_grids_specs1.png",
+                      "caption": "<p>Type 14/14 <br>Two-line bar (with icon) height: 68dp<br>Two-line bar height: 68dp<br>Single-line bar height: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzb2lfYm1acXotaFk/components_grids_specs2.png",
+                      "caption": "<p>Type 16/12 <br>Two-line bar (with icon) height: 68dp<br>Two-line bar height: 68dp<br>Single-line bar height: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzV1lsNXRSX0ROaTg/components_grids_specs22.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Text truncation in header/footers.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Grid list header/footers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Grid list padding: 4dp or 1dp</p><p>Tiles in grid lists can span multiple columns.</p><p>Carefully consider whether secondary text is needed in grid lists that use multi-column tiles, as larger tiles can develop significant empty space.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MS1NVzlzeVc1RWs/components_grids_specs3.png",
+                      "caption": "<p>Image-only grid list </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYW0xRlY4U3dOMUU/components_grids_specs4.png",
+                      "caption": "<p>Image-only grid list photo album</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Image-only grid list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text only</h4><p>Height: 48dp<br>Text padding: 16dp<br>Default font size: 16sp<br>Grid list padding: 4dp or 1dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzN1Mxb3NUV1FhelU/components_grids_specs5.png",
+                      "caption": "<p>Single-line grid list footer with 16dp padding</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzV09aXzJDMHpWa2c/components_grids_specs6.png",
+                      "caption": "<p>Single-line grid list photo album</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZXRKSnJtRzRYU1E/components_grids_specs7.png",
+                      "caption": "<p>Single-line grid list header with 16dp padding</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single-line grid list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text with icon</h4><p>Height: 48dp<br>Text padding: 16dp<br>Default font size: 16sp<br>Grid list padding: 4dp or 1dp</p><p>The secondary action can be flush right or flush left within the footer or header.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aXpmN2k3V3k3djg/components_grids_specs8.png",
+                      "caption": "<p>Single-line grid list header with 16dp padding and icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzbG9MLTBjYmlUVDA/components_grids_specs9.png",
+                      "caption": "<p>Single-line grid list footer with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RVl0VEZ2aEZVZUk/components_grids_specs10.png",
+                      "caption": "<p>Single-line grid list footer with 16dp padding and icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzdUNLYjBUVU81NWc/components_grids_specs11.png",
+                      "caption": "<p>Single-line grid list header with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYjZqOWJGa25LVjQ/components_grids_specs12.png",
+                      "caption": "<p>Single-line grid list footer with icon in photo album</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text only</h4><p>Height: 68dp<br>Text padding: 16dp<br>Default font size for each line: 16sp/12sp or 14sp/14sp<br>Grid list padding: 4dp or 1dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzQnd1TmFpRHlENUU/components_grids_specs13.png",
+                      "caption": "<p>Two-line grid list footer with 16dp of padding</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzVzU5a3BvS3hzOXc/components_grids_specs14.png",
+                      "caption": "<p>Two-line grid list header with 16dp of padding</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscU9haHV6LU9SWnM/components_grids_specs15.png",
+                      "caption": "<p>Two-line grid list, 4dp example</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUjNOd2tQaVdWdFU/components_grids_specs16.png",
+                      "caption": "<p>Two-line grid list, 1dp example</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Two-line grid list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text with icon</h4><p>Height: 68dp<br>Text padding: 16dp<br>Default font size for each line: 16sp/12sp or 14sp/14sp</p><p>The secondary action can be flush right or flush left within the footer or header.</p><p>Grid list padding: 4dp or 1dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SDFHT2JpYXRDN0k/components_grids_specs17.png",
+                      "caption": "<p>Two-line text with icon footer</p><p>Text padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzc01QbmE3RDZKZ2s/components_grids_specs18.png",
+                      "caption": "<p>Two-line text with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzMzl5aUhaWGpKNkk/components_grids_specs20.png",
+                      "caption": "<p>Two-line text with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bTg0OHdTNW5XM2s/components_grids_specs19.png",
+                      "caption": "<p>Two-line text with icon header</p><p>Text padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsd0RjRWd1bW9WY0E/components_grids_specs21.png",
+                      "caption": "<p>Example of text with icon</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "title": "Sliders",
+  "href": "http://www.google.com/design/spec/components/sliders.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Sliders let users select a value from a continuous or discrete range of values by moving the slider thumb. The smallest value is to the left, the largest to the right. Sliders can have icons to the left and right of the bar that reflect the value intensity. The interactive nature of the slider makes it a great choice for settings that reflect intensity levels, such as volume, brightness, or color saturation.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Continuous slider",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use continuous sliders for subjective settings that do not require a specific value for the user to make meaningful adjustments.</p><h4>Light</h4><p>Thumb on: Swatch 500, Opacity &#xA0;100%<br>Track on: Swatch 500, Opacity &#xA0;100%</p><p>Thumb off: #000000, Opacity &#xA0;26%<br>Track off: #000000, Opacity &#xA0;26%</p><p>Focused and Click Thumb off: #000000, Opacity 38% <br>Focused and Click Track off: #000000, Opacity 38%</p><p>Disabled (disconnected): #000000, Opacity &#xA0;26%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QkJlRGNfTGEzQlE/components_sliders_continuous1.png",
+                      "caption": "<p>Light theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Dark</h4><p>Thumb on: Swatch 200, Opacity &#xA0;100%<br>Track on: Swatch 200, Opacity &#xA0;100%</p><p>Thumb off: #FFFFFF, Opacity &#xA0;30%<br>Track off: #FFFFFF, Opacity &#xA0;30%</p><p>Disabled (disconnected): #FFFFFF, Opacity &#xA0;30%</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7R2s2OGFDcVRkZFE/components_sliders_continuous2.png",
+                      "caption": "<p>Dark theme</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0nwUo5pqvmAbUhaU3U5bWRNcXc/components-sliders-continuous_slider_light_xhdpi_003.webm",
+                      "caption": "<p>Various slider behaviors</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Spacing for icons to the left and/or right of the bar:</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7M0Voc2NyM3VheE0/components_sliders_continuous3.png",
+                      "caption": "<p>Example of spacing for icons in a slider. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7cG5vbFVudGNVRms/components_sliders_continuous4.png",
+                      "caption": "<p>Examples of sliders in normal, hover, focus, click, and disabled states. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use for settings for which users need to set the exact value. Upon pressing the thumb, the text box becomes editable for text entry and updates the value automatically with thumb movement. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dDFpcFo0V2JLS2c/components_sliders_continuous5.png",
+                      "caption": "<p>Example of a slider with an editable numeric value </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzUEprRVBiRjY3ZHc/components_sliders_continuous6.png",
+                      "caption": "<p>Example of a slider with an editable numeric value in normal, hover, focus, click, and disabled states. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "With an editable numeric value"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Discrete slider",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The discrete slider thumb snaps to evenly spaced tick marks along the slider rail. Use for objective settings that require specific values for the user to make meaningful adjustments. Each tick mark should change the setting to a level that&#x2019;s discernible to the user. The values are predetermined and aren&#x2019;t user-editable.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Use for settings for which users need to know the exact value of the setting. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dEtQQ2s4VUZxZG8/components_sliders_discrete1.png",
+                      "caption": "<p>Light theme</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WnY0a3RrcEI0ZXc/components_sliders_discrete2.png",
+                      "caption": "<p>Dark theme</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "With a numeric value label"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWWmpKc2h2Y2J5Ujg/components-sliders-discreteslider-061202_Slider_LightTheme_xhdpi_002.webm",
+                      "caption": "<p>Animation of discrete slider</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

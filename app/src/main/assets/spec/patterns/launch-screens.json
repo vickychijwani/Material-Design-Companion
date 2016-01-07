@@ -1,0 +1,158 @@
+{
+  "title": "Launch screens",
+  "href": "http://www.google.com/design/spec/patterns/launch-screens.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>The launch screen is a user&#x2019;s first experience of your application. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Types of launch screens",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The launch screen is a user&#x2019;s first experience of your application. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Because launching your app while displaying a blank canvas increases its perceived loading time, consider using a placeholder UI or a branded launch screen. </p><p>A <strong>placeholder UI</strong> is the most seamless launch transition &#x2013; appropriate for both app launches and in-app activity transitions.</p><p><strong>Branded launch screens</strong>&#xA0;provide momentary brand exposure, freeing the UI to focus on content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHaEdxeXBZSEszVTQ/patterns-launch-screens-01.png",
+                      "caption": "<p>Branded launch screen</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHUEhBN3BEWmJCaFk/patterns-launch-screens-03.png",
+                      "caption": "<p>Placeholder UI</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Placeholder UI",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>For apps that have very short load times, or don&#x2019;t have a strong branding need, a placeholder UI presents the fewest possible transitions and greatest perceived responsiveness.</p><p>On launch, core structural elements such as the status bar, app bar, and bottom sheets are displayed without content until the app has loaded. </p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHdWdsRFRUZzJJcHM/patters-launch-screens-03.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Branded launch",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Branded launch screens are a good way to portray a brand while the app is loading. Take advantage of the loading time to display your logo or other elements that improve brand recognition. Avoid using text on this screen except your logo and, if applicable, a tagline.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Branded launch</h4><p>Launch screens should be used for initial, cold launch from the home screen, and should not displayed if the application is running, or if the launch comes from another application.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHaEdxeXBZSEszVTQ/patterns-launch-screens-01.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHcENiNW1LblpSNW8/patterns-launch-screens-02.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHSzB0cUtjUlRDd1k/patterns-launch-screens-04.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHQzVIcEZ2RENMTXc/patterns-launch-screens-05.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

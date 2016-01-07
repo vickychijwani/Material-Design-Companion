@@ -1,0 +1,98 @@
+{
+  "title": "Introduction",
+  "href": "http://www.google.com/design/spec/material-design/introduction.html",
+  "content": [
+    {
+      "type": "figure",
+      "mediaType": "image",
+      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Y1huOXVQdlFPMmM/materialdesign_introduction.png"
+    },
+    {
+      "type": "intro",
+      "html": "<p>We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Goals",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Create a visual language that synthesizes classic principles of good design with the innovation and possibility of technology and science.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7QTA5cHFBUlV3RTA/materialdesign_goals_language.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Develop a single underlying system that allows for a unified experience across platforms and device sizes. Mobile precepts are fundamental, but touch, voice, mouse, and keyboard are all &#xFB01;rst-class input methods.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c0R4RUtiTkhMZTQ/materialdesign_goals_system.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Principles",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7VG9DQVluOFJ4Tnc/materialdesign_principles_metaphor.png",
+                      "caption": "<h3>Material is the metaphor</h3><p>A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</p><p>Surfaces and edges of the material provide visual cues that are grounded in reality. The use of familiar tactile attributes helps users quickly understand affordances. Yet the flexibility of the material creates new affordances that supercede those in the physical world, without breaking the rules of physics.</p><p>The fundamentals of light, surface, and movement are key to conveying how objects move, interact, and exist in space and in relation to each other. Realistic lighting shows seams, divides space, and indicates moving parts.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NndTQW9VZTlZV2s/materialdesign_principles_bold.png",
+                      "caption": "<h3>Bold, graphic, intentional</h3><p>The foundational elements of print-based design &#x2013; typography, grids, space, scale, color, and use of imagery &#x2013; guide visual treatments. These elements do far more than please the eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge-to-edge imagery, large-scale typography, and intentional white space create a bold and graphic interface that immerse the user in the experience.</p><p>An emphasis on user actions makes core functionality immediately apparent and provides waypoints for the user.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dkRYelJkeklqWFU/materialdesign_principles_motion.png",
+                      "caption": "<h3>Motion provides meaning</h3><p>Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design. </p><p>All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.</p><p>Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are ef&#xFB01;cient yet coherent.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

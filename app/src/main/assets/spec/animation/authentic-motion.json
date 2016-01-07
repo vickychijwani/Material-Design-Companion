@@ -1,0 +1,141 @@
+{
+  "title": "Authentic motion",
+  "href": "http://www.google.com/design/spec/animation/authentic-motion.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Just as the shape of an object indicates how it might behave, watching an object move demonstrates whether it&#x2019;s light, heavy, flexible, rigid, small or large. In the world of material design, motion describes spatial relationships, functionality, and intention with beauty and fluidity.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Mass and weight",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In the physical world, forces must be applied to an object in order for it to move. The strength and duration of these forces dictate how quickly an object accelerates, decelerates, or changes direction. Even the most jarring stops and starts are not instantaneous, because it takes time for an object to speed up or slow down. Consequently, when animations have abrupt starts, stops, or changes in direction, they appear unnatural.</p><p>Motion in material design should embrace the familiarity and real-world behavior of physical objects, without sacrificing elegance, simplicity, and beauty.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Changes in acceleration or deceleration should be smooth across the duration of an animation.</p><p>To draw attention to an object for a specific purpose, or to add character to an animation, vary its change in speed when starting and stopping.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFdnlXcHQtSzctM2s/animation-authenticmotion-massandweight-asymmetric.webm",
+                      "caption": "<p>Asymmetric acceleration and deceleration creates a more natural and delightful motion.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Natural acceleration and deceleration"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When acceleration or deceleration isn&#x2019;t smooth, movement appears mechanical. Abrupt changes in speed or direction are jarring and draw attention. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFVk5Lc195M3c4a28/animation-authenticmotion-massandweight-linear.webm",
+                      "caption": "<p>Avoid linear motion. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Changes in an object&#x2019;s speed and direction draw user attention. </p><p>An object&#x2019;s change in speed as it enters or exits the frame suggests the distance it is traveling. For example, slowing down while exiting draws attention and implies the object will stop near the frame edge.</p><p>During transitions in particular, consider what portion of the entrance or exit should receive the most attention.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFS2hrd3dPVVFfdHM/animation-authenticmotion-massandweight-do.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Changes in the ball&#x2019;s speed emphasize its arrival at and departure from the resting position. Attention is minimized when the ball enters and exits the frame at a near-constant speed.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Entrances and exits"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFLXkxV1M2UEIxa2c/animation-authenticmotion-massandweight-dont.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Speeding up when entering, and slowing down when exiting, can draw unwanted attention and distract the user.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "About easing terms"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When discussing timing curves, it is important to understand the definitions being used. The terms &#x201C;ease in&#x201D; and &#x201C;ease out&#x201D; are used in both traditional animation and UX animation. However, depending on the context, these terms have opposing meanings.</p><p><strong>Traditional</strong><strong>&#xA0;animation</strong></p><p>Traditional animation techniques express a sequence of movements through drawings of key poses. &#x201C;Ease out&#x201D; in this context refers to motion departing from a pose and &#x201C;ease in&#x201D; refers to motion entering a pose.</p><p>Modern animation tools express these key poses with <strong>keyframes</strong>. &#x201C;Ease in&#x201D; and &#x201C;ease out&#x201D; in this context refer to motion leading into and out of a keyframe.</p><p><strong>UX animation</strong></p><p>In the UX context, easing refers to the transition between states.  As a result, &#x201C;ease in&#x201D; refers to the motion entering the transition, and &#x201C;ease out&#x201D; refers to the motion leaving the transition.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Not all objects move the same way. Lighter or smaller objects may move faster because they require less force, and larger or heavier objects may need more time to speed up. </p><p><a href=\"https://www.google.com/url?q=http://developer.android.com/training/material/animations.html%23CurvedMotion&amp;sa=D&amp;usg=AFQjCNFxaVB9fjOhPz_KdfgF9hrkTCMavQ\">Use curved motion</a> and avoid linear spatial paths. Identify the qualities of motion best suited to your object, and represent their motion accordingly. Curves represent that change over time, for a particular value range. Find a curve that fits that character of motion you are describing.</p>"
+                }
+              ],
+              "title": "Making adjustments"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

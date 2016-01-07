@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.ChapterIntro" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+    <style name="TextAppearance.ArticleTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#00bcd4</item>
+    </style>
+
+    <style name="TextAppearance.ModuleBody" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+    <style name="TextAppearance.Figcaption" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#757575</item>
+    </style>
+
+</resources>

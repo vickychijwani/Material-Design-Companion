@@ -1,0 +1,228 @@
+{
+  "title": "Progress & activity",
+  "href": "http://www.google.com/design/spec/components/progress-activity.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Minimize visual changes that occur while your app loads content by representing each operation with a single activity indicator. For example, a refresh operation should display either a refresh bar or an activity circle, but not both.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Types of indicators",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When indicators are<strong>&#xA0;determinate </strong>they<strong>&#xA0;</strong>indicate how long an operation will take when the percentage complete is detectable.</p><p>When indicators are <strong>indeterminate </strong>they<strong>&#xA0;</strong>request that the user wait while something finishes when it&#x2019;s not necessary to indicate how long it will take.</p><p>Both linear and circular progress indicators may be either determinate or indeterminate.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A linear progress indicator should always fill from 0% to 100% and never decrease in value. It should be represented by bars on the edge of a header or sheet that appear and disappear. </p><p>For <strong>multiple operations</strong> happening in sequence, use the indicator to represent the progress as a whole, and not each individual operation. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWYmNmallST001a1k/components-progressactivity-typesofindicators-061101_Linear_Sheet_xhdpi_003.webm",
+                      "caption": "<p>Linear progress indicators</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Linear"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsb3dWdHJJT0FlTDA/components-progressactivity-typesofindicators-Linear_Video_xhdpi_004.webm",
+                      "caption": "<p>Buffering progress indicator on a video</p><p>&#xA0;</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdWhCc1diNlEtR2M/components-progressactivity-typesofindicators-Linear_Image_xhdpi_004.webm",
+                      "caption": "<p>Query indicator on a webpage</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsemFpeElQMFBSMG8/061101_Circular_Sheet_xhdpi_004.webm",
+                      "caption": "<p>Circular indeterminate and determinate progress indicators</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Circular"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Circular with integration</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWbTlSaHdQZEMtalk/components-progressactivity-typesofindicators-061101_Circular_Aspirational_xhdpi_002.webm",
+                      "caption": "<p>A circular loader may be integrated with a floating action button. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsa0QwVnd6NVlvWkk/components-progressactivity-typesofindicators-Circular_wFab_xhdpi_003.webm",
+                      "caption": "<p>Animation of circular loader with integration. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Loading in phases</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSVRKbHd1MTlJZUU/components-progressactivity-behavior_Loading_SwipeDown_xhdpi_005.webm",
+                      "caption": "<div class=\"caption-title\">One-phased loads</div><p>Ink (copy and images) loads within an existing, unchanging container. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsXzgyazF5OENaS2M/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm",
+                      "caption": "<div class=\"caption-title\">Two-phased loads</div><p>The paper container is generated, then the ink (copy and images) load within it. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWllNSThPRUtqTzQ/components-progressactivity-behavior-Loading_Files_Linear_xhdpi_003.webm",
+                      "caption": "<p>Loading content for the first time.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQkFTSm13bUFLX00/components-progressactivity-behavior-Loading_Files_Circular_xhdpi_003.webm",
+                      "caption": "<p>Load and display all content at once.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Loading additional content</strong></p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTWRhdFc1bFBxTHc/components-progressactivity-behavior-Loading_BigTop_xhdpi_004.webm",
+                      "caption": "<div class=\"caption-title\">Example 1: Card expansion</div><p>An indeterminate linear indicator is recommended for a card expanding on larger surfaces such as desktop.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsXzgyazF5OENaS2M/components-progressactivity-behavior-Loading_Photos_xhdpi_004.webm",
+                      "caption": "<div class=\"caption-title\">Example 2: Scroll up to load more</div><p>An indeterminate circular indicator with an initial radial ink reaction is recommended when loading a list from below.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRWlsOUFOeG96RnM/components-progressactivity-behavior_Loading_SwipeDown_noload_xhdpi_005.webm",
+                      "caption": "<div class=\"caption-title\">Example 3: Swipe down to refresh</div><p>An indeterminate circular indicator with a radial ink reaction is recommended when refreshing a list from above.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

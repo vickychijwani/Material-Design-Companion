@@ -1,0 +1,520 @@
+{
+  "title": "Notifications",
+  "href": "http://www.google.com/design/spec/patterns/notifications.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p><strong>Android only</strong></p><p>Notifications inform your app&#x2019;s users about relevant and timely events in your app. You can create notifications to draw attention to messages from friends, alert a commuter to traffic slowdowns, show the progress of a new app being installed, and more. </p><p>Notifications should be synced to all of a user&#x2019;s devices.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Notifications inform users about events in your app while the user is focused elsewhere. As they can be interruptive, use notifications judiciously.</p><p>Notifications should not be used for:</p><ul><li>Information that is currently on screen (such as an active chat conversation)</li><li>Technical operations that don&#x2019;t require user involvement (such as syncing)</li><li>Transient error states that can be resolved without user action</li></ul>"
+                }
+              ],
+              "title": "Minimize interruption"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Users should always be in control of notifications. Allow users to disable or change notifications in your app&#x2019;s settings.</p>"
+                }
+              ],
+              "title": "Make notifications optional"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Guidelines",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Prioritize social interactions</strong></p><p>Use notifications for events that involve other people. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S2JaYW9UYm9ZRTQ/notifications_guidelines1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>An incoming chat involves a user actively waiting for a response. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Be timely</strong></p><p>Notify the user about time-sensitive information directed specifically at them. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cHlVMUJNVWR6ejQ/notifications_guidelines2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Social network updates rarely warrant interruption, unless the user has specifically opted in. Status updates where the user doesn&#x2019;t need to take an action, such as a routine action like saving a document, also don&#x2019;t need immediate attention.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Personalize notifications</strong></p><p>For notifications sent by another person, include that person&apos;s image. </p><p>Your app&#x2019;s icon is shown paired with the personalized image.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NkxBV0hsRzVCdVE/notifications_guidelines3.png",
+                      "caption": "<p>Notification that shows the person who triggered the message and the content they sent.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Navigate to the right place</strong></p><p>When the user touches a notification, enable the user to take immediate action. This may open a detail view, such as a message, or a summary view for multiple notifications. </p><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/design/patterns/navigation.html#into-your-app\" title=\"Navigate to Your App via Home Screen Widgets and Notifications\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Navigate to Your App via Home Screen Widgets and Notifications</div>\n        <span class=\"subtitle\"></span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Prioritize notifications</strong></p><p>Android allows you to set priority flags to influence where your notification appears relative to others. This flag helps ensure that users always see the most important notifications first. You can choose from the following notification priority levels.</p><p>MAX, HIGH, and DEFAULT priority levels:</p><ul><li>Involve another person</li><li>Are time-sensitive</li><li>Might immediately change the user&apos;s behavior in the real world</li></ul><p>LOW and MIN priority levels:</p><ul><li>Don&apos;t involve other people</li><li>Aren&apos;t time sensitive</li><li>Contain content the user might be interested in but could choose to browse at their leisure</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "caption": "<div class=\"caption-title\"></div><p>Choose from the above priority levels when posting a notification.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Categorize notifications</strong></p><p>Assign your notification to the most suitable predefined category. The system UI may use this information to make ranking and filtering decisions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Summarize notifications</strong></p><p>If multiple notifications of the same type are available, combine them into a single summary notification. A summary shows how many notifications of a particular kind are pending.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3LWxrZWVnelpLSWc/notifications_guidelines4.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>You can provide more detail about notifications in a summary with the expanded digest layout. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WVhwbUtOSkxzN0E/notifications_guidelines6.png",
+                      "caption": "<p>Expanded and contracted notification that is a summary (using InboxStyle)</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Use distinct icons</strong></p><p>Pending notification icons should be recognizable in the system bar. </p><p>Notification icons should:</p><ul><li>Be distinct from existing Android notification icons</li><li>Follow guidelines for <a href=\"http://www.google.com/design/spec/style/icons.html#icons-system-icons\">system icon styling</a></li><li>Be visually simple</li><li>Be opaque white, using only the alpha channel</li><li>Have a transparent background</li></ul><p>They may have anti-aliased edges. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bXJHWWl1cEp6RjA/notifications_guidelines7.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Notification icons should not:</p><ul><li>Add alpha (dimming or fading) </li><li>Use color</li><li>Have opaque backgrounds</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WXhhWE50WW95OEU/notifications_guidelines8.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RjJIX2F3SGNDbTg/notifications_guidelines9.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>All notifications must include the following elements:</p><ul><li>The icon of the originating app</li><li>A title and secondary text</li><li>A timestamp</li></ul><p>Notification type may be included if needed.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UGNOMU1mSEdIY2c/notifications_content1.png",
+                      "caption": "<p>Notification containing the notification icon, title, additional text, and a timestamp. Layouts personalized with sender information may pair the app&#x2019;s icon with a sender photo.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Base layout"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Wjlvc3dKZWpoUlU/notifications_content2.png",
+                      "caption": "<p><strong>All notification types:</strong></p><p>Left and right margin: 8dp<br>Title top margin: 16dp<br>Title bottom margin: 8dp<br>Icon top and bottom margin: 12dp<br>Icon area width: 72dp</p><p><strong>Personalized notifications:</strong></p><p>Icon bottom padding: 8dp</p><p><strong>Summary notifications:</strong></p><p>Sender top and bottom margin: 12dp<br>Title bottom margin: 8dp</p><p><br></p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>You can choose how much detail your app&apos;s notification provides, such as: </p><ul><li>The first few lines of a message</li><li>A large image preview </li><li>A message in its entirety</li></ul><p>The user can pinch open or drag to change from a compact layout to an expanded layout.</p><p>For individual notifications, Android provides three expanded layout templates: text, inbox, and image.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V2xNWHc3VXhqc2c/notifications_content3.png",
+                      "caption": "<p>Single-event notification on a handheld and wearable device.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Expanded layouts"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZHhuYkQ4RVVPa0E/notifications_content4.png",
+                      "caption": "<p>Summary notification on a handheld and wearable device.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cjhUb2NJM3ZEd2s/notifications_content5.png",
+                      "caption": "<p>Expanded notification on a handheld device.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Actions</h4><p>Android displays actions for common tasks at the bottom of a notification. Users can quickly handle the most common tasks for a particular notification from here without opening the originating application.</p><p>Actions should:</p><ul><li>Be time-sensitive and meaningful</li><li>Suit the content</li><li>Allow the user to accomplish tasks </li></ul><p>Actions should not:</p><ul><li>Be ambiguous</li><li>Duplicate the default action (such as &quot;Read&quot; or &quot;Open&quot;)</li></ul><p>Specifications:</p><ul><li>Maximum three actions per notification </li><li>Each action has an icon and a name</li><li>Actions are visible for expanded notifications, but otherwise hidden</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N0Q0RzljNWwxdzA/notifications_content6.png",
+                      "caption": "<p>Notification with two actions</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Timestamps </h4><p>The notification timestamp should indicate when the event occurred. A timestamp should not be set to when the notification is posted, unless that time is equivalent to the event time.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Notifications are indicated by icons in the status bar, accessible through the notification drawer. Touching a notification opens the associated app. Swiping left or right on a notification removes it from the drawer.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Ongoing notifications</h4><p>Ongoing notifications keep users informed about background processes and provide status for longer tasks, such as file downloads.</p><p>A user cannot manually remove an ongoing notification from the notification drawer.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NmJ1c2RQWVFld1k/notifications_behavior1.png",
+                      "caption": "<p>Music players announce the currently playing track in the notification system until the user stops playback.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Media playback</h4><p>When an app provides ongoing notifications for active media, users may control playback even when that app is not in the foreground or the screen is locked.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Ranking and ordering</h4><p>Notifications are shown in reverse-chronological order, with consideration given to the app&apos;s stated notification priority.</p><p>Notifications are featured prominently on the lock screen and should show the reason for the notification at a glance.</p><p>Android sorts notifications according to the following:</p><ul><li>The timestamp and application&apos;s stated priority</li><li>Whether the notification has recently notified the user with a sound or vibration</li><li>Any people attached to the notification and whether they are starred contacts</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TjQ3YVE5Y3JaeGM/notifications_behavior2.png",
+                      "caption": "<p>Hangouts notification</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bXlNdF85YmdST2c/notifications_behavior3.png",
+                      "caption": "<p>For a brief period immediately after it arrives, a Gmail notification may receive heightened priority after the device rings or vibrates.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3anlKWlFjeWtsQ2s/notifications_behavior4.png",
+                      "caption": "<p>After the &quot;recently notified&quot; period lapses, Gmail notifications are set to the default priority level. They appear below messages with higher priority levels, like instant messages from Hangouts.  </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Lock screen privacy</h4><p>Because notifications are visible on the lock screen, user privacy is an especially important consideration. Notifications often contain sensitive information, and should not be visible to anyone who sees the display.</p><p>For devices that have a secure lock screen (PIN, pattern, or password), the public version of the interface may be displayed. The private interface is only revealed once the user has signed into the device.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MVhnMmdWMnJTRVk/notifications_behavior5.png",
+                      "caption": "<p>Notifications on the lock screen with an SMS app whose notifications include the text of the SMS and the sender&apos;s name and contact icon. The contents are only revealed after the user unlocks the device. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>User control of secure lock screen information</h4><p>The user can choose to conceal sensitive details from the secure lock screen. The system evaluates each notification&apos;s visibility level to figure out what can safely be shown.</p><p>This setting allows your app to display a redacted version of the content, hiding personal information while still being useful, such as &quot;3 new messages.&quot; </p><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/reference/android/app/Notification.Builder.html#setVisibility(int)\" title=\"Notification Builder\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Notification Builder</div>\n        <span class=\"subtitle\"></span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Peeking notifications",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When a high-priority notification arrives, it is presented to users for a short period of time with an expanded layout exposing possible actions. The notification then retreats. </p><p>If a notification&apos;s <a href=\"https://www.google.com/url?q=http://developer.android.com/design/patterns/notifications.html%23correctly_set_and_manage_notification_priority&amp;sa=D&amp;usg=AFQjCNH2O8bK0Fh2WcFlYHRcq58_isEa1Q\">priority</a> is flagged as High, Max, or full-screen, it gets a peeking notification.</p><p>Good examples of peeking notifications include:</p><ul><li>An incoming phone call when using a device</li><li>An alarm</li><li>A new SMS message</li><li>Low battery</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Qmlvdk43NDFrd1U/notifications_peeking1.png",
+                      "caption": "<p>Example of a peeking notification (incoming phone call, high priority) appearing on top of an immersive app</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

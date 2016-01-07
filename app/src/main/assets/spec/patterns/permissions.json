@@ -1,0 +1,213 @@
+{
+  "title": "Permissions",
+  "href": "http://www.google.com/design/spec/patterns/permissions.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Permission requests should be simple, transparent, and understandable. When requesting access, apps should ensure that either the feature itself or an explanation provided makes it clear why a permission is needed.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Permission groups</h4><p>Permissions are divided into nine groups, allowing users to grant all permissions encompassed by a single action. For instance, granting permission to Contacts includes the ability to both view and edit Contacts.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Implied permission</h4><p>A user may perform an action that demonstrates clear intent, such as: </p><ul><li>Taking a picture</li><li>Selecting a contact</li><li>Starting a call or text message</li></ul><p>In these cases, the user&#x2019;s action clearly demonstrates their intent, and no permission dialog is needed or authorized. </p><p>&#xA0;</p><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/guide/components/intents-filters.html\" title=\"Intents and Intent Filters\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Intents and Intent Filters</div>\n        <span class=\"subtitle\"></span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Runtime permissions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Apps may request permission to access information or use device capabilities at any time after installation. When a user needs to perform an action in an app, such as using the device camera, the app may request permission at that moment.</p><p>Users may also allow or deny the permissions of any app from Android Settings anytime after installation.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3d0NnaXBjbkw2UTg/patterns_permissions_runtime1.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Request patterns",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Your permissions strategy depends on the clarity and importance of the permission type you are requesting. These patterns offer different ways of introducing permissions to the user.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QXkxaEJ4OTM3X0E/patterns_permissions_patterns0.png",
+                      "caption": "<p>Critical permissions should be requested up-front. Secondary permissions may be requested in-context.</p><p>Permissions that are less clear should provide education about what the permission involves, whether done up-front or in context.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OGJnTll2dmQ3T2c/patterns_permissions_patterns1.png",
+                      "caption": "<div class=\"caption-title\">Educate before asking</div><p>If your app has a &#x201C;warm welcome,&#x201D; use it to explain what your app does and why unexpected permissions will be requested.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N1hpVkRMWXU0WkE/patterns_permissions_patterns2.png",
+                      "caption": "<div class=\"caption-title\">Ask up-front</div><p>Only ask for critical and obvious permissions on first launch.</p><p>Because users expect a messaging app to request SMS permissions, requesting it up-front makes sense.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZzJ5NGxtRHdIWmc/patterns_permissions_patterns3.png",
+                      "caption": "<div class=\"caption-title\">Ask in context</div><p>Wait until a feature is invoked to request permission. </p><p>Users are more likely to allow a permission when they want to use the feature it enables.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eE9IYkVXcU9fLXc/patterns_permissions_patterns4.png",
+                      "caption": "<div class=\"caption-title\">Educate in context</div><p>Explaining a permission in context helps gauge user interest and improve comprehension of the permission.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZHUwR0V2Z1EtSkE/patterns_permissions_patterns5.png",
+                      "caption": "<div class=\"caption-title\">Provide an immediate benefit </div><p>Provide instant gratification to make accepting a permission feel justified.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MEVMTThtQ2lOVlk/patterns_permissions_patterns2.webm",
+                      "caption": "<div class=\"caption-title\">Only ask for relevant permissions</div><p>When more than one permission is needed for a feature to work, ask for those permissions only and nothing extra.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Denied permissions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Provide feedback whenever a permission is denied. Because denying permissions may prevent a feature from working as intended, whenever a permission is denied it should be explained to the user.</p><p>Permission denials occur in one of two ways: </p><ul><li>A permission request is denied by the user</li><li>A permission is silently denied without warning because a user once selected &#x201C;Don&#x2019;t ask again&#x201D; from a previous permission request</li></ul><p>To ensure that features requiring permission always behave as intended, the app should state that permission is needed and provide a way to allow it.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WGxFdDdfR1o4U2M/patterns_permissions_denied1.png",
+                      "caption": "<p>A snackbar displays the need for permission in order to use an audio feature. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Critical permissions</h4><p>If the app can no longer run because a critical permission has been denied, explain why that permission must be allowed and offer a button to open Settings so the user can allow it.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eDc0Zi1ZTlE5NjA/patterns_permissions_denied2.png",
+                      "caption": "<p>A screen explains that a permission is needed for an app to function, with a link to allow that permission in Settings.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

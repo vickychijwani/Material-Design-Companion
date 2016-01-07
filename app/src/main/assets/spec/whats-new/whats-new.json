@@ -1,0 +1,81 @@
+{
+  "title": "What's new",
+  "href": "http://www.google.com/design/spec/whats-new/whats-new.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>The December 2015 release of the material design spec includes the following significant content updates:</p><ul><li><a href=\"http://www.google.com/design/spec/layout/responsive-ui.html#responsive-ui-patterns\">Responsive UI</a> includes a pattern on positioning and more examples of responsive patterns</li><li><a href=\"http://www.google.com/design/spec/components/text-fields.html#text-fields-required-fields\">Text fields</a> adds guidance on required text fields</li><li><a href=\"http://www.google.com/design/spec/resources/layout-templates.html#layout-templates-tablet\">Whiteframes</a> have been added for Sketch</li><li><a href=\"http://www.google.com/design/spec/style/writing.html#writing-capitalization-punctuation\">Punctuation</a> has new guidance on en dashes and parentheses</li></ul>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Previous updates",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>New sections</strong></p><ul><li><a href=\"http://www.google.com/design/spec/components/steppers.html\">Steppers</a> describes how different types of steppers convey progress through numbered steps</li></ul><p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/components/chips.html\">Chips</a> adds guidance on chip movement and deletion</li><li><a href=\"http://www.google.com/design/spec/patterns/notifications.html\">Notifications</a> includes formatting guidance for timestamps</li></ul>"
+                }
+              ],
+              "title": "October 2015"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/patterns/navigation.html\">Navigation</a> adds guidance on navigation hierarchy and structure, new navigation patterns, and combined navigation patterns</li><li><a href=\"http://www.google.com/design/spec/style/color.html#color-ui-color-application\">UI color application</a> describes how transparent text maintains legibility against different background colors</li><li><a href=\"http://www.google.com/design/spec/components/buttons.html#buttons-toggle-buttons\">Buttons</a> contains guidance on toggle buttons and flat button behaviors</li><li><a href=\"http://www.google.com/design/spec/components/tabs.html#tabs-specs\">Tabs</a> includes guidance on text sizing in tabs</li></ul>"
+                }
+              ],
+              "title": "September 2015 "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>New sections</strong></p><ul><li><a href=\"http://www.google.com/design/spec/patterns/permissions.html\">Permissions</a> contains guidance on permissions groups, runtime permissions, request patterns, and how to address permissions when they are denied</li></ul><p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/components/bottom-sheets.html\">Bottom sheets</a> includes descriptions of persistent and modal bottom sheets, alternative display options, and desktop and tablet display using increments</li><li><a href=\"http://www.google.com/design/spec/patterns/settings.html\">Settings</a> includes a usage overview</li></ul>"
+                }
+              ],
+              "title": "August 2015 "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>New sections</strong></p><ul><li><a href=\"http://www.google.com/design/spec/patterns/notifications.html\">Notifications</a> contains guidance for tailoring notifications to users, including peeking notifications</li><li><a href=\"http://www.google.com/design/spec/patterns/fingerprint.html\">Fingerprint</a> contains guidance on implementing Fingerprint as an authentication option</li></ul><p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/components/cards.html#cards-actions\">Cards</a> includes more image examples of card UI controls, sliders, and tabs</li><li><a href=\"http://www.google.com/design/spec/patterns/launch-screens.html#launch-screens-placeholder-ui\">Launch screens</a> includes guidance for implementing placeholder UIs</li><li><a href=\"http://www.google.com/design/spec/patterns/settings.html#settings-labels-secondary-text\">Settings</a> includes additional guidance for labels and secondary text</li></ul>"
+                }
+              ],
+              "title": "July 2015 "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>New sections</strong></p><ul><li><a href=\"http://www.google.com/design/spec/layout/adaptive-ui.html\">Adaptive UI</a> includes responsive layout guidance, grids, breakpoints, and patterns</li><li><a href=\"http://www.google.com/design/spec/patterns/empty-states.html\">Empty states</a> contains guidance for states when regular content can&#x2019;t be shown</li><li><a href=\"http://www.google.com/design/spec/patterns/launch-screens.html\">Launch screens</a> includes branding and placeholder UI content</li><li><a href=\"http://www.google.com/design/spec/patterns/navigation.html\">Navigation</a></li></ul><p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/what-is-material/elevation-shadows.html\">Elevation and shadows</a> has been renamed from &#x201C;Objects in 3D space,&#x201D; adding new details about elevation changes</li><li><a href=\"http://www.google.com/design/spec/animation/authentic-motion.html\">Authentic motion</a> describes easing terms in more detail</li></ul>"
+                }
+              ],
+              "title": "May 2015 "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>New sections</strong></p><ul><li><a href=\"http://www.google.com/design/spec/components/data-tables.html\">Data tables</a></li><li><a href=\"http://www.google.com/design/spec/layout/units-measurements.html\">Units and measurements</a></li><li><a href=\"http://www.google.com/design/spec/components/buttons-floating-action-button.html\">Floating Action Button</a> has been moved into its own section, adding new details about behavior and transitions</li><li><a href=\"http://www.google.com/design/spec/patterns/app-structure.html\">App structure</a></li><li><a href=\"http://www.google.com/design/spec/resources/sticker-sheets-icons.html\">Component sticker sheet</a> for Adobe After Effects</li><li><a href=\"http://www.google.com/design/spec/patterns/data-formats.html#data-formats-data-redaction-truncation\">Data truncation and redaction</a></li><li><a href=\"http://www.google.com/design/spec/patterns/settings.html#settings-writing-guidelines\">Writing guidelines</a> for Settings</li></ul><p><strong>Significant updates</strong></p><ul><li><a href=\"http://www.google.com/design/spec/style/typography.html\">Typography</a> adds further guidance on style and line height for dense and tall languages</li><li><a href=\"http://www.google.com/design/spec/components/cards.html\">Cards</a> includes more specs for laying out actions and content</li><li><a href=\"http://www.google.com/design/spec/components/dialogs.html\">Dialogs</a> contains additional layout guidance</li><li><a href=\"http://www.google.com/design/spec/components/tabs.html\">Tabs</a> adds guidance around label content and more complete sizing specs</li><li><a href=\"http://www.google.com/design/spec/patterns/scrolling-techniques.html\">Scrolling techniques</a> adds guidance for overlapping content</li></ul>"
+                }
+              ],
+              "title": "April 2015"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

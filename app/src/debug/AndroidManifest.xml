@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="me.vickychijwani.material"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- for reading media off of sdcard in debug builds, to reduce APK install time -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

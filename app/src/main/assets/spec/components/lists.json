@@ -1,0 +1,892 @@
+{
+  "title": "Lists",
+  "href": "http://www.google.com/design/spec/components/lists.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Lists present multiple line items vertically as a single continuous element.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A <strong>list</strong> consists of a single continuous column of tessellated sub-divisions of equal width called <strong>rows </strong>that function as containers for <strong>tiles</strong>.</p><p><strong>Tiles</strong>&#xA0;hold content, and can vary in height within a list.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aGNuNnFnVktPdGM/components_lists_usage1.png",
+                      "caption": "<p>List</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TmRJenRtUVZFLUk/components_lists_usage2.png",
+                      "caption": "<p>Row and tile</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Lists are best suited to presenting a homogeneous data type or sets of data types, such as images and text. They are optimized for reading comprehension while  differentiating either between similar data types, or qualities within a single data type.</p><h4>List alternatives:</h4><ul><li>If more than three lines of text need to be shown in list tiles, use <strong>cards </strong>instead.</li><li>If the primary distinguishing content consists of images, use a <strong>grid list</strong>.</li></ul><h4>Density</h4><p>When the mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSnBGdWd3WDhPUE0/components_lists_usage3.png",
+                      "caption": "<p>Typical list scanning pattern</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Lists scroll only vertically.</p>"
+                }
+              ],
+              "title": "Scrolling"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The swipe action of each tile should be consistent within lists.</p><p>Tiles may be moved between a list and drop target (similar to moving a file into a folder) and picked up and manually reordered within a list.</p>"
+                }
+              ],
+              "title": "Gestures"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>List tiles can be sorted or filtered by date, file size, alphabetical order, or other parameters.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTEYtcnczU3J5ZEU/components_lists_behavior1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Alphabetical sorting makes information easier to find.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsM0pZZjFTNTFmNU0/components_lists_behavior2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t display information in random order; if the UI doesn&#x2019;t allow the user to sort a list, your app should use a logical sort order.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Filtering and sorting"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Content",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Collections of list tiles present related content in a consistent format. Lists use hierarchy to prioritize a type or set of content, which helps users find the most important information. For example, in an email inbox app, an avatar and text snippet are emphasized over a time stamp. </p><p>List tiles may contain up to three lines of text, and text length may vary between tiles in the same list. To display more than three lines of text, use a card.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ckJuUHNnUVlVYTQ/components_lists_content1.png",
+                      "caption": "<p>Place the most distinguishing content on the left of the tile and the least distinguishing content on the right. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Specifications:</p><ul><li>The majority of space on a list tile should be dedicated to the primary action.</li><li>Place the most distinguishing content towards the left of the tile. </li><li>In tiles with <strong>multi-line content</strong>, place the most distinguishing content in the first line.</li><li>Place <strong>supplemental actions</strong>&#xA0;on the right side.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bTlwblZleHIwU1U/components_lists_content2.png",
+                      "caption": "<p>The primary action takes up the majority of the space on the tile. The supplemental action goes on the right side of the tile.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Actions",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Primary and supplemental actions (such as play, zoom in, delete, and select) may open a subsequent view, such as a card. They do not have a submenu or an action overflow menu.</p><p><strong>Primary actions</strong></p><ul><li>Fill the entire tile and are not represented solely by an individual icon or text button</li><li>Are consistent for all tiles in a specific list, such as the primary action in a list of music to play songs</li></ul><p><strong>Supplemental actions</strong></p><ul><li>Are represented by icons, secondary text, etc</li><li>Have consistent functionality throughout a list, such as an icon that indicates if someone is online</li><li>Have a consistent location in a list&#x2019;s tiles</li></ul><p><strong>Repeating actions</strong></p><p>Avoid displaying a repeated supplemental action in tiles, such as a share action in every tile. </p><p>Toggles, such as stars or pins, are exceptions because they provide unique information about each individual tile.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In a <strong>single-line list</strong>, each tile contains a single line of text. The amount of text can vary between tiles within the same list.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYzdVRGozRHVYbms/components_lists_keylines1.png",
+                      "caption": "<div class=\"caption-title\">Single-line list specs</div><p>Icon left padding: 16dp<br>List item left padding: 72dp<br>List right padding: 16dp<br>List right margin: 56dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZEZuU0xISS1OLTg/components_lists_keylines_single6.png",
+                      "caption": "<p>Example of a single-line list</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In a <strong>two-line list</strong>, each tile contains a maximum of two lines of text. The amount of text can vary between tiles within the same list.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZklTYnVxWkRtU28/components_lists_keylines3.png",
+                      "caption": "<div class=\"caption-title\">Two-line list specs</div><p>Icon left padding: 16dp<br>List item left padding: 72dp<br>List right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTFBBZ2lLODUxZlE/components_lists_keylines4.png",
+                      "caption": "<p>Example of a two-line list</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In a <strong>three-line list</strong>, each tile contains a maximum of three lines of text.</p><p>The amount of text can vary between tiles within the same list.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OXE3RktYb3JBbjA/components_lists_keylines5.png",
+                      "caption": "<div class=\"caption-title\">Three-line list specs</div><p>Icon left padding: 16dp<br>List item left padding: 72dp<br>List right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTll3U0dBTFByeUU/components_lists_keylines6.png",
+                      "caption": "<p>Example of a three-line list</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text only</h4><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p><p>Bottom padding is measured from the baseline.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7WGxpMDJqMTJxWEE/components_lists_keylines_single1.png",
+                      "caption": "<p>Single-line list</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsc3JTdU5BVnVLbGM/components_lists_keylines_single3.png",
+                      "caption": "<p>Example of a single-line list</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single-line list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Y1FsdElhSlJ1WEU/components_lists_keylines_single2.png",
+                      "caption": "<div class=\"caption-title\">Single-line list specs</div><p>Font: Roboto Regular 16sp<br>Height: 48dp<br>Left and right padding from screen edge: 16dp<br>Top padding: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cC1kc3p3TXlPSDQ/components_lists_keylines_single2_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line list specs</div><p>Font: Roboto Regular 13sp<br>Height: 40dp<br>Left and right padding from screen edge: 16dp<br>Top dadding: 4dp </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Icon with text</h4><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p><p>Bottom padding is measured from the baseline.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7a3RZSEFjNmlZcVk/components_lists_keylines_single4.png",
+                      "caption": "<p>Single-line list with icon </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZEZuU0xISS1OLTg/components_lists_keylines_single6.png",
+                      "caption": "<p>Example of single-line list with icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eUpZcXJRODJvMXc/components_lists_keylines_single5.png",
+                      "caption": "<div class=\"caption-title\">Single-line list with icon specs</div><p>Font: Roboto Regular 16sp<br>Height: 48dp<br>Icon padding, left: 16dp<br>Text padding, left: 72dp<br>Top padding: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QkQ0LWhOTzNnc1U/components_lists_keylines_single5_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line list with icon specs</div><p>Font: Roboto Regular 13sp<br>Height: 40dp<br>Icon padding, left: 16dp<br>Text padding, left: 72dp<br>Top padding: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text</h4><p>Bottom padding is measured from the baseline.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7a3JraGNfZTE0VW8/components_lists_keylines_single7.png",
+                      "caption": "<p>Single-line item with avatar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNlAwTVZUcXB1M0U/components_lists_keylines_single9.png",
+                      "caption": "<p>Example of a single-line item with avatar </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7bzEta2VMeTQ5QTg/components_lists_keylines_single8.png",
+                      "caption": "<div class=\"caption-title\">Single-line item with avatar specs</div><p>Font: Roboto Regular 16sp<br>Height: 56dp<br>Left avatar padding: 16dp<br>Text padding, left: 72dp<br>Top padding: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dnV2aDZIVkgtczg/components_lists_keylines_single8_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line item with avatar specs</div><p>Font: Roboto Regular 13sp<br>Height: 48dp<br>Left avatar padding: 16dp<br>Text padding, left: 72dp<br>Top padding: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text and icon</h4><p>Right icon padding: 16dp</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p><p>Bottom padding is measured from the baseline.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UUw0bzVwU2lMUHc/components_lists_keylines_single10.png",
+                      "caption": "<p>Single-line item with avatar and icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNlAwTVZUcXB1M0U/components_lists_keylines_single9.png",
+                      "caption": "<p>Example of a single-line item with avatar and icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7T2pKUG0teEQycTA/components_lists_keylines_single11.png",
+                      "caption": "<div class=\"caption-title\">Single-line item with avatar and icon specs</div><p>Font: Roboto Regular 16sp<br>Height: 56dp<br>Left avatar padding: 16dp<br>Right icon padding: 16dp<br>Text padding, left: 72dp<br>Top padding: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OXVHRjJPMnBjWWc/components_lists_keylines_single11_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense single-line item with avatar and icon specs</div><p>Font: Roboto Regular 13sp<br>Height: 48dp<br>Left avatar padding: 16dp<br>Right icon padding: 16dp<br>Text padding, left: 72dp<br>Top padding: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text only</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 72dp<br>Text padding, left: 16dp<br>Text padding, top and bottom: 20dp</p><p>Bottom padding is measured from the baseline.</p><p>Add 8dp of padding at the top and bottom of a list. One exception is at the top of a list with a subheader, because subheaders contain their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SmhjTUNqNndIanM/components_lists_keylines_two1.png",
+                      "caption": "<p>Two-line list </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaGczdEdTVmQ2T0k/components_lists_keylines_two3.png",
+                      "caption": "<p>Example of a two-line list </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Two-line list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7UkNZZk02N3BYazg/components_lists_keylines_two2.png",
+                      "caption": "<div class=\"caption-title\">Two-line list specs:</div><p>Font: Roboto Regular 16sp<br>Height: 72dp<br>Left and right padding from screen edge: 16dp<br>Top padding: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Tmd2UXRicE55cmc/components_lists_keylines_two2_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense two-line list specs:</div><p>Font: Roboto Regular 13sp<br>Height: 60dp<br>Left and right padding from screen edge: 16dp<br>Top padding: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Icon with text</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 72dp<br>Left icon padding: 16dp<br>Text padding, left: 72dp<br>Text padding, top and bottom: 20dp<br>Bottom padding is measured from the baseline.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7X3EyVXlLNVFsY00/components_lists_keylines_two4.png",
+                      "caption": "<p>Two-line list with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsb0ZGN0FYMmtiNWs/components_lists_keylines_two12.png",
+                      "caption": "<p>Example of a two-line list with icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7RTJvc2pWMnFvQTg/components_lists_keylines_two5.png",
+                      "caption": "<div class=\"caption-title\">Two-line list with icon specs:</div><p>Font: Roboto Regular 16sp<br>Height: 72dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 8dp<br>Text right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aGVFNW1SWXlSY0k/components_lists_keylines_two5_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense two-line list with icon specs:</div><p>Font: Roboto Regular 13sp<br>Tile height: 60dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 4dp<br>Text right padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 72dp<br>Left avatar padding: 16dp<br>Text padding, left: 72dp<br>Text padding, top and bottom: 20dp</p><p>Bottom padding is measured from the baseline.</p><p>Center-align icon with text area.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Z2tISG42SEgyWE0/components_lists_keylines_two6.png",
+                      "caption": "<p>Two-line list with avatar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWGQ4OWVWREpLNkU/components_lists_keylines_two8.png",
+                      "caption": "<p>Example of a two-line list with avatar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7Tm9ZQmFCZzlITkE/components_lists_keylines_two7.png",
+                      "caption": "<div class=\"caption-title\">Two-line list with avatar specs:</div><p>Font: Roboto Regular 16sp<br>Tile height: 72dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 8dp<br>Text right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dHlVcnF3LTkwc2c/components_lists_keylines_two7_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense two-line list with avatar specs:</div><p>Font: Roboto Regular 16sp<br>Tile height: 60dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 4dp<br>Text right padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text and icon</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 72dp<br>Left avatar padding: 16dp<br>Text padding, left: 72dp</p><p>Right icon padding: 16dp</p><p>Bottom padding is measured from the baseline.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7TWVjYVJIcno0YjA/components_lists_keylines_two9.png",
+                      "caption": "<p>Avatar with text and icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZWxVbjYxdDJ1ZEE/components_lists_keylines_two11.png",
+                      "caption": "<p>Example of an avatar with text and icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7NkI5bzU3Y3BQQzg/components_lists_keylines_two10.png",
+                      "caption": "<div class=\"caption-title\">Avatar with text and icon</div><p>Font: Roboto Regular 16sp<br>Tile height: 72dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 8dp<br>Text right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3elloNmR6OFl3Sms/components_lists_keylines_two10_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense avatar with text and icon</div><p>Font: Roboto Regular 13sp<br>Tile height: 60dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 4dp<br>Text right padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Text only</h4><p>Primary text font: Roboto Regular 16sp</p><p>Secondary text font: Roboto Regular 14sp<br>Tile height: 88dp<br>Text padding, left: 16dp<br>Text padding, top: 16dp<br>Text padding, bottom: 20dp</p><p>Bottom padding is measured from the baseline.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dXNub0hnVG13blE/components_lists_keylines_three1.png",
+                      "caption": "<p>Three-line list</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZmJRelNHTjVkSDQ/components_lists_keylines_three12.png",
+                      "caption": "<p>Example of a three-line list</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Three-line list"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N216V0Y1MXQ1TmM/components_lists_keylines_three2.png",
+                      "caption": "<div class=\"caption-title\">Three-line list specs:</div><p>Font: Roboto Regular 16spTile height: 88dp<br>Text left padding: 16dp<br>Text right padding: 16dp<br>Padding above list: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Zm1lUWlrX3ZpSjg/components_lists_keylines_three2_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense three-line list specs:</div><p>Font: Roboto Regular 13sp<br>Tile height: 76dp<br>Text left padding: 16dp<br>Text right padding: 16dp<br>Padding above list: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Icon with text</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 88dp<br>Left icon padding: 16dp<br>Text left padding: 72dp<br>Text padding, top: 16dp<br>Text padding, bottom: 20dp</p><p>Bottom padding is measured from the baseline.</p><p>Top-align icon with primary text.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aEJISHY0U09IN28/components_lists_keylines_three4.png",
+                      "caption": "<p>Three-line list with icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eTQ1MUVSWWpWdHc/components_lists_keylines_three3.png",
+                      "caption": "<p>Example of a three-line list with icon</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Xzd5UnFOQVdNS28/components_lists_keylines_three5.png",
+                      "caption": "<div class=\"caption-title\">Three-line list with icon specs:</div><p>Font: Roboto Regular 16sp<br>Tile height: 88dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Text padding right: 16dp<br>Padding above list: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bWt4aXFlUFlyT0U/components_lists_keylines_three5_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense three-line list with icon specs:</div><p>Font: Roboto Regular 13sp<br>Tile height: 76dp<br>Icon left padding: 16dp<br>Text left padding: 72dp<br>Text padding right: 16dp<br>Padding above list: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 88dp<br>Left avatar padding: 16dp<br>Left text padding: 72dp<br>Text padding, top: 16dp<br>Text padding, bottom: 20dp</p><p>Bottom padding is measured from the baseline.</p><p>Top-align avatar with primary text.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3XzE5MGlMb2E2YVU/components_lists_keylines_three6.png",
+                      "caption": "<p>Three-line list with avatar</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSHRDUllnV1kxSFE/components_lists_keylines_three8.png",
+                      "caption": "<p>Example of three-line list with avatar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VksyR0lhS0FqWE0/components_lists_keylines_three7.png",
+                      "caption": "<div class=\"caption-title\">Three-line list with avatar specs:</div><p>Font: Roboto Regular 16sp<br>Tile height: 88dp<br>Padding above list: 8dp<br>Padding left of avatar: 16dp<br>Text left padding: 72dp<br>Text right padding: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WVZuN0VhZFdLOW8/components_lists_keylines_three7_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense three-line list with avatar specs:</div><p>Font: Roboto Regular 13sp<br>Tile height: 76dp<br>Padding above list: 4dp<br>Padding left of avatar: 16dp<br>Text left padding: 72dp<br>Text right padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Avatar with text and icon</h4><p>Primary text font: Roboto Regular 16sp<br>Secondary text font: Roboto Regular 14sp<br>Tile height: 88dp<br>Left avatar padding: 16dp<br>Text left padding: 72dp<br>Text padding, top: 16dp<br>Text padding, bottom: 20dp</p><p>Right icon padding: 16dp</p><p>Bottom padding is measured from the baseline.</p><p>Top-align avatar and icon with primary text.</p><p>Add 8dp of padding at the top and bottom of a list, except for lists with subheaders, which have their own padding.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Yk04Qkhhb1lGaHc/components_lists_keylines_three9.png",
+                      "caption": "<p>Three-line list with avatar and icon</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdFNSZ1kzeXBfR1U/components_lists_keylines_three11.png",
+                      "caption": "<p>Example of three-line list with avatar and icon</p><p><br></p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aVU4MlFJUjBXRms/components_lists_keylines_three10.png",
+                      "caption": "<div class=\"caption-title\">Three-line list with avatar and icon specs:</div><p>Font: Roboto Regular 16sp<br>Tile height: 88dp<br>Left avatar padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 8dp<br>Right and left padding by the icon: 16dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MldMcEFLSHdjM1k/components_lists_keylines_three10_dense.png",
+                      "caption": "<div class=\"caption-title\">Dense three-line list with avatar and icon specs:</div><p>Font: Roboto Regular 13sp<br>Tile height: 76dp<br>Left avatar padding: 16dp<br>Text left padding: 72dp<br>Padding above list: 4dp<br>Right and left padding by the &#xA0;icon: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

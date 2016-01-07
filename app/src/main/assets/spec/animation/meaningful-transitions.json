@@ -1,0 +1,160 @@
+{
+  "title": "Meaningful transitions",
+  "href": "http://www.google.com/design/spec/animation/meaningful-transitions.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Motion design can effectively guide the user&#x2019;s attention in ways that both inform and delight. Use motion to smoothly transport users between navigational contexts, explain changes in the arrangement of elements on a screen, and reinforce element hierarchy. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Visual continuity",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Transitioning between two visual states should be clear, smooth, and effortless. A well-designed transition tells the user where to focus their attention. </p><p>Transition types and actions: </p><ul><li><strong>Incoming elements:</strong>&#xA0;Newly generated or translated items are introduced or re-established.</li><li><strong>Outgoing elements:</strong>&#xA0;Elements no longer relevant to the context are removed.</li><li><strong>Shared elements:</strong> Elements that persist for the duration of a transition can be subtle (a single icon) or dominant (a gallery image growing to fill the screen).</li></ul><h4 class=\"related\">\nRelated\n</h4><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/training/material/animations.html#Transitions\" title=\"Customize Activity Transitions\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Customize Activity Transitions</div>\n        <span class=\"subtitle\">Coordinate the entrance and exit of animations.</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFZ3BiM1dnR0ZPU1k/animation_meanigfultrans_visualcont.webm",
+                      "caption": "<p>Transition elements can be incoming, outgoing, or persist on screen for the duration of the transition.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When designing animations, consider the following:</p><ul><li><strong>Direct user attention.</strong> How should the user&#x2019;s attention should be directed? What elements and motions support that goal? How should incoming, outgoing, and shared elements be emphasized or de-emphasized through the transition?</li><li><strong>Connect transitions visually. </strong>Create visual connections between transition states through color and persistent elements.</li><li><strong>Use movement with precision.</strong> Consider how moving a certain element adds clarity and delight to a transition.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RXRFb0tRZEZDUUU/animation_meaninfultransitions_considerations_do.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Incoming material elements may expand into view, but content should only fade in. Full screen cross-fades are not desirable, but preferred over cuts.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YUJUdGVfOTFzcm8/animation_meaninfultransitions_considerations_dont.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Hard cuts are jarring and require the user to do all the work in order to understand the transition.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Considerations"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>&#xA0; </p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Hierarchical timing",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When building a transition, consider the order and timing of element movement. Ensure that motion supports the information hierarchy, conveying what content is most important by creating a path for the eye to follow. </p><p>However, it&#x2019;s not a simple formula in which the most important thing moves first and the least important last. The timing of transition elements should flow smoothly and avoid feeling disjointed.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNTGRLb2Zud2RUNFE/animation-meaningfultransitions-hierarchicaltiming-4do_large_xhdpi.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Use overlapping motion to direct user attention.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNOEV5T09wMU5YTUU/animation-meaningfultransitions-hierarchicaltiming-1dont_large_xhdpi.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Timing element transitions to occur at the same moment provides no indication of what is important. If all elements have equal importance, consider introducing them as a group.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>&#xA0; &#xA0;</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Consistent choreography",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Transitioning elements should behave in a coordinated manner. The paths elements travel along should make sense and be orderly. Haphazard motion is distracting.</p><p>When transitioning elements are coordinated, it aids user understanding of the app.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNT2dLWHE1NG8tV00/animation-meaningfultransitions-consistentchoreography-do1_large_xhdpi.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Direct user attention with coordinated, orderly motion.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNVXhDdy1NUF8zMDg/animation-meaningfultransitions-consistentchoreography-dont3_large_xhdpi.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t confuse users with inconsistent or disorderly motion and objects leaving/entering in random directions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<ul><li>Avoid <a href=\"https://www.google.com/url?q=http://developer.android.com/training/material/animations.html%23CurvedMotion&amp;sa=D&amp;usg=AFQjCNFxaVB9fjOhPz_KdfgF9hrkTCMavQ\">linear spatial paths</a>, except when movement is constrained to an axis or moving towards/away from a point in concert with other elements.</li><li>Make the direction elements travel cohesively across the transition. Avoid conflicting movements and overlapping paths.</li><li>At which depths do the elements move and why?</li><li>If all moving elements traced their paths on screen, would it look beautiful and organized? Does it create a clear picture of where to look? </li><li>Reinforce spatial relationships between elements with consistent incoming and outgoing motions. <br></li></ul>"
+                }
+              ],
+              "title": "Best Practices"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

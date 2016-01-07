@@ -1,0 +1,634 @@
+{
+  "title": "Navigation",
+  "href": "http://www.google.com/design/spec/patterns/navigation.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Navigation guides users between different parts of your app. </p><p>Your app&apos;s structure should be organized according to the content and tasks you want users to see. Focus attention on important destinations by placing them in tabs or side navigation. Alternatively, de-emphasize inessential content by placing it in less prominent locations.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Navigation through your app should be intuitive and predictable. Both new and returning users should be able to figure out how to move through your app with ease.</p><p>When users move from one view to the next, they observe scenes containing imagery, actions, and content. These scenes work together to tell a story about the content they contain, leading users down paths that emphasize certain actions. </p><p>For information on movements between states, see <a href=\"http://www.google.com/design/spec/patterns/navigational-transitions.html\">navigational transitions</a>.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Communicate relationships &amp; context</h4><p>Group content into logical and relatable chunks that show clear relationships between items.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    },
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z3V5a2o0dy1zb0U/patterns_navigation_structure1.png",
+                      "caption": "<p>This image shows relationships between email items by grouping them into these clusters: Promos, Social, Finance.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TmpnUHVKRV9DU0E/components-buttons-fab-transition_speeddial_02.webm"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bTd5OEhXT2NNd1E/patterns_navigation_structure3.png",
+                      "caption": "<p>Use simple design and lightweight structure when user needs are simple.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Defining your navigation",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V2VyeUh2b0NYRjg/patterns_navigation_definingyournavigation-alt.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Navigation organizes content so that it&#x2019;s easier to find important destinations in your app. Navigation may include frequently visited places, contain settings, or encourage specific actions.</p><p>To determine the type of navigation best suited to your app, identify your app&#x2019;s users, typical paths they might take through your app, and actions you want them to perform.</p><p>For instance, if your app is a restaurant guide, your users may want to make reservations, post menus, or write reviews. By identifying the goals most users will have, you&#x2019;ll be able to better define a navigation structure that meets their priorities. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Take inventory</h4><p>Identify your app&#x2019;s users and their potential roles, such as consumer, business owner, or journalist. Identify the most common tasks they may want to perform.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cE9LOFJEemtORVU/inventory.png",
+                      "caption": "<p>Identify your key users and the use cases they might want to perform.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Prioritize</h4><p>Assign priority levels of high, medium, or low to common user tasks. Give prominence in the UI to paths and destinations with high priority levels and frequent use. </p><p>Adjust priority levels as user needs change over time. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ejYzcGo1QVJWcms/prioritize.png",
+                      "caption": "<p>When designing navigation for a restaurant app, the highest priority tasks may include viewing restaurant details or finding new restaurants.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Sequence</h4><p>Identify the different paths that users take through your app and use those paths to define your navigation:</p><ul><li>List frequent destinations prominently in your navigation </li><li>Group related tasks together and use those groupings to structure your navigation</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UGRCRU1aUTJCNG8/sequence.png",
+                      "caption": "<p>Whether a consumer wants to find a new restaurant or view a favorite one, both paths lead to a restaurant detail view. Make frequently used paths to these destinations (such as search or favorites) easily available.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Deconstruct</h4><p>Divide complex, broad, or vague use cases into smaller activities. These smaller tasks may be frequently used, more easily understood, or better meet user goals. </p><p>For example, dividing search into smaller activities that differentiate searching by name, location, or popularity may reveal the need to surface those smaller activities as part of navigation.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NGhzcTdPZHVyNzQ/deconstruct.png",
+                      "caption": "<p>The broader activity of &#x201C;Find a restaurant&#x201D; may actually encapsulate smaller activities, such as: Browse nearby, Search by name, and Browse popular. These smaller tasks may be easier for users to perform searches and should be integrated within your navigation.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Hierarchy",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Navigation organizes content by placing it within a hierarchy. Scenes at the top of the hierarchy are the most prominent and accessible, connecting users to scenes lower in the hierarchy. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SzVoODlnQXZ6MmM/patterns_navigation_hierarchy_home.png",
+                      "caption": "<div class=\"caption-title\">Home</div><p>The <strong>home </strong>scene is the entrance to the app. It introduces the app and its navigation.</p><p>The home scene may vary the content it displays. A <strong>stateful home</strong>&#xA0;contains indications of a user&#x2019;s previous interaction with the app.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X2w3Rm1JM1lGblE/patterns_navigation_hierarchy_parent-child.png",
+                      "caption": "<div class=\"caption-title\">Parent and child </div><p>A higher level of navigational hierarchy is called a <strong>parent</strong>, and the level (or levels) below are referred to as <strong>children</strong>. </p><p>For example, the home screen is the parent to all other screens in an app.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dl9BSjhMVWRSWkk/patterns_navigation_hierarchy_navigation.png",
+                      "caption": "<div class=\"caption-title\">Navigation </div><p>When you navigate more deeply into an app, you descend from a higher level of hierarchy to a lower one.</p><p>Moving from a parent scene to a child scene is <strong>descending navigation</strong>. Moving from child to parent is <strong>ascending navigation</strong>.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SmxZMEgzeWZVdDQ/patterns_navigation_hierarchy_siblings.png",
+                      "caption": "<div class=\"caption-title\">Siblings</div><p>Scenes that have the same parent are called <strong>siblings</strong>. Apps that have multiple use cases, all of equal priority, usually contain many sibling scenes.<br></p><p><strong>Lateral navigation</strong>&#xA0;is movement between siblings.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z2NNQTNTb25LYjA/patterns_navigation_hierarchy_collections.png",
+                      "caption": "<div class=\"caption-title\">Collections</div><p><strong>Collections</strong> include multiple items that share the same parent.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dTE0LVd4SVdZekE/patterns_navigation_hierarchy_links.png",
+                      "caption": "<div class=\"caption-title\">Links</div><p>Links allow users to move quickly between scenes that aren&#x2019;t navigationally adjacent.</p><p><strong>Crosslinks</strong>&#xA0;are links that take users anywhere within your app. </p><p><strong>External links</strong> are links from sources outside your app. They take users directly to scenes deep within your app.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Patterns",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Navigation should best accommodate the needs of the majority of your app&#x2019;s users. Apps with complex and deep hierarchies (that require switching between multiple views) have different navigation requirements than apps with a single primary view.</p><p>The following navigation patterns are designed to:</p><ul><li>Promote engaging and responsive layouts</li><li>Anchor navigation and actions</li><li>Highlight important destinations and de-emphasize infrequent ones</li><li>Promote a primary action with the floating action button</li></ul><p>&#xA0;</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Embedded navigation</h4><p>Apps with simple navigation may embed navigation inside app content, but doing so reduces the available space to display that content.</p><p>Recommended for:</p><ul><li>Apps with a strong primary view, and few alternate views</li><li>Apps that perform common tasks in the main view</li><li>Infrequently used apps</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VTk0QjZOVUxFY1k/patterns_navigation_patterns_embedded1.png",
+                      "caption": "<p>Mobile example of an app with embedded navigation. Common tasks are performed in a strong primary view.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Tabs</h4><p><a href=\"http://www.google.com/design/spec/components/tabs.html\">Tabs</a> allow users to quickly move between a small number of equally important views.</p><p>Appropriate for these hierarchies:</p><ul><li>Parents with embedded child views</li><li>A group of sibling views </li></ul><p>Recommended for:</p><ul><li>Frequent switching between views</li><li>Apps with few top-level views</li><li>Promoting awareness of alternate views</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TEMxQ3BmVmFEQXc/patterns_navigation_patterns_tabs1.png",
+                      "caption": "<p>Mobile example with three tabs</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bzVGNXBaTERWbHc/patterns_navigation_patterns_tabs2.png",
+                      "caption": "<p>Tablet example of centered tabs</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Y3NjV0xncGhMdk0/patterns_navigation_patterns_tabs3.png",
+                      "caption": "<p>Desktop example of left-aligned fixed tabs with title and extended header</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Navigation drawer</h4><p>When there is insufficient space to support tabs, side navigation is a good alternative. Side navigation can display many navigation targets at once. A drawer remains hidden until invoked by the user. </p><p>Apps with a single &#x201C;home&#x201D; should list the most frequently accessed destinations at the top of side navigation.</p><p>Side navigation may appear either with or without a <a href=\"http://www.google.com/design/spec/patterns/navigation-drawer.html\">navigation drawer</a>. </p><p>Appropriate for these hierarchies:</p><ul><li>Lateral navigation</li><li>Parents with siblings or peers</li></ul><p>Recommended for:</p><ul><li>Apps with many top-level views</li><li>Enabling quick navigation between unrelated views</li><li>Deep navigation structures</li><li>Reducing visibility of infrequent destinations</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eTBDWGxldS1GQ3M/patterns_navigation_patterns_navdrawer1.png",
+                      "caption": "<p>Mobile example of a closed left nav</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZjhIYS1GMlFVYVk/patterns_navigation_patterns_navdrawer2.png",
+                      "caption": "<p>Mobile example of an open left nav</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cElIYmJoT2RkQkU/patterns_navigation_patterns_navdrawer3.png",
+                      "caption": "<p>Tablet example of an open left nav</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Ty1Ob2FuTUMtQW8/patterns_navigation_patterns_navdrawer4.png",
+                      "caption": "<p>Desktop example of an open and pinned-in-place left nav </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Nested Navigation</h4><p>When you have multiple levels of navigation, sibling views should be nested underneath their parent. </p><p>On desktop, a secondary level of navigation may be nested within the navigation drawer.</p><p>Appropriate for these hierarchies:</p><ul><li>Lateral navigation</li><li>Parents with siblings or peers</li></ul><p>Recommended for:</p><ul><li>Deep navigation structures with many views</li><li>Enabling quick navigation between unrelated views</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X3JyV1JZQ1J6dms/patterns_navigation_patterns_nested1.png",
+                      "caption": "<p>Desktop example of an expanding left nav</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Expanding navigation drawer</h4><p>If you have a deep navigational hierarchy, you may expand that hierarchy within the navigation drawer. Upon selecting a level, &#xA0;the level of navigation below is revealed. Selecting a collapsed section expands that level in-line, hiding all levels outside of it. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z09DaUNORTJpWEE/patterns_navigation_patterns_expanding1.png",
+                      "caption": "<p>Desktop example of an expanding left nav</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TTNvTzg5aE51M00/patterns_navigation_patterns_expanding2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Cascading navigation drawer (Desktop only)</h4><p>If you have a deep navigational hierarchy, you may use cascading menus to expand navigation drawer content horizontally. Each collection of views is presented in its own panel, and a level closes when a subsection is selected. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Rm9DeVpMU2tTMjA/patterns_navigation_patterns_cascading1.png",
+                      "caption": "<p>Desktop example of a cascading left nav</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aVFiMjRyeXZ2cVE/patterns_navigation_patterns_cascading2.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Gestural</h4><p>Gestural navigation allows users to use swipe gestures to navigate between sibling or peer views. Supported gestures include: touching and dragging the screen horizontally (left/right), vertically (up/down), or while zooming in or out. </p><p>Recommended for:</p><ul><li>Naturally ordered relationships, such as pages representing consecutive calendar days</li><li>Views with few siblings </li><li>Views with similar content types</li></ul><p>See <a href=\"http://www.google.com/design/spec/patterns/navigational-transitions.html\">Navigational transitions</a> for more information on hierarchical journeys between scenes.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QjdEZk5TRUt6NXc/Expanding%20-%20Overscroll%20Top.webm",
+                      "caption": "<p>When in Inbox, you are able to pull down on a message to return back to the parent view.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Combined patterns",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In-context navigation (used with tabs or navigation drawers) allows nimble movement between related sets of data. </p><p>In-context navigation integrates into an app&#x2019;s content and is typically less linear in nature. When moving through in-context navigation, navigating to a new scene will display navigational controls specific to that view.  </p><p>Appropriate for these hierarchies:</p><ul><li>Parents with siblings</li></ul><p>Recommended for:</p><ul><li>Showing large sets of child scenes</li><li>Focusing attention on a specific set of tasks </li><li>Apps with a strong primary view, and few alternates</li></ul><p>Example uses:</p><ul><li>Link a song to an artist</li><li>Move between recent items and a complete history</li><li>Connect a user&#x2019;s post to their profile page</li></ul><p>The up arrow is used to return to the previous level.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3QW15VXF3Szd4Snc/patterns_navigation_patterncombinations1.png",
+                      "caption": "<p>Mobile example of navigation integrated into content </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3N2twRDB2ZEw3SWM/patterns_navigation_patterncombinations2.png",
+                      "caption": "<p>Mobile example of up arrow</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "In-context navigation "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NzJReWpBQnZzUHM/patterns_navigation_patterncombinations3.png",
+                      "caption": "<p>Tablet/Desktop example of navigation integrated into content </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3c3cwd3FiTEJORUU/patterns_navigation_patterncombinations4.png",
+                      "caption": "<p>Tablet/Desktop example of an up arrow</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Products with two levels of navigation may pair a left navigation drawer with tabs.</p><h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZjVsOXZJeDZTTUU/patterns_navigation_patterncombinations5.png",
+                      "caption": "<p>Mobile example using two levels of navigation: a navigation drawer and tabs</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3NWtRZVR4X3NMZXc/patterns_navigation_patterncombinations6.png",
+                      "caption": "<p>Mobile example of an open left nav</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Side nav and tab combinations"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>&#xA0;</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RXcxVnNCeHRRdjg/patterns_navigation_patterncombinations7.png",
+                      "caption": "<p>Tablet example using two levels of navigation: a navigation drawer and tabs</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aEtoM090azl6SW8/patterns_navigation_patterncombinations8.png",
+                      "caption": "<p>Tablet example of an open left nav in front of tabs</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3b3VKRlpDWEJQcWc/patterns_navigation_patterncombinations9.png",
+                      "caption": "<p>Desktop example using two levels of navigation: a navigation drawer and tabs</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If your product has three levels of navigation, pair a navigation drawer with nested navigation and tabs. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3U3lReGNUUUtndmM/patterns_navigation_patterncombinations10.png",
+                      "caption": "<p>Desktop example of a nested left nav with tabs</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Nested navigation drawer + tabs (Desktop only)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

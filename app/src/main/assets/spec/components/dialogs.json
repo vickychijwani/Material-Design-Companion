@@ -1,0 +1,760 @@
+{
+  "title": "Dialogs",
+  "href": "http://www.google.com/design/spec/components/dialogs.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Dialogs contain text and UI controls focused on a specific task. They inform users about critical information, require users to make decisions, or involve multiple tasks. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Beyond standard dialogs </h4><p>Dialogs are a sub-type of modal windows, and the examples covered here are for standard material system dialogs. (Other modal window constructions aren&#x2019;t covered here because they have too much variation, such as branded buttons for purchasing flows, non-standard UI form elements, or unique layouts.)</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Reduce interruption</h4><p>Use dialogs sparingly because they are interruptive. Their sudden appearance forces users to stop their current task and focus on the dialog content. Not every choice, setting, or detail warrants interruption. Alternatives to dialogs include menus or inline expansion, both of which maintain the current context.</p><h4>Dialog prominence</h4><p>Dialogs should never be obscured by other elements or appear partially on screen. Dialogs always retain focus until dismissed or a required action has been taken, such as choosing a setting.</p><h4>Dialogs should avoid:</h4><ul><li>Opening dialogs from within a dialog</li><li>Containing scrolling content</li></ul><h4>Full-screen dialog exception</h4><p>Full-screen dialogs may open additional dialogs, such as pickers, because their design accommodates additional layers of material without significantly increasing the app&#x2019;s perceived z-depth or visual noise.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3a2tRMk1qRXdOclE/components_dialogs_content1.png",
+                      "caption": "<p>Example of dialog content</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bWxmZ1M0UTJBR0E/components_dialogs_fullscreen1.png",
+                      "caption": "<p>Example of a full-screen dialog</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Scrollable content exception</h4><p>Some dialog content requires scrolling, such as lists of ringtones. </p><ul><li>For scrollable lists of options, the dialog title remains pinned to the top. This ensures that a selected item remains visible with the title, regardless of the item&#x2019;s position in the list. </li><li>Otherwise, the title scrolls off with the content. Actions always remain in place when content scrolls.</li></ul><p>Dialogs are separate from the underlying parent material and do not scroll with it.</p><h4>Displaying additional content</h4><p>To disclose additional content in a dialog, do so using inline expansion within the content area. Or consider alternative components that are optimized for large amounts of content.</p><h4>Dismissing dialogs</h4><p>Dialogs can be dismissed by touching/clicking outside of a dialog or by using the system back button (Android). Alternatively, dialog behavior can be overridden so that users must explicitly choose one of the actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3T29XaVRQa0QxZkk/components_dialogs_1.png",
+                      "caption": "<p>Make the dialog title fixed when viewing a scrollable list of options ensures that both the title and the selected item are simultaneously visible.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Alerts",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Alerts are urgent interruptions, requiring acknowledgement, that inform the user about a situation. </p><p><strong>Disambiguation from Snackbars:</strong>&#xA0;Snackbars present optional information after an action, such as confirming the discarding of a draft. They often allow a user to undo an action just taken.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Alerts without title bars</h4><p>Most alerts don&apos;t need titles. </p><p>They summarize a decision in a sentence or two by either:</p><ul><li>Asking a question (e.g. &quot;Delete this conversation?&quot;)</li><li>Making a statement related to the action buttons</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TzFHYVlrbWF2bnM/components_alerts_1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The affirmative action text &#x201C;Discard&#x201D; clearly indicates the outcome of the decision.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UHZOTUNvRjByYUk/components_alerts_2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The dismissive action text &#x201C;No&#x201D; answers the question, but does not suggest what will happen afterwards. A better action pair would be an explicit &#x201C;Cancel&#x201D; and &#x201C;Delete.&#x201D;</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Alerts with title bars</h4><p>Use title bar alerts only for high-risk situations, such as the potential loss of connectivity. Users should be able to understand the choices based on the title and button text alone.</p><p>If a title is required:</p><ul><li>Use a clear question or statement with an explanation in the content area, such as &quot;Erase USB storage?&quot;.</li><li>Avoid apologies, ambiguity, or questions, such as &#x201C;Warning!&#x201D; or &#x201C;Are you sure?&#x201D;</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cGUwa0F5ekUwVms/components_dialogs_usage1.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>This dialog poses a specific question, concisely elaborates on its impact, and provides clear actions.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3M0c1aExjYW9IQzQ/components_dialogs_alerts4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>This dialog poses an ambiguous question and its scope of impact is unclear.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Simple menus",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Mobile and tablet only</h4>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Simple menus display options for list items, and they immediately commit choices upon selection. See <a href=\"http://www.google.com/design/spec/components/menus.html#menus-simple-menus\">Components &gt; Menus &gt; Simple Menus</a> for more details.</p><p><strong>Disambiguation:</strong>&#xA0;<a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-simple-dialogs\">Simple dialogs</a> display detailed options for list items or provide related actions. Simple dialogs can display the same content as simple menus. However, simple menus are preferred because they are less disruptive to the user&#x2019;s current context.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Y04tcjNRUlhIRlE/components_dialogs_simplemenu1.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cV9XaDQ2NWtoeU0/components_dialogs_simplemenu2.png",
+                      "caption": "<p>Examples of a simple menu</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Simple dialogs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Simple dialogs can provide additional details or actions about a list item. For example, they can display avatars, icons, clarifying subtext, or orthogonal actions (such as adding an account).</p><p>Touch mechanics:</p><ul><li>Choosing an option immediately commits the option and closes the menu</li><li>Touching outside of the dialog, or pressing Back, cancels the action and closes the dialog</li></ul><h4>Reduce interruption</h4><p>Simple dialogs are more interruptive than simple menus and should be used sparingly.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UjRsSGxGS0dRVzA/components_dialogs_simple1.png",
+                      "caption": "<p>Example of a simple dialog </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Mnpjc3ZoYjFkS0k/components_dialogs_simple2.png",
+                      "caption": "<p>The width of a dialog on mobile is defined as a multiple of a unit.</p><p>Each unit is 56dp wide<br>Minimum width on mobile = 56dp * 5 = 280dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>No explicit cancel button</h4><p>Simple dialogs do not have explicit buttons that accept or cancel an operation.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ekxYS1BqcEVmaDA/components_dialogs_simple3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>This simple dialog has an explicit &#x201C;Cancel&#x201D; button.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3elB2NzVRRkdXVkk/components_dialogs_simple4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>This simple dialog has an explicit &#x201C;Cancel&#x201D; button.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Specifications</h4><ul><li>Row heights can vary in simple dialogs.</li><li>Simple dialogs are displayed centered vertically and horizontally on the screen.</li><li>The dialog&apos;s distance from the screen edge is at least 40dp on the left and right, and at least 24dp on the top and bottom.</li><li>The dialog&apos;s content is 24dp from the dialog edge.</li></ul><h4>Avoid text wrapping</h4><p>If any text in a <a href=\"http://www.google.com/design/spec/components/menus.html#menus-simple-menus\">simple menu</a> wraps to another line, use a simple dialog instead.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SXJuazMwTkFnY0U/components_dialogs_simple5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>This simple dialog has varying row heights.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Confirmation dialogs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Confirmation dialogs require users to explicitly confirm their choice before an option is committed. For example, users can listen to multiple ringtones but only make a final selection upon touching &#x201C;OK.&#x201D;<br></p><p>Touching &#x201C;Cancel&#x201D; in a confirmation dialog, or pressing Back, cancels the action, discards any changes, and closes the dialog.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZFBNb3ItOGFLUGM/components_dialogs_confirmation1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>The ringtone choice in the following confirmation dialog will not be set until the user touches &#x201C;OK&#x201D;.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3aXcyajZDN29jS1k/components_dialogs_confirmation2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Example of a confirmation dialog with controls positioned on the left side of text.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Confirm a single value</h4><p>Confirmation dialogs can use layouts other than lists, such as a <a href=\"http://www.google.com/design/spec/components/pickers.html\">date picker</a>, but remain focused on specifying a single value (picking the date, but not picking the time and date).</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X2lnNU5xT1BEVmM/components_dialogs_confirmation3.png",
+                      "caption": "<p>The date choice is set by the user touching a date and the &#x201C;OK&#x201D; button. &#xA0;</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UVJTLVl4aXZnQ0E/components_dialogs_confirmation4.png",
+                      "caption": "<p>The user selects the hour by moving the clock hand and touching &#x201C;OK.&#x201D; </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Cancel and confirmation buttons</h4><p>Confirmation dialogs provide both an explicit confirmation button and explicit cancel button. Touching the cancel button, Back button, or leaving the confirmation dialog will discard changes.</p><h4>Avoid dialogs launching dialogs</h4><p>Confirmation dialogs should avoid launching additional simple dialogs or simple menus, as they increase the app&#x2019;s perceived z-depth and add visual complexity. If they are needed to complete a task, consider using a <a href=\"http://www.google.com/design/spec/components/dialogs.html#dialogs-full-screen-dialogs\">full-screen dialog</a> instead.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3eWhJZmwwdFpob0k/components_dialogs_confirmation5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Provide explicit confirmation and cancel buttons.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YUlDa2xHOUt6bVk/components_dialogs_confirmation6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>A single dialog button makes the system Back action ambiguous: does Back cancel or confirm?</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Full-screen dialogs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Mobile only</strong>: Due to limited space, full-screen dialogs may be more appropriate for mobile devices than dialogs used on devices with larger screens.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Usage</h4><p>Full-screen dialogs group a series of tasks (such as creating a calendar entry) before they may be committed or discarded. No selections are saved until &#x201C;Save&#x201D; is touched. Touching the &#x201C;X&#x201D; discards all changes and exits the dialog.</p><p>Full-screen dialogs enable complex layouts, minimize the appearance of stacked sheets of material (dialogs above dialogs), and temporarily reset the app&#x2019;s perceived elevation to a higher baseline. They allow tasks to launch simple menus or simple dialogs as part of a complex operation.</p><p>Full-screen dialogs may be used for content or tasks that meet any of these criteria:</p><ul><li>The dialog includes components (like pickers or form fields) that require an input method editor (IME), such as a keyboard.</li><li>When changes are not saved in real time</li><li>When there is no draft capability in the app</li><li>When performing batch operations or queuing changes prior to submitting them</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bWxmZ1M0UTJBR0E/components_dialogs_fullscreen1.png",
+                      "caption": "<p>The full-screen dialog supports a simple dialog used to pick dates.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OV9CR1NMNnpxN2s/components_dialogs_fullscreen2.png",
+                      "caption": "<p>Date picker opened from full-screen dialog</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Actions</h4><p>Place confirmation and dismissive actions for full-screen dialogs at the top of the screen.</p><h4>Confirmation</h4><p>The confirmation action in the top right of the screen uses descriptive verbs, such as: save, send, share, update or create. Don&#x2019;t use vague actions for confirming action, such as: done, ok or close.</p><p>The confirmation action is disabled until all mandatory fields in the dialog are met.</p><h4>Discard</h4><p>Both the discard action (the &#x201C;X&#x201D; at the top left of the screen) and the Back button close the full-screen dialog and discard changes. </p><ul><li>If no changes have been made, the dialog closes and no discard confirmation is required. </li><li>If the user has made any changes, they are prompted to confirm the discard action. </li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TC15NUs0MVU2S2c/components_dialogs_fullscreen3.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t use vague terms like &#x201C;Close&#x201D; for confirmation actions.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Qy04bFg2X0F4UkE/components_dialogs_fullscreen8.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Prompt users to confirm the discard action if they have made any changes.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Navigation</h4><p>The &#x201C;X&#x201D; used in a full-screen dialog differs from an up arrow, which indicates the view&#x2019;s state is constantly being saved. For example, an up arrow used in Settings indicates all changes are committed immediately without explicit confirmation or cancel actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VQzBKSzhqR3BHZnM/components_dialogs_fullscreen4.png",
+                      "caption": "<div class=\"caption-title\"></div><p>The up arrow in this Settings example indicates that any changes will be immediately saved upon selection.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRk5UWktaWHp5TDQ/components_dialogs_fullscreen5.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Touching the &#x201C;X&#x201D; in this Settings example will discard all changes. Changes will be saved only upon touching Save.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Titles</h4><p>Full-screen dialog titles don&#x2019;t use dynamic type.</p><p>Titles should be succinct. They can wrap to a second line if necessary, and should then be truncated.</p><p>If the full-screen dialog uses titles of variable length or anticipates long titles (for example, because certain words are longer in different languages), place title text in the content area of the dialog instead of the app bar.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OHFSYUtUNkcyU0U/components_dialogs_fullscreen6.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid using titles of variable length in the app bar.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OVBIMmJkVUllWjQ/components_dialogs_fullscreen7.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Place long titles in the content area of the full-screen dialog.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Dialogs contain content, actions and an optional title.</p><h4>Optional title</h4><p>The title briefly describes the type of choice being made. Titles should always be displayed in their entirety and only used when necessary. For example, a title may indicate what part of a task the dialog relates to, or identify what will be affected by the decision.</p><h4>Content</h4><p>Dialog content typically consists of text and/or UI control elements. It is focused on a specific task, such as confirming item deletion or choosing a setting.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YWtPZm13eVp5bEU/components_dialogs_usage2.png",
+                      "caption": "<p>This dialog contains a title, content and actions. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Actions</h4><p>Dialogs present a focused and limited set of actions, which are generally affirmative or dismissive.</p><ul><li><strong>Affirmative actions</strong>&#xA0;are placed on the right side and continue the process. Affirmative actions may be destructive, like &#x201C;Delete&#x201D; or &#x201C;Remove.&#x201D;</li><li><strong>Dismissive actions</strong>&#xA0;are placed directly to the left of affirmative actions and return the user to the originating screen or step in the process.</li><li><strong>Dismissive and affirmative action text</strong>&#xA0;can be &#x201C;Cancel&#x201D;/&#x201D;OK&#x201D; or specific active verbs or verb phrases that indicate the outcome of the decision.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VEZ5RkR3Qkwtd3c/components_dialogs_swapped_actions_16.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Dismissive actions are always placed directly to the left of affirmative actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Dialog actions should present a clear choice directly related to the dialog&#x2019;s title and content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7tHpXMphfIHSU84NlRFWlNvNFk/components_dialogs_swapped_actions_17.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid presenting users with ambiguous or unclear choices. In this example, &#x201C;Cancel&#x201D; doesn&apos;t make sense in relation to the title because there&apos;s no clear action being proposed.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Acknowledgement actions</h4><p>In situations where users are required to acknowledge the dialog&#x2019;s content to proceed, an alert may contain only one action. Use this type of alert sparingly as it is interruptive, or consider other methods of communicating the information to users, such as in-line with a view&#x2019;s content.</p><h4>Number of actions</h4><p>Dialogs should not include more than two actions. A third action, such as &#x201C;Learn more,&#x201D; navigates away from the dialog, potentially leaving the task unfinished.</p><p>Avoid using a &#x201C;Learn more&#x201D; action to access help documentation; in-line expansion within the dialog should be used instead. If more extensive information is needed, provide it prior to entering the dialog.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UTdrRUZpMjJ2d3M/components_dialogs_usage5.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>The &#x201C;Learn more&#x201D; action navigates away from this dialog, leaving it in an indeterminate state.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Languages without capitalization </h4><p>For languages without capitalization (such as Chinese, Japanese or Korean), consistent placement, spacing and color of actions is especially important to distinguish actions from regular text.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WnlKOVJjOG9oQnc/components_dialogs_consistent_placement1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>The consistent placement of actions and text color helps distinguish actions from regular text even when the affirmative action is disabled.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Q0dSbTYxenlGT1E/components_dialogs_consistent_placement2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Affirmative actions are more likely to be disabled until a choice is made. Dismissive actions are never disabled.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Content guidelines</h4><p>Padding around content area: 24dp<br>Padding between title and body text: 20dp<br>Padding around buttons: 8dp<br>Button height: 36dp<br>Action area height: 52dp<br>Dialog elevation: 24dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3c3htV1IweVNKcFU/components_dialogs_updates1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Content padding</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3R1lfQmd6eC1ONFk/components_dialogs_actions.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Within the content area, the 24dp of padding below the content helps separate it from the actions.</p><p>Dialog content bottom padding: 24dp<br>Button height: 36dp<br>Button margin: 8dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bFJtSEZCdlliM1U/components_dialogs_updates8.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Content padding for a dialog in a scrolled state</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Button width and padding</h4><p>Button height: 36dp<br>Minimum button width: 64dp<br>Internal button padding: 8dp<br>Padding between buttons: 8dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSzE3dEVKNnNTM2c/components_dialogs_updates2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Detail of button widths and padding</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Button height: 36dp<br>Button area height: 52dp<br>Left button padding: 24dp<br>Right button padding: 8dp<br>Padding between buttons: 8dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dzlZX2hvQVR0UUU/components_dialogs_updates3.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Detail of button area</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VlYzX2d5TGl5N2s/components_dialogs_consistent_placement3.png",
+                      "caption": "<div class=\"caption-title\"></div><p>In a scrolled state, a stroke delineates the dialog&#x2019;s content area from actions.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Side-by-side buttons</h4><p>Side-by-side buttons are recommended when the text of each label does not exceed the maximum button width, such as the commonly used OK/Cancel buttons. </p><p>Use the following formula to calculate maximum button width for a given dialog:</p><p>The maximum width for buttons in a dialog = </p><p>(Dialog width - 8dp - 8dp - 8dp)/2</p><p>For example:</p><p>The maximum width for buttons in a 280dp wide dialog = </p><p>(280dp - 8dp - 8dp - 8dp)/2 = 128dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Nmw2R3MxaGRFQTg/components_dialogs_sidebyside.png",
+                      "caption": "<p>Button height: 36dp<br>Padding between text and action area: 24dp<br>Padding around buttons is: 8dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Stacked full-width buttons</h4><p>When text labels exceed the maximum button width, use stacked buttons to accommodate the text. Affirmative actions are stacked above dismissive actions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3RS1ESkM1cG5zNjg/components_dialogs_stacked.png",
+                      "caption": "<p>Touchable target height for each button: 48dp<br>Padding between text and touch target: 24dp<br>Padding below touch target to dialog edge: 8dp<br>Padding between button text right edge and dialog edge: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Simple dialog keylines</h4><p>Vertical keyline at 24dp from the left and right edges. Content associated with an icon or avatar aligns 80dp from the left edge.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OExlLU5oNDhjYW8/components_dialogs_updates5.png",
+                      "caption": "<p>Keylines for a simple dialog</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Full-screen dialog titles</h4><p>Full-screen dialog titles can wrap to a second line if necessary, and then should be truncated. Titles should be succinct, but in some situations, such as when words are longer in different languages, titles may need to wrap.</p><p><br>App bar height with a single line of text: 56dp<br>App bar height with two lines of text: 80dp<br>Title text keyline: 72dp<br>Title text: 20sp<br>Title text top and bottom padding: 20dp<br>Dismissive action padding from left edge: 16dp<br>Affirmative action text: 14sp<br>Affirmative action text padding on the left and right: 16dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3clVROTBzOU1hMHM/components_dialogs_updates10.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Detail of a full-screen dialog app bar</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQnBtX3o2RUlILXM/components_dialogs_updates11.png",
+                      "caption": "<p>Full-screen dialog with an app bar containing a single line of text.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUFg3UjE4S1FGanM/components_dialogs_updates12.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Note that this image is for illustration purposes only. Long titles should be placed in the content area of the full-screen dialog.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "sections": [
+    {
+      "title": "Material design",
+      "sections": [
+        {
+          "title": "Introduction",
+          "href": "http://www.google.com/design/spec/material-design/introduction.html",
+          "filepath": "spec/material-design/introduction.json"
+        }
+      ]
+    },
+    {
+      "title": "What is material?",
+      "sections": [
+        {
+          "title": "Environment",
+          "href": "http://www.google.com/design/spec/what-is-material/environment.html",
+          "filepath": "spec/what-is-material/environment.json"
+        },
+        {
+          "title": "Material properties",
+          "href": "http://www.google.com/design/spec/what-is-material/material-properties.html",
+          "filepath": "spec/what-is-material/material-properties.json"
+        },
+        {
+          "title": "Elevation and shadows",
+          "href": "http://www.google.com/design/spec/what-is-material/elevation-shadows.html",
+          "filepath": "spec/what-is-material/elevation-shadows.json"
+        }
+      ]
+    },
+    {
+      "title": "Animation",
+      "sections": [
+        {
+          "title": "Authentic motion",
+          "href": "http://www.google.com/design/spec/animation/authentic-motion.html",
+          "filepath": "spec/animation/authentic-motion.json"
+        },
+        {
+          "title": "Responsive interaction",
+          "href": "http://www.google.com/design/spec/animation/responsive-interaction.html",
+          "filepath": "spec/animation/responsive-interaction.json"
+        },
+        {
+          "title": "Meaningful transitions",
+          "href": "http://www.google.com/design/spec/animation/meaningful-transitions.html",
+          "filepath": "spec/animation/meaningful-transitions.json"
+        },
+        {
+          "title": "Delightful details",
+          "href": "http://www.google.com/design/spec/animation/delightful-details.html",
+          "filepath": "spec/animation/delightful-details.json"
+        }
+      ]
+    },
+    {
+      "title": "Style",
+      "sections": [
+        {
+          "title": "Color",
+          "href": "http://www.google.com/design/spec/style/color.html",
+          "filepath": "spec/style/color.json"
+        },
+        {
+          "title": "Icons",
+          "href": "http://www.google.com/design/spec/style/icons.html",
+          "filepath": "spec/style/icons.json"
+        },
+        {
+          "title": "Imagery",
+          "href": "http://www.google.com/design/spec/style/imagery.html",
+          "filepath": "spec/style/imagery.json"
+        },
+        {
+          "title": "Typography",
+          "href": "http://www.google.com/design/spec/style/typography.html",
+          "filepath": "spec/style/typography.json"
+        },
+        {
+          "title": "Writing",
+          "href": "http://www.google.com/design/spec/style/writing.html",
+          "filepath": "spec/style/writing.json"
+        }
+      ]
+    },
+    {
+      "title": "Layout",
+      "sections": [
+        {
+          "title": "Principles",
+          "href": "http://www.google.com/design/spec/layout/principles.html",
+          "filepath": "spec/layout/principles.json"
+        },
+        {
+          "title": "Units and measurements",
+          "href": "http://www.google.com/design/spec/layout/units-measurements.html",
+          "filepath": "spec/layout/units-measurements.json"
+        },
+        {
+          "title": "Metrics & keylines",
+          "href": "http://www.google.com/design/spec/layout/metrics-keylines.html",
+          "filepath": "spec/layout/metrics-keylines.json"
+        },
+        {
+          "title": "Structure",
+          "href": "http://www.google.com/design/spec/layout/structure.html",
+          "filepath": "spec/layout/structure.json"
+        },
+        {
+          "title": "Responsive UI",
+          "href": "http://www.google.com/design/spec/layout/responsive-ui.html",
+          "filepath": "spec/layout/responsive-ui.json"
+        }
+      ]
+    },
+    {
+      "title": "Components",
+      "sections": [
+        {
+          "title": "Bottom sheets",
+          "href": "http://www.google.com/design/spec/components/bottom-sheets.html",
+          "filepath": "spec/components/bottom-sheets.json"
+        },
+        {
+          "title": "Buttons",
+          "href": "http://www.google.com/design/spec/components/buttons.html",
+          "filepath": "spec/components/buttons.json"
+        },
+        {
+          "title": "Buttons: Floating Action Button",
+          "href": "http://www.google.com/design/spec/components/buttons-floating-action-button.html",
+          "filepath": "spec/components/buttons-floating-action-button.json"
+        },
+        {
+          "title": "Cards",
+          "href": "http://www.google.com/design/spec/components/cards.html",
+          "filepath": "spec/components/cards.json"
+        },
+        {
+          "title": "Chips",
+          "href": "http://www.google.com/design/spec/components/chips.html",
+          "filepath": "spec/components/chips.json"
+        },
+        {
+          "title": "Data tables",
+          "href": "http://www.google.com/design/spec/components/data-tables.html",
+          "filepath": "spec/components/data-tables.json"
+        },
+        {
+          "title": "Dialogs",
+          "href": "http://www.google.com/design/spec/components/dialogs.html",
+          "filepath": "spec/components/dialogs.json"
+        },
+        {
+          "title": "Dividers",
+          "href": "http://www.google.com/design/spec/components/dividers.html",
+          "filepath": "spec/components/dividers.json"
+        },
+        {
+          "title": "Grid lists",
+          "href": "http://www.google.com/design/spec/components/grid-lists.html",
+          "filepath": "spec/components/grid-lists.json"
+        },
+        {
+          "title": "Lists",
+          "href": "http://www.google.com/design/spec/components/lists.html",
+          "filepath": "spec/components/lists.json"
+        },
+        {
+          "title": "Lists: Controls",
+          "href": "http://www.google.com/design/spec/components/lists-controls.html",
+          "filepath": "spec/components/lists-controls.json"
+        },
+        {
+          "title": "Menus",
+          "href": "http://www.google.com/design/spec/components/menus.html",
+          "filepath": "spec/components/menus.json"
+        },
+        {
+          "title": "Pickers",
+          "href": "http://www.google.com/design/spec/components/pickers.html",
+          "filepath": "spec/components/pickers.json"
+        },
+        {
+          "title": "Progress & activity",
+          "href": "http://www.google.com/design/spec/components/progress-activity.html",
+          "filepath": "spec/components/progress-activity.json"
+        },
+        {
+          "title": "Selection controls",
+          "href": "http://www.google.com/design/spec/components/selection-controls.html",
+          "filepath": "spec/components/selection-controls.json"
+        },
+        {
+          "title": "Sliders",
+          "href": "http://www.google.com/design/spec/components/sliders.html",
+          "filepath": "spec/components/sliders.json"
+        },
+        {
+          "title": "Snackbars & toasts",
+          "href": "http://www.google.com/design/spec/components/snackbars-toasts.html",
+          "filepath": "spec/components/snackbars-toasts.json"
+        },
+        {
+          "title": "Subheaders",
+          "href": "http://www.google.com/design/spec/components/subheaders.html",
+          "filepath": "spec/components/subheaders.json"
+        },
+        {
+          "title": "Steppers",
+          "href": "http://www.google.com/design/spec/components/steppers.html",
+          "filepath": "spec/components/steppers.json"
+        },
+        {
+          "title": "Tabs",
+          "href": "http://www.google.com/design/spec/components/tabs.html",
+          "filepath": "spec/components/tabs.json"
+        },
+        {
+          "title": "Text fields",
+          "href": "http://www.google.com/design/spec/components/text-fields.html",
+          "filepath": "spec/components/text-fields.json"
+        },
+        {
+          "title": "Toolbars",
+          "href": "http://www.google.com/design/spec/components/toolbars.html",
+          "filepath": "spec/components/toolbars.json"
+        },
+        {
+          "title": "Tooltips",
+          "href": "http://www.google.com/design/spec/components/tooltips.html",
+          "filepath": "spec/components/tooltips.json"
+        }
+      ]
+    },
+    {
+      "title": "Patterns",
+      "sections": [
+        {
+          "title": "Data formats",
+          "href": "http://www.google.com/design/spec/patterns/data-formats.html",
+          "filepath": "spec/patterns/data-formats.json"
+        },
+        {
+          "title": "Empty states",
+          "href": "http://www.google.com/design/spec/patterns/empty-states.html",
+          "filepath": "spec/patterns/empty-states.json"
+        },
+        {
+          "title": "Errors",
+          "href": "http://www.google.com/design/spec/patterns/errors.html",
+          "filepath": "spec/patterns/errors.json"
+        },
+        {
+          "title": "Gestures",
+          "href": "http://www.google.com/design/spec/patterns/gestures.html",
+          "filepath": "spec/patterns/gestures.json"
+        },
+        {
+          "title": "Fingerprint",
+          "href": "http://www.google.com/design/spec/patterns/fingerprint.html",
+          "filepath": "spec/patterns/fingerprint.json"
+        },
+        {
+          "title": "Launch screens",
+          "href": "http://www.google.com/design/spec/patterns/launch-screens.html",
+          "filepath": "spec/patterns/launch-screens.json"
+        },
+        {
+          "title": "Loading images",
+          "href": "http://www.google.com/design/spec/patterns/loading-images.html",
+          "filepath": "spec/patterns/loading-images.json"
+        },
+        {
+          "title": "Navigation",
+          "href": "http://www.google.com/design/spec/patterns/navigation.html",
+          "filepath": "spec/patterns/navigation.json"
+        },
+        {
+          "title": "Navigation drawer",
+          "href": "http://www.google.com/design/spec/patterns/navigation-drawer.html",
+          "filepath": "spec/patterns/navigation-drawer.json"
+        },
+        {
+          "title": "Navigational transitions",
+          "href": "http://www.google.com/design/spec/patterns/navigational-transitions.html",
+          "filepath": "spec/patterns/navigational-transitions.json"
+        },
+        {
+          "title": "Notifications",
+          "href": "http://www.google.com/design/spec/patterns/notifications.html",
+          "filepath": "spec/patterns/notifications.json"
+        },
+        {
+          "title": "Permissions",
+          "href": "http://www.google.com/design/spec/patterns/permissions.html",
+          "filepath": "spec/patterns/permissions.json"
+        },
+        {
+          "title": "Scrolling techniques",
+          "href": "http://www.google.com/design/spec/patterns/scrolling-techniques.html",
+          "filepath": "spec/patterns/scrolling-techniques.json"
+        },
+        {
+          "title": "Search",
+          "href": "http://www.google.com/design/spec/patterns/search.html",
+          "filepath": "spec/patterns/search.json"
+        },
+        {
+          "title": "Selection",
+          "href": "http://www.google.com/design/spec/patterns/selection.html",
+          "filepath": "spec/patterns/selection.json"
+        },
+        {
+          "title": "Settings",
+          "href": "http://www.google.com/design/spec/patterns/settings.html",
+          "filepath": "spec/patterns/settings.json"
+        },
+        {
+          "title": "Swipe to refresh",
+          "href": "http://www.google.com/design/spec/patterns/swipe-to-refresh.html",
+          "filepath": "spec/patterns/swipe-to-refresh.json"
+        }
+      ]
+    },
+    {
+      "title": "Usability",
+      "sections": [
+        {
+          "title": "Accessibility",
+          "href": "http://www.google.com/design/spec/usability/accessibility.html",
+          "filepath": "spec/usability/accessibility.json"
+        },
+        {
+          "title": "Bidirectionality",
+          "href": "http://www.google.com/design/spec/usability/bidirectionality.html",
+          "filepath": "spec/usability/bidirectionality.json"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "sections": [
+        {
+          "title": "Color palettes",
+          "href": "http://www.google.com/design/spec/resources/color-palettes.html",
+          "filepath": "spec/resources/color-palettes.json"
+        },
+        {
+          "title": "Devices",
+          "href": "http://www.google.com/design/spec/resources/devices.html",
+          "filepath": "spec/resources/devices.json"
+        },
+        {
+          "title": "Layout templates",
+          "href": "http://www.google.com/design/spec/resources/layout-templates.html",
+          "filepath": "spec/resources/layout-templates.json"
+        },
+        {
+          "title": "Roboto & Noto fonts",
+          "href": "http://www.google.com/design/spec/resources/roboto-noto-fonts.html",
+          "filepath": "spec/resources/roboto-noto-fonts.json"
+        },
+        {
+          "title": "Sticker sheets & icons",
+          "href": "http://www.google.com/design/spec/resources/sticker-sheets-icons.html",
+          "filepath": "spec/resources/sticker-sheets-icons.json"
+        }
+      ]
+    },
+    {
+      "title": "What's new",
+      "sections": [
+        {
+          "title": "What's new",
+          "href": "http://www.google.com/design/spec/whats-new/whats-new.html",
+          "filepath": "spec/whats-new/whats-new.json"
+        }
+      ]
+    }
+  ]
+}

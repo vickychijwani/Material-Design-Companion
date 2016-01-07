@@ -1,0 +1,208 @@
+{
+  "title": "Responsive interaction",
+  "href": "http://www.google.com/design/spec/animation/responsive-interaction.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Responsive interaction encourages deeper exploration of an app by creating timely, logical, and delightful screen reactions to user input. Each interaction is thoughtful, perhaps whimsical, but never distracting. What will happen if I touch this screen? And then this icon?</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "User input",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In material design, apps are responsive to user input: </p><ul><li>Touch, voice, mouse, and keyboard are all equally important input methods.</li><li>UI elements appear tangible, even though they are behind a layer of glass (the device screen). To bridge that gap, visual and motion cues acknowledge input immediately and animate in ways that look and feel like direct manipulation.</li></ul><p>Responsive interaction elevates an app from an information-delivery service to an experience that communicates using multiple visual and tactile responses.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsLTMzRGZocW50aHc/animation_responsive_userInput_surfacereaction_004.webm",
+                      "caption": "<p>Surface reaction</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFOFFrMHpqN3NMQkU/animation_responsiveinteraction_userinput_materialresponse.webm",
+                      "caption": "<p>Material response</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsVHE4SmRKb3huVXM/animation_responsiveinteraction_radialreaction_xhdpi_003.webm",
+                      "caption": "<p>Radial reaction</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Surface reaction",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Upon an input event, the system provides instant visual confirmation at the point of contact: under the pad of a finger for touch, at the microphone for voice, or in the appropriate field for a keyboard press. </p><p>The core visual mechanism to express this contact is the Touch Ripple. This device articulates the method and duration of a touch event, as well dynamic variables like voice amplitude or touch pressure.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>From the point of input (the contact point of a finger or the microphone icon for voice), make the visual reaction radial.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWdjdXZUtDc2szc2c/animation-responsiveinteraction-surfacereaction-030202_TouchRipple_PressRelease_xhdpi_002.webm",
+                      "caption": "<p>Touch ripple: press and release</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWZGIxcG5melFNSVE/animation-responsiveinteraction-surfacereaction-030202_TouchRipple_DragRelease_xhdpi_002.webm",
+                      "caption": "<p>Touch ripple: drag in and out</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Best Practices"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Material response",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In addition to ink-like surface reactions, material can lift up when touched, indicating an active state. On touch, the user can generate new or transform existing material, or directly manipulate sheets of material by dragging or flinging them. Material can be resized linearly or radially.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When a user triggers the creation of new material, it should grow in size starting from the point of input. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaDBfZWtha0RwNGM/animation-responsiveinteraction-materialresponse-PointOfOrigin_DO_003.webm",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Material appears from the touch point, tying the element to the point of touch.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseU51LWlNM1FmRHM/animation-responsiveinteraction-materialresponse-PointOfOrigin_DONT_003.webm",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Paper appears from the center of screen, breaking the relationship with the input.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Point of origin"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When a card or separable element is activated, the card should lift to indicate an active state. </p><h4 class=\"related\">\nRelated\n</h4><div class=\"modulettes\">\n          <a class=\"modulette android\" href=\"http://developer.android.com/training/material/shadows-clipping.html#Elevation\" title=\"Assign elevation to your views\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_android.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Assign elevation to your views</div>\n        <span class=\"subtitle\">Use animation when elevating elements.</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsdVV1M19wNDk5Q1k/animation-responsiveinteraction-materialresponce_liftontouch_xhdpi_002.webm",
+                      "caption": "<p>Lift on touch</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Lift on touch"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "   "
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Radial action",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Add clarity to user input through visual reactions to user input. Radial action is the visual ripple of ink spreading outward from the point of input.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The connection between an input event and on-screen action should be visually represented to tie them together. For touch or mouse, this occurs at the point of contact. For voice, the microphone icon. A touch ripple indicates where and when a touch occurs and acknowledges that the touch input was received.</p>"
+                }
+              ],
+              "title": "Input events are visual"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Transitions, or actions triggered by input events, should visually connect to input events. Ripple reactions near the epicenter occur sooner than reactions further away.</p><p>For example:</p><ul><li>A sequence of content changes: images fade in or out.</li><li>A sequence of material movements: cards enter on or off the screen.</li></ul>"
+                }
+              ],
+              "title": "Connect input to action"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

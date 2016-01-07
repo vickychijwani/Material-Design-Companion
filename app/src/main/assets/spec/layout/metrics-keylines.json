@@ -1,0 +1,486 @@
+{
+  "title": "Metrics & keylines",
+  "href": "http://www.google.com/design/spec/layout/metrics-keylines.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Baseline grids",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>All components align to an 8dp square baseline grid for mobile, tablet, and desktop. Iconography in toolbars align to a 4dp square baseline grid. &#xA0;</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbExOZTZCd0hUZ0E/layout_metrics_baseline2.png",
+                      "caption": "<p>Example of baseline grid</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsc0tpMGdyWDh2OUE/layout_metrics_baseline3.png",
+                      "caption": "<p>Example of baseline grid</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Type aligns to a 4dp baseline grid. See detailed information on <a href=\"http://www.google.com/design/spec/style/typography.html\">typography</a>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNzAtNkU0RW1vSVE/layout_metrics_baseline5.png",
+                      "caption": "<p>Example of typography in a baseline grid</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Keylines and spacing",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The following templates and examples contain keylines, spacing guidance, and sample screens for elements on mobile, tablet, and desktop. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Templates"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Mobile"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>List</strong></p><p>A two-column, left-aligned list with a 56dp floating action button.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseWRUbzJuUnpkNHM/layout_metrics_keyline_mobile2.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right margins: 16dp<br>Content associated with an icon or avatar left margin: 72dp<br>Horizontal margins on mobile: 16dp.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWFRSRjhiV2t2WEE/layout_metrics_keyline_mobile3.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar: 24dp</li><li>Toolbar: 56dp</li><li>Subtitle: 48dp</li><li>List item: 72dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMldpS1Bzc2R0NVk/layout_metrics_keyline_mobile5.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right margins: 16dp<br>Content left margin from screen edge: 72dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsUXV2Z1gwVjdFS0E/layout_metrics_keyline_mobile6.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar: 24dp</li><li>Toolbar: 56dp</li><li>Title and list items: 72dp</li><li>Subtitle: 48dp</li><li>Space between content areas: 8dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Detail view</strong></p><p>A detail card with a 56dp floating action button.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNVlYYkdnMktUVmc/layout_metrics_keyline_mobile8.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right margins: 16dp<br>Content left margin from screen edge: 72dp<br>Right-side icons align 32dp from the right edge to coordinate with the floating action button.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsN0hFU2wxOHNNU3M/layout_metrics_keyline_mobile9.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar: 24dp</li><li>Toolbar: 56dp</li><li>Space between content areas: 8dp</li><li>List item: 72dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Navigation drawer</strong></p><p>A side navigation menu with icons, avatars, and text aligned on the left. Other icons align on the right.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dGpKcTA5VlpLN28/layout_metrics_keyline_mobile14.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right margins: 16dp<br>Content associated with an icon or avatar left margin: 72dp<br>Side nav width: The screen width minus the height of the action bar. Here, the width is 56dp from the right screen edge.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3a2M3SVNnRWlWUFE/layout_metrics_keyline_mobile15.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Account menu and list items: 48dp</li><li>Space between content areas: 8dp</li><li>Navigation right margin: 56dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                }
+              ],
+              "title": "Tablet"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>List with detail view</strong></p><p>Left-aligned list with a right-aligned floating action button</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VjlGS3V2Qnh1WXM/layout_metrics_keyline_tablet2.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right margins: 24dp<br>Content left margin from screen edge: 80dp<br>Card left and right padding: 24dp<br>Card content left padding: 104dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsc0tUUXZrS0tmc0E/layout_metrics_keyline_tablet3.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar and space above list: 24dp</li><li>List item: 64dp</li><li>Space between content areas: 8dp</li><li>List item: 72dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>List with detail view</strong></p><p>Left-aligned list with a left-aligned floating action button</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsd1R5dnZ5TWJ2X00/layout_metrics_keyline_tablet5.png",
+                      "caption": "<div class=\"caption-title\">Keylines and margins</div><p>Screen edge left and right padding: 24dp<br>Icons&#x2019; vertical center distance from screen edge: 52dp<br>Nav item left padding from screen edge: 104dp<br>Content left margin from screen edge: 80dp<br>Card left and right padding: 32dp<br>Card nav item left padding: 96dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaDZ3NHRNbmJ3QVU/layout_metrics_keyline_tablet6.png",
+                      "caption": "<div class=\"caption-title\">Vertical spacing</div><ol start=\"1\"><li>Status bar: 24dp</li><li>Toolbar and list item: 64dp</li><li>Space between content areas: 8dp</li><li>Subtitle, list item, and slider: 48dp</li><li>Title: 80dp</li></ol>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Keylines and spacing blocks for desktop inherit grid rules from tablet and mobile, depending on window size.</p>"
+                }
+              ],
+              "title": "Desktop"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bDdQV2RCR2szQjQ/layout_metrics_keylines_desktop1.png",
+                      "caption": "<p>Desktop full screen</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Resized windows</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dS1xT3hwRC1kTFU/layout_metrics_keylines_desktop3.png"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7alFtbGU1OXJtNVk/layout_metrics_keylines_desktop4.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Ratio keylines",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The proportion of an element&#x2019;s width to its height (called the <strong>aspect ratio</strong>) applies to both UI elements and screen size. It is written as width:height.</p><p>These aspect ratios are recommended:</p><ul><li>16:9</li><li>3:2</li><li>4:3</li><li>1:1</li><li>3:4</li><li>2:3</li></ul><p>For example:</p><ul><li>A 1:1 aspect ratio means an element has equal height and width.</li><li>A 360dp wide image with a 2:3 aspect ratio has a height of 540. </li></ul><p>Determine the width or height of your element for a chosen aspect ratio using the below formulas. The aspect ratio is always expressed as a fraction. For example, 3:2 is treated as 3/2.</p><p>Width = Aspect ratio * Height </p><p>Height = Width/Aspect ratio</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZjBCVzdPOENpT28/layout_metrics_ratiokeylines1.png",
+                      "caption": "<p>Screen width</p><p>&#xA0;</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsS1RKNFQtdy1sYkU/layout_metrics_ratiokeylines2.png",
+                      "caption": "<p>Example of screen width on mobile</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7LTV1b3k5ekZHa1E/layout_metrics_ratiokeylines3.png",
+                      "caption": "<p>Element width</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsM203V05SR1ZyX28/layout_metrics_ratiokeylines4.png",
+                      "caption": "<p>Example of element width on mobile</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Sizing by increments",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>An increment is a measurement used to determine the size and position of other elements in the app. </p><p>For example, you can define an increment as the height of a standard element, such as the action bar. If the action bar is 56dp tall, you may define one increment as equal to 56 x 56dp. Determine the size of other elements by how many 56dp increments wide or tall an element should be. </p><p>If an element is 8 increments wide, using 56dp as the increment size, the width is equal to 448dp.</p><p>Incremental keylines apply mostly to desktop, often to tablet, and infrequently to mobile. The number of increments varies based on window size.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQUxUQWYyUE5NaWs/layout_metrics_incremental2.png",
+                      "caption": "<p>This example card width has a horizontal increment of 8x.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsSElrWE5scnNaNkE/layout_metrics_incremental3.png",
+                      "caption": "<p>The height of the example extended app bar is 2x the increment, and the width of the right panel is 5x the increment.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQseGRLSnk0LWhlZ3M/layout_metrics_incremental4.png",
+                      "caption": "<p>Increments can work across many elements in Material UI.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Touch target size",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>To ensure balanced information density and usability, touch targets should be at least 48 x 48 dp. In most cases, there should be 8dp or more space between them.</p><p>Size elements at least 48dp high and wide to ensure a physical size of about 9mm regardless of screen size. The recommended target size for touchscreen objects is 7-10mm.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eEVhSW1nVjBrZnM/layout_metrics_touchtarget1.png",
+                      "caption": "<p>Avatar: 40dp <br>Icon: 24dp<br>Touch target on both: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsaU12eTNLSnBEcXc/layout_metrics_touchtarget2.png",
+                      "caption": "<p>Example of touch targets</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7dlN4cEMwWm9Tc28/layout_metrics_touchtarget3.png",
+                      "caption": "<p>Touch target height: 48dp <br>Button height: 36dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZjVQbVZ1MzN3RGs/layout_metrics_touchtarget4.png",
+                      "caption": "<p>Example of touch targets and buttons</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

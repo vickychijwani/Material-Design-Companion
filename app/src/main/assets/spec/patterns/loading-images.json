@@ -1,0 +1,164 @@
+{
+  "title": "Loading images",
+  "href": "http://www.google.com/design/spec/patterns/loading-images.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Loading images",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Illustrations and photographs may load and transition in three phases at staggered durations, rather than relying on opacity shifts. Combine opacity, exposure, and saturation changes to suit your needs.<br></p><p>Exposure levels are adjusted for low-contrast and desaturated color. Once opacity reaches 100%, the final stage includes full-color saturation. </p><p>A lower-contrast effect combines a shift in gamma and black output for darker images. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7M05lWkx3NTVncEE/patterns_loadingimages1.png",
+                      "caption": "<div class=\"caption-title\">Opacity, exposure, and saturation recommendations for loading images</div><p>Opacity: 0% start, 100% end<br>Exposure: Gamma, Black output (for darker images)<br>Saturation: 0 or 20% start, 100% end</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNenotUjEzT29NWEU/Patterns-Gestures-TouchActivities-10_large_xhdpi.png",
+                      "caption": "<p>Low opacity and low contrast</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrY3JsUmQ0UVE0NlE/patterns-imagetreatment-imageload3_large_xhdpi.png",
+                      "caption": "<p>Full opacity and exposure</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTrQ0p5RU85SC1DQ2M/patterns-imagetreatment-imageload4_large_xhdpi.png",
+                      "caption": "<p>Color saturation</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Visualize the image fading in, like a print during the photo development process.</p><p>Don&#x2019;t adjust the levels in a way that will overexpose the lighter values.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B1PhAWhtrRTra3Fhb3dTUzBGaWc/patterns-imagetreatment-aperturevsdevelopment1-yes-no_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Do.</div>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNV3Nna1RjSjc1TlU/patterns-imagetreatment-aperturevsdevelopment2-yes-no_large_xhdpi.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Progressive fade-in"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A longer duration is recommended for loading images, and a shorter duration is recommended for transitions.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B08MbvYZK1iNM2xXbGwyN2pISUE/patterns-imagerytreatment-imageload-transition_large_xhdpi.webm",
+                      "caption": "<p>Load and transition animation</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Duration"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>This process is ideal for larger screens, such as loading the Chrome OS wallpaper.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B3T7oTWa3HiFWUZZN05CQ2Vva0k/patterns_loadingimages_largescreen.webm",
+                      "caption": "<p>Animation showing loading on larger screens for Chrome OS wallpaper</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Larger screens"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Add a small position shift to loading images. The background image shown here in the account switcher animates in horizontally.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B0NGgBg38lWWdlUtbnpFOUMzRUk/patterns-loadingimages-loading-070901_Load_Add_Animation_xhdpi_002.webm",
+                      "caption": "<p>Video showing adding animation</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Adding animation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

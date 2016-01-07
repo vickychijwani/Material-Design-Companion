@@ -1,0 +1,581 @@
+{
+  "title": "Steppers",
+  "href": "http://www.google.com/design/spec/components/steppers.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Steppers convey progress through numbered steps. They may also be used for navigation.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Steppers display progress through a sequence by breaking it up into multiple logical and numbered steps.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0Vb2hCdkt3d05DVUE/components_acux_stepper_vertstep.png",
+                      "caption": "<p>Steppers should be used when a field determines a subsequent field.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    },
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Avoid using steppers to break up sections in a short form, or multiple times on one page.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cWROeVk5LXhsczg/components_acux_stepper_avoid.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Don&#x2019;t embed steppers within steppers or use multiple steppers on one page.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of steps",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Editable steps</h4><p>Editable steps allow users to return later to edit a step. These are ideal for workflows that involve editing steps within a session.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WXRuZUhQVGZ1MFE/components_acux_stepper_editable.png",
+                      "caption": "<p>Editable steps can be edited within a session.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Non-editable steps</h4><p>Non-editable steps should be used when:</p><ul><li>Users cannot edit a step later </li><li>Step editing poses a distraction risk to form completion</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Z3BmaTdNQTZvN28/components_acux_stepper_noneditable.png",
+                      "caption": "<p>Non-editable steps cannot be edited once completed. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Mobile steps</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VdkdHZl9FNDV6R28/components_acux_stepper_mbltypog.png",
+                      "caption": "<p><strong>Mobile step text</strong></p><p>Steps displayed at the top in text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VZV9JT1hKVjJwcFE/components_acux_stepper_mbldots.png",
+                      "caption": "<p><strong>Mobile step dots</strong></p><p>Use dots when the number of steps isn&#x2019;t large</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTUlvaXVPZEJ2LUU/components_acux_stepper_mblprgrssbr.png",
+                      "caption": "<p><strong>Mobile step progress bar</strong></p><p>Use a progress bar when there are many steps, or if there are steps that need to be inserted during the process (based on responses to earlier steps).</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Optional steps</h4><p>Optional steps within a linear flow should be marked as optional.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VZDNSY2lFWWdDWm8/components_acux_stepper_optstps.png",
+                      "caption": "<p>Mark optional steps in linear flows as optional.</p><p><strong>Optional steps</strong></p><ul><li>12sp Roboto Regular</li><li>54% black</li></ul>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Types of steppers",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Horizontal steppers are ideal when the contents of one step depend on an earlier step. </p><p>Avoid using long step names in horizontal steppers.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VRUxaWWRqVXU5aGc/components_acux_stepper_horizstep.png",
+                      "caption": "<p>On horizontal steppers, the step name and numbers appear on a horizontal bar, which can be fixed to the top of the page when scrolling down. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Horizontal steppers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Vertical steppers are designed for narrow screen sizes. They are ideal for mobile.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3WHFoTnI5cy11U1E/components_acux_stepper_mblvertinpg.png",
+                      "caption": "<p>Vertical steppers can be used in mobile as-is. Simply ensure the contents for each step are responsive. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Vertical steppers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Linear steppers require users to complete one step in order to move on to the next.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VOFVjMHV2TWdOMnM/components_acux_stepper_linear.png",
+                      "caption": "<p>Each linear step must be completed before proceeding to the next one.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Linear steppers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Non-linear steppers allow users to enter a multi-step flow at any point.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VaXlOV1dLTk11dnc/components_acux_stepper_nonlinear.png",
+                      "caption": "<p>Non-linear steps may be completed in any order.</p><p><strong>Inactive stepper circle</strong></p><ul><li>24dp x 24dp</li><li>12sp Roboto Regular</li><li>100% white</li><li>Grey 400 color value</li></ul><p><strong>Inactive steps</strong></p><ul><li>14sp Roboto Regular</li><li>54% black</li></ul>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Non-linear steppers"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VeEZhNnRLN2VlNG8/components_acux_stepper_altlblplcmnt.png",
+                      "caption": "<p>Alternative label placement</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Alternative labels"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTVpuUmNUSUhRZTA/components_acux_stepper_altlblplcmntoptstp.png",
+                      "caption": "<p>Alternative label placement with optional step </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Steppers may display a transient feedback message after a step is saved.  Stepper feedback should only be used if there is a long latency between steps.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VVFVRWklzeEFDSzA/components_acux_stepper_feedback.webm",
+                      "caption": "<p>This stepper displays a transient feedback message after a step is saved.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Stepper feedback"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Standard stepper</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cGdLMGNvSWltT0k/components_acux_stepper_standard_rl.png",
+                      "caption": "<p>Step height: 72dp<br>Icon top, bottom, and left padding: 24dp<br>Icon right padding: 8dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Optional step</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3OXNxYnA5eXBsdFU/components_acux_stepper_optstp_rl.png",
+                      "caption": "<p>Step height: 72dp<br>Icon left and right padding: 8dp<br>Label right padding: 8dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Multi-line error state</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VbmNUSkMtS0R2ZHM/components_acux_stepper_multilnerr_rl.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Alternative label</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ckl6ZHZMQlVDQVk/components_acux_stepper_altlblplace_rl.png",
+                      "caption": "<p>Icon left and right padding: 8dp<br>Label top padding: 16dp<br>Icon and label padding from edge: 24dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UDEtWWhiZ2tXaGc/components_acux_stepper_altlblplaceoptstp_rl.png",
+                      "caption": "<p>Alternative label placement with optional step</p><p>Icon left and right padding: 8dp<br>Step left and right padding: 16dp<br>Label bottom padding: 24dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VMWxJVzRSTGFfTGc/components_acux_stepper_altlblplerr_rl.png",
+                      "caption": "<p>Alternate label placement error state</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Non-linear steppers</h4><p>Hover and pressed states</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SkhBb3hZUkwwOUk/components_acux_stepper_hvrhoriz.png",
+                      "caption": "<p>Hover</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3MTRpY1FXZTVzRjA/components_acux_stepper_hvrvert.png",
+                      "caption": "<p>Hover</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V3BOSmFLMUZnSlU/components_acux_stepper_prssdhoriz.png",
+                      "caption": "<p>Pressed</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bG9mUW5aWG55VTA/components_acux_stepper_prssdvert.png",
+                      "caption": "<p>Pressed</p><p><strong>Background</strong></p><ul><li>6% black</li></ul><p><strong>Stepper circle</strong></p><ul><li>24dp x 24dp</li><li>12sp Roboto Regular</li><li>100% white</li><li>Grey 600</li></ul>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Vertical steppers</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YlpTYXptWTI5SE0/components_acux_stepper_vertstep_rl.png",
+                      "caption": "<p>Vertical stepper, with sub-steps<br>Icon left padding: 24dp<br>Icon alignment with label: Center vertical<br>Label top padding: 24dp<br>Label bottom padding: 16dp<br>Vertical space between steps: 48dp<br>Button height: 48dp<br>Button top padding: 16dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bWxMVGZ6UXluZ3c/components_acux_stepper_vertstpsubstp_rl.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Mobile steppers</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TmJwZGJ1TldHZ0k/components_acux_stepper_mblinpgstp_rl.png",
+                      "caption": "<p>Label top padding: 24dp<br>Label button padding (no sublabel): 16dp<br>Vertical space below inactive step: 40dp<br>Vertical space below active step: 48dp<br>Button height: 48dp</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

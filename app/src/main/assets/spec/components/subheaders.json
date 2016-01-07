@@ -1,0 +1,137 @@
+{
+  "title": "Subheaders",
+  "href": "http://www.google.com/design/spec/components/subheaders.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Subheaders are special list tiles that delineate distinct sections of a list or grid list and are typically related to the current filtering or sorting criteria. Subheader tiles are either displayed inline with tiles or can be associated with content, for example, in an adjacent column.</p><p>Upon scrolling, subheaders remain pinned to the top of the screen until pushed on or off screen by the next subheader.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "List subheaders",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tile height: 48dp<br>Subheader font: Roboto Medium 14sp</p><p>Subheader color can either be the secondary grey text value (54% black) or the primary color of the app.</p><p>In long lists of complex information, consider using colored subheaders to delineate content. An example of the use of color for subheaders is in Android settings.</p><p>A subheader should be left-aligned with an avatar/icon in a list, unless there is a promoted action in that space.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7eThvY2hXZ2JNdkk/components_subheaders1.png",
+                      "caption": "<div class=\"caption-title\">Grey subheader</div><p>Padding: 16dp<br>Subheader tile height: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQXMyemJSQVhMem8/components_subheaders2.png",
+                      "caption": "<p>Grey subheader in email inbox</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>If there is a floating action button left-aligned with the avatar/icon in a list, align the subheader with the text content.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OWVYZFY4N3lGRGs/components_subheaders3.png",
+                      "caption": "<p>With a left-aligned floating action button, the subheader is, aligned with the text content.</p><p>Subheader tile height: 48dp<br>Floating action button tile width: 72dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMEtuWm42b2lSRkk/components_subheaders4.png",
+                      "caption": "<p>The subheader is in the primary color of the app and aligned with the text because of the left-aligned floating action button. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Grid subheaders",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tile height: 48dp<br>Subheader font: Roboto Medium 14sp<br>Subheader is aligned 16dp from the left edge</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7OFRBazBRbDdUMEk/components_subheaders5.png",
+                      "caption": "<p>The grid subheader is aligned 16dp from the left edge. The height of the grid subheader tile is 48dp.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWWh6dFkzSHFjbDA/components_subheaders6.png",
+                      "caption": "<p>Grid subheaders for the months of the year in a photo album</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Menu subheaders",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Tile height: 48dp<br>Subheader font: Roboto Medium 14sp<br>Subheader is aligned 16dp from the left edge</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7SUN5WmF5TkJZWGs/components_subheaders7.png",
+                      "caption": "<div class=\"caption-title\">Menu subheader specs</div><p>Subheader padding from left edge: 16dp<br>Tile height: 48dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNTJaelA2bmpUSzQ/components_subheaders8.png",
+                      "caption": "<p>Example of menu subheader</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

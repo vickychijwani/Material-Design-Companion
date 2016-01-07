@@ -1,0 +1,205 @@
+{
+  "title": "Chips",
+  "href": "http://www.google.com/design/spec/components/chips.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Chips represent complex entities in small blocks, such as a contact. </p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Usage",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A chip may contain a photo, short title, and brief information. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may also contain icons.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VcmEtejlxWWtKazA/components_acux_chips_chiptxt.png",
+                      "caption": "<p>Chips with text</p><p><strong>Chip label</strong></p><ul><li>13sp Roboto Regular</li><li>87% black</li></ul>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VV21LOUp1OGdrRTg/components_acux_chips_chipstxticon.png",
+                      "caption": "<p>Chips with text and an icon</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Types of chips"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Behavior",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Touching a chip opens a full detailed view (either in a card or full screen) or a menu of options related to that chip. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Chips can be deletable or non-deletable. Display a delete icon if a chip is deletable. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VY3UwRHVnWnhjZE0/components_acux_chips_deleting.webm",
+                      "caption": "<p>Users may press the delete icon or use the keyboard &#x201C;Delete&#x201D; button to remove a chip. </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Deleting chips"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Contact chips",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Contact information that users have for people may be represented in a compact way using contact chips. The chips are invoked and inserted into a text field (usually the &#x201C;To&#x201D; field) when the user starts typing a contact&#x2019;s name, sees the contact&#x2019;s addresses, and selects the correct one. Contact chips can be added directly to a text field from a menu of contacts.</p><p>Contact chips efficiently confirm that the user will be sending their message to the correct person. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7aF92ZTRxOTU4U00/components_chips_contact1.png",
+                      "caption": "<p>The user confirms the name(s) of the email recipient(s) on the contact chips. </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MVF2bUpGcWhlUVE/components_chips_contact2.png",
+                      "caption": "<p>The user confirms which email address to select on the contact chip. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7ZTJaNUd1cnluSEk/components_chips_contact3.png",
+                      "caption": "<p>The contact chip has different states: Normal, Focused, Pressed, and Activated. </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Specs",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VTkYxd2hyUXJMdGc/components_acux_chips_deletable_rl.png",
+                      "caption": "<p><strong>Deletable chip</strong></p><p>Height: 32dp<br>Label left padding: 12dp</p><p><strong>Remove icon</strong></p><p>Size: 24dp x 24dp<br>Color &amp; opacity: 54% black<br>Margin: 4dp</p><p>On desktop, the &#x201C;Remove&#x201D; icon is persistent.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B7WCemMG6e0VbVhPQjZ2WmluMTg/components_acux_chips_nondeletecontact_rl.png",
+                      "caption": "<p><strong>Non-d</strong><strong>eletable chip</strong></p><p>Height: 32dp<br>Label left and right padding: 12dp</p><p><strong>Contact chip</strong></p><p>Height: 32dp<br>Label left padding: 8dp<br>Label right padding: 12dp</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single-line chips"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Closed contact chip</h4><ul><li>The contact name text is Roboto Regular 14sp.</li><li>Upon focus, the chip rises to an elevation of 2dp. When pressed, it expands to show alternative addresses for the contact.</li></ul><h4>Open contact chip</h4><ul><li>Contact name text: &#xA0;Roboto Regular 16sp</li><li>Address text: Roboto Regular 14sp</li><li>Elevation of the open contact chip is 8dp.</li><li>On press, the contact chip closes automatically.</li><li>By default, the top field is activated and focused.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7MmdUUVdtcW9SVWM/components_chips_contact_keyline1.png",
+                      "caption": "<div class=\"caption-title\">Contact chip</div><p>Height: 32dp<br>Title top, bottom, and left padding: 8dp<br>Title right padding: 12dp</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bx4BSt6jniD7c3lOMERFblZhOHc/components_chips_contact_keyline2.png",
+                      "caption": "<div class=\"caption-title\">Focused and activated contact chip </div><p>Height: 40dp<br>Top and bottom padding: 16dp</p><p><strong>Unfocused contact chips</strong></p><p>Top and bottom padding: 20dp</p><p>&#xA0;</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Contact chips"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

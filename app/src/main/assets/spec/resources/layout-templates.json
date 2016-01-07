@@ -1,0 +1,71 @@
+{
+  "title": "Layout templates",
+  "href": "http://www.google.com/design/spec/resources/layout-templates.html",
+  "content": [
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Mobile",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The mobile layout template includes 10 diverse screens. Use the layers palette to toggle on and off keylines and spacing rules. </p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Tablet",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The tablet layout template includes 14 various screens. Use the layers palette to toggle on and off keylines and spacing rules.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Desktop",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The desktop layout template includes four variations of four different window sizes. Use the layers palette to toggle on and off keylines and spacing rules.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Whiteframes",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Whiteframes provide a variety of layout structures using a consistent approach to surfaces, layering, and shadows.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

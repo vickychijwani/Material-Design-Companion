@@ -1,0 +1,609 @@
+{
+  "title": "Errors",
+  "href": "http://www.google.com/design/spec/patterns/errors.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Errors occur when an app fails to complete what is expected, such as:</p><ul><li>The app does not understand user input</li><li>The system or app fails</li><li>A user intends to run incompatible operations concurrently</li></ul><p>Minimize errors by designing apps that make it easy for users to input information flexibly. Apps should accept common data formats that use affordances to improve user understanding. </p><p>How to address errors:</p><ul><li>Clearly communicate what is happening</li><li>Describe how a user can resolve it</li><li>Preserve as much user-entered input as possible</li></ul>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "User input errors",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Help users fix input errors as soon as they are detected. Disable the submission of a form if errors are detected, and if detected only after form submission, clearly explain the error and how to fix it.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Helper text</strong>&#xA0;may be included before, during, or after a user interacts with each field on a form. </p><p>Show <strong>error text</strong>&#xA0;only after user interaction with a field. If the user inputs incorrect data, helper text may transform into error text. </p><p>Minimize form text to the essentials. Not every text field needs helper and/or error text. </p><p>Specification:</p><p>Place 16dp of vertical space between text fields and the below error text. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UFVudExXenJMdGs/patterns_errors_userinput1.png",
+                      "caption": "<p>Example of a text field input</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3enY0M3lmVGdBTk0/patterns_errors_userinput2.png",
+                      "caption": "<p>Example of a text field input with error text</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Text field input  "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Fonts for light backgrounds</h4><ul><li>Errors: Roboto Regular 12sp #DD2C00</li><li>Hint and helper text: #000000 with 38% opacity</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3andXbVU3QUw1NjQ/patterns_errors_userinput3.png",
+                      "caption": "<p>Light theme shown here for these states: normal with hint text, normal with error text, normal with helper text, and normal with helper as error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Fonts for dark backgrounds</h4><ul><li>Errors: Roboto Regular 12sp</li><li>Hint and helper text: #FFFFFF with 30% opacity</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3S3JtbjV2WnNJWk0/patterns_errors_userinput4.png",
+                      "caption": "<p>Dark theme shown here for these states: normal with hint text, normal with error text, normal with helper text, and normal with helper as error text </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Helper and error text </h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SHdLNWVKenF1ZFU/patterns_errors_userinput5.png",
+                      "caption": "<p>Example with helper text </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cmZqUW9Dd1FZZlE/patterns_errors_userinput6.png",
+                      "caption": "<p>Example with error text </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SnlsaXRMTFgtTFE/patterns_errors_userinput7.png",
+                      "caption": "<p>Example with helper text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMWdCT0RwTTRWelE/patterns_errors_userinput8.png",
+                      "caption": "<p>Example with error text </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3SjE0LXVzN3dyMmc/patterns_errors_userinput9.png",
+                      "caption": "<p>Examples of normal with helper text and normal with helper and error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzLUNZa3NEUnJZV0k/patterns_errors_userinput_keyline1.png",
+                      "caption": "<div class=\"caption-title\">Input and error text</div><p>Tile height: 64dp<br>Padding above input text: 16dp<br>Padding below input text: 8dp<br>Padding above and below error text: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Error with floating text label </h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bjExeG9CTnFLbzQ/patterns_errors_userinput10.png",
+                      "caption": "<p>Example of floating text label with input text </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TFBhdlBXaFcycjQ/patterns_errors_userinput11.png",
+                      "caption": "<p>Example of floating text label with error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YUJneko5VEsxQ2s/patterns_errors_userinput12.png",
+                      "caption": "<p>Examples of normal with hint text/label and normal with input text, label and error</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzeFZnUDFYUGhKTU0/patterns_errors_userinput_keyline2.png",
+                      "caption": "<div class=\"caption-title\">Specs for floating text label</div><p>Tile height: 80dp<br>Padding above label text: 8dp<br>Padding above and below input text: 8dp<br>Padding above and below error text: 4dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>A character counter may be displayed before, during, and after user interaction with a field. Consider not displaying the counter until the user approaches the character limit. </p><ul><li>Counter font is Roboto Regular 12sp</li><li>Counter fields have 16dp of additional bottom padding</li></ul>"
+                }
+              ],
+              "title": "Text field input - Over/under character or word count "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Single-line with character counter </h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YUY2Q0hkOEVEbGc/patterns_errors_userinput13.png",
+                      "caption": "<p>Example of a single-line with character counter with user input text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3Qk1Pc2ZpeFJDeFE/patterns_errors_userinput14.png",
+                      "caption": "<p>Example of a single-line with character counter with error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Multi-line with character counter</h4>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3V1J0S0RvWXNXZFk/patterns_errors_userinput15.png",
+                      "caption": "<p>Example of a multi-line with character counter with user input text</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3X3hnZE5jVjhmR2s/patterns_errors_userinput16.png",
+                      "caption": "<p>Example of a multi-line with character counter with error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZjlmVGoyUVJOOVk/patterns_errors_userinput17.png",
+                      "caption": "<p>Examples of these states: single-line input label with user input text, single-line input label with error text, single-line input label with user input text, and multi-line input label with error text</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B_udO5B8pzrzU1c2Y2F3dHZpVGs/patterns_errors_userinput_keyline3.png",
+                      "caption": "<div class=\"caption-title\">Text field input</div><p>Single-line input label top padding: 16dp<br>Top and bottom padding for input text for a single-line field: 8dp<br>Height of entire input area: 88dp</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Show errors for incompatible values during or after a user interacts with a text field.</p><p>If two or more fields have incompatible inputs:</p><ul><li>In the text field, indicate a fix is needed. Add an error message below. </li><li>Display a message at the top of the form, or screen, summarizing the fixes needed and any additional explanation.</li></ul><h4>Errors detected upon form submission</h4><p>Reload the form with consolidated error messages and scroll position at the top. Error messages for individual fields may be resolved as the user works through the form. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cG5uMEFIMnc0dXc/patterns_errors_userinput18.png",
+                      "caption": "<p>Example of form</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dEZTUF9idzBHMWc/patterns_errors_userinput19.png",
+                      "caption": "<p>Example of errors detected after attempted form submission</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Incompatible values"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Empty form fields should be indicated by both the text field and error message below. </p><p>Display incomplete form errors to indicate a user has skipped a field after they have advanced through a form. If unable to detect user progress through the form, display an error after the user has attempted to submit the form. </p><h4>Multiple errors before form submission</h4><p>Individually label error messages as the user works through the form. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bnVadXFUNWwtZkk/patterns_errors_userinput21.png",
+                      "caption": "<p>Example of form </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3TnVaazVOXzN2OTA/patterns_errors_userinput22.png",
+                      "caption": "<p>Example of incomplete form</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Incomplete form "
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": ""
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMzNPNXhwSDZHQWc/patterns_errors_userinput23.png",
+                      "caption": "<p>Example of single-line list error</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Single-line list error"
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "App errors",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>App errors occur independent of user input.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When an error occurs, an app should display loading indicators until the error message appears. </p><p>Features not available may be indicated as disabled in the UI. For example, a button not may be displayed in a disabled state, paired with text explaining it is not available. Not every error requires a new component to pop up. </p><p>If possible, give your user an action that will help them address the error. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsWTJDTmVQZkI4NE0/patterns_errors_app1.png",
+                      "caption": "<p>Alert dialog: app feedback about an error that is blocking normal operation &#xA0;</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsNzNWRHJnY1FacmM/patterns_errors_app2.png",
+                      "caption": "<p>Snackbar: app feedback about a peripheral error. Snackbars are transient, don&apos;t use them for critical, persistent, or bulk errors.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "General app error"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When sync is down or content has failed to load, the user should be able to interact with as much of the rest of the app as possible.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRHVESW4tZnpXVlE/patterns_errors_app3.png",
+                      "caption": "<p>Empty state for the screen/content failing to load</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsQ3ozZkVNa3lPZTA/patterns_errors_app4.png",
+                      "caption": "<p>Container/component specific error with action</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Sync error/failure to load"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>When connectivity is down, the user should be able to interact with as much of the rest of the app as possible. </p><p>If appropriate, present a link to help a user accomplish their task. Only offer links that you can actually support. For example, don&apos;t offer an option like &quot;Try again&quot; in cases where you can detect that the operation will fail.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbjJqa04xVjdOQ1k/patterns_errors_app5.png",
+                      "caption": "<p>Snackbar with action to retry </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsZzZid0VPZUp2SFE/patterns_errors_app6.png",
+                      "caption": "<p>Empty state for a screen only available online </p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Connectivity "
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Incompatible state errors",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Incompatible state errors occur when users attempt to run operations that conflict, such as making a call while in airplane mode or taking a screenshot from a restricted work account. Help prevent users from putting themselves into these situations by clearly communicating the states they are selecting and the implications for the rest of their experience. When these errors are triggered, do not imply that they are the user&#x2019;s fault. </p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>General incompatibility </h4><p>Clarify the reason for and origination of the error. &#xA0;</p><p>For example, screenshots and premium features are not allowed while in a restricted mode. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3ZlJUemJMUElMUk0/patterns_errors_state1.png",
+                      "caption": "<p>Snackbar + Special mode indicator</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Offline by choice</h4><p>Display an unobtrusive, persistent indicator when users are offline but try to do tasks that require being online.</p><p>Examples: </p><ul><li>Placing a call while in airplane mode</li><li>Music availability while offline</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3cHYxbUJGYksycnc/patterns_errors_state2.png",
+                      "caption": "<p>Snackbar </p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3dUpNMjY4Q0lQUzA/patterns_errors_state3.png",
+                      "caption": "<p>Indicator that the device has been placed into airplane mode. </p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<h4>Permission requested</h4><p>If your app requires user permission before proceeding with an action, include the permission request in the app flow instead of treating it as an error. </p><p>If permissions are necessary before the first run of an app, consider including them into your app&#x2019;s first-run experience.</p><p>Examples: </p><ul><li>An app&#x2019;s permissions have changed.</li><li>In-app purchases have been disabled.</li></ul>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsakx4QjdTSnV2d2c/patterns_errors_state4.png",
+                      "caption": "<p>Dialog </p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

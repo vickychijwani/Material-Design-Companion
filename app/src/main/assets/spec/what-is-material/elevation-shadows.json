@@ -1,0 +1,468 @@
+{
+  "title": "Elevation and shadows",
+  "href": "http://www.google.com/design/spec/what-is-material/elevation-shadows.html",
+  "content": [
+    {
+      "type": "intro",
+      "html": "<p>Objects in material design possess similar qualities to objects in the physical world. In the physical world, objects can be stacked or affixed to one another, but cannot pass through each other. Objects cast shadows and reflect light. </p><p>These qualities form a spatial model that is familiar to users and can be applied consistently across apps. Underpinning this spatial model are the concepts of elevation and shadow.</p>"
+    },
+    {
+      "type": "article-list",
+      "articles": [
+        {
+          "type": "article",
+          "title": "Elevation (Android)",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Elevation is the relative depth, or distance, between two surfaces along the z-axis. </p><p><strong>Specifications:</strong></p><ul><li>Elevation is measured in the same units as the x and y axes, typically in density-independent pixels (dp). Because material elements have depth (all material is 1dp thick), elevation is measured in distance from the top of one surface to the top of another.</li><li>A child object&apos;s elevation is relative to the parent object&apos;s elevation.</li></ul><p>The images and values shown are for Android apps.</p><div class=\"modulettes\">\n          <a class=\"modulette polymer\" href=\"https://www.polymer-project.org/docs/elements/material.html#shadow-effect\" title=\"Shadow effect\">\n      <img class=\"icon callout-icon\" src=\"http://www.google.com/design/spec/static/images/callout_polymer.svg\" alt=\"\">\n      <div class=\"info\">\n        <div class=\"title\">Shadow effect</div>\n        <span class=\"subtitle\">Define shadows for custom elements</span>\n      </div>\n    </a>\n      </div>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsTVdGcm1LX0dVeGM/whatismaterial_3d_elevation1.png",
+                      "caption": "<div class=\"caption-title\"></div><p>Multiple elevation measurements for two objects</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>All material objects, regardless of size, have a resting elevation, or default elevation that does not change. If an object changes elevation, it should return to its resting elevation as soon as possible.</p><p>Desktop resting elevation is 2dp below the listed values to accommodate mouse and non-touch environments.</p><p><strong>Component elevations:</strong></p><ul><li>The resting elevation for a component type is consistent across apps (e.g., FAB elevation does not vary from 6dp in one app to 16dp in another app). </li><li>Components may have different resting elevations across platforms and devices, depending on the depth of the environment (e.g., TV has a greater depth than mobile or desktop).</li><li>In desktop environments, where screens are typically bigger and further from the user, resting elevations may be reduced. </li></ul><p>&#xA0;</p><h4>Responsive elevation and dynamic elevation offsets</h4><p>Some component types have responsive elevation, meaning they change elevation in response to user input (e.g., normal, focused, and pressed) or system events. These elevation changes are consistently implemented using <strong>dynamic elevation offsets</strong>.</p><p>Dynamic elevation offsets are the goal elevation that a component moves towards, relative to the component&#x2019;s resting state. They ensure that elevation changes are consistent across actions and component types. For example, all components that lift on press have the same elevation change relative to their resting elevation.</p><p>Once the input event is completed or cancelled, the component will return to its resting elevation.</p><h4>Avoiding elevation interference</h4><p>Components with responsive elevations may encounter other components as they move between their resting elevations and dynamic elevation offsets. Because <a href=\"http://www.google.com/design/spec/what-is-material/material-properties.html#material-properties-physical-properties\">material cannot pass through other material</a>, components avoid interfering with one another any number of ways, whether on a per-component basis or using the entire app layout.</p><p>On a component level, components can move or be removed before they cause interference. For example, a floating action button (FAB) can disappear or move off-screen before a user picks up a card, or it can move if a snackbar appears.</p><p>On the layout level, design your app layout to minimize opportunities for interference. For example, position the FAB to one side of stream of a cards so the FAB won&#x2019;t interfere when a user tries to pick up one of cards.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure"
+                    }
+                  ]
+                }
+              ],
+              "title": "Resting elevation"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The following diagram compares component resting elevations and dynamic elevation offsets. </p>"
+                }
+              ],
+              "title": "Component elevation comparisons"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3VG9SaVpNbkpHb2s/whatismaterial_3d_elevation2.png",
+                      "caption": "<div class=\"caption-title\"></div><p>In this diagram, only the elevation dimensions and layout for components are accurate. Other dimensions and overall layout of components are for illustration only.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-cUtqZzE0REdJdnc/whatismaterial_3d_elevation3.png",
+                      "caption": "<p>An example app layout with cards and a FAB, along with a cross-section diagram of its component elevations along its z-axis</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B8v7jImPsDi-eV81TDFrR2ZPU1E/whatismaterial_3d_elevation4.png",
+                      "caption": "<p>An example app layout with an open navigation drawer, along with a cross-section diagram of its component elevations along its z-axis.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Shadows",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>Shadows provide important visual cues about objects&#x2019; depth and directional movement. They are the only visual cue indicating the amount of separation between surfaces. An object&#x2019;s elevation determines the appearance of its shadow.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsYUJ6a1luU1ZtUWs/whatismaterial_3d_elevation_shadow1.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Without a shadow, nothing indicates that the floating action button is separate from the background surfaces.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3YkFiX1VlUjFKcDA/whatismaterial_3d_elevation_shadow2.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Crisp shadows indicate the floating action button and the blue sheet are separate elements. However, their shadows are so similar that they imply they are both at the same elevation.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3UW5QQ010bm0tZFk/whatismaterial_3d_elevation_shadow3.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>Softer, larger shadows indicate the floating action button is at a higher elevation than the blue sheet, which has a crisper shadow.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>In motion, shadows provide useful cues about an object&#x2019;s direction of movement and whether the distance between surfaces is increasing or decreasing.</p>"
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRlUtdkk1c2xwUkU/whatismaterial_3d_elevation_shadow4.png",
+                      "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Without a shadow to indicate elevation, it&#x2019;s unclear whether this square is increasing in size or increasing its elevation.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsMlg5UmlWV2FnQ3M/whatismaterial_3d_elevation_shadow5.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>The shadow grows softer and larger as the object&#x2019;s elevation increases and grows crisper and smaller as the elevation decreases.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsY1hrcHlOdEJuU1k/whatismaterial_3d_elevation_shadow6.png",
+                      "caption": "<div class=\"caption-title\">Do.</div><p>In this case, the consistent shadow helps the user understand that the object is changing shape as opposed to changing elevation.</p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>The following component shadows should be used as canonical references. If there are any differences between the following reference shadows and component shadows found elsewhere within this spec, defer to these reference shadows.</p>"
+                }
+              ],
+              "title": "Component reference shadows"
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>App bar</strong></p><p>4dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPZ1lQV2ZEeTAxMzg/whatismaterial_3d_elevation_component06.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Raised button</strong></p><p>Resting state: 2dp</p><p>Pressed state: 8dp</p><p>For desktop only, raised buttons can have an elevation of:</p><p>Resting state: 0dp</p><p>Pressed state: 2dp</p><p>See <a href=\"http://www.google.com/design/spec/components/buttons.html#buttons-flat-raised-buttons\">Flat raised buttons</a> for more information</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPSy1NQUtNdW5idXc/whatismaterial_3d_elevation_component02.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Floating action button (FAB)</strong></p><p>Resting state: 6dp</p><p>Pressed state: 12dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPRFp6VHZ0UTc1V2M/whatismaterial_3d_elevation_component08.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Card</strong></p><p>Resting state: 2dp</p><p>Raised state: 8dp</p><p>For<strong>&#xA0;</strong>Desktop only, see <a href=\"http://www.google.com/design/spec/components/cards.html#cards-content-blocks\">Content blocks</a>.</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPb1Y5MjNXT2owMFE/whatismaterial_3d_elevation_component03.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Menus and sub menus</strong></p><p>Menus: 8dp</p><p>Sub menus: 9dp (+1 dp for each sub menu)</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPN0FNTXJ0eU5ybXM/whatismaterial_3d_elevation_component09.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Dialogs</strong></p><p>24dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPbEVrM01tYlVwR28/whatismaterial_3d_elevation_component12.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Nav Drawer &amp; Right drawer</strong></p><p>16dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPT2pNX0hoeWN5YzA/whatismaterial_3d_elevation_component10.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Modal bottom sheet</strong></p><p>16dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPRXF4amhNZVFFcjQ/whatismaterial_3d_elevation_component11.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Refresh indicator</strong></p><p>3dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPMWh1ZmwtTHlwMk0/whatismaterial_3d_elevation_component05.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Quick entry/Search bar</strong></p><p>Resting state: 2dp</p><p>Scrolled state: 3dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3alQzSmJWQlg0ZWc/whatismaterial_3d_elevation_component04.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Snackbar</strong></p><p>6dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPeUFYaWwwM1N3d0E/whatismaterial_3d_elevation_component07.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p><strong>Switch</strong></p><p>1dp</p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "image",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B-Ef4kCjUzkPc1E0T1BZZ2V2d2s/whatismaterial_3d_elevation_component01.png"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "article",
+          "title": "Object relationships",
+          "modules": [
+            {
+              "type": "module",
+              "content": [
+                {
+                  "type": "module-body",
+                  "html": "<p>How you organize objects, or collections of objects, in an app determines how they move in relation to one another. Objects can move independently of each other or be constrained by objects higher in the hierarchy. </p><p>All objects are part of a hierarchy described in terms of a parent-child relationships. The &#x201C;child&#x201D; in each of these relationships refers to an element that is a subordinate to its &#x201C;parent&#x201D; element. Objects can be children of either the system or another object. </p><p>Parent-child specifics:</p><ul><li>Each object has one parent.</li><li>Each object may have any number of children. </li><li>Children inherit transformative properties from their parent, such as position, rotation, scale, and elevation. </li><li>Siblings are objects at the same level of hierarchy.</li></ul><h4>Exceptions</h4><p>Items parented to the root, such as primary UI elements, move independently of other objects. For example, the floating action button does not scroll with content. Other elements include:</p><ul><li>An app&#x2019;s side nav drawer</li><li>The action bar </li><li>Dialogs</li></ul><h4>Interaction</h4><p>How objects interact with one another is determined by their place in the parent-child hierarchy. </p><p>For example:</p><ul><li>Children have minimal z-axis separation from their parent; other objects do not get inserted between parents and children. </li><li>In a scrolling card collection, the cards are siblings of each other, so they all move together in tandem. They are children of the card collection object that controls their movement.</li></ul><h4>Elevation</h4><p>How you determine the elevation of objects &#x2013; their position in z-space &#x2013; depends on the content hierarchy you want to express and whether an object needs to move independently of other objects. </p>"
+                },
+                {
+                  "type": "figure-group",
+                  "figures": [
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsbHQ3X1ZoVXY3NjQ/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_01_RaisedChildButton_001.webm",
+                      "caption": "<div class=\"caption-title\"></div><p>As the parent sheet scrolls, the raised button (its child) scrolls off screen with it.</p>"
+                    },
+                    {
+                      "type": "figure",
+                      "mediaType": "video",
+                      "src": "media/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscnNBNFlpaTIxNnM/WhatIsMaterial_ObjectsIn3DSpace_ObjectRelationships_02_FAB_001.webm",
+                      "caption": "<div class=\"caption-title\"></div><p>As the card collection scrolls off-screen, its child cards scroll off-screen with it. The floating action button remains in place because its parent is not being scrolled.</p>"
+                    }
+                  ]
+                }
+              ],
+              "title": "Object hierarchy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
