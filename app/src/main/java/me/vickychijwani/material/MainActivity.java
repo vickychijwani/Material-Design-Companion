@@ -3,7 +3,11 @@ package me.vickychijwani.material;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -18,9 +22,12 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.SubMenu;
+import android.widget.Toast;
 
 import java.lang.ref.WeakReference;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
@@ -156,23 +163,38 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_view_on_website) {
+            Uri webUri = Uri.parse(mCurrentIndexSubsection.href);
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, webUri);
+            PackageManager pm = getPackageManager();
+            List<ResolveInfo> activities = pm.queryIntentActivities(browserIntent, 0);
+            List<Intent> targetIntents = new ArrayList<>();
+            String myPackageName = getPackageName();
+            if (! activities.isEmpty()) {
+                for (ResolveInfo info : activities) {
+                    String packageName = info.activityInfo.packageName;
+                    if (!myPackageName.equals(packageName)) {
+                        Intent targetIntent = new Intent(Intent.ACTION_VIEW, webUri);
+                        targetIntent.setPackage(packageName);
+                        targetIntents.add(targetIntent);
+                    }
+                }
+                Intent chooserIntent = Intent.createChooser(targetIntents.remove(0), "View on website");
+                //noinspection ToArrayCallWithZeroLengthArrayArgument
+                chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, targetIntents.toArray(new Parcelable[]{}));
+                startActivity(chooserIntent);
+            } else {
+                Toast.makeText(this, R.string.view_on_website_error, Toast.LENGTH_SHORT).show();
+            }
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
