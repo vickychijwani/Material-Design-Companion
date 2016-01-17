@@ -77,7 +77,7 @@ public class ImageDelegate extends ChapterAdapterDelegate {
 
 
     static final class ImageVH extends RecyclerView.ViewHolder {
-        @Bind(R.id.figure)      ImageView image;
+        @Bind(R.id.image)       ImageView image;
         @Bind(R.id.caption)     BaselineGridTextView caption;
 
         public ImageVH(View view) {

@@ -3,16 +3,40 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <me.vickychijwani.material.ui.widget.SimpleVideoView
-        android:id="@+id/figure"
+    <FrameLayout
+        android:id="@+id/video_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/figure_media_margin_bottom"
-        app:scalableType="fitCenter"
-        />
+        android:layout_height="200dp">
+
+        <me.vickychijwani.material.ui.widget.SimpleVideoView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/figure_media_margin_bottom"
+            android:visibility="gone"
+            app:scalableType="fitCenter"
+            />
+
+        <View
+            android:id="@+id/video_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ddd"
+            />
+
+        <ImageView
+            android:id="@+id/video_play"
+            android:layout_width="@dimen/video_play_btn_size"
+            android:layout_height="@dimen/video_play_btn_size"
+            android:layout_gravity="center"
+            android:src="@drawable/play_circle"
+            android:contentDescription="@string/cdesc_play_pause_video"
+            />
+
+    </FrameLayout>
 
     <include
         layout="@layout/chapter_figure_caption"

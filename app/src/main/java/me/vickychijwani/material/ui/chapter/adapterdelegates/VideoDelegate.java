@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -52,6 +53,10 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
         VideoVH vh = (VideoVH) holder;
         Video video = (Video) items.get(position);
         loadVideo(video.src, vh.video);
+        vh.video.setVisibility(View.GONE);
+        vh.overlay.setVisibility(View.VISIBLE);
+        vh.playBtn.setVisibility(View.VISIBLE);
+        vh.videoContainer.setOnClickListener(this);
         if (video.caption != null) {
             vh.caption.setText(Html.fromHtml(video.caption));
             vh.caption.setVisibility(View.VISIBLE);
@@ -81,21 +86,29 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
             }
         }
         videoView.setLooping(true);
-        videoView.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        final SimpleVideoView videoView = (SimpleVideoView) v;
+        ViewGroup videoContainer = (ViewGroup) v;
+        final SimpleVideoView videoView = (SimpleVideoView) videoContainer.findViewById(R.id.video);
+        View overlayView = videoContainer.findViewById(R.id.video_overlay);
+        View playBtnView = videoContainer.findViewById(R.id.video_play);
         if (videoView.isPrepared() && videoView.isPlaying()) {
             videoView.pause();
             mPlayingVideo = null;
         } else if (videoView.isPrepared()) {
             pausePlayingVideo();
+            videoView.setVisibility(View.VISIBLE);
+            overlayView.setVisibility(View.GONE);
+            playBtnView.setVisibility(View.GONE);
             videoView.start();
             mPlayingVideo = new WeakReference<>(videoView);
         } else {
             pausePlayingVideo();
+            videoView.setVisibility(View.VISIBLE);
+            overlayView.setVisibility(View.GONE);
+            playBtnView.setVisibility(View.GONE);
             videoView.prepareAsync(new MediaPlayer.OnPreparedListener() {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
@@ -116,8 +129,11 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
 
 
     static final class VideoVH extends RecyclerView.ViewHolder {
-        @Bind(R.id.figure)      SimpleVideoView video;
-        @Bind(R.id.caption)     BaselineGridTextView caption;
+        @Bind(R.id.video_container)     FrameLayout videoContainer;
+        @Bind(R.id.video)               SimpleVideoView video;
+        @Bind(R.id.video_overlay)       View overlay;
+        @Bind(R.id.video_play)          View playBtn;
+        @Bind(R.id.caption)             BaselineGridTextView caption;
 
         public VideoVH(android.view.View view) {
             super(view);
