@@ -1,6 +1,8 @@
 package me.vickychijwani.material;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
@@ -36,10 +38,13 @@ public class MainActivity extends AppCompatActivity
     private NavigationView mNavigationView;
     private WeakReference<MenuItem> mSelectedNavItem = null;
     private Fragment mCurrentFragment = null;
+    private IndexSubsection mCurrentIndexSubsection = null;
     private static final String CHAPTER_FRAGMENT_TAG = "tag:chapter_fragment";
 
     private static final Pattern URL_PATH_SEPARATOR_PATTERN = Pattern.compile("/");
     private static final Pattern URL_ANCHOR_SEPARATOR_PATTERN = Pattern.compile("#");
+
+    private static final String PREF_LAST_VIEWED_CHAPTER = "pref:last-viewed-chapter";
 
     private final SpecReader mSpecReader = new SpecReader();
     private final Map<Integer, IndexSubsection> mMenuItemIdToIndexSubsection = new HashMap<>();
@@ -80,9 +85,13 @@ public class MainActivity extends AppCompatActivity
                         fullHref);
             }
         } else {
-            // TODO load last seen chapter from SharedPreferences
-            IndexSubsection firstSubsection = specIndex.sections[0].sections[0];
-            loadChapter(firstSubsection);
+            IndexSubsection subsectionToLoad = specIndex.sections[0].sections[0];
+            String relHrefOfLastViewedSubsection = getPreferences(Context.MODE_PRIVATE)
+                    .getString(PREF_LAST_VIEWED_CHAPTER, null);
+            if (relHrefOfLastViewedSubsection != null) {
+                subsectionToLoad = mRelativeHrefToIndexSubsection.get(relHrefOfLastViewedSubsection);
+            }
+            loadChapter(subsectionToLoad);
         }
     }
 
@@ -97,6 +106,7 @@ public class MainActivity extends AppCompatActivity
                 // TODO addToBackStack
                 .commit();
         mCurrentFragment = fragment;
+        mCurrentIndexSubsection = subsection;
         //noinspection ConstantConditions
         getSupportActionBar().setTitle(subsection.title);
         mNavigationView.setCheckedItem(mIndexSubsectionToMenuItemId.get(subsection));
@@ -123,6 +133,15 @@ public class MainActivity extends AppCompatActivity
         }
         navigationView.setCheckedItem(STARTING_MENU_ITEM_ID);
         return specIndex;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (mCurrentIndexSubsection != null) {
+            SharedPreferences pref = getPreferences(Context.MODE_PRIVATE);
+            pref.edit().putString(PREF_LAST_VIEWED_CHAPTER, specHrefToRelativeHref(mCurrentIndexSubsection.href)).apply();
+        }
     }
 
     @Override
@@ -161,7 +180,6 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         IndexSubsection subsection = mMenuItemIdToIndexSubsection.get(item.getItemId());
         loadChapter(subsection);
-
         if (mSelectedNavItem != null && mSelectedNavItem.get() != null) {
             mSelectedNavItem.get().setChecked(false);
         }
