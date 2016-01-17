@@ -1,11 +1,9 @@
 package me.vickychijwani.material.ui.chapter.adapterdelegates;
 
 import android.content.Context;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +22,7 @@ import me.vickychijwani.material.spec.entity.Image;
 import me.vickychijwani.material.ui.chapter.ChapterAdapterDelegate;
 import me.vickychijwani.material.ui.widget.BaselineGridTextView;
 import me.vickychijwani.material.util.DeviceUtil;
+import me.vickychijwani.material.util.ImageUtil;
 
 public class ImageDelegate extends ChapterAdapterDelegate {
 
@@ -33,18 +32,7 @@ public class ImageDelegate extends ChapterAdapterDelegate {
     public ImageDelegate(@NonNull Context context) {
         super(ViewType.IMAGE);
         mInflater = LayoutInflater.from(context);
-        if (BuildConfig.DEBUG) {
-            mPicasso = new Picasso.Builder(context).listener(new Picasso.Listener() {
-                @Override
-                public void onImageLoadFailed(Picasso picasso, Uri uri, Exception exception) {
-                    Log.e("Picasso", Log.getStackTraceString(exception));
-                    throw new RuntimeException("Forcing crash, image load failed!");
-                }
-            }).build();
-            mPicasso.setLoggingEnabled(true);
-        } else {
-            mPicasso = Picasso.with(context);
-        }
+        mPicasso = ImageUtil.getPicasso(context);
     }
 
     @Override
