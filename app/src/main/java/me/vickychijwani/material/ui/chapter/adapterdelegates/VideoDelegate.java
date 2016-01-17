@@ -20,6 +20,8 @@ import butterknife.ButterKnife;
 import me.vickychijwani.material.BuildConfig;
 import me.vickychijwani.material.R;
 import me.vickychijwani.material.spec.entity.Video;
+import me.vickychijwani.material.task.GetVideoMetadataTask;
+import me.vickychijwani.material.task.VideoMetadataRetriever;
 import me.vickychijwani.material.ui.chapter.ChapterAdapterDelegate;
 import me.vickychijwani.material.ui.widget.BaselineGridTextView;
 import me.vickychijwani.material.ui.widget.SimpleVideoView;
@@ -29,10 +31,13 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
 
     private final LayoutInflater mInflater;
     private WeakReference<SimpleVideoView> mPlayingVideo = null;
+    private final VideoMetadataRetriever mMetadataRetriever = VideoMetadataRetriever.getInstance();
+    private final int SCREEN_WIDTH;
 
     public VideoDelegate(@NonNull Context context) {
         super(ViewType.VIDEO);
         mInflater = LayoutInflater.from(context);
+        SCREEN_WIDTH = DeviceUtil.getScreenWidth(context);
     }
 
     @Override
@@ -57,6 +62,20 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
         vh.overlay.setVisibility(View.VISIBLE);
         vh.playBtn.setVisibility(View.VISIBLE);
         vh.videoContainer.setOnClickListener(this);
+        final WeakReference<View> containerRef = new WeakReference<View>(vh.videoContainer);
+        mMetadataRetriever.create(vh.video.getContext(), video.src, new GetVideoMetadataTask.DoneListener() {
+            @Override
+            public void done(GetVideoMetadataTask.Result result) {
+                float aspectRatio = result.aspectRatio;
+                if (containerRef.get() == null || aspectRatio < 0.1f) {
+                    return;
+                }
+                ViewGroup.LayoutParams lp = containerRef.get().getLayoutParams();
+                lp.width = SCREEN_WIDTH;
+                lp.height = (int) (SCREEN_WIDTH / aspectRatio);
+                containerRef.get().setLayoutParams(lp);
+            }
+        });
         if (video.caption != null) {
             vh.caption.setText(Html.fromHtml(video.caption));
             vh.caption.setVisibility(View.VISIBLE);
