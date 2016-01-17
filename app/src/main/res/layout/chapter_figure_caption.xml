@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.vickychijwani.material.ui.widget.BaselineGridTextView
+    android:id="@+id/caption"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/text_margin_left_right"
+    android:layout_marginLeft="@dimen/text_margin_left_right"
+    android:layout_marginRight="@dimen/text_margin_left_right"
+    android:layout_marginStart="@dimen/text_margin_left_right"
+    android:textAppearance="@style/TextAppearance.Figcaption"
+    android:visibility="gone"
+    app:lineHeightHint="@dimen/figcaption_line_height"
+    />

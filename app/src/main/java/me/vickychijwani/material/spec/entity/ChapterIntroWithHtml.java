@@ -1,10 +1,10 @@
 package me.vickychijwani.material.spec.entity;
 
-public class ModuleBody implements ModulePart, HtmlTextEntity {
+public class ChapterIntroWithHtml implements ChapterIntro, HtmlTextEntity {
 
     public final String html;
 
-    public ModuleBody(String html) {
+    public ChapterIntroWithHtml(String html) {
         this.html = html;
     }
 

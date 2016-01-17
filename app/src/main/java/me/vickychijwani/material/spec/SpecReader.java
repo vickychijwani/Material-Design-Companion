@@ -10,12 +10,18 @@ import com.google.gson.GsonBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 
+import me.vickychijwani.material.spec.deserializer.ArticleTitleDeserializer;
 import me.vickychijwani.material.spec.deserializer.ChapterPartDeserializer;
+import me.vickychijwani.material.spec.deserializer.FigureDeserializer;
 import me.vickychijwani.material.spec.deserializer.ModulePartDeserializer;
+import me.vickychijwani.material.spec.deserializer.ModuleTitleDeserializer;
+import me.vickychijwani.material.spec.entity.ArticleTitle;
 import me.vickychijwani.material.spec.entity.Chapter;
 import me.vickychijwani.material.spec.entity.ChapterPart;
+import me.vickychijwani.material.spec.entity.Figure;
 import me.vickychijwani.material.spec.entity.Index;
 import me.vickychijwani.material.spec.entity.ModulePart;
+import me.vickychijwani.material.spec.entity.ModuleTitle;
 
 public class SpecReader {
 
@@ -25,8 +31,11 @@ public class SpecReader {
 
     public SpecReader() {
         mGson = new GsonBuilder()
+                .registerTypeAdapter(ArticleTitle.class, new ArticleTitleDeserializer())
+                .registerTypeAdapter(ModuleTitle.class, new ModuleTitleDeserializer())
                 .registerTypeAdapter(ChapterPart.class, new ChapterPartDeserializer())
                 .registerTypeAdapter(ModulePart.class, new ModulePartDeserializer())
+                .registerTypeAdapter(Figure.class, new FigureDeserializer())
                 .create();
     }
 

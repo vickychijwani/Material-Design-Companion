@@ -1,17 +1,22 @@
 package me.vickychijwani.material.ui.widget;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 
 import com.yqritc.scalablevideoview.ScalableVideoView;
 
+import java.io.FileDescriptor;
 import java.io.IOException;
+import java.util.Map;
 
 public class SimpleVideoView extends ScalableVideoView {
 
-    protected boolean mIsPrepard = false;
+    private boolean mIsPrepared = false;
 
     public SimpleVideoView(Context context) {
         super(context);
@@ -25,8 +30,56 @@ public class SimpleVideoView extends ScalableVideoView {
         super(context, attrs, defStyle);
     }
 
+    @SuppressLint("MissingSuperCall")
+    @Override
+    protected void onDetachedFromWindow() {
+        // NO-OP
+    }
+
+    public void uninitialize() {
+        if (mMediaPlayer == null) {
+            return;
+        }
+
+        if (isPlaying()) {
+            stop();
+        }
+        release();
+        mMediaPlayer = null;
+    }
+
     public boolean isPrepared() {
-        return mIsPrepard;
+        return mIsPrepared;
+    }
+
+    @Override
+    public void setDataSource(@NonNull String path) throws IOException {
+        mIsPrepared = false;
+        super.setDataSource(path);
+    }
+
+    @Override
+    public void setDataSource(@NonNull Context context, @NonNull Uri uri, @Nullable Map<String, String> headers) throws IOException {
+        mIsPrepared = false;
+        super.setDataSource(context, uri, headers);
+    }
+
+    @Override
+    public void setDataSource(@NonNull Context context, @NonNull Uri uri) throws IOException {
+        mIsPrepared = false;
+        super.setDataSource(context, uri);
+    }
+
+    @Override
+    public void setDataSource(@NonNull FileDescriptor fd, long offset, long length) throws IOException {
+        mIsPrepared = false;
+        super.setDataSource(fd, offset, length);
+    }
+
+    @Override
+    public void setDataSource(@NonNull FileDescriptor fd) throws IOException {
+        mIsPrepared = false;
+        super.setDataSource(fd);
     }
 
     @Override
@@ -35,7 +88,7 @@ public class SimpleVideoView extends ScalableVideoView {
         super.prepare(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
-                mIsPrepard = true;
+                mIsPrepared = true;
                 if (listener != null) {
                     listener.onPrepared(mp);
                 }
@@ -49,7 +102,7 @@ public class SimpleVideoView extends ScalableVideoView {
         super.prepareAsync(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
-                mIsPrepard = true;
+                mIsPrepared = true;
                 if (listener != null) {
                     listener.onPrepared(mp);
                 }
@@ -62,7 +115,7 @@ public class SimpleVideoView extends ScalableVideoView {
         mMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
-                mIsPrepard = true;
+                mIsPrepared = true;
             }
         });
         super.prepare();
@@ -73,7 +126,7 @@ public class SimpleVideoView extends ScalableVideoView {
         super.prepareAsync(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
-                mIsPrepard = true;
+                mIsPrepared = true;
             }
         });
     }
@@ -81,25 +134,7 @@ public class SimpleVideoView extends ScalableVideoView {
     @Override
     public void stop() {
         super.stop();
-        mIsPrepard = false;
+        mIsPrepared = false;
     }
-
-//    public void allocate() {
-//        if (mMediaPlayer != null) {
-//            mMediaPlayer.reset();
-//            mMediaPlayer.release();
-//        }
-//        mMediaPlayer = new MediaPlayer();
-//        mMediaPlayer.setOnVideoSizeChangedListener(this);
-//        setSurfaceTextureListener(this);
-//    }
-
-//    @Override
-//    public void release() {
-//        mMediaPlayer.stop();
-//        mMediaPlayer.reset();
-//        mMediaPlayer.release();
-//        mMediaPlayer = null;
-//    }
 
 }

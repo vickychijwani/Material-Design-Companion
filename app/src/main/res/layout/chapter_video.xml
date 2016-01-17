@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
     <me.vickychijwani.material.ui.widget.SimpleVideoView
-        android:id="@+id/video"
+        android:id="@+id/figure"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/figure_media_margin_bottom"
         app:scalableType="fitCenter"
         />
 
-</FrameLayout>
+    <include
+        layout="@layout/chapter_figure_caption"
+        />
+
+</LinearLayout>

@@ -10,9 +10,12 @@ import java.lang.reflect.Type;
 
 import me.vickychijwani.material.spec.entity.ArticleList;
 import me.vickychijwani.material.spec.entity.ChapterIntro;
+import me.vickychijwani.material.spec.entity.ChapterIntroWithHtml;
 import me.vickychijwani.material.spec.entity.ChapterIntroWithModules;
 import me.vickychijwani.material.spec.entity.ChapterPart;
 import me.vickychijwani.material.spec.entity.Figure;
+import me.vickychijwani.material.spec.entity.Image;
+import me.vickychijwani.material.spec.entity.Video;
 
 public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
 
@@ -21,31 +24,54 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
                                    JsonDeserializationContext context) throws JsonParseException {
         JsonObject jsonObject = json.getAsJsonObject();
         String type = jsonObject.get("type").getAsString();
-        ChapterPart chapterPart = null;
+        ChapterPart chapterPart;
         switch (type) {
-            case Figure.TYPE:
-                if (jsonObject.has("src") && jsonObject.has("mediaType")) {
-                    chapterPart = context.deserialize(json, Figure.class);
-                }
+            case "figure":
+                chapterPart = getFigure(context, jsonObject);
                 break;
-            case ChapterIntro.TYPE:
-                if (jsonObject.has("html")) {
-                    chapterPart = context.deserialize(json, ChapterIntro.class);
-                } else if (jsonObject.has("modules")) {
-                    chapterPart = context.deserialize(json, ChapterIntroWithModules.class);
-                }
+            case "intro":
+                chapterPart = getChapterIntro(context, jsonObject);
                 break;
-            case ArticleList.TYPE:
-                if (jsonObject.has("articles")) {
-                    chapterPart = context.deserialize(json, ArticleList.class);
-                }
+            case "article-list":
+                chapterPart = getArticleList(context, jsonObject);
                 break;
+            default:
+                throw new RuntimeException("Unrecognized ChapterPart with type: " + type);
         }
 
-        if (chapterPart == null) {
-            throw new IllegalArgumentException("Is this really a valid ChapterPart?");
-        }
         return chapterPart;
+    }
+
+    private static ChapterIntro getChapterIntro(JsonDeserializationContext context, JsonObject json) {
+        if (json.has("html")) {
+            return context.deserialize(json, ChapterIntroWithHtml.class);
+        } else if (json.has("modules")) {
+            return context.deserialize(json, ChapterIntroWithModules.class);
+        } else {
+            throw new RuntimeException("Invalid chapter intro");
+        }
+    }
+
+    private static Figure getFigure(JsonDeserializationContext context, JsonObject json) {
+        if (! json.has("src") || ! json.has("mediaType")) {
+            throw new RuntimeException("Invalid figure");
+        }
+        String mediaType = json.get("mediaType").getAsString();
+        if ("image".equals(mediaType)) {
+            return context.deserialize(json, Image.class);
+        } else if ("video".equals(mediaType)) {
+            return context.deserialize(json, Video.class);
+        } else {
+            throw new RuntimeException("Unrecognized figure media type: " + mediaType);
+        }
+    }
+
+    public static ArticleList getArticleList(JsonDeserializationContext context, JsonObject json) {
+        if (json.has("articles")) {
+            return context.deserialize(json, ArticleList.class);
+        } else {
+            throw new RuntimeException("Invalid article list");
+        }
     }
 
 }

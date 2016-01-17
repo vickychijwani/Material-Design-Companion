@@ -11,10 +11,15 @@
     <dimen name="margin_default">8dp</dimen>
     <dimen name="margin_large">16dp</dimen>
 
-    <dimen name="text_margin">12dp</dimen>
+    <dimen name="text_margin_left_right">12dp</dimen>
+    <dimen name="chapter_intro_margin_top">16dp</dimen>
+    <dimen name="chapter_intro_margin_bottom">50dp</dimen>
     <dimen name="figure_media_margin_bottom">10dp</dimen>
+    <!-- TODO figure:last-child should have bottom margin = 10dp -->
     <dimen name="figure_margin_bottom">40dp</dimen>
     <dimen name="article_title_margin_top_bottom">15dp</dimen>
+    <dimen name="module_title_margin_bottom">30dp</dimen>
+    <dimen name="module_body_margin_bottom">40dp</dimen>
 
     <!-- line heights -->
     <dimen name="chapter_intro_line_height">32sp</dimen>

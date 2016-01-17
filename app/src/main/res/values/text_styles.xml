@@ -11,6 +11,9 @@
         <item name="android:textColor">#00bcd4</item>
     </style>
 
+    <style name="TextAppearance.ModuleTitle" parent="@android:style/TextAppearance">
+    </style>
+
     <style name="TextAppearance.ModuleBody" parent="@android:style/TextAppearance">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#212121</item>

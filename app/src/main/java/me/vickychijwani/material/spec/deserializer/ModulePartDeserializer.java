@@ -19,12 +19,12 @@ public class ModulePartDeserializer implements JsonDeserializer<ModulePart> {
         JsonObject jsonObject = json.getAsJsonObject();
         String type = jsonObject.get("type").getAsString();
         switch (type) {
-            case FigureGroup.TYPE:
+            case "figure-group":
                 return context.deserialize(json, FigureGroup.class);
-            case ModuleBody.TYPE:
+            case "module-body":
                 return context.deserialize(json, ModuleBody.class);
             default:
-                return null;
+                throw new RuntimeException("Unrecognized ModulePart with type: " + type);
         }
     }
 

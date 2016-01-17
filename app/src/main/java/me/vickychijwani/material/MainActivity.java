@@ -26,7 +26,7 @@ import me.vickychijwani.material.spec.SpecReader;
 import me.vickychijwani.material.spec.entity.Index;
 import me.vickychijwani.material.spec.entity.IndexSection;
 import me.vickychijwani.material.spec.entity.IndexSubsection;
-import me.vickychijwani.material.ui.ChapterFragment;
+import me.vickychijwani.material.ui.chapter.ChapterFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity
     private static final Pattern URL_PATH_SEPARATOR_PATTERN = Pattern.compile("/");
     private static final Pattern URL_ANCHOR_SEPARATOR_PATTERN = Pattern.compile("#");
 
-    private SpecReader mSpecReader = new SpecReader();
-    private Map<Integer, IndexSubsection> mMenuItemIdToIndexSubsection = new HashMap<>();
-    private Map<IndexSubsection, Integer> mIndexSubsectionToMenuItemId = new HashMap<>();
-    private Map<String, IndexSubsection> mRelativeHrefToIndexSubsection = new HashMap<>();
+    private final SpecReader mSpecReader = new SpecReader();
+    private final Map<Integer, IndexSubsection> mMenuItemIdToIndexSubsection = new HashMap<>();
+    private final Map<IndexSubsection, Integer> mIndexSubsectionToMenuItemId = new HashMap<>();
+    private final Map<String, IndexSubsection> mRelativeHrefToIndexSubsection = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
