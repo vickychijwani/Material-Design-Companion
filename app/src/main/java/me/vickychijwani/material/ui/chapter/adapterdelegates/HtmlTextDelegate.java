@@ -2,13 +2,13 @@ package me.vickychijwani.material.ui.chapter.adapterdelegates;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.text.Html;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import me.vickychijwani.material.R;
+import me.vickychijwani.material.html.MyHtmlSpanner;
 import me.vickychijwani.material.spec.entity.ChapterIntroWithHtml;
 import me.vickychijwani.material.spec.entity.HtmlTextEntity;
 import me.vickychijwani.material.spec.entity.ModuleBody;
@@ -72,7 +72,7 @@ public class HtmlTextDelegate extends AbsTextDelegate<HtmlTextEntity> {
     }
 
     protected final CharSequence getTextAsCharSequence(HtmlTextEntity entity) {
-        return Html.fromHtml(entity.getHtml());
+        return MyHtmlSpanner.fromHtml(entity.getHtml());
     }
 
 }
