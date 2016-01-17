@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.io.IOException;
+import java.lang.ref.WeakReference;
 import java.util.List;
 
 import butterknife.Bind;
@@ -26,6 +27,7 @@ import me.vickychijwani.material.util.DeviceUtil;
 public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClickListener {
 
     private final LayoutInflater mInflater;
+    private WeakReference<SimpleVideoView> mPlayingVideo = null;
 
     public VideoDelegate(@NonNull Context context) {
         super(ViewType.VIDEO);
@@ -87,15 +89,27 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
         final SimpleVideoView videoView = (SimpleVideoView) v;
         if (videoView.isPrepared() && videoView.isPlaying()) {
             videoView.pause();
+            mPlayingVideo = null;
         } else if (videoView.isPrepared()) {
+            pausePlayingVideo();
             videoView.start();
+            mPlayingVideo = new WeakReference<>(videoView);
         } else {
+            pausePlayingVideo();
             videoView.prepareAsync(new MediaPlayer.OnPreparedListener() {
                 @Override
                 public void onPrepared(MediaPlayer mp) {
                     videoView.start();
                 }
             });
+            mPlayingVideo = new WeakReference<>(videoView);
+        }
+    }
+
+    private void pausePlayingVideo() {
+        if (mPlayingVideo != null && mPlayingVideo.get() != null
+                && mPlayingVideo.get().isPrepared() && mPlayingVideo.get().isPlaying()) {
+            mPlayingVideo.get().pause();
         }
     }
 
