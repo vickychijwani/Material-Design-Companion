@@ -12,12 +12,15 @@ import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
 
+import java.lang.ref.WeakReference;
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import me.vickychijwani.material.BuildConfig;
 import me.vickychijwani.material.R;
+import me.vickychijwani.material.media.GetImageMetadataTask;
+import me.vickychijwani.material.media.MyMediaMetadataRetriever;
 import me.vickychijwani.material.spec.entity.Image;
 import me.vickychijwani.material.ui.chapter.ChapterAdapterDelegate;
 import me.vickychijwani.material.ui.widget.BaselineGridTextView;
@@ -28,11 +31,14 @@ public class ImageDelegate extends ChapterAdapterDelegate {
 
     private final LayoutInflater mInflater;
     private final Picasso mPicasso;
+    private final MyMediaMetadataRetriever mMetadataRetriever = MyMediaMetadataRetriever.getInstance();
+    private final int SCREEN_WIDTH;
 
     public ImageDelegate(@NonNull Context context) {
         super(ViewType.IMAGE);
         mInflater = LayoutInflater.from(context);
         mPicasso = ImageUtil.getPicasso(context);
+        SCREEN_WIDTH = DeviceUtil.getScreenWidth(context);
     }
 
     @Override
@@ -53,6 +59,20 @@ public class ImageDelegate extends ChapterAdapterDelegate {
         ImageVH vh = (ImageVH) holder;
         Image image = (Image) items.get(position);
         vh.image.setImageDrawable(null);
+        final WeakReference<View> imageRef = new WeakReference<View>(vh.image);
+        mMetadataRetriever.getImageMetadata(vh.image.getContext(), image.src, new GetImageMetadataTask.DoneListener() {
+            @Override
+            public void done(GetImageMetadataTask.Result result) {
+                float aspectRatio = result.aspectRatio;
+                if (imageRef.get() == null || aspectRatio < 0.1f) {
+                    return;
+                }
+                ViewGroup.LayoutParams lp = imageRef.get().getLayoutParams();
+                lp.width = SCREEN_WIDTH;
+                lp.height = (int) (SCREEN_WIDTH / aspectRatio);
+                imageRef.get().setLayoutParams(lp);
+            }
+        });
         loadImage(image.src, vh.image);
         if (image.caption != null) {
             vh.caption.setText(Html.fromHtml(image.caption));
@@ -70,7 +90,7 @@ public class ImageDelegate extends ChapterAdapterDelegate {
             imageRequest = mPicasso.load("file:///android_asset/" + imageSrc);
         }
         imageRequest
-                .resize(DeviceUtil.getScreenWidth(mInflater.getContext()), 0)
+                .resize(SCREEN_WIDTH, 0)
                 .into(imageView);
     }
 

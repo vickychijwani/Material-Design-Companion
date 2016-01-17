@@ -1,4 +1,4 @@
-package me.vickychijwani.material.task;
+package me.vickychijwani.material.media;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;

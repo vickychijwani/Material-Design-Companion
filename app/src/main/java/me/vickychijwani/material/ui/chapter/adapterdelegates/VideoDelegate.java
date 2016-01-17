@@ -20,8 +20,8 @@ import butterknife.ButterKnife;
 import me.vickychijwani.material.BuildConfig;
 import me.vickychijwani.material.R;
 import me.vickychijwani.material.spec.entity.Video;
-import me.vickychijwani.material.task.GetVideoMetadataTask;
-import me.vickychijwani.material.task.VideoMetadataRetriever;
+import me.vickychijwani.material.media.GetVideoMetadataTask;
+import me.vickychijwani.material.media.MyMediaMetadataRetriever;
 import me.vickychijwani.material.ui.chapter.ChapterAdapterDelegate;
 import me.vickychijwani.material.ui.widget.BaselineGridTextView;
 import me.vickychijwani.material.ui.widget.SimpleVideoView;
@@ -31,7 +31,7 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
 
     private final LayoutInflater mInflater;
     private WeakReference<SimpleVideoView> mPlayingVideo = null;
-    private final VideoMetadataRetriever mMetadataRetriever = VideoMetadataRetriever.getInstance();
+    private final MyMediaMetadataRetriever mMetadataRetriever = MyMediaMetadataRetriever.getInstance();
     private final int SCREEN_WIDTH;
 
     public VideoDelegate(@NonNull Context context) {
@@ -63,7 +63,7 @@ public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClic
         vh.playBtn.setVisibility(View.VISIBLE);
         vh.videoContainer.setOnClickListener(this);
         final WeakReference<View> containerRef = new WeakReference<View>(vh.videoContainer);
-        mMetadataRetriever.create(vh.video.getContext(), video.src, new GetVideoMetadataTask.DoneListener() {
+        mMetadataRetriever.getVideoMetadata(vh.video.getContext(), video.src, new GetVideoMetadataTask.DoneListener() {
             @Override
             public void done(GetVideoMetadataTask.Result result) {
                 float aspectRatio = result.aspectRatio;
