@@ -2,7 +2,6 @@ package me.vickychijwani.material.ui.chapter.adapterdelegates;
 
 import android.content.Context;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
@@ -10,8 +9,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.squareup.picasso.Picasso;
 
 import java.io.IOException;
 import java.util.List;
@@ -29,23 +26,10 @@ import me.vickychijwani.material.util.DeviceUtil;
 public class VideoDelegate extends ChapterAdapterDelegate implements View.OnClickListener {
 
     private final LayoutInflater mInflater;
-    private final Picasso mPicasso;
 
     public VideoDelegate(@NonNull Context context) {
         super(ViewType.VIDEO);
         mInflater = LayoutInflater.from(context);
-        if (BuildConfig.DEBUG) {
-            mPicasso = new Picasso.Builder(context).listener(new Picasso.Listener() {
-                @Override
-                public void onImageLoadFailed(Picasso picasso, Uri uri, Exception exception) {
-                    Log.e("Picasso", Log.getStackTraceString(exception));
-                    throw new RuntimeException("Forcing crash, image load failed!");
-                }
-            }).build();
-            mPicasso.setLoggingEnabled(true);
-        } else {
-            mPicasso = Picasso.with(context);
-        }
     }
 
     @Override
