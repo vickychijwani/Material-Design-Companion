@@ -23,6 +23,7 @@ import me.vickychijwani.material.spec.entity.ModuleBody;
 import me.vickychijwani.material.spec.entity.ModulePart;
 import me.vickychijwani.material.ui.chapter.adapterdelegates.HtmlTextDelegate;
 import me.vickychijwani.material.ui.chapter.adapterdelegates.ImageDelegate;
+import me.vickychijwani.material.ui.chapter.adapterdelegates.NullDelegate;
 import me.vickychijwani.material.ui.chapter.adapterdelegates.PlainTextDelegate;
 import me.vickychijwani.material.ui.chapter.adapterdelegates.SpaceDelegate;
 import me.vickychijwani.material.ui.chapter.adapterdelegates.VideoDelegate;
@@ -38,6 +39,7 @@ class ChapterAdapter extends RecyclerView.Adapter {
         mItems = ItemsBuilder.build(chapter);
         mDelegatesManager = new ChapterAdapterDelegatesManager();
 
+        addDelegate(new NullDelegate());
         addDelegate(new SpaceDelegate());
         addDelegate(new HtmlTextDelegate(context));
         addDelegate(new PlainTextDelegate(context));

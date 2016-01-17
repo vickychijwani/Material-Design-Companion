@@ -23,6 +23,9 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
     public ChapterPart deserialize(JsonElement json, Type typeOfT,
                                    JsonDeserializationContext context) throws JsonParseException {
         JsonObject jsonObject = json.getAsJsonObject();
+        if (! jsonObject.has("type")) {
+            return ParseUtil.throwIfDebug("Invalid module part");
+        }
         String type = jsonObject.get("type").getAsString();
         ChapterPart chapterPart;
         switch (type) {
@@ -36,7 +39,7 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
                 chapterPart = getArticleList(context, jsonObject);
                 break;
             default:
-                throw new RuntimeException("Unrecognized ChapterPart with type: " + type);
+                return ParseUtil.throwIfDebug("Unrecognized ChapterPart with type: " + type);
         }
 
         return chapterPart;
@@ -48,13 +51,13 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
         } else if (json.has("modules")) {
             return context.deserialize(json, ChapterIntroWithModules.class);
         } else {
-            throw new RuntimeException("Invalid chapter intro");
+            return ParseUtil.throwIfDebug("Invalid chapter intro");
         }
     }
 
     private static Figure getFigure(JsonDeserializationContext context, JsonObject json) {
         if (! json.has("src") || ! json.has("mediaType")) {
-            throw new RuntimeException("Invalid figure");
+            return ParseUtil.throwIfDebug("Invalid figure");
         }
         String mediaType = json.get("mediaType").getAsString();
         if ("image".equals(mediaType)) {
@@ -62,7 +65,7 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
         } else if ("video".equals(mediaType)) {
             return context.deserialize(json, Video.class);
         } else {
-            throw new RuntimeException("Unrecognized figure media type: " + mediaType);
+            return ParseUtil.throwIfDebug("Unrecognized figure media type: " + mediaType);
         }
     }
 
@@ -70,7 +73,7 @@ public class ChapterPartDeserializer implements JsonDeserializer<ChapterPart> {
         if (json.has("articles")) {
             return context.deserialize(json, ArticleList.class);
         } else {
-            throw new RuntimeException("Invalid article list");
+            return ParseUtil.throwIfDebug("Invalid article list");
         }
     }
 

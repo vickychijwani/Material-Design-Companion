@@ -17,6 +17,9 @@ public class ModulePartDeserializer implements JsonDeserializer<ModulePart> {
     @Override
     public ModulePart deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
         JsonObject jsonObject = json.getAsJsonObject();
+        if (! jsonObject.has("type")) {
+            return ParseUtil.throwIfDebug("Invalid module part");
+        }
         String type = jsonObject.get("type").getAsString();
         switch (type) {
             case "figure-group":
@@ -24,7 +27,7 @@ public class ModulePartDeserializer implements JsonDeserializer<ModulePart> {
             case "module-body":
                 return context.deserialize(json, ModuleBody.class);
             default:
-                throw new RuntimeException("Unrecognized ModulePart with type: " + type);
+                return ParseUtil.throwIfDebug("Unrecognized ModulePart with type: " + type);
         }
     }
 

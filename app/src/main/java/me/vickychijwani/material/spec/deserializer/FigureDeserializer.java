@@ -19,7 +19,7 @@ public class FigureDeserializer implements JsonDeserializer<Figure> {
                               JsonDeserializationContext context) throws JsonParseException {
         JsonObject jsonObject = json.getAsJsonObject();
         if (! jsonObject.has("src") || ! jsonObject.has("mediaType")) {
-            throw new RuntimeException("Invalid figure");
+            return ParseUtil.throwIfDebug("Invalid figure");
         }
         String mediaType = jsonObject.get("mediaType").getAsString();
         if ("image".equals(mediaType)) {
@@ -27,7 +27,7 @@ public class FigureDeserializer implements JsonDeserializer<Figure> {
         } else if ("video".equals(mediaType)) {
             return context.deserialize(json, Video.class);
         } else {
-            throw new RuntimeException("Unrecognized figure media type: " + mediaType);
+            return ParseUtil.throwIfDebug("Unrecognized figure media type: " + mediaType);
         }
     }
 

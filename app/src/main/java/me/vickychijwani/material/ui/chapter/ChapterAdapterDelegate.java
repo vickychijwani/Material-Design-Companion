@@ -9,6 +9,7 @@ import java.util.List;
 public abstract class ChapterAdapterDelegate extends AbsAdapterDelegate<List<Object>> {
 
     public enum ViewType {
+        NULL,       // dummy delegate for handling null items due to deserialization errors
         SPACE,
         GENERIC_HTML_TEXT,
         GENERIC_PLAIN_TEXT,
