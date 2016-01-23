@@ -57,12 +57,29 @@ function enqueueFileDownload(url, filepath) {
   requestQueue.enqueue({ url, filepath });
 }
 
+function checkFileHash(callback) {
+  exec(`md5sum ${filepath} | cut -d' ' -f1`, (err, stdout, stderr) => {
+    stderr = (typeof stderr === 'undefined' || stderr === null) ? '' : stderr;
+    if (err || stderr.trim().length > 0 || res.headers['etag'] !== stdout.trim()) {
+      callback(true);
+    }
+  });
+}
+
 function downloadFileFn(input, done) {
   let url = input.url;
   let filepath = input.filepath;
-  let callback = () => {
-    console.log(`[dload   ] downloaded ${filepath}`);
-    done();
+  let download = () => request(url).pipe(fs.createWriteStream(filepath)).on('close', checkDownloadedFile);
+  let checkDownloadedFile = () => {
+    checkFileHash((mismatch) => {
+      if (mismatch) {
+        console.error(`[dload   ] hash mismatch for ${filepath}, retrying download`);
+        download();
+      } else {
+        console.log(`[dload   ] downloaded ${filepath}`);
+        done();
+      }
+    });
   }
 
   request.head(url, function (err, res, body) {
@@ -75,13 +92,11 @@ function downloadFileFn(input, done) {
     fs.access(filepath, (err) => {
       if (err) {
         // file does not exist, download it
-        request(url).pipe(fs.createWriteStream(filepath)).on('close', callback);
+        download();
       } else {
-        exec(`md5sum ${filepath} | cut -d' ' -f1`, (err, stdout, stderr) => {
-          stderr = (typeof stderr === 'undefined' || stderr === null) ? '' : stderr;
-          if (err || stderr.trim().length > 0 || res.headers['etag'] !== stdout.trim()) {
-            // checksum mismatch, download file
-            request(url).pipe(fs.createWriteStream(filepath)).on('close', callback);
+        checkFileHash((mismatch) => {
+          if (mismatch) {
+            download();
           }
         });
       }

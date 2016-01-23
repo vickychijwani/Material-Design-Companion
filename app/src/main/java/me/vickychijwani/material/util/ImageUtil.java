@@ -22,7 +22,8 @@ public class ImageUtil {
                     @Override
                     public void onImageLoadFailed(Picasso picasso, Uri uri, Exception exception) {
                         Log.e("Picasso", Log.getStackTraceString(exception));
-                        throw new RuntimeException("Forcing crash, image load failed!");
+                        throw new RuntimeException("Forcing crash, image load failed: " +
+                                uri.toString());
                     }
                 }).build();
                 sPicasso.setLoggingEnabled(true);
