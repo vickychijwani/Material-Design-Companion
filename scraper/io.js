@@ -2,7 +2,7 @@
 
 var path = require('path');
 var fs = require('fs');
-var exec = require('child_process').exec
+var exec = require('child_process').exec;
 
 var request = require('request');
 var RequestQueue = require("limited-request-queue");
