@@ -32,14 +32,14 @@ var io = {
   writeIndex(index) {
     var filepath = path.join(OUTPUT_DIR, INDEX_FILENAME);
     console.log(`[io     ] writing index to ${filepath}`);
-    mkdirp(path.dirname(filepath), (err) => console.error(err));
-    jsonfile.writeFile(filepath, index, {spaces: 2}, (err) => console.error(err));
+    mkdirp(path.dirname(filepath), (err) => err && console.error(err));
+    jsonfile.writeFile(filepath, index, {spaces: 2}, (err) => err && console.error(err));
   },
 
   writeSectionContents(section, filepath) {
     console.log(`[io     ] writing section "${section.title}" to ${filepath}`);
-    mkdirp(path.dirname(filepath), (err) => console.error(err));
-    jsonfile.writeFile(filepath, section, {spaces: 2}, (err) => console.error(err));
+    mkdirp(path.dirname(filepath), (err) => err && console.error(err));
+    jsonfile.writeFile(filepath, section, {spaces: 2}, (err) => err && console.error(err));
   },
 
   downloadMedia(url) {
@@ -57,10 +57,15 @@ function enqueueFileDownload(url, filepath) {
   requestQueue.enqueue({ url, filepath });
 }
 
-function checkFileHash(callback) {
+/**
+ * @param {string} filepath
+ * @param {string} newFileHash - updated hash of file
+ * @param {function} callback
+ */
+function checkFileHash(filepath, newFileHash, callback) {
   exec(`md5sum ${filepath} | cut -d' ' -f1`, (err, stdout, stderr) => {
     stderr = (typeof stderr === 'undefined' || stderr === null) ? '' : stderr;
-    if (err || stderr.trim().length > 0 || res.headers['etag'] !== stdout.trim()) {
+    if (err || stderr.trim().length > 0 || (newFileHash && newFileHash !== stdout.trim())) {
       callback(true);
     }
   });
@@ -69,9 +74,11 @@ function checkFileHash(callback) {
 function downloadFileFn(input, done) {
   let url = input.url;
   let filepath = input.filepath;
-  let download = () => request(url).pipe(fs.createWriteStream(filepath)).on('close', checkDownloadedFile);
-  let checkDownloadedFile = () => {
-    checkFileHash((mismatch) => {
+  let download = (newFileHash) => {
+    request(url).pipe(fs.createWriteStream(filepath)).on('close', checkDownloadedFile.bind(null, newFileHash));
+  };
+  let checkDownloadedFile = (newFileHash) => {
+    checkFileHash(filepath, newFileHash, (mismatch) => {
       if (mismatch) {
         console.error(`[dload   ] hash mismatch for ${filepath}, retrying download`);
         download();
@@ -80,7 +87,7 @@ function downloadFileFn(input, done) {
         done();
       }
     });
-  }
+  };
 
   request.head(url, function (err, res, body) {
     if (typeof res === 'undefined' || res === null || err) {
@@ -89,14 +96,15 @@ function downloadFileFn(input, done) {
         console.error(err);
       }
     }
+    const newFileHash = res.headers['etag'];
     fs.access(filepath, (err) => {
       if (err) {
         // file does not exist, download it
-        download();
+        download(newFileHash);
       } else {
-        checkFileHash((mismatch) => {
+        checkFileHash(filepath, newFileHash, (mismatch) => {
           if (mismatch) {
-            download();
+            download(newFileHash);
           }
         });
       }

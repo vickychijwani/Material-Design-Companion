@@ -14,6 +14,8 @@ var format = {
     } else if ($figure.find('video').length > 0) {
       figure.mediaType = 'video';
       figure.src = io.downloadMedia(c($figure.find('video source')[0], $figure).attr('src'));
+    } else {
+      console.error(`Unhandled <figure>:\n${$figure.html()}`);
     }
     if ($figure.find('figcaption').html()) {
       figure.caption = $figure.find('figcaption').html().trim();
