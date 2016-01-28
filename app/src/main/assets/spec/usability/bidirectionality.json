@@ -24,7 +24,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c7\"><tbody><tr class=\"c8\"><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Element</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>LTR</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>RTL</span></p></td></tr><tr class=\"c8\"><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Imagery</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>An arrow pointing left to right indicates forward motion: &#x2192;</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>An arrow pointing right to left indicates forward motion: &#x2190;</span></p></td></tr><tr class=\"c8\"><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Text</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Sentences are read from left to right.</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Sentences are read from right to left.</span></p></td></tr><tr class=\"c8\"><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>Timeline</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>An illustrated sequence of events progresses left to right.</span></p></td><td class=\"c3\" colspan=\"1\" rowspan=\"1\"><p><span>An illustrated sequence of events progresses right to left.</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }

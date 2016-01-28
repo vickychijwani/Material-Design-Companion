@@ -104,7 +104,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Settings should not:</strong></p><ul><li>Be frequently accessed actions. (Move these items to a toolbar.)</li><li>Contain information about the app, such as a version number or licensing information. (These should move to a Help screen.)</li><li>Manage user accounts. (Present these actions within the main flow of your app, such as within a side nav.)</li></ul>"
                     }
                   ]
                 }
@@ -180,6 +182,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Notifications</strong><span><br>Show notifications</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Avoid repeating words from the label in secondary text.</p>"
                     }
                   ]
@@ -199,6 +203,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Enable NFC</strong><span><br>Allow data exchange when the phone touches another device</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>Start the description with a verb.</p>"
                     }
                   ]
@@ -243,10 +249,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Sleep</strong><span><br>After 10 minutes of inactivity</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Screen timeout</strong><span><br>Adjust the delay before the screen automatically turns off</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -271,10 +281,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Vibrate on touch</strong></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Use tactile feedback</strong></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -293,10 +307,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Sleep</strong><span><br>After 10 minutes of inactivity</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Screen timeout</strong><span><br>Adjust the delay before the screen automatically turns off</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -315,10 +333,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Screen lock</strong><span><br>Pattern</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>If the user hasn&#x2019;t set up a screen lock, the secondary text should say &#x201C;None.&#x201D;</p>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Change screen lock</strong><span><br>Change or disable pattern, PIN, or password security</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -337,10 +359,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>NFC</strong><span><br>Allow data exchange when the phone touches another device</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>NFC</strong><span><br>Use Near Field Communication to read and exchange tags</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]

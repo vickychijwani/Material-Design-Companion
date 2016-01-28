@@ -33,10 +33,14 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<h2><span>Illuminate actions</span></h2><p>Guide users from one scene to the next using paths that encourage specific choices or freer exploration.</p>"
                     },
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<h2><span>Focus attention </span></h2><p>Tailor your app&#x2019;s navigation to promote important content and tasks. </p>"
                     }
                   ]
                 }

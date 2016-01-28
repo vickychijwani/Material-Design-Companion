@@ -49,10 +49,14 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Table content</strong></p><ul><li>13sp Roboto Regular</li><li>87% black</li></ul>"
                     },
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Text alignment</strong></p><ul><li>Right-align numeric columns</li><li>Left-align text columns</li></ul>"
                     }
                   ]
                 }
@@ -324,10 +328,14 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Card action icons (header and footer)</strong></p><ul><li>24dp container</li><li>54% black</li></ul>"
                     },
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Footer pagination labels </strong></p><ul><li>12sp Roboto Regular</li><li>54% black</li></ul>"
                     }
                   ]
                 }
@@ -370,7 +378,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Colored header</strong></p><ul><li>Use 50-value of secondary app color for background fill</li><li>Display the number of items selected</li><li>Display available contextual icons upon item selection</li></ul>"
                     }
                   ]
                 }

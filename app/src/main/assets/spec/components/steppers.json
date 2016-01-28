@@ -44,10 +44,14 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Active stepper circle </strong></p><ul><li>24dp x 24dp</li><li>12sp Roboto Regular</li><li>Inherits primary color</li><li>Default color is Google Blue 500</li></ul><p><strong>Active step </strong></p><ul><li>14sp Roboto Medium</li><li>87% black</li></ul><p><strong>Connector line </strong></p><ul><li>1dp border</li><li>Grey 400 color value</li></ul>"
                     },
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Inactive stepper circle</strong></p><ul><li>24dp x 24dp</li><li>12sp Roboto Regular</li><li>100% white</li><li>Grey 500 color value</li></ul><p><strong>Inactive steps</strong></p><ul><li>14sp Roboto Regular</li><li>26% black</li></ul>"
                     }
                   ]
                 }

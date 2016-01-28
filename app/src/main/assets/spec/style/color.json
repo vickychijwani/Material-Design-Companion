@@ -286,7 +286,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c0\"><tbody><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Dark text (#000000)</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Opacity</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Primary text </span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>87%</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Secondary text</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>54%</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Hint text, disabled text and icons</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>38%</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -303,7 +305,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c0\"><tbody><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Light text (#FFFFFF)</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Opacity</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Primary text </span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>100%</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Secondary text</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>70%</span></p></td></tr><tr class=\"c5\"><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>Hint text, disabled text and icons</span></p></td><td class=\"c6\" colspan=\"1\" rowspan=\"1\"><p><span>30%</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }

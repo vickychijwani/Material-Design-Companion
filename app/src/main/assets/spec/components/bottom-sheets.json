@@ -310,7 +310,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c6\"><tbody><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Bottom sheet alternative</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Benefit</span></p></td></tr><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Menu</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Keeps action choices close to the point of interaction</span></p></td></tr><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Simple dialogs</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Strongly interrupts the user&#x2019;s current context</span></p></td></tr><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Inline expansion within the same view</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Is not as interruptive as a menu or dialog</span></p></td></tr><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Showing all options as a persistently accessible element</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Does not require a button press to access them</span></p></td></tr><tr class=\"c3\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p><span>Opening a new browser window</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Flexible sizing and layout independence</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -544,7 +546,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c16\"><tbody><tr class=\"c11\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Screen width</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Minimum distance from screen edge (in increments)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Minimum sheet width (in increments)</span></p></td></tr><tr class=\"c11\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>960dp</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>1 increment</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>6 increments</span></p></td></tr><tr class=\"c11\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>1280dp</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>2 increments</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>8 increments</span></p></td></tr><tr class=\"c11\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>1440dp</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>3 increments</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>9 increments</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }

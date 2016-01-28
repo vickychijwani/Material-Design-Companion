@@ -20,7 +20,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c19\"><tbody><tr class=\"c5\"><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Element</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Example implementations</span></p></td></tr><tr class=\"c5\"><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Time</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Within the current day, display the time using uppercase AM or PM, without periods. If you are using the 24-hour clock, display the time without AM/PM.</span></p><p><span>Many non-English languages use lowercase am and pm.</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>2:00 PM<br>14:00</span></p></td></tr><tr class=\"c5\"><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Month, day, and year</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Within the current calendar year, display the date without the year. Otherwise, display the date and year.</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>January 14<br>14 January 2012</span></p></td></tr><tr class=\"c5\"><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Approximate time</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Approximate time rounds down to the largest and most recent date or time unit. </span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>In 5 minutes<br>3 days ago</span></p></td></tr><tr class=\"c5\"><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Absolute time</span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>When approximate time isn&#x2019;t appropriate, display the specific date and/or time. </span></p></td><td class=\"c28\" colspan=\"1\" rowspan=\"1\"><p><span>Today, 10:00 AM</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -38,7 +40,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c19\"><tbody><tr class=\"c5\"><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p><span>Range element</span></p></td><td class=\"c25\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p><span>Example implementations</span></p></td></tr><tr class=\"c5\"><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p><span>En dash</span></p></td><td class=\"c25\" colspan=\"1\" rowspan=\"1\"><p><span>Separate a range of dates or times with an en dash, without spaces. Add spaces when spelling out months, or to remove ambiguity.</span></p></td><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p><span>8:00 AM&#x2013;12:30 PM<br>6 Jan &#x2013; 2 Feb</span></p></td></tr><tr class=\"c5\"><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p><span>Year</span></p></td><td class=\"c25\" colspan=\"1\" rowspan=\"1\"><p><span>Show the year on both the start and end, unless both dates have the current year. </span></p></td><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p><span>Dec 6, 2013&#x2013;Jan 2, 2014</span></p></td></tr><tr class=\"c5\"><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p><span>AM/PM</span></p></td><td class=\"c25\" colspan=\"1\" rowspan=\"1\"><p><span>Use a single AM or PM at the end of the range, if both times have the same AM/PM.</span></p></td><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p><span>8:00&#x2013;10:30 AM</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -56,7 +60,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c19\"><tbody><tr class=\"c5\"><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Types of time zones</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Example</span></p></td></tr><tr class=\"c5\"><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Single-digit hours</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>Remove the leading 0 for single digit hours. </span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>UTC+5:00</span></p></td></tr><tr class=\"c5\"><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Single times zones</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>Use two-letter time zones when referring to a single time zone. Remove the S (for Standard) or D (for Daylight).</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Open 4&#x2013;10 PM ET</span></p></td></tr><tr class=\"c5\"><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Combination time zones</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>When specifying a date for a nationwide audience, include Standard or Daylight acronyms (such as EDT) to avoid confusion. Some U.S. states, such as Arizona, don&apos;t use daylight savings time. </span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>The first game is on April 13, 2015 at 4 PM EDT.</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -84,7 +90,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c19\"><tbody><tr class=\"c5\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Context</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>Example implementations</span></p></td></tr><tr class=\"c5\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Future</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>Include time to a future day or date.</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>10 Jan, 08:00 </span></p></td></tr><tr class=\"c32\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Past</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>When referring to a past time, display both date and time.</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>Reminded Jan 5, 7:16 AM</span></p></td></tr><tr class=\"c5\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Distant past</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>Omit the time for events in the distant past.</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>3 Jan</span></p></td></tr><tr class=\"c5\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Weekday</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>When referring to a day of the week, such as for Calendar invites, display the abbreviated day separated by a comma. </span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>Mon, Jan 10, 8:00 AM</span></p></td></tr><tr class=\"c5\"><td class=\"c4\" colspan=\"1\" rowspan=\"1\"><p><span>Duration</span></p></td><td class=\"c11\" colspan=\"1\" rowspan=\"1\"><p><span>Show the duration of a recording, like audio or video, in the format H:MM:SS. Omit hours or seconds if they don&#x2019;t apply.</span></p><p><span>Use the same format across the same context. A video labelled &#xA0;&#x201C;3:15&#x201D; referring to hours and minutes, should not use that time format later on that page to refer to minutes and seconds.</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p><span>0:30<br>1:01:05</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -102,7 +110,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c19\"><tbody><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Time period</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>Example implementations</span></p></td></tr><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Months</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Months can be abbreviated or numeric. Many languages do not abbreviate month names.</span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>Jan 6<br>3/12/12</span></p></td></tr><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Date format</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>The US date format is month/day/year, but other countries use day/month/year. </span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>March 12, 2012 written as 03/12/12 could be misinterpreted to mean December 3, 2012 across different users.</span></p></td></tr><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Days of the week</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Days of the week may be abbreviated using the first letter of each day. </span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>S for Sunday<br>M for Monday</span></p></td></tr><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Day and time</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Abbreviated days of the week may be combined with a time.</span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>Sun, 2:00 PM<br>Sun, 14:00</span></p></td></tr><tr class=\"c5\"><td class=\"c27\" colspan=\"1\" rowspan=\"1\"><p><span>Rounded numbers</span></p></td><td class=\"c30\" colspan=\"1\" rowspan=\"1\"><p><span>Abbreviated numerical  units, which remove the &#x201C;:00,&#x201D; are appropriate for timestamps, labels on graphs, durations, etc.</span></p></td><td class=\"c23\" colspan=\"1\" rowspan=\"1\"><p><span>8 AM<br>2 hr 32 min ago</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -127,6 +137,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Visa &#xA0;&#x2022; &#x2022; &#x2022; 1234</span></p>",
                       "caption": "<div class=\"caption-title\"></div><p>Written in unicode: &quot;Visa&quot;,U0020,U0020,U2022,U2006,U2022,U2006,U2022,U2006, &quot;1234&quot; </p><p>Unicode interpreted as: <br>&quot;Visa&quot;, space, space, bullet, thin space, bullet, thin space, bullet, thin space, &quot;1234&quot;</p>"
                     }
                   ]
@@ -146,6 +158,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>PayPal krestovozdvizhensky@goog...</span></p>",
                       "caption": "<div class=\"caption-title\"></div>"
                     }
                   ]

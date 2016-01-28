@@ -46,16 +46,12 @@ var io = {
     var filepath = path.join(MEDIA_DIR, url.split('/').slice(3).join('/'));
     mkdirp(path.dirname(filepath), (err) => {
       if (err) { console.error(err); return; }
-      enqueueFileDownload(url, filepath);
+      requestQueue.enqueue({ url, filepath });
     });
     return filepath;
   }
 
 };
-
-function enqueueFileDownload(url, filepath) {
-  requestQueue.enqueue({ url, filepath });
-}
 
 /**
  * @param {string} filepath

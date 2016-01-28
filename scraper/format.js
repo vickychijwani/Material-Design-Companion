@@ -14,9 +14,16 @@ var format = {
     } else if ($figure.find('video').length > 0) {
       figure.mediaType = 'video';
       figure.src = io.downloadMedia(c($figure.find('video source')[0], $figure).attr('src'));
+    } else if ($figure.find('.table-box').length > 0) {
+      figure.mediaType = 'table';
+      figure.src = $figure.find('.table-box').html().trim();
+    } else if ($figure.find('.text-box')) {
+      figure.mediaType = 'text';
+      figure.src = $figure.find('.text-box').html().trim();
     } else {
       console.error(`Unhandled <figure>:\n${$figure.html()}`);
     }
+    // optional caption
     if ($figure.find('figcaption').html()) {
       figure.caption = $figure.find('figcaption').html().trim();
     }

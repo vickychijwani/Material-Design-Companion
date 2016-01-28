@@ -25,10 +25,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Your account</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>My account</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -48,10 +52,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Get started with these popular posts on Google+.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>To get you started, we&#x2019;re showing you popular posts on Google+.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -71,10 +79,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>We&#x2019;ll review your appeal and respond within a few days.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Your appeal will be reviewed, and you will receive a response within a few days.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -93,10 +105,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Send money to anyone in the US who has an email address. It&#x2019;s fast, easy, and free.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Send (and receive) money with friends and family in the US with an email address. It&#x2019;s a two-step process with little-to-no latency and there aren&#x2019;t any charges for the recipients of the money.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -116,10 +132,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Read the instructions that came with your phone.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Consult the documentation that came with your phone for further instructions.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -152,10 +172,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Message sent</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Message has been sent</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -175,10 +199,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Save changes?</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Would you like to save your changes?</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -198,10 +226,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Turn on Location History</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Enable Location History</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -221,10 +253,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Preparing video&#x2026;</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Buffering&#x2026;</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -243,10 +279,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>&#x201C;Ok Google&#x201D; isn&#x2019;t supported on your phone</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>&#x201C;Ok Google&#x201D; is only supported on dual-core devices</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -265,10 +305,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Click Continue</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Click the Continue button</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -287,10 +331,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Delete this photo?</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Are you sure you want to delete this photo?</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -310,10 +358,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Register to vote</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>You must register before you can vote</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -332,10 +384,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Want to&#x2026;</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Do you want to&#x2026;</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -354,10 +410,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Remove photo</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>Menu item</p>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Delete photo</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Menu item</p>"
                     }
                   ]
@@ -377,10 +437,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Remove photo?</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>Dialog title</p>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Remove photo from page?</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Dialog title</p>"
                     }
                   ]
@@ -399,6 +463,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Remove this photo from this page?</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>Dialog text</p>"
                     }
                   ]
@@ -417,10 +483,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Cancel | Remove</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div><p>Dialog buttons</p>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Cancel | OK</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div><p>Dialog buttons</p>"
                     }
                   ]
@@ -439,10 +509,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>To remove a photo from this album, drag it to the trash</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Drag a photo to the trash to remove it from this album</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -462,10 +536,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Remove downloaded book?</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Are you sure you want to remove this downloaded book? You won&#x2019;t be able to access it unless you&#x2019;re online.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -485,10 +563,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Your circle names aren&#x2019;t shared</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>We&#x2019;ll never share your circle names</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -517,7 +599,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c17\"><tbody><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Button</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Usage</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>[&#xA0;Action&#xA0;]</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>See above guideline about using consistent verbs.</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Back</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Allows multi-step processes</span></p></td></tr><tr class=\"c23\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Cancel</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Cancels an action</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Dismiss</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Causes a message or dialog to disappear without any consequences</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Done</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Confirms the completion of a multi-step process</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Got it</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Causes a message or dialog to disappear without any consequences (similar to OK)</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Learn&#xA0;more</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Takes the user to additional content</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Next</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Takes the user to the next step of a multi-step process</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>No thanks</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Allows a user to decline</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Not&#xA0;now</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Don&#x2019;t use this abused phrase except in rare cases where the call to action in the dialog is essential to the functionality of the product, for legal reasons, or for another urgent reason. Never use &#x201C;Not now&#x201D; as a mechanism to avoid providing a &#x201C;No thanks&#x201D; option.</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>OK</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Allows the user to confirm an action that&#x2019;s relevant to the task at hand</span></p></td></tr><tr class=\"c7\"><td class=\"c12\" colspan=\"1\" rowspan=\"1\"><p><span>Skip</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Gives the user a way to avoid an interruption and proceed with a task </span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -541,10 +625,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>MyApp isn&#x2019;t responding </strong></p><p>Do you want to close it?</p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Sorry! </strong></p><p>Activity in MyAppActivity (in the &#xA0;MyApp app) is not responding</p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -564,10 +652,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>All your savings in one place</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Great deals at places you&#x2019;ll love</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -587,10 +679,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>More restaurant reviews</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>All restaurant reviews</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -609,10 +705,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>To save power, switch Location mode to Battery saving mode.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Manually control GPS to prevent other apps from using it.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -632,10 +732,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Use 24 characters or fewer for file names.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Your file name must be less than 25 characters.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -655,10 +759,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Signing in... </strong></p><p>Your phone is contacting Google. This can take up to five minutes.</p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><strong>Signing in... </strong></p><p>Your phone needs to communicate with Google servers to sign in to your account. This may take up to five minutes.</p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -684,10 +792,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Search settings</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Search Settings</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -707,6 +819,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>SEARCH SETTINGS</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -725,10 +839,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Visit our Google+ page.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Visit our Google+ Page.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -762,10 +880,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>it&#x2019;s, can&#x2019;t, wouldn&#x2019;t, you&#x2019;re, you&#x2019;ve, haven&#x2019;t, don&#x2019;t</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>it is, cannot, would not, it&#x2019;ll, should&#x2019;ve</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -785,10 +907,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Welcome!</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Learn about the new features of Calendar!</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -808,6 +934,8 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Good job!</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     }
                   ]
@@ -826,10 +954,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>You have 3 messages</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>You have three messages</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -848,7 +980,9 @@
                   "type": "figure-group",
                   "figures": [
                     {
-                      "type": "figure"
+                      "type": "figure",
+                      "mediaType": "table",
+                      "src": "<table cellpadding=\"0\" cellspacing=\"0\" class=\"c14\"><tbody><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>Glyph/character</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Description</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Periods</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>.</strong></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Omit for fragments and single sentences in affordances like toasts, snackbars, butterbars, and labels. Do punctuate full sentences in body text, for example, in the body of dialogs. &#xA0;</span></p><p><span>Place inside quotation marks (unless you&#x2019;re telling the reader what to enter and it&#x2019;s ambiguous whether to include the period). </span></p></td></tr><tr class=\"c8\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Commas</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>,</strong></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Place inside of quotation marks.</span></p><p><span>Use the serial comma.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Exclamation points</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>!</strong></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Avoid exclamation points for anything you wouldn&#x2019;t actually shout out loud (exclaim).</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Colons</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>: </strong></p><p><span>&amp;#58; or \\u003A</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Omit from labels, for example, in the labels for fields in a form.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Quotation marks</span></p><p><span>&#xA0;</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>&#x201C; &amp;ldquo; or \\u201C</span></p><p><span>&#x201D; &amp;rdquo; or \\u201D</span></p><p><span>&#x2018; &amp;lsquo; or \\u2018</span></p><p><span>&#x2019; &amp;rsquo; or \\u2019</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use real quotation marks, not the inch and foot symbols.</span></p><p><span>The right single quotation mark symbol is also used for apostrophes.</span></p><p><span>Never use the generic quotes &quot;, &apos; or free-standing accents `, &#xB4; (\\u0022, \\u0027, \\u0060, \\u00B4). These are never right for quotation marks, apostrophes, or primes.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Primes</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>&amp;prime; or \\u2032</span></p><p><span>and </span></p><p><span>&amp;Prime; or \\u2033</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use prime (&#x2032;) only in abbreviations for feet, arcminutes, and minutes. For example: 3&#xB0; 15&#x2032;</span></p><p><span>Use double-prime (&#x2033;) only in abbreviations for inches, arcminutes, and minutes. For example: 3&#xB0; 15&#x2032; 35&#x2033;</span></p><p><span>Do not use generic quotes &quot;, &apos; or free-standing accents `, &#xB4; for primes.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Ellipses </span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>&#xA0;&#x2026; </strong></p><p><span>Option-; <br>&amp;hellip;</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use to indicate an action in progress (&quot;Downloading&#x2026;&quot;) or incomplete or truncated text. No space before the ellipses.</span></p><p><span>Omit from menu items or buttons that open a dialog or start some other process.</span></p><p><span>Midline ellipses (three-bullet glyphs) are also used to represent numeric truncation and the redaction of sensitive data, such as credit cards.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Double angle brackets</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><span>&#xA0;&gt;&gt;, &lt;&lt;</span><strong>&#xA0;</strong><span>&amp;laquo; or \\u00AB</span></p><p><span>&amp;raquo; or \\u00BB</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Omit from links or buttons that open another page or move to the next or previous step in a process.</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Em dash</span></p><p><span>&#xA0;</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>&#x2014; </strong></p><p><span>&amp;mdash; or \\u2014</span></p><p><span>Shift+Option -</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Avoid using em dashes. </span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>En dash </span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>&#x2013; </strong></p><p><span>&amp;ndash; or \\u2013</span></p><p><span>Option+ -</span></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use an en dash instead of a hyphen to indicate a range, without spaces (in English). </span></p><p><span>Avoid using dashes to separate text. If you must use dashes for this purpose &#x2013; like this &#x2013; use an en dash surrounded by spaces.</span></p><p><span>Example of use with a range:<br>8:00 AM&#x2013;12:30 PM<br>3&#x2013;5 kg</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Hyphen</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>- </strong></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use hyphens to avoid ambiguity in compound adjective-noun or noun-participle pairs and in some prefixes. </span></p><p><span>For example: </span></p><p><span>anti-inflammatory<br>5-mile walk</span></p></td></tr><tr class=\"c18\"><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p><span>Parentheses</span></p></td><td class=\"c21\" colspan=\"1\" rowspan=\"1\"><p><strong>( &#xA0;)</strong></p></td><td class=\"c9\" colspan=\"1\" rowspan=\"1\"><p><span>Use parentheses only to define acronyms or jargon.</span></p><p><span>For example:<br>&#x201C;Secure web connections are based on a technology called SSL (the secure sockets layer).&#x201D;</span></p></td></tr></tbody></table>"
                     }
                   ]
                 }
@@ -882,10 +1016,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Discover great offers</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Snag great offers</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -905,10 +1043,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>No offers left.</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Bummer. There are no offers left.</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
@@ -927,10 +1069,14 @@
                   "figures": [
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>Great job!</span></p>",
                       "caption": "<div class=\"caption-title\">Do.</div>"
                     },
                     {
                       "type": "figure",
+                      "mediaType": "text",
+                      "src": "<p><span>You really hit it out of the park!</span></p>",
                       "caption": "<div class=\"caption-title\">Don&apos;t.</div>"
                     }
                   ]
